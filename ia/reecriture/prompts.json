@@ -1,0 +1,751 @@
+{
+  "title": "IA de Réécriture",
+  "subtitle": "100 prompts pour transformer, affiner et réécrire n'importe quel texte",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Clarté & Forme",
+      "range": "1–20",
+      "icon": "✏️",
+      "color": "#3b82f6",
+      "prompts": [
+        {
+          "id": 1,
+          "title": "Plus claire",
+          "simple": "Réécris ce texte pour qu'il soit plus clair.",
+          "premium": "Réécris ce texte en version plus claire, fluide et facile à comprendre, sans changer le sens.",
+          "expert": "Rôle : Rédacteur professionnel spécialisé en vulgarisation. Objectif : Clarifier le texte sans simplifier à l'excès. Contraintes : Phrases courtes · Logique fluide · Ton neutre. Format : Version clarifiée + liste des améliorations. Style : Clair et pédagogique."
+        },
+        {
+          "id": 2,
+          "title": "Plus courte",
+          "simple": "Raccourcis ce texte.",
+          "premium": "Réécris ce texte en version plus courte, en conservant uniquement les idées essentielles.",
+          "expert": "Rôle : Éditeur professionnel. Objectif : Condenser sans perdre le sens. Contraintes : Suppression des répétitions · Ton neutre. Format : Version courte + liste des suppressions. Style : Concis et efficace."
+        },
+        {
+          "id": 3,
+          "title": "Plus longue",
+          "simple": "Développe ce texte.",
+          "premium": "Réécris ce texte en version plus longue, plus détaillée et plus explicative.",
+          "expert": "Rôle : Rédacteur enrichisseur de contenu. Objectif : Ajouter détails, exemples et transitions. Contraintes : Cohérence · Fluidité. Format : Version développée + liste des ajouts. Style : Explicatif."
+        },
+        {
+          "id": 4,
+          "title": "Plus concise",
+          "simple": "Rends ce texte plus concis.",
+          "premium": "Réécris ce texte en version concise, en supprimant tout ce qui est inutile.",
+          "expert": "Rôle : Éditeur de concision. Objectif : Éliminer le superflu. Contraintes : Phrases courtes · Idées essentielles. Format : Version concise + liste des suppressions. Style : Direct."
+        },
+        {
+          "id": 5,
+          "title": "Plus structurée",
+          "simple": "Organise ce texte.",
+          "premium": "Réécris ce texte en le structurant clairement avec titres, sous-titres et logique fluide.",
+          "expert": "Rôle : Rédacteur méthodique. Objectif : Améliorer lisibilité et organisation. Contraintes : Structure claire · Titres pertinents. Format : Version structurée + explication des choix. Style : Méthodique."
+        },
+        {
+          "id": 6,
+          "title": "Plus cohérente",
+          "simple": "Rends ce texte cohérent.",
+          "premium": "Réécris ce texte en améliorant la cohérence, la logique et la fluidité.",
+          "expert": "Rôle : Éditeur de cohérence. Objectif : Corriger ruptures logiques et incohérences. Contraintes : Transitions fluides · Logique renforcée. Format : Version cohérente + liste des corrections. Style : Éditorial."
+        },
+        {
+          "id": 7,
+          "title": "Plus fluide",
+          "simple": "Rends ce texte plus fluide.",
+          "premium": "Réécris ce texte en version plus fluide, naturelle et agréable à lire.",
+          "expert": "Rôle : Éditeur stylistique. Objectif : Améliorer le rythme, les transitions et la lisibilité. Contraintes : Transitions naturelles · Phrases harmonieuses. Format : Version fluide + liste des améliorations. Style : Fluide et harmonieux."
+        },
+        {
+          "id": 8,
+          "title": "Plus fluide et naturelle",
+          "simple": "Rends ce texte naturel.",
+          "premium": "Réécris ce texte en version plus naturelle, fluide et agréable à lire.",
+          "expert": "Rôle : Éditeur stylistique. Objectif : Donner un ton naturel, authentique et fluide. Contraintes : Transitions douces · Ton conversationnel maîtrisé. Format : Version naturelle + liste des améliorations. Style : Fluide et authentique."
+        },
+        {
+          "id": 9,
+          "title": "Plus structurée et logique",
+          "simple": "Rends ce texte logique.",
+          "premium": "Réécris ce texte en améliorant la structure, la logique et la progression des idées.",
+          "expert": "Rôle : Éditeur de structure. Objectif : Clarifier l'organisation du texte. Contraintes : Progression logique · Paragraphes cohérents. Format : Version restructurée + liste des corrections. Style : Méthodique."
+        },
+        {
+          "id": 10,
+          "title": "Plus descriptive",
+          "simple": "Ajoute des descriptions.",
+          "premium": "Réécris ce texte en ajoutant des descriptions sensorielles et visuelles.",
+          "expert": "Rôle : Auteur descriptif. Objectif : Rendre le texte plus immersif. Contraintes : Détails sensoriels · Cohérence stylistique. Format : Version enrichie + liste des ajouts. Style : Descriptif immersif."
+        },
+        {
+          "id": 11,
+          "title": "Plus narrative",
+          "simple": "Rends ce texte narratif.",
+          "premium": "Réécris ce texte en version narrative, avec rythme, transitions et ambiance.",
+          "expert": "Rôle : Auteur de fiction. Objectif : Transformer le texte en récit fluide. Contraintes : Transitions naturelles · Ton narratif. Format : Version narrative + liste des transformations. Style : Narratif littéraire."
+        },
+        {
+          "id": 12,
+          "title": "Plus détaillée",
+          "simple": "Ajoute des détails.",
+          "premium": "Réécris ce texte en ajoutant des détails concrets, exemples et précisions.",
+          "expert": "Rôle : Rédacteur enrichisseur. Objectif : Donner plus de profondeur et de précision. Contraintes : Détails pertinents · Cohérence. Format : Version détaillée + liste des ajouts. Style : Explicatif."
+        },
+        {
+          "id": 13,
+          "title": "Plus immersive",
+          "simple": "Rends ce texte immersif.",
+          "premium": "Réécris ce texte en version immersive, riche en détails sensoriels et atmosphériques.",
+          "expert": "Rôle : Auteur immersif. Objectif : Plonger le lecteur dans la scène. Contraintes : Détails sensoriels · Atmosphère forte. Format : Version immersive + liste des ajouts sensoriels. Style : Immersif narratif."
+        },
+        {
+          "id": 14,
+          "title": "Plus immersive et sensorielle",
+          "simple": "Rends ce texte sensoriel.",
+          "premium": "Réécris ce texte en version immersive, riche en sensations et détails sensoriels.",
+          "expert": "Rôle : Auteur immersif. Objectif : Faire ressentir la scène au lecteur. Contraintes : Détails sensoriels (vue, son, toucher…) · Atmosphère forte. Format : Version sensorielle + liste des ajouts sensoriels. Style : Immersif narratif."
+        },
+        {
+          "id": 15,
+          "title": "Plus expressive",
+          "simple": "Rends ce texte expressif.",
+          "premium": "Réécris ce texte en version expressive, vivante et riche en émotions.",
+          "expert": "Rôle : Auteur expressif. Objectif : Ajouter intensité et relief émotionnel. Contraintes : Ton vivant · Images fortes. Format : Version expressive + liste des intensifications. Style : Expressif et vibrant."
+        },
+        {
+          "id": 16,
+          "title": "Plus vivante et expressive",
+          "simple": "Rends ce texte vivant.",
+          "premium": "Réécris ce texte en version vivante, expressive et dynamique.",
+          "expert": "Rôle : Auteur expressif. Objectif : Donner énergie, mouvement et relief. Contraintes : Ton expressif · Images fortes. Format : Version vivante + liste des intensifications. Style : Expressif et vibrant."
+        },
+        {
+          "id": 17,
+          "title": "Plus vivante et imagée",
+          "simple": "Rends ce texte imagé.",
+          "premium": "Réécris ce texte en version vivante, imagée et riche en métaphores.",
+          "expert": "Rôle : Auteur créatif. Objectif : Donner vie au texte par des images fortes. Contraintes : Métaphores · Sensations · Ton expressif. Format : Version imagée + liste des images ajoutées. Style : Créatif visuel."
+        },
+        {
+          "id": 18,
+          "title": "Plus captivante",
+          "simple": "Rends ce texte captivant.",
+          "premium": "Réécris ce texte en version captivante, engageante et agréable à lire.",
+          "expert": "Rôle : Auteur narratif captivant. Objectif : Garder l'attention du lecteur. Contraintes : Rythme dynamique · Ton engageant. Format : Version captivante + liste des techniques utilisées. Style : Narratif engageant."
+        },
+        {
+          "id": 19,
+          "title": "Plus impactante",
+          "simple": "Rends ce texte plus impactant.",
+          "premium": "Réécris ce texte en version plus percutante, avec un message clair et fort.",
+          "expert": "Rôle : Copywriter d'impact. Objectif : Maximiser l'effet du message. Contraintes : Verbes forts · Idées directes. Format : Version impactante + liste des leviers utilisés. Style : Punchy."
+        },
+        {
+          "id": 20,
+          "title": "Plus explicative",
+          "simple": "Explique mieux ce texte.",
+          "premium": "Réécris ce texte en version plus explicative, claire et pédagogique.",
+          "expert": "Rôle : Vulgarisateur professionnel. Objectif : Clarifier et rendre le texte plus compréhensible. Contraintes : Explications simples · Exemples si nécessaire. Format : Version explicative + liste des clarifications. Style : Pédagogique."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Styles Créatifs & Littéraires",
+      "range": "21–45",
+      "icon": "🎨",
+      "color": "#a855f7",
+      "prompts": [
+        {
+          "id": 21,
+          "title": "Plus élégante",
+          "simple": "Rends ce texte plus élégant.",
+          "premium": "Réécris ce texte en version élégante, fluide et raffinée.",
+          "expert": "Rôle : Styliste littéraire. Objectif : Embellir le texte sans changer le sens. Contraintes : Style fluide · Vocabulaire riche. Format : Version élégante + liste des enrichissements. Style : Littéraire."
+        },
+        {
+          "id": 22,
+          "title": "Plus élégante et fluide",
+          "simple": "Rends ce texte élégant et fluide.",
+          "premium": "Réécris ce texte en version élégante, fluide et agréable à lire.",
+          "expert": "Rôle : Styliste littéraire moderne. Objectif : Améliorer style, rythme et harmonie. Contraintes : Ton élégant · Transitions douces. Format : Version élégante + liste des améliorations. Style : Élégant et harmonieux."
+        },
+        {
+          "id": 23,
+          "title": "Plus élégante et raffinée",
+          "simple": "Rends ce texte raffiné.",
+          "premium": "Réécris ce texte en version élégante, raffinée et harmonieuse.",
+          "expert": "Rôle : Styliste littéraire haut de gamme. Objectif : Embellir le texte avec finesse. Contraintes : Style fluide · Vocabulaire riche mais accessible. Format : Version raffinée + liste des enrichissements. Style : Élégant et sophistiqué."
+        },
+        {
+          "id": 24,
+          "title": "Plus poétique",
+          "simple": "Rends ce texte poétique.",
+          "premium": "Réécris ce texte en version poétique, imagée et rythmée.",
+          "expert": "Rôle : Poète contemporain. Objectif : Ajouter musicalité, images et émotions. Contraintes : Métaphores · Rythme fluide. Format : Version poétique + explication des choix. Style : Poétique moderne."
+        },
+        {
+          "id": 25,
+          "title": "Plus poétique et élégante",
+          "simple": "Rends ce texte poétique et élégant.",
+          "premium": "Réécris ce texte en version poétique, élégante et imagée.",
+          "expert": "Rôle : Styliste littéraire poétique. Objectif : Ajouter musicalité, images et finesse. Contraintes : Métaphores subtiles · Rythme fluide. Format : Version poétique + explication des choix. Style : Poétique moderne."
+        },
+        {
+          "id": 26,
+          "title": "Plus mystérieuse et poétique",
+          "simple": "Rends ce texte mystérieux et poétique.",
+          "premium": "Réécris ce texte en version à la fois poétique, mystérieuse et enveloppante.",
+          "expert": "Rôle : Auteur poétique atmosphérique. Objectif : Créer une ambiance douce, énigmatique et imagée. Contraintes : Métaphores subtiles · Ton feutré · Atmosphère enveloppante. Format : Version poético-mystérieuse + explication des choix. Style : Poétique atmosphérique."
+        },
+        {
+          "id": 27,
+          "title": "Plus littéraire",
+          "simple": "Rends ce texte littéraire.",
+          "premium": "Réécris ce texte en version littéraire, élégante et expressive.",
+          "expert": "Rôle : Styliste littéraire. Objectif : Donner une dimension artistique au texte. Contraintes : Style riche · Images subtiles. Format : Version littéraire + explication des choix. Style : Littéraire moderne."
+        },
+        {
+          "id": 28,
+          "title": "Plus élégante et littéraire",
+          "simple": "Rends ce texte littéraire et élégant.",
+          "premium": "Réécris ce texte en version élégante, poétique et littéraire.",
+          "expert": "Rôle : Styliste littéraire. Objectif : Embellir le texte avec finesse et musicalité. Contraintes : Style fluide · Images subtiles. Format : Version littéraire + liste des enrichissements. Style : Littéraire moderne."
+        },
+        {
+          "id": 29,
+          "title": "Plus créative",
+          "simple": "Rends ce texte créatif.",
+          "premium": "Réécris ce texte en version créative, originale et imaginative.",
+          "expert": "Rôle : Auteur créatif. Objectif : Ajouter originalité, images et style unique. Contraintes : Métaphores · Ton inventif. Format : Version créative + liste des choix stylistiques. Style : Créatif et original."
+        },
+        {
+          "id": 30,
+          "title": "Plus imaginative et fantastique",
+          "simple": "Rends ce texte fantastique.",
+          "premium": "Réécris ce texte en version imaginative, magique et fantastique.",
+          "expert": "Rôle : Auteur fantasy. Objectif : Ajouter magie, imagination et atmosphère. Contraintes : Images fantastiques · Ton narratif. Format : Version fantastique + liste des choix créatifs. Style : Fantasy."
+        },
+        {
+          "id": 31,
+          "title": "Plus épique",
+          "simple": "Rends ce texte épique.",
+          "premium": "Réécris ce texte en version épique, grandiose et héroïque.",
+          "expert": "Rôle : Auteur épique. Objectif : Donner ampleur, intensité et grandeur. Contraintes : Ton héroïque · Images puissantes. Format : Version épique + liste des amplifications. Style : Épique narratif."
+        },
+        {
+          "id": 32,
+          "title": "Plus dramatique",
+          "simple": "Rends ce texte dramatique.",
+          "premium": "Réécris ce texte en version dramatique, intense et émotionnellement chargée.",
+          "expert": "Rôle : Auteur dramatique. Objectif : Amplifier tension et intensité. Contraintes : Ton dramatique · Rythme tendu. Format : Version dramatique + explication des choix. Style : Dramatique et expressif."
+        },
+        {
+          "id": 33,
+          "title": "Plus dramatique et intense",
+          "simple": "Rends ce texte dramatique et intense.",
+          "premium": "Réécris ce texte en version dramatique, intense et émotionnellement chargée.",
+          "expert": "Rôle : Auteur dramatique. Objectif : Amplifier tension, émotions et rythme. Contraintes : Ton grave · Images fortes. Format : Version dramatique + explication des choix. Style : Dramatique narratif."
+        },
+        {
+          "id": 34,
+          "title": "Plus sombre",
+          "simple": "Rends ce texte sombre.",
+          "premium": "Réécris ce texte en version sombre, dramatique et atmosphérique.",
+          "expert": "Rôle : Auteur dark fiction. Objectif : Ajouter tension, obscurité et gravité. Contraintes : Ton sombre · Images fortes. Format : Version sombre + explication des choix. Style : Dark fiction."
+        },
+        {
+          "id": 35,
+          "title": "Plus mystérieuse",
+          "simple": "Rends ce texte mystérieux.",
+          "premium": "Réécris ce texte en version mystérieuse, intrigante et légèrement sombre.",
+          "expert": "Rôle : Auteur de mystère. Objectif : Ajouter tension, sous-entendus et ambiance. Contraintes : Ton énigmatique · Détails suggérés. Format : Version mystérieuse + explication des choix. Style : Suspense léger."
+        },
+        {
+          "id": 36,
+          "title": "Plus mystérieuse et immersive",
+          "simple": "Rends ce texte mystérieux et immersif.",
+          "premium": "Réécris ce texte en version immersive, sombre et mystérieuse.",
+          "expert": "Rôle : Auteur atmosphérique. Objectif : Créer une ambiance intrigante et enveloppante. Contraintes : Ton feutré · Détails suggérés. Format : Version immersive + explication des choix. Style : Mystère narratif."
+        },
+        {
+          "id": 37,
+          "title": "Plus mystérieuse et narrative",
+          "simple": "Rends ce texte mystérieux et narratif.",
+          "premium": "Réécris ce texte en version narrative, immersive et mystérieuse.",
+          "expert": "Rôle : Auteur de fiction atmosphérique. Objectif : Créer tension, ambiance et intrigue. Contraintes : Ton feutré · Détails suggérés. Format : Version mystérieuse + explication des choix. Style : Narratif sombre."
+        },
+        {
+          "id": 38,
+          "title": "Plus humoristique",
+          "simple": "Rends ce texte drôle.",
+          "premium": "Réécris ce texte en version humoristique, légère et amusante.",
+          "expert": "Rôle : Humoriste rédacteur. Objectif : Ajouter humour sans dénaturer le sens. Contraintes : Humour subtil · Ton léger. Format : Version humoristique + explication des choix. Style : Comique."
+        },
+        {
+          "id": 39,
+          "title": "Plus humoristique et légère",
+          "simple": "Rends ce texte amusant.",
+          "premium": "Réécris ce texte en version humoristique, légère et divertissante.",
+          "expert": "Rôle : Humoriste rédacteur. Objectif : Ajouter humour subtil et ton léger. Contraintes : Humour non offensant · Ton léger. Format : Version humoristique + explication des choix. Style : Comique subtil."
+        },
+        {
+          "id": 40,
+          "title": "Plus analytique",
+          "simple": "Rends ce texte analytique.",
+          "premium": "Réécris ce texte en version analytique, avec raisonnement structuré et idées argumentées.",
+          "expert": "Rôle : Analyste professionnel. Objectif : Transformer le texte en analyse logique et argumentée. Contraintes : Ton neutre · Arguments structurés · Connecteurs logiques. Format : Version analytique + liste des ajouts argumentatifs. Style : Analytique et rigoureux."
+        },
+        {
+          "id": 41,
+          "title": "Plus argumentative",
+          "simple": "Rends ce texte argumentatif.",
+          "premium": "Réécris ce texte en renforçant les arguments, la logique et la persuasion.",
+          "expert": "Rôle : Rédacteur argumentatif. Objectif : Structurer le texte autour d'arguments solides. Contraintes : Arguments clairs · Preuves ou exemples. Format : Version argumentée + liste des arguments ajoutés. Style : Argumentatif."
+        },
+        {
+          "id": 42,
+          "title": "Plus logique et argumentée",
+          "simple": "Rends ce texte logique et argumenté.",
+          "premium": "Réécris ce texte en renforçant la logique, les arguments et la cohérence globale.",
+          "expert": "Rôle : Analyste argumentatif. Objectif : Structurer un raisonnement clair et solide. Contraintes : Connecteurs logiques · Arguments hiérarchisés. Format : Version argumentée + liste des améliorations. Style : Analytique."
+        },
+        {
+          "id": 43,
+          "title": "Plus inspirante",
+          "simple": "Rends ce texte inspirant.",
+          "premium": "Réécris ce texte en version inspirante, motivante et porteuse d'espoir.",
+          "expert": "Rôle : Rédacteur motivationnel. Objectif : Donner énergie, vision et inspiration. Contraintes : Ton positif · Messages forts. Format : Version inspirante + liste des leviers motivationnels. Style : Inspirant et énergisant."
+        },
+        {
+          "id": 44,
+          "title": "Plus positive",
+          "simple": "Rends ce texte positif.",
+          "premium": "Réécris ce texte en version plus positive, optimiste et encourageante.",
+          "expert": "Rôle : Rédacteur positif. Objectif : Transformer le ton en optimisme sans dénaturer le sens. Contraintes : Ton encourageant · Vocabulaire positif. Format : Version positive + liste des transformations. Style : Optimiste."
+        },
+        {
+          "id": 45,
+          "title": "Plus moderne",
+          "simple": "Rends ce texte moderne.",
+          "premium": "Réécris ce texte en version moderne, avec un style actuel, fluide et contemporain.",
+          "expert": "Rôle : Styliste contemporain. Objectif : Actualiser le ton, le vocabulaire et le rythme. Contraintes : Expressions actuelles · Ton naturel · Fluidité. Format : Version modernisée + liste des modernisations. Style : Contemporain."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ton & Registre",
+      "range": "46–65",
+      "icon": "🎭",
+      "color": "#f59e0b",
+      "prompts": [
+        {
+          "id": 46,
+          "title": "Plus professionnelle",
+          "simple": "Rends ce texte professionnel.",
+          "premium": "Réécris ce texte en version professionnelle, formelle et structurée.",
+          "expert": "Rôle : Rédacteur corporate. Objectif : Professionnaliser ton, vocabulaire et structure. Contraintes : Ton formel · Vocabulaire précis. Format : Version professionnelle + liste des améliorations. Style : Corporate."
+        },
+        {
+          "id": 47,
+          "title": "Plus formelle",
+          "simple": "Rends ce texte formel.",
+          "premium": "Réécris ce texte en version formelle, avec un ton sérieux, professionnel et respectueux.",
+          "expert": "Rôle : Rédacteur institutionnel. Objectif : Donner au texte un ton formel adapté à un contexte administratif ou professionnel. Contraintes : Ton sérieux · Vocabulaire précis · Aucune familiarité. Format : Version formelle + liste des ajustements. Style : Institutionnel."
+        },
+        {
+          "id": 48,
+          "title": "Plus formelle et polie",
+          "simple": "Rends ce texte poli.",
+          "premium": "Réécris ce texte en version polie, respectueuse et courtoise.",
+          "expert": "Rôle : Rédacteur professionnel courtois. Objectif : Adoucir le ton et renforcer la politesse. Contraintes : Formules de courtoisie · Ton respectueux. Format : Version polie + liste des adoucissements. Style : Courtois."
+        },
+        {
+          "id": 49,
+          "title": "Plus neutre",
+          "simple": "Rends ce texte neutre.",
+          "premium": "Réécris ce texte en version neutre, objective et sans émotion.",
+          "expert": "Rôle : Rédacteur institutionnel. Objectif : Neutraliser ton et subjectivité. Contraintes : Pas d'adjectifs subjectifs · Ton factuel. Format : Version neutre + liste des neutralisations. Style : Institutionnel."
+        },
+        {
+          "id": 50,
+          "title": "Plus neutre et factuelle",
+          "simple": "Rends ce texte factuel.",
+          "premium": "Réécris ce texte en supprimant opinions, émotions et jugements, pour un rendu strictement factuel.",
+          "expert": "Rôle : Rédacteur institutionnel neutre. Objectif : Éliminer toute subjectivité. Contraintes : Ton objectif · Aucune interprétation. Format : Version factuelle + liste des neutralisations. Style : Administratif neutre."
+        },
+        {
+          "id": 51,
+          "title": "Plus neutre émotionnellement",
+          "simple": "Enlève les émotions.",
+          "premium": "Réécris ce texte en supprimant toute charge émotionnelle, pour un rendu factuel et objectif.",
+          "expert": "Rôle : Rédacteur institutionnel neutre. Objectif : Neutraliser ton et subjectivité. Contraintes : Pas d'adjectifs affectifs · Ton factuel. Format : Version neutre + liste des neutralisations. Style : Administratif."
+        },
+        {
+          "id": 52,
+          "title": "Plus neutre et professionnelle",
+          "simple": "Rends ce texte neutre et professionnel.",
+          "premium": "Réécris ce texte en version neutre, professionnelle et adaptée à un contexte formel.",
+          "expert": "Rôle : Rédacteur institutionnel. Objectif : Donner un ton professionnel, objectif et sans émotion. Contraintes : Ton neutre · Vocabulaire précis · Aucune subjectivité. Format : Version professionnelle + liste des ajustements. Style : Administratif professionnel."
+        },
+        {
+          "id": 53,
+          "title": "Plus sérieuse et crédible",
+          "simple": "Rends ce texte sérieux.",
+          "premium": "Réécris ce texte en version sérieuse, crédible et professionnelle.",
+          "expert": "Rôle : Rédacteur institutionnel sérieux. Objectif : Donner un ton crédible et rigoureux. Contraintes : Ton sérieux · Vocabulaire précis · Aucune familiarité. Format : Version sérieuse + liste des ajustements. Style : Institutionnel."
+        },
+        {
+          "id": 54,
+          "title": "Plus simple",
+          "simple": "Simplifie ce texte.",
+          "premium": "Réécris ce texte en version simple, accessible et facile à lire.",
+          "expert": "Rôle : Vulgarisateur. Objectif : Rendre le texte compréhensible par tous. Contraintes : Vocabulaire simple · Phrases courtes. Format : Version simplifiée + liste des simplifications. Style : Clair et accessible."
+        },
+        {
+          "id": 55,
+          "title": "Plus accessible",
+          "simple": "Rends ce texte accessible.",
+          "premium": "Réécris ce texte en version accessible, compréhensible par un large public.",
+          "expert": "Rôle : Vulgarisateur. Objectif : Simplifier sans dénaturer. Contraintes : Vocabulaire simple · Explications claires. Format : Version accessible + liste des simplifications. Style : Pédagogique."
+        },
+        {
+          "id": 56,
+          "title": "Plus accessible pour débutants",
+          "simple": "Simplifie ce texte pour débutants.",
+          "premium": "Réécris ce texte en version accessible pour débutants, avec vocabulaire simple et explications claires.",
+          "expert": "Rôle : Formateur débutant. Objectif : Rendre le texte compréhensible pour un public novice. Contraintes : Mots simples · Explications pédagogiques. Format : Version débutant + liste des simplifications. Style : Pédagogique simple."
+        },
+        {
+          "id": 57,
+          "title": "Plus claire pour un public non expert",
+          "simple": "Simplifie ce texte pour un public non expert.",
+          "premium": "Réécris ce texte en version claire, accessible et adaptée à un public non spécialiste.",
+          "expert": "Rôle : Vulgarisateur professionnel. Objectif : Rendre le texte compréhensible par tous. Contraintes : Vocabulaire simple · Explications pédagogiques. Format : Version vulgarisée + liste des simplifications. Style : Pédagogique."
+        },
+        {
+          "id": 58,
+          "title": "Plus académique",
+          "simple": "Rends ce texte académique.",
+          "premium": "Réécris ce texte en version académique, structurée et rigoureuse.",
+          "expert": "Rôle : Rédacteur universitaire. Objectif : Donner au texte une forme scientifique ou académique. Contraintes : Ton neutre · Vocabulaire spécialisé. Format : Version académique + liste des ajustements. Style : Universitaire."
+        },
+        {
+          "id": 59,
+          "title": "Plus sérieuse et académique",
+          "simple": "Rends ce texte académique et sérieux.",
+          "premium": "Réécris ce texte en version académique, rigoureuse et structurée.",
+          "expert": "Rôle : Rédacteur universitaire. Objectif : Donner un ton scientifique ou académique. Contraintes : Ton neutre · Vocabulaire spécialisé. Format : Version académique + liste des ajustements. Style : Universitaire."
+        },
+        {
+          "id": 60,
+          "title": "Plus technique",
+          "simple": "Rends ce texte technique.",
+          "premium": "Réécris ce texte en version technique, précise et adaptée à un public expert.",
+          "expert": "Rôle : Rédacteur technique. Objectif : Ajouter précision, rigueur et vocabulaire spécialisé. Contraintes : Termes techniques · Ton neutre. Format : Version technique + liste des ajouts spécialisés. Style : Technique."
+        },
+        {
+          "id": 61,
+          "title": "Plus scientifique",
+          "simple": "Rends ce texte scientifique.",
+          "premium": "Réécris ce texte en version scientifique, rigoureuse et précise.",
+          "expert": "Rôle : Rédacteur scientifique. Objectif : Donner un ton scientifique crédible. Contraintes : Vocabulaire scientifique · Ton neutre. Format : Version scientifique + liste des ajouts techniques. Style : Scientifique."
+        },
+        {
+          "id": 62,
+          "title": "Plus pédagogique",
+          "simple": "Rends ce texte pédagogique.",
+          "premium": "Réécris ce texte en version pédagogique, claire et adaptée à un public apprenant.",
+          "expert": "Rôle : Formateur pédagogique. Objectif : Faciliter compréhension et mémorisation. Contraintes : Explications simples · Structure didactique. Format : Version pédagogique + liste des clarifications. Style : Didactique."
+        },
+        {
+          "id": 63,
+          "title": "Plus émotionnelle",
+          "simple": "Rends ce texte plus émotionnel.",
+          "premium": "Réécris ce texte en version plus émotionnelle, expressive et touchante.",
+          "expert": "Rôle : Auteur émotionnel. Objectif : Amplifier les émotions sans exagération. Contraintes : Ton sincère · Émotions nuancées. Format : Version émotionnelle + liste des intensifications. Style : Sensible."
+        },
+        {
+          "id": 64,
+          "title": "Plus chaleureuse",
+          "simple": "Rends ce texte plus chaleureux.",
+          "premium": "Réécris ce texte en version chaleureuse, bienveillante et humaine.",
+          "expert": "Rôle : Rédacteur empathique. Objectif : Humaniser le texte sans perdre sa clarté. Contraintes : Ton positif · Expressions bienveillantes. Format : Version chaleureuse + liste des adoucissements. Style : Empathique."
+        },
+        {
+          "id": 65,
+          "title": "Plus chaleureuse et humaine",
+          "simple": "Rends ce texte humain.",
+          "premium": "Réécris ce texte en version chaleureuse, humaine et empathique.",
+          "expert": "Rôle : Rédacteur empathique. Objectif : Humaniser le texte et renforcer la connexion émotionnelle. Contraintes : Ton doux · Expressions bienveillantes. Format : Version humaine + liste des adoucissements. Style : Chaleureux et humain."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Persuasion & Dynamisme",
+      "range": "66–80",
+      "icon": "⚡",
+      "color": "#ef4444",
+      "prompts": [
+        {
+          "id": 66,
+          "title": "Plus persuasive",
+          "simple": "Rends ce texte plus convaincant.",
+          "premium": "Réécris ce texte en version persuasive, avec arguments renforcés et ton affirmé.",
+          "expert": "Rôle : Copywriter persuasif. Objectif : Maximiser impact et conviction. Contraintes : Arguments clairs · Ton affirmé. Format : Version persuasive + liste des leviers utilisés. Style : Marketing persuasif."
+        },
+        {
+          "id": 67,
+          "title": "Plus persuasive pour vente",
+          "simple": "Rends ce texte plus vendeur.",
+          "premium": "Réécris ce texte en version persuasive, orientée vente, avec arguments clairs et ton engageant.",
+          "expert": "Rôle : Copywriter marketing. Objectif : Maximiser conversion et intérêt. Contraintes : Bénéfices mis en avant · Ton engageant · Appel à l'action subtil. Format : Version persuasive + liste des leviers marketing. Style : Copywriting."
+        },
+        {
+          "id": 68,
+          "title": "Plus persuasive pour un pitch",
+          "simple": "Rends ce texte convaincant pour un pitch.",
+          "premium": "Réécris ce texte en version persuasive, concise et impactante pour un pitch oral.",
+          "expert": "Rôle : Coach pitch & storytelling. Objectif : Maximiser impact et clarté en peu de mots. Contraintes : Message clair · Ton affirmé · Rythme dynamique. Format : Version pitch + liste des leviers utilisés. Style : Pitch percutant."
+        },
+        {
+          "id": 69,
+          "title": "Plus persuasive pour un argumentaire",
+          "simple": "Rends ce texte plus convaincant pour un argumentaire.",
+          "premium": "Réécris ce texte en version persuasive, structurée et orientée argumentaire.",
+          "expert": "Rôle : Copywriter argumentatif. Objectif : Renforcer persuasion et crédibilité. Contraintes : Arguments clairs · Preuves ou exemples · Ton affirmé. Format : Version argumentaire + liste des arguments ajoutés. Style : Marketing argumentatif."
+        },
+        {
+          "id": 70,
+          "title": "Plus persuasive pour une page de vente",
+          "simple": "Rends ce texte vendeur pour une page de vente.",
+          "premium": "Réécris ce texte en version persuasive, orientée conversion, pour une page de vente.",
+          "expert": "Rôle : Copywriter spécialisé en pages de vente. Objectif : Maximiser conversion, désir et confiance. Contraintes : Bénéfices mis en avant · Ton engageant · Appel à l'action subtil. Format : Version page de vente + liste des leviers utilisés. Style : Copywriting conversion."
+        },
+        {
+          "id": 71,
+          "title": "Plus dynamique",
+          "simple": "Rends ce texte plus dynamique.",
+          "premium": "Réécris ce texte en version dynamique, rythmée et énergique.",
+          "expert": "Rôle : Copywriter punchy. Objectif : Donner du rythme et de l'impact. Contraintes : Verbes d'action · Phrases courtes. Format : Version dynamique + liste des améliorations. Style : Énergique."
+        },
+        {
+          "id": 72,
+          "title": "Plus dynamique et rythmée",
+          "simple": "Rends ce texte dynamique.",
+          "premium": "Réécris ce texte en version rythmée, énergique et vivante.",
+          "expert": "Rôle : Copywriter punchy. Objectif : Donner du rythme et de l'impact. Contraintes : Verbes d'action · Phrases courtes. Format : Version dynamique + liste des améliorations. Style : Énergique et percutant."
+        },
+        {
+          "id": 73,
+          "title": "Plus motivante",
+          "simple": "Rends ce texte motivant.",
+          "premium": "Réécris ce texte en version motivante, encourageante et énergisante.",
+          "expert": "Rôle : Coach motivationnel. Objectif : Insuffler énergie, confiance et détermination. Contraintes : Ton positif · Messages forts · Rythme dynamique. Format : Version motivante + liste des leviers motivationnels. Style : Inspirant et énergique."
+        },
+        {
+          "id": 74,
+          "title": "Plus directe",
+          "simple": "Rends ce texte direct.",
+          "premium": "Réécris ce texte en version directe, claire et sans détour.",
+          "expert": "Rôle : Éditeur de concision. Objectif : Aller droit au but. Contraintes : Phrases courtes · Ton affirmé. Format : Version directe + liste des suppressions. Style : Direct et efficace."
+        },
+        {
+          "id": 75,
+          "title": "Plus douce et apaisante",
+          "simple": "Rends ce texte apaisant.",
+          "premium": "Réécris ce texte en version douce, calme et apaisante.",
+          "expert": "Rôle : Rédacteur bien-être. Objectif : Créer une atmosphère sereine et rassurante. Contraintes : Ton doux · Rythme lent · Vocabulaire positif. Format : Version apaisante + liste des adoucissements. Style : Bien-être."
+        },
+        {
+          "id": 76,
+          "title": "Plus douce et bienveillante",
+          "simple": "Rends ce texte bienveillant.",
+          "premium": "Réécris ce texte en version douce, bienveillante et rassurante.",
+          "expert": "Rôle : Rédacteur empathique. Objectif : Humaniser le texte et adoucir le ton. Contraintes : Ton chaleureux · Formulations positives. Format : Version bienveillante + liste des adoucissements. Style : Empathique et humain."
+        },
+        {
+          "id": 77,
+          "title": "Plus empathique",
+          "simple": "Rends ce texte empathique.",
+          "premium": "Réécris ce texte en version empathique, compréhensive et humaine.",
+          "expert": "Rôle : Rédacteur bienveillance & communication humaine. Objectif : Montrer compréhension, soutien et douceur. Contraintes : Ton chaleureux · Formulations rassurantes. Format : Version empathique + liste des adoucissements. Style : Humain et bienveillant."
+        },
+        {
+          "id": 78,
+          "title": "Plus enfantine",
+          "simple": "Rends ce texte pour enfants.",
+          "premium": "Réécris ce texte en version adaptée aux enfants, simple, imagée et douce.",
+          "expert": "Rôle : Auteur jeunesse. Objectif : Adapter vocabulaire, ton et rythme pour un jeune public. Contraintes : Mots simples · Ton doux · Images positives. Format : Version jeunesse + liste des simplifications. Style : Conte enfantin."
+        },
+        {
+          "id": 79,
+          "title": "Plus percutante pour réseaux sociaux",
+          "simple": "Rends ce texte percutant pour réseaux sociaux.",
+          "premium": "Réécris ce texte en version courte, percutante et engageante pour réseaux sociaux.",
+          "expert": "Rôle : Social media copywriter. Objectif : Maximiser impact en quelques mots. Contraintes : Accroche forte · Ton dynamique · Phrases courtes. Format : Version réseaux sociaux + liste des optimisations. Style : Social media punchy."
+        },
+        {
+          "id": 80,
+          "title": "Plus professionnelle pour LinkedIn",
+          "simple": "Adapte ce texte pour LinkedIn.",
+          "premium": "Réécris ce texte en version professionnelle, claire et engageante pour LinkedIn.",
+          "expert": "Rôle : Rédacteur LinkedIn expert. Objectif : Optimiser le texte pour un réseau professionnel. Contraintes : Ton professionnel · Structure courte · Message clair. Format : Version LinkedIn + liste des optimisations. Style : Pro engageant."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Formats & Contextes Spécifiques",
+      "range": "81–100",
+      "icon": "📋",
+      "color": "#10b981",
+      "prompts": [
+        {
+          "id": 81,
+          "title": "Adaptée pour un email formel",
+          "simple": "Rends ce texte adapté à un email formel.",
+          "premium": "Réécris ce texte en version adaptée à un email professionnel, avec ton courtois et structure claire.",
+          "expert": "Rôle : Rédacteur d'emails professionnels. Objectif : Adapter le texte à un contexte de communication formelle. Contraintes : Politesse · Clarté · Structure email. Format : Version email formel + liste des ajustements. Style : Communication professionnelle."
+        },
+        {
+          "id": 82,
+          "title": "Adaptée pour un rapport",
+          "simple": "Organise ce texte pour un rapport.",
+          "premium": "Réécris ce texte en version adaptée à un rapport, avec structure claire et logique professionnelle.",
+          "expert": "Rôle : Rédacteur de rapports. Objectif : Structurer le texte pour un document professionnel. Contraintes : Titres et sous-titres · Progression logique. Format : Version rapport + liste des améliorations. Style : Professionnel structuré."
+        },
+        {
+          "id": 83,
+          "title": "Adaptée pour un rapport d'entreprise",
+          "simple": "Adapte ce texte pour un rapport d'entreprise.",
+          "premium": "Réécris ce texte en version professionnelle, claire et structurée pour un rapport d'entreprise.",
+          "expert": "Rôle : Rédacteur corporate. Objectif : Donner rigueur, clarté et crédibilité. Contraintes : Ton formel · Structure logique. Format : Version rapport pro + liste des ajustements. Style : Corporate."
+        },
+        {
+          "id": 84,
+          "title": "Adaptée pour un dossier professionnel",
+          "simple": "Rends ce texte adapté à un dossier professionnel.",
+          "premium": "Réécris ce texte en version formelle, structurée et adaptée à un dossier professionnel.",
+          "expert": "Rôle : Rédacteur corporate. Objectif : Donner rigueur, clarté et crédibilité. Contraintes : Ton formel · Structure claire. Format : Version dossier pro + liste des ajustements. Style : Corporate."
+        },
+        {
+          "id": 85,
+          "title": "Adaptée pour un mémoire",
+          "simple": "Organise ce texte pour un mémoire.",
+          "premium": "Réécris ce texte en version adaptée à un mémoire, rigoureuse, structurée et académique.",
+          "expert": "Rôle : Rédacteur universitaire. Objectif : Donner une structure académique solide. Contraintes : Introduction · Développement · Conclusion · Ton académique · Cohérence logique. Format : Version mémoire + liste des ajustements. Style : Universitaire."
+        },
+        {
+          "id": 86,
+          "title": "Adaptée pour un exposé",
+          "simple": "Organise ce texte pour un exposé.",
+          "premium": "Réécris ce texte en version adaptée à un exposé, avec structure claire et progression logique.",
+          "expert": "Rôle : Rédacteur pédagogique. Objectif : Structurer le texte pour une présentation orale. Contraintes : Introduction · Développement · Conclusion · Transitions orales. Format : Version exposé + liste des ajustements. Style : Pédagogique oral."
+        },
+        {
+          "id": 87,
+          "title": "Adaptée pour un discours",
+          "simple": "Adapte ce texte pour un discours.",
+          "premium": "Réécris ce texte en version adaptée à un discours, rythmée, claire et engageante.",
+          "expert": "Rôle : Rédacteur de discours. Objectif : Donner souffle, rythme et impact oral. Contraintes : Phrases courtes · Rythme oratoire · Transitions fortes. Format : Version discours + liste des ajustements. Style : Oratoire."
+        },
+        {
+          "id": 88,
+          "title": "Adaptée pour une présentation PowerPoint",
+          "simple": "Adapte ce texte pour une présentation.",
+          "premium": "Réécris ce texte en version adaptée à une présentation PowerPoint, claire, synthétique et structurée.",
+          "expert": "Rôle : Rédacteur de présentations professionnelles. Objectif : Optimiser lisibilité et impact visuel. Contraintes : Phrases courtes · Idées clés · Structure slide-friendly. Format : Version présentation + liste des optimisations. Style : Synthétique et visuel."
+        },
+        {
+          "id": 89,
+          "title": "Adaptée pour un article",
+          "simple": "Adapte ce texte pour un article.",
+          "premium": "Réécris ce texte en version structurée, claire et adaptée à un article informatif.",
+          "expert": "Rôle : Rédacteur d'articles professionnels. Objectif : Donner une structure journalistique ou éditoriale. Contraintes : Introduction · Développement · Conclusion · Paragraphes courts · Ton informatif. Format : Version article + liste des ajustements. Style : Éditorial clair."
+        },
+        {
+          "id": 90,
+          "title": "Adaptée pour un blog",
+          "simple": "Adapte ce texte pour un blog.",
+          "premium": "Réécris ce texte en version adaptée à un article de blog, fluide, engageante et structurée.",
+          "expert": "Rôle : Rédacteur web SEO. Objectif : Optimiser lisibilité, rythme et engagement. Contraintes : Paragraphes courts · Ton conversationnel maîtrisé · Structure claire. Format : Version blog + liste des optimisations. Style : Web friendly."
+        },
+        {
+          "id": 91,
+          "title": "Adaptée pour un site web",
+          "simple": "Adapte ce texte pour un site web.",
+          "premium": "Réécris ce texte en version adaptée à un site web, claire, concise et orientée lecteur.",
+          "expert": "Rôle : Rédacteur web SEO. Objectif : Optimiser lisibilité et structure pour le web. Contraintes : Paragraphes courts · Titres et sous-titres · Ton direct. Format : Version web + liste des optimisations. Style : Web friendly."
+        },
+        {
+          "id": 92,
+          "title": "Adaptée pour un tutoriel",
+          "simple": "Adapte ce texte pour un tutoriel.",
+          "premium": "Réécris ce texte en version tutoriel, claire, étape par étape et pédagogique.",
+          "expert": "Rôle : Rédacteur pédagogique. Objectif : Structurer le texte en étapes simples et logiques. Contraintes : Étapes numérotées · Instructions simples. Format : Version tutoriel + liste des clarifications. Style : Didactique."
+        },
+        {
+          "id": 93,
+          "title": "Adaptée pour une documentation technique",
+          "simple": "Rends ce texte technique pour documentation.",
+          "premium": "Réécris ce texte en version technique, précise et adaptée à une documentation.",
+          "expert": "Rôle : Rédacteur technique. Objectif : Clarifier et structurer pour un usage professionnel. Contraintes : Vocabulaire technique · Structure logique. Format : Version documentation + liste des précisions ajoutées. Style : Documentation technique."
+        },
+        {
+          "id": 94,
+          "title": "Adaptée pour une communication interne",
+          "simple": "Adapte ce texte pour communication interne.",
+          "premium": "Réécris ce texte en version corporate, claire et adaptée à une communication interne.",
+          "expert": "Rôle : Rédacteur corporate interne. Objectif : Clarifier, structurer et professionnaliser. Contraintes : Ton neutre · Vocabulaire professionnel. Format : Version communication interne + liste des ajustements. Style : Corporate interne."
+        },
+        {
+          "id": 95,
+          "title": "Adaptée pour un CV",
+          "simple": "Adapte ce texte pour un CV.",
+          "premium": "Réécris ce texte en version professionnelle, concise et orientée compétences pour un CV.",
+          "expert": "Rôle : Consultant RH. Objectif : Optimiser clarté, impact et professionnalisme. Contraintes : Verbes d'action · Résultats mesurables. Format : Version CV + liste des optimisations. Style : RH professionnel."
+        },
+        {
+          "id": 96,
+          "title": "Adaptée pour un email formel (administratif)",
+          "simple": "Rends ce texte officiel.",
+          "premium": "Réécris ce texte en version officielle, conforme aux standards administratifs.",
+          "expert": "Rôle : Rédacteur administratif. Objectif : Donner un ton institutionnel strict. Contraintes : Ton formel · Vocabulaire administratif. Format : Version officielle + liste des ajustements. Style : Administratif strict."
+        },
+        {
+          "id": 97,
+          "title": "Plus formelle et administrative",
+          "simple": "Rends ce texte administratif.",
+          "premium": "Réécris ce texte en version administrative, formelle et conforme aux standards institutionnels.",
+          "expert": "Rôle : Rédacteur administratif. Objectif : Donner un ton officiel et rigoureux. Contraintes : Ton formel · Vocabulaire administratif. Format : Version administrative + liste des ajustements. Style : Institutionnel strict."
+        },
+        {
+          "id": 98,
+          "title": "Plus minimaliste",
+          "simple": "Rends ce texte minimaliste.",
+          "premium": "Réécris ce texte en version minimaliste, épurée et essentielle.",
+          "expert": "Rôle : Éditeur minimaliste. Objectif : Réduire au strict nécessaire. Contraintes : Phrases courtes · Idées essentielles. Format : Version minimaliste + liste des suppressions. Style : Épuré."
+        },
+        {
+          "id": 99,
+          "title": "Plus universelle et intemporelle",
+          "simple": "Rends ce texte universel.",
+          "premium": "Réécris ce texte en version universelle, intemporelle et accessible à tous.",
+          "expert": "Rôle : Auteur philosophique. Objectif : Donner une portée générale, durable et inclusive. Contraintes : Ton neutre · Idées universelles. Format : Version universelle + explication des choix. Style : Philosophique clair."
+        },
+        {
+          "id": 100,
+          "title": "Plus journalistique",
+          "simple": "Rends ce texte journalistique.",
+          "premium": "Réécris ce texte en version journalistique, factuelle et structurée comme un article.",
+          "expert": "Rôle : Journaliste professionnel. Objectif : Donner un ton informatif et neutre. Contraintes : Structure en pyramide inversée · Ton factuel. Format : Version journalistique + liste des transformations. Style : Presse écrite."
+        }
+      ]
+    }
+  ]
+}

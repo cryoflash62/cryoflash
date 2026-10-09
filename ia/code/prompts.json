@@ -1,0 +1,196 @@
+{
+  "title": "IA de CODE",
+  "subtitle": "100 Prompts pour maîtriser le développement avec l'IA",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Bases du Code",
+      "range": "1–10",
+      "icon": "⚡",
+      "color": "#00ff9d",
+      "prompts": [
+        { "id": 1, "title": "Expliquer un code", "simple": "Explique ce code.", "premium": "Explique ce code clairement et étape par étape.", "expert": "Rôle : Code analyst ; Objectif : Analyse profonde ; Contraintes : Optimisation, erreurs ; Format : Simple + avancé." },
+        { "id": 2, "title": "Corriger un code", "simple": "Corrige ce code.", "premium": "Corrige ce code et explique les erreurs.", "expert": "Rôle : Debugging engineer ; Objectif : Correction + optimisation ; Contraintes : Performance, lisibilité ; Format : Simple + avancé." },
+        { "id": 3, "title": "Optimiser un code", "simple": "Optimise ce code.", "premium": "Optimise ce code et explique les améliorations.", "expert": "Rôle : Performance engineer ; Objectif : Rapidité + efficacité ; Contraintes : Complexité, mémoire ; Format : Simple + avancé." },
+        { "id": 4, "title": "Documenter un code", "simple": "Documente ce code.", "premium": "Documente ce code proprement et clairement.", "expert": "Rôle : Documentation expert ; Objectif : Doc pro ; Contraintes : Clarté, structure ; Format : Simple + avancé." },
+        { "id": 5, "title": "Réécrire un code propre", "simple": "Réécris ce code proprement.", "premium": "Réécris ce code en version clean et lisible.", "expert": "Rôle : Clean code engineer ; Objectif : Refactor complet ; Contraintes : SOLID, DRY ; Format : Simple + avancé." },
+        { "id": 6, "title": "Ajouter des commentaires", "simple": "Ajoute des commentaires.", "premium": "Ajoute des commentaires utiles et pédagogiques.", "expert": "Rôle : Code explainer ; Objectif : Commentaires pro ; Contraintes : Clarté, concision ; Format : Simple + avancé." },
+        { "id": 7, "title": "Convertir un code en un autre langage", "simple": "Convertis ce code.", "premium": "Convertis ce code proprement et fidèlement.", "expert": "Rôle : Language conversion engineer ; Objectif : Conversion exacte ; Contraintes : Syntaxe, logique ; Format : Simple + avancé." },
+        { "id": 8, "title": "Créer un snippet réutilisable", "simple": "Fais un snippet.", "premium": "Crée un snippet propre et réutilisable.", "expert": "Rôle : Snippet architect ; Objectif : Code modulaire ; Contraintes : Simplicité, efficacité ; Format : Simple + avancé." },
+        { "id": 9, "title": "Créer une fonction", "simple": "Fais une fonction.", "premium": "Crée une fonction propre et optimisée.", "expert": "Rôle : Function engineer ; Objectif : Fonction robuste ; Contraintes : Paramètres, erreurs ; Format : Simple + avancé." },
+        { "id": 10, "title": "Créer une classe", "simple": "Fais une classe.", "premium": "Crée une classe propre et bien structurée.", "expert": "Rôle : OOP architect ; Objectif : Classe robuste ; Contraintes : Encapsulation, méthodes ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Algorithmes & Logique",
+      "range": "11–20",
+      "icon": "🧠",
+      "color": "#7c3aed",
+      "prompts": [
+        { "id": 11, "title": "Expliquer un algorithme", "simple": "Explique cet algorithme.", "premium": "Explique cet algorithme étape par étape.", "expert": "Rôle : Algorithm analyst ; Objectif : Analyse profonde ; Contraintes : Complexité, cas limites ; Format : Simple + avancé." },
+        { "id": 12, "title": "Optimiser un algorithme", "simple": "Optimise cet algorithme.", "premium": "Optimise cet algorithme et explique comment.", "expert": "Rôle : Algorithm optimizer ; Objectif : Réduire complexité ; Contraintes : Temps, mémoire ; Format : Simple + avancé." },
+        { "id": 13, "title": "Créer un algorithme", "simple": "Fais un algorithme.", "premium": "Crée un algorithme clair et efficace.", "expert": "Rôle : Algorithm architect ; Objectif : Logique robuste ; Contraintes : Cas limites ; Format : Simple + avancé." },
+        { "id": 14, "title": "Expliquer la complexité", "simple": "Explique la complexité.", "premium": "Explique la complexité en détail.", "expert": "Rôle : Complexity analyst ; Objectif : Analyse Big‑O ; Contraintes : Temps, mémoire ; Format : Simple + avancé." },
+        { "id": 15, "title": "Créer un pseudo‑code", "simple": "Fais un pseudo‑code.", "premium": "Crée un pseudo‑code clair et structuré.", "expert": "Rôle : Pseudocode engineer ; Objectif : Logique propre ; Contraintes : Structure, lisibilité ; Format : Simple + avancé." },
+        { "id": 16, "title": "Créer un algorithme de tri", "simple": "Fais un tri.", "premium": "Crée un algorithme de tri clair.", "expert": "Rôle : Sorting engineer ; Objectif : Tri performant ; Contraintes : Complexité ; Format : Simple + avancé." },
+        { "id": 17, "title": "Créer un algorithme de recherche", "simple": "Fais une recherche.", "premium": "Crée un algorithme de recherche efficace.", "expert": "Rôle : Search algorithm engineer ; Objectif : Rapidité ; Contraintes : Cas limites ; Format : Simple + avancé." },
+        { "id": 18, "title": "Créer un algorithme récursif", "simple": "Fais une récursion.", "premium": "Crée un algorithme récursif clair.", "expert": "Rôle : Recursion specialist ; Objectif : Récursion propre ; Contraintes : Stack, cas d'arrêt ; Format : Simple + avancé." },
+        { "id": 19, "title": "Créer un algorithme itératif", "simple": "Fais une boucle.", "premium": "Crée un algorithme itératif clair.", "expert": "Rôle : Iteration engineer ; Objectif : Boucles optimisées ; Contraintes : Performance ; Format : Simple + avancé." },
+        { "id": 20, "title": "Comparer deux algorithmes", "simple": "Compare ces algorithmes.", "premium": "Compare ces algorithmes en détail.", "expert": "Rôle : Algorithm comparison expert ; Objectif : Analyse Big‑O ; Contraintes : Temps, mémoire ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Développement Web",
+      "range": "21–25",
+      "icon": "🌐",
+      "color": "#0ea5e9",
+      "prompts": [
+        { "id": 21, "title": "Créer une page HTML", "simple": "Fais une page HTML.", "premium": "Crée une page HTML propre et structurée.", "expert": "Rôle : Frontend engineer ; Objectif : Page propre ; Contraintes : Sémantique, accessibilité ; Format : Simple + avancé." },
+        { "id": 22, "title": "Créer un style CSS", "simple": "Fais un style CSS.", "premium": "Crée un style CSS propre et moderne.", "expert": "Rôle : CSS architect ; Objectif : Design propre ; Contraintes : Responsive, lisibilité ; Format : Simple + avancé." },
+        { "id": 23, "title": "Créer un script JavaScript", "simple": "Fais un script JS.", "premium": "Crée un script JS propre et lisible.", "expert": "Rôle : JS engineer ; Objectif : Script robuste ; Contraintes : Performance, erreurs ; Format : Simple + avancé." },
+        { "id": 24, "title": "Créer un composant web", "simple": "Fais un composant.", "premium": "Crée un composant web propre.", "expert": "Rôle : Component architect ; Objectif : Composant modulaire ; Contraintes : Props, état ; Format : Simple + avancé." },
+        { "id": 25, "title": "Créer une API simple", "simple": "Fais une API.", "premium": "Crée une API claire et propre.", "expert": "Rôle : API engineer ; Objectif : API robuste ; Contraintes : Routes, erreurs ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Développement Backend",
+      "range": "26–40",
+      "icon": "⚙️",
+      "color": "#f59e0b",
+      "prompts": [
+        { "id": 26, "title": "Créer une API REST complète", "simple": "Fais une API REST.", "premium": "Crée une API REST propre et structurée.", "expert": "Rôle : Backend architect ; Objectif : API robuste ; Contraintes : Routes, erreurs, sécurité ; Format : Simple + avancé." },
+        { "id": 27, "title": "Créer un serveur Node.js", "simple": "Fais un serveur Node.", "premium": "Crée un serveur Node.js propre et organisé.", "expert": "Rôle : Node engineer ; Objectif : Serveur performant ; Contraintes : Middleware, erreurs ; Format : Simple + avancé." },
+        { "id": 28, "title": "Créer un serveur Python (Flask)", "simple": "Fais un serveur Flask.", "premium": "Crée un serveur Flask propre et structuré.", "expert": "Rôle : Python backend engineer ; Objectif : API robuste ; Contraintes : Routes, erreurs ; Format : Simple + avancé." },
+        { "id": 29, "title": "Créer un serveur PHP", "simple": "Fais un serveur PHP.", "premium": "Crée un backend PHP propre et organisé.", "expert": "Rôle : PHP architect ; Objectif : Backend robuste ; Contraintes : Sécurité, structure ; Format : Simple + avancé." },
+        { "id": 30, "title": "Créer un système d'authentification", "simple": "Fais une authentification.", "premium": "Crée un système d'authentification sécurisé.", "expert": "Rôle : Auth engineer ; Objectif : Auth robuste ; Contraintes : Hash, tokens, sécurité ; Format : Simple + avancé." },
+        { "id": 31, "title": "Créer un système JWT", "simple": "Fais un JWT.", "premium": "Crée un système JWT propre et sécurisé.", "expert": "Rôle : Token architect ; Objectif : Auth stateless ; Contraintes : Expiration, refresh ; Format : Simple + avancé." },
+        { "id": 32, "title": "Créer un CRUD complet", "simple": "Fais un CRUD.", "premium": "Crée un CRUD propre et structuré.", "expert": "Rôle : CRUD engineer ; Objectif : CRUD robuste ; Contraintes : Validation, erreurs ; Format : Simple + avancé." },
+        { "id": 33, "title": "Créer un système de validation", "simple": "Fais une validation.", "premium": "Crée un système de validation clair et fiable.", "expert": "Rôle : Validation architect ; Objectif : Données propres ; Contraintes : Schémas, erreurs ; Format : Simple + avancé." },
+        { "id": 34, "title": "Créer un middleware", "simple": "Fais un middleware.", "premium": "Crée un middleware propre et utile.", "expert": "Rôle : Middleware engineer ; Objectif : Traitement propre ; Contraintes : Sécurité, performance ; Format : Simple + avancé." },
+        { "id": 35, "title": "Créer un système de logs", "simple": "Fais des logs.", "premium": "Crée un système de logs clair et structuré.", "expert": "Rôle : Logging architect ; Objectif : Logs utiles ; Contraintes : Niveaux, stockage ; Format : Simple + avancé." },
+        { "id": 36, "title": "Créer un système de configuration", "simple": "Fais une config.", "premium": "Crée un système de configuration propre et modulaire.", "expert": "Rôle : Config architect ; Objectif : Config scalable ; Contraintes : Env, sécurité ; Format : Simple + avancé." },
+        { "id": 37, "title": "Créer un système de routing", "simple": "Fais un router.", "premium": "Crée un système de routing clair et propre.", "expert": "Rôle : Routing engineer ; Objectif : Routes propres ; Contraintes : Groupes, middlewares ; Format : Simple + avancé." },
+        { "id": 38, "title": "Créer un système de permissions", "simple": "Fais des permissions.", "premium": "Crée un système de permissions clair et sécurisé.", "expert": "Rôle : Permission architect ; Objectif : Sécurité ; Contraintes : Rôles, règles ; Format : Simple + avancé." },
+        { "id": 39, "title": "Créer un système de sessions", "simple": "Fais des sessions.", "premium": "Crée un système de sessions propre et sécurisé.", "expert": "Rôle : Session engineer ; Objectif : Sessions robustes ; Contraintes : Cookies, sécurité ; Format : Simple + avancé." },
+        { "id": 40, "title": "Créer un système de cache", "simple": "Fais un cache.", "premium": "Crée un système de cache performant.", "expert": "Rôle : Cache architect ; Objectif : Performance ; Contraintes : TTL, invalidation ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bases de Données",
+      "range": "41–50",
+      "icon": "🗄️",
+      "color": "#ef4444",
+      "prompts": [
+        { "id": 41, "title": "Créer un schéma de base de données", "simple": "Fais un schéma.", "premium": "Crée un schéma propre et logique.", "expert": "Rôle : Database architect ; Objectif : Structure optimale ; Contraintes : Normalisation ; Format : Simple + avancé." },
+        { "id": 42, "title": "Créer une table SQL", "simple": "Fais une table.", "premium": "Crée une table SQL propre et optimisée.", "expert": "Rôle : SQL engineer ; Objectif : Table robuste ; Contraintes : Index, types ; Format : Simple + avancé." },
+        { "id": 43, "title": "Créer une requête SQL", "simple": "Fais une requête.", "premium": "Crée une requête SQL propre et efficace.", "expert": "Rôle : Query optimizer ; Objectif : Performance ; Contraintes : Index, filtres ; Format : Simple + avancé." },
+        { "id": 44, "title": "Optimiser une requête SQL", "simple": "Optimise cette requête.", "premium": "Optimise cette requête et explique comment.", "expert": "Rôle : SQL optimizer ; Objectif : Rapidité ; Contraintes : Index, plan d'exécution ; Format : Simple + avancé." },
+        { "id": 45, "title": "Créer une relation SQL", "simple": "Fais une relation.", "premium": "Crée une relation SQL propre.", "expert": "Rôle : Relational DB engineer ; Objectif : Relations propres ; Contraintes : FK, intégrité ; Format : Simple + avancé." },
+        { "id": 46, "title": "Créer un index SQL", "simple": "Fais un index.", "premium": "Crée un index SQL optimisé.", "expert": "Rôle : Indexing specialist ; Objectif : Performance ; Contraintes : Sélectivité ; Format : Simple + avancé." },
+        { "id": 47, "title": "Créer une migration", "simple": "Fais une migration.", "premium": "Crée une migration propre et claire.", "expert": "Rôle : Migration engineer ; Objectif : Migration fiable ; Contraintes : Sécurité, rollback ; Format : Simple + avancé." },
+        { "id": 48, "title": "Créer un seed de base de données", "simple": "Fais un seed.", "premium": "Crée un seed propre et utile.", "expert": "Rôle : DB seeding expert ; Objectif : Données cohérentes ; Contraintes : Relations, cohérence ; Format : Simple + avancé." },
+        { "id": 49, "title": "Créer un ORM model", "simple": "Fais un modèle ORM.", "premium": "Crée un modèle ORM propre et structuré.", "expert": "Rôle : ORM architect ; Objectif : Modèle robuste ; Contraintes : Relations, validations ; Format : Simple + avancé." },
+        { "id": 50, "title": "Créer un système de requêtes ORM", "simple": "Fais une requête ORM.", "premium": "Crée un système de requêtes ORM propre et efficace.", "expert": "Rôle : ORM query engineer ; Objectif : Performance ; Contraintes : Relations, lazy/eager ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Sécurité & Authentification",
+      "range": "51–60",
+      "icon": "🔒",
+      "color": "#ec4899",
+      "prompts": [
+        { "id": 51, "title": "Créer un système de hash", "simple": "Fais un hash.", "premium": "Crée un système de hash sécurisé.", "expert": "Rôle : Crypto engineer ; Objectif : Hash robuste ; Contraintes : Salt, bcrypt, SHA‑256 ; Format : Simple + avancé." },
+        { "id": 52, "title": "Créer un système de chiffrement", "simple": "Chiffre ces données.", "premium": "Crée un système de chiffrement clair et sécurisé.", "expert": "Rôle : Security engineer ; Objectif : Crypto forte ; Contraintes : AES, RSA ; Format : Simple + avancé." },
+        { "id": 53, "title": "Créer un système de déchiffrement", "simple": "Déchiffre ces données.", "premium": "Crée un système de déchiffrement propre et fiable.", "expert": "Rôle : Crypto analyst ; Objectif : Déchiffrement sécurisé ; Contraintes : Clés, intégrité ; Format : Simple + avancé." },
+        { "id": 54, "title": "Créer un système d'authentification avancé", "simple": "Fais une authentification avancée.", "premium": "Crée une authentification sécurisée et moderne.", "expert": "Rôle : Auth architect ; Objectif : Auth robuste ; Contraintes : MFA, tokens, sécurité ; Format : Simple + avancé." },
+        { "id": 55, "title": "Créer un système d'autorisation", "simple": "Fais une autorisation.", "premium": "Crée un système d'autorisation clair et sécurisé.", "expert": "Rôle : Permission engineer ; Objectif : Rôles + règles ; Contraintes : RBAC, ABAC ; Format : Simple + avancé." },
+        { "id": 56, "title": "Créer un système de tokens", "simple": "Fais un token.", "premium": "Crée un système de tokens sécurisé.", "expert": "Rôle : Token architect ; Objectif : Tokens fiables ; Contraintes : Expiration, rotation ; Format : Simple + avancé." },
+        { "id": 57, "title": "Créer un système de sessions sécurisé", "simple": "Fais des sessions sécurisées.", "premium": "Crée un système de sessions robuste.", "expert": "Rôle : Session engineer ; Objectif : Sessions sûres ; Contraintes : Cookies, HttpOnly, SameSite ; Format : Simple + avancé." },
+        { "id": 58, "title": "Créer un système de rate‑limit", "simple": "Fais un rate‑limit.", "premium": "Crée un système de rate‑limit efficace.", "expert": "Rôle : Security engineer ; Objectif : Anti‑abus ; Contraintes : IP, quotas ; Format : Simple + avancé." },
+        { "id": 59, "title": "Créer un système anti‑bruteforce", "simple": "Fais un anti‑bruteforce.", "premium": "Crée un système anti‑bruteforce fiable.", "expert": "Rôle : Security architect ; Objectif : Protection login ; Contraintes : Captcha, lockout ; Format : Simple + avancé." },
+        { "id": 60, "title": "Créer un système de sécurité global", "simple": "Fais une sécurité globale.", "premium": "Crée un système de sécurité complet.", "expert": "Rôle : Cybersecurity engineer ; Objectif : Sécurité totale ; Contraintes : Auth, permissions, logs ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "DevOps & CI/CD",
+      "range": "61–70",
+      "icon": "🚀",
+      "color": "#06b6d4",
+      "prompts": [
+        { "id": 61, "title": "Créer un pipeline CI/CD", "simple": "Fais un pipeline.", "premium": "Crée un pipeline CI/CD propre et automatisé.", "expert": "Rôle : DevOps engineer ; Objectif : Pipeline complet ; Contraintes : Tests, build, déploiement ; Format : Simple + avancé." },
+        { "id": 62, "title": "Créer un système de déploiement automatique", "simple": "Fais un déploiement auto.", "premium": "Crée un déploiement automatique fiable.", "expert": "Rôle : Deployment architect ; Objectif : Déploiement sécurisé ; Contraintes : Rollback, logs ; Format : Simple + avancé." },
+        { "id": 63, "title": "Créer un système de rollback", "simple": "Fais un rollback.", "premium": "Crée un rollback automatique fiable.", "expert": "Rôle : Reliability engineer ; Objectif : Retour version stable ; Contraintes : Logs, détection erreurs ; Format : Simple + avancé." },
+        { "id": 64, "title": "Créer un Dockerfile", "simple": "Fais un Dockerfile.", "premium": "Crée un Dockerfile propre et optimisé.", "expert": "Rôle : Container engineer ; Objectif : Image légère ; Contraintes : Layers, cache ; Format : Simple + avancé." },
+        { "id": 65, "title": "Créer un docker‑compose", "simple": "Fais un docker‑compose.", "premium": "Crée un docker‑compose clair et modulaire.", "expert": "Rôle : DevOps architect ; Objectif : Multi‑services ; Contraintes : Réseaux, volumes ; Format : Simple + avancé." },
+        { "id": 66, "title": "Créer un workflow GitHub Actions", "simple": "Fais un workflow.", "premium": "Crée un workflow GitHub Actions propre.", "expert": "Rôle : CI/CD engineer ; Objectif : Automatisation ; Contraintes : Jobs, triggers ; Format : Simple + avancé." },
+        { "id": 67, "title": "Créer un système de monitoring", "simple": "Fais un monitoring.", "premium": "Crée un système de monitoring clair.", "expert": "Rôle : Monitoring engineer ; Objectif : Suivi complet ; Contraintes : Logs, métriques ; Format : Simple + avancé." },
+        { "id": 68, "title": "Créer un système d'alerting", "simple": "Fais un alerting.", "premium": "Crée un système d'alerting fiable.", "expert": "Rôle : Alerting architect ; Objectif : Alertes utiles ; Contraintes : Seuils, canaux ; Format : Simple + avancé." },
+        { "id": 69, "title": "Créer un système de logs DevOps", "simple": "Fais des logs DevOps.", "premium": "Crée un système de logs DevOps structuré.", "expert": "Rôle : DevOps logging engineer ; Objectif : Logs utiles ; Contraintes : Niveaux, stockage ; Format : Simple + avancé." },
+        { "id": 70, "title": "Créer un système de tests automatisés", "simple": "Fais des tests auto.", "premium": "Crée un système de tests automatisés complet.", "expert": "Rôle : QA automation engineer ; Objectif : Tests robustes ; Contraintes : Unitaires, intégration ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Automatisation & Scripts",
+      "range": "71–75",
+      "icon": "🤖",
+      "color": "#84cc16",
+      "prompts": [
+        { "id": 71, "title": "Créer un script d'automatisation", "simple": "Fais un script.", "premium": "Crée un script d'automatisation propre.", "expert": "Rôle : Automation engineer ; Objectif : Script fiable ; Contraintes : Logs, erreurs ; Format : Simple + avancé." },
+        { "id": 72, "title": "Créer un script Python", "simple": "Fais un script Python.", "premium": "Crée un script Python propre et lisible.", "expert": "Rôle : Python engineer ; Objectif : Script robuste ; Contraintes : Fonctions, erreurs ; Format : Simple + avancé." },
+        { "id": 73, "title": "Créer un script Bash", "simple": "Fais un script Bash.", "premium": "Crée un script Bash propre et fiable.", "expert": "Rôle : Shell engineer ; Objectif : Script stable ; Contraintes : Permissions, erreurs ; Format : Simple + avancé." },
+        { "id": 74, "title": "Créer un script PowerShell", "simple": "Fais un script PowerShell.", "premium": "Crée un script PowerShell propre et structuré.", "expert": "Rôle : PowerShell engineer ; Objectif : Automatisation Windows ; Contraintes : Modules, erreurs ; Format : Simple + avancé." },
+        { "id": 75, "title": "Créer un script de maintenance", "simple": "Fais un script de maintenance.", "premium": "Crée un script de maintenance complet.", "expert": "Rôle : Maintenance automation engineer ; Objectif : Entretien système ; Contraintes : Logs, sécurité ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Intelligence Artificielle & ML",
+      "range": "76–90",
+      "icon": "🧬",
+      "color": "#a855f7",
+      "prompts": [
+        { "id": 76, "title": "Expliquer un modèle IA", "simple": "Explique ce modèle IA.", "premium": "Explique ce modèle IA clairement et simplement.", "expert": "Rôle : ML analyst ; Objectif : Analyse complète ; Contraintes : Architecture, limites ; Format : Simple + avancé." },
+        { "id": 77, "title": "Créer un dataset simple", "simple": "Fais un dataset.", "premium": "Crée un dataset propre et structuré.", "expert": "Rôle : Data engineer ; Objectif : Dataset cohérent ; Contraintes : Types, cohérence ; Format : Simple + avancé." },
+        { "id": 78, "title": "Nettoyer un dataset", "simple": "Nettoie ce dataset.", "premium": "Nettoie ce dataset proprement.", "expert": "Rôle : Data cleaning engineer ; Objectif : Données propres ; Contraintes : Valeurs manquantes, doublons ; Format : Simple + avancé." },
+        { "id": 79, "title": "Créer un modèle de classification", "simple": "Fais une classification.", "premium": "Crée un modèle de classification simple.", "expert": "Rôle : ML engineer ; Objectif : Modèle performant ; Contraintes : Features, métriques ; Format : Simple + avancé." },
+        { "id": 80, "title": "Créer un modèle de régression", "simple": "Fais une régression.", "premium": "Crée un modèle de régression propre.", "expert": "Rôle : Regression specialist ; Objectif : Prédictions fiables ; Contraintes : Erreurs, overfitting ; Format : Simple + avancé." },
+        { "id": 81, "title": "Créer un modèle de clustering", "simple": "Fais un clustering.", "premium": "Crée un modèle de clustering clair.", "expert": "Rôle : Clustering engineer ; Objectif : Groupes cohérents ; Contraintes : Distance, normalisation ; Format : Simple + avancé." },
+        { "id": 82, "title": "Créer un modèle NLP simple", "simple": "Fais un modèle NLP.", "premium": "Crée un modèle NLP simple et propre.", "expert": "Rôle : NLP engineer ; Objectif : Texte → prédiction ; Contraintes : Tokenisation, nettoyage ; Format : Simple + avancé." },
+        { "id": 83, "title": "Créer un modèle de détection d'anomalies", "simple": "Fais une détection d'anomalies.", "premium": "Crée un modèle de détection d'anomalies clair.", "expert": "Rôle : Anomaly detection engineer ; Objectif : Détection fiable ; Contraintes : Seuils, métriques ; Format : Simple + avancé." },
+        { "id": 84, "title": "Créer un modèle de recommandation", "simple": "Fais un système de reco.", "premium": "Crée un système de recommandation simple.", "expert": "Rôle : Recommendation engineer ; Objectif : Suggestions pertinentes ; Contraintes : Similarité, scoring ; Format : Simple + avancé." },
+        { "id": 85, "title": "Créer un modèle de vision", "simple": "Fais un modèle vision.", "premium": "Crée un modèle de vision simple.", "expert": "Rôle : CV engineer ; Objectif : Vision fiable ; Contraintes : Images, labels ; Format : Simple + avancé." },
+        { "id": 86, "title": "Créer un modèle de segmentation", "simple": "Fais une segmentation.", "premium": "Crée un modèle de segmentation simple.", "expert": "Rôle : Segmentation engineer ; Objectif : Masques précis ; Contraintes : Données, métriques ; Format : Simple + avancé." },
+        { "id": 87, "title": "Créer un modèle de classification d'images", "simple": "Fais une classification d'images.", "premium": "Crée un modèle de classification d'images simple.", "expert": "Rôle : CV classifier engineer ; Objectif : Précision ; Contraintes : Dataset, augmentation ; Format : Simple + avancé." },
+        { "id": 88, "title": "Créer un modèle de séries temporelles", "simple": "Fais un modèle de séries temporelles.", "premium": "Crée un modèle de séries temporelles simple.", "expert": "Rôle : Time series engineer ; Objectif : Prédictions fiables ; Contraintes : Fenêtres, tendances ; Format : Simple + avancé." },
+        { "id": 89, "title": "Créer un modèle d'analyse de sentiments", "simple": "Fais une analyse de sentiments.", "premium": "Crée un modèle d'analyse de sentiments simple.", "expert": "Rôle : NLP sentiment engineer ; Objectif : Analyse précise ; Contraintes : Nettoyage, labels ; Format : Simple + avancé." },
+        { "id": 90, "title": "Créer un pipeline IA complet", "simple": "Fais un pipeline IA.", "premium": "Crée un pipeline IA propre et structuré.", "expert": "Rôle : ML pipeline architect ; Objectif : Pipeline complet ; Contraintes : Prétraitement, modèle, évaluation ; Format : Simple + avancé." }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Code Avancé & Architecture",
+      "range": "91–100",
+      "icon": "🏛️",
+      "color": "#f97316",
+      "prompts": [
+        { "id": 91, "title": "Créer une architecture MVC", "simple": "Fais un MVC.", "premium": "Crée une architecture MVC propre.", "expert": "Rôle : Software architect ; Objectif : MVC robuste ; Contraintes : Séparation claire ; Format : Simple + avancé." },
+        { "id": 92, "title": "Créer une architecture microservices", "simple": "Fais des microservices.", "premium": "Crée une architecture microservices claire.", "expert": "Rôle : Microservices architect ; Objectif : Services découplés ; Contraintes : API, communication ; Format : Simple + avancé." },
+        { "id": 93, "title": "Créer une architecture hexagonale", "simple": "Fais une architecture hexagonale.", "premium": "Crée une architecture hexagonale propre.", "expert": "Rôle : Hexagonal architect ; Objectif : Domain‑driven ; Contraintes : Ports & adapters ; Format : Simple + avancé." },
+        { "id": 94, "title": "Créer un design pattern", "simple": "Fais un design pattern.", "premium": "Crée un design pattern propre.", "expert": "Rôle : Pattern engineer ; Objectif : Pattern robuste ; Contraintes : Structure, usage ; Format : Simple + avancé." },
+        { "id": 95, "title": "Créer un système d'événements", "simple": "Fais un event system.", "premium": "Crée un système d'événements clair.", "expert": "Rôle : Event architect ; Objectif : Événements fiables ; Contraintes : Bus, listeners ; Format : Simple + avancé." },
+        { "id": 96, "title": "Créer un système de files de messages", "simple": "Fais une message queue.", "premium": "Crée une file de messages propre.", "expert": "Rôle : Messaging engineer ; Objectif : File fiable ; Contraintes : Ack, retry ; Format : Simple + avancé." },
+        { "id": 97, "title": "Créer un système d'événements distribués", "simple": "Fais des events distribués.", "premium": "Crée un système d'événements distribués clair.", "expert": "Rôle : Distributed systems engineer ; Objectif : Événements scalables ; Contraintes : Réseau, latence ; Format : Simple + avancé." },
+        { "id": 98, "title": "Créer un système de logs distribués", "simple": "Fais des logs distribués.", "premium": "Crée un système de logs distribués propre.", "expert": "Rôle : Distributed logging engineer ; Objectif : Logs fiables ; Contraintes : Cohérence, réplication ; Format : Simple + avancé." },
+        { "id": 99, "title": "Créer un système de monitoring distribué", "simple": "Fais un monitoring distribué.", "premium": "Crée un monitoring distribué clair.", "expert": "Rôle : Distributed monitoring architect ; Objectif : Suivi global ; Contraintes : Agents, métriques ; Format : Simple + avancé." },
+        { "id": 100, "title": "Créer une architecture logicielle complète", "simple": "Fais une architecture complète.", "premium": "Crée une architecture logicielle complète et propre.", "expert": "Rôle : Software architect ; Objectif : Architecture full‑stack ; Contraintes : Modules, sécurité, performance ; Format : Simple + avancé." }
+      ]
+    }
+  ]
+}

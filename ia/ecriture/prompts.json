@@ -1,0 +1,751 @@
+{
+  "title": "IA d'Écriture",
+  "subtitle": "100 prompts pour écrire, rédiger et réécrire avec maîtrise et style",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Fiction & Narration",
+      "range": "1–25",
+      "icon": "📖",
+      "color": "#f59e0b",
+      "prompts": [
+        {
+          "id": 1,
+          "title": "Écriture créative — Secret bouleversant",
+          "simple": "Écris une courte histoire sur un personnage qui découvre un secret bouleversant.",
+          "premium": "Rédige une histoire immersive mettant en scène un personnage principal qui découvre un secret capable de changer sa vie. Style narratif, émotionnel. Ton mystérieux. Longueur : 5 paragraphes.",
+          "expert": "Rôle : Auteur de fiction expérimenté spécialisé dans les récits psychologiques. Contexte : Le lecteur doit ressentir la tension émotionnelle d'un personnage découvrant un secret bouleversant lié à son passé. Objectif : Créer une histoire captivante centrée sur la révélation et ses conséquences immédiates. Contraintes : Style narratif immersif · Forte introspection · Suspense progressif · 350–500 mots. Format : Introduction → Montée dramatique → Révélation → Réaction du personnage. Style : Littéraire et émotionnel, créativité élevée, détail élevé."
+        },
+        {
+          "id": 2,
+          "title": "Dialogue — Dispute entre amis",
+          "simple": "Écris un dialogue entre deux amis qui se disputent.",
+          "premium": "Rédige un dialogue réaliste entre deux amis en désaccord sur un sujet important. Ton émotionnel. Format style théâtre.",
+          "expert": "Rôle : Dramaturge spécialisé dans les dialogues conflictuels. Contexte : Deux amis se disputent sur un choix qui impacte leur relation. Objectif : Montrer l'évolution émotionnelle des personnages. Contraintes : Tension progressive · Répliques courtes · Sous-texte perceptible. Format : Personnage A / Personnage B → Escalade → Point de rupture. Style : Dramatique, créativité moyenne."
+        },
+        {
+          "id": 3,
+          "title": "Scénario — Scène d'ouverture action",
+          "simple": "Écris le début d'un scénario de film d'action.",
+          "premium": "Rédige une scène d'ouverture pour un film d'action. Inclure tension, décor, protagoniste, menace. Format script.",
+          "expert": "Rôle : Scénariste professionnel. Contexte : Scène d'ouverture intense d'un film d'action moderne. Objectif : Introduire le héros et un danger immédiat. Contraintes : Format script · Rythme rapide · Dialogues courts. Format : INT/EXT → Actions → Dialogues. Style : Cinématographique."
+        },
+        {
+          "id": 4,
+          "title": "Introduction de roman",
+          "simple": "Écris le début d'un roman.",
+          "premium": "Rédige une introduction de roman immersive présentant le décor et le protagoniste. Ton narratif.",
+          "expert": "Rôle : Auteur de romans. Contexte : Le lecteur doit être immédiatement plongé dans l'univers. Objectif : Créer une ouverture captivante. Contraintes : 300–400 mots · Décor + personnage · Ton immersif. Format : Décor → Personnage → Situation initiale. Style : Narratif immersif."
+        },
+        {
+          "id": 5,
+          "title": "Scène romantique",
+          "simple": "Écris une scène romantique.",
+          "premium": "Rédige une scène romantique douce entre deux personnages qui se rapprochent pour la première fois. Ton tendre.",
+          "expert": "Rôle : Auteur de romance. Contexte : Deux personnages vivent un moment intime et sincère. Objectif : Créer une scène émotionnelle sans clichés excessifs. Contraintes : Ton doux · Émotions subtiles · Pas de contenu explicite. Format : Mise en situation → Échange → Moment clé → Conclusion émotionnelle. Style : Romantique."
+        },
+        {
+          "id": 6,
+          "title": "Monologue dramatique",
+          "simple": "Écris un monologue dramatique.",
+          "premium": "Rédige un monologue dramatique d'un personnage qui doute de lui-même. Ton intense, introspectif.",
+          "expert": "Rôle : Dramaturge. Contexte : Le personnage traverse une crise intérieure. Objectif : Créer un monologue puissant et introspectif. Contraintes : 250–350 mots · Ton dramatique · Rythme émotionnel. Format : Introduction → Confession → Tension → Résolution. Style : Théâtral."
+        },
+        {
+          "id": 7,
+          "title": "Scène humoristique",
+          "simple": "Écris une scène humoristique.",
+          "premium": "Rédige une scène humoristique mettant en scène deux personnages dans une situation absurde. Ton léger, comique.",
+          "expert": "Rôle : Auteur de comédie. Contexte : Deux personnages se retrouvent dans une situation involontairement ridicule. Objectif : Faire rire sans tomber dans la caricature. Contraintes : Dialogues dynamiques · Humour de situation · 200–300 mots. Format : Mise en place → Situation absurde → Réaction → Chute comique. Style : Comique léger."
+        },
+        {
+          "id": 8,
+          "title": "Scène d'horreur",
+          "simple": "Écris une scène d'horreur.",
+          "premium": "Rédige une scène d'horreur immersive dans un lieu sombre et inquiétant. Ton angoissant.",
+          "expert": "Rôle : Auteur d'horreur. Contexte : Le lecteur doit ressentir la peur et la tension. Objectif : Créer une scène effrayante et immersive. Contraintes : Suspense · Détails sensoriels · Pas de gore explicite. Format : Mise en place → Montée de tension → Point culminant. Style : Horrifique."
+        },
+        {
+          "id": 9,
+          "title": "Scène de science-fiction",
+          "simple": "Écris une scène de science-fiction.",
+          "premium": "Rédige une scène de science-fiction dans un futur lointain. Inclure technologie, ambiance, enjeux.",
+          "expert": "Rôle : Auteur de SF. Contexte : Le lecteur doit être transporté dans un univers futuriste crédible. Objectif : Créer une scène immersive. Contraintes : Cohérence technologique · Description du décor · Tension narrative. Format : Décor → Technologie → Action. Style : SF immersive."
+        },
+        {
+          "id": 10,
+          "title": "Scène de fantasy",
+          "simple": "Écris une scène de fantasy.",
+          "premium": "Rédige une scène de fantasy dans un royaume magique. Inclure créatures, magie et tension narrative.",
+          "expert": "Rôle : Auteur de fantasy épique. Contexte : Le lecteur doit être plongé dans un univers riche et magique. Objectif : Créer une scène immersive et dynamique. Contraintes : Description du décor · Élément magique · Tension narrative. Format : Décor → Personnages → Action → Élément magique clé. Style : Épique et imagé."
+        },
+        {
+          "id": 11,
+          "title": "Scène dramatique",
+          "simple": "Écris une scène dramatique.",
+          "premium": "Rédige une scène dramatique intense entre deux personnages en conflit. Ton émotionnel.",
+          "expert": "Rôle : Auteur dramatique. Contexte : Deux personnages vivent un moment de tension extrême. Objectif : Créer une scène émotionnelle et crédible. Contraintes : Dialogues forts · Tension progressive. Format : Mise en place → Conflit → Point culminant. Style : Dramatique."
+        },
+        {
+          "id": 12,
+          "title": "Scène de thriller",
+          "simple": "Écris une scène de thriller.",
+          "premium": "Rédige une scène de thriller tendue dans laquelle un personnage est suivi sans le savoir. Ton suspense.",
+          "expert": "Rôle : Auteur de thriller psychologique. Contexte : Le lecteur doit ressentir la tension et le danger imminent. Objectif : Créer une scène haletante et immersive. Contraintes : Suspense croissant · Détails sensoriels · Pas de révélation trop tôt. Format : Mise en place → Indices subtils → Montée de tension → Cliffhanger. Style : Nerveux et immersif."
+        },
+        {
+          "id": 13,
+          "title": "Scène de comédie romantique",
+          "simple": "Écris une scène de comédie romantique.",
+          "premium": "Rédige une scène de comédie romantique légère entre deux personnages qui se rencontrent par hasard. Ton charmant.",
+          "expert": "Rôle : Scénariste de comédies romantiques. Contexte : Deux personnages vivent une rencontre inattendue et amusante. Objectif : Créer une scène charmante et dynamique. Contraintes : Humour léger · Tension romantique. Format : Rencontre → Interaction → Moment comique → Conclusion ouverte. Style : Romantique et léger."
+        },
+        {
+          "id": 14,
+          "title": "Scène d'aventure",
+          "simple": "Écris une scène d'aventure.",
+          "premium": "Rédige une scène d'aventure dynamique dans un environnement exotique. Ton énergique.",
+          "expert": "Rôle : Auteur d'aventures. Contexte : Le lecteur doit ressentir l'action et le danger. Objectif : Créer une scène rythmée et immersive. Contraintes : Action rapide · Décor détaillé · Tension. Format : Décor → Déclencheur → Action → Issue. Style : Dynamique."
+        },
+        {
+          "id": 15,
+          "title": "Scène de confrontation",
+          "simple": "Écris une scène de confrontation.",
+          "premium": "Rédige une scène intense où deux personnages s'affrontent verbalement. Ton tendu.",
+          "expert": "Rôle : Scénariste dramatique. Contexte : Deux personnages expriment des tensions profondes. Objectif : Créer une scène tendue et crédible. Contraintes : Dialogues percutants · Tension croissante. Format : Mise en place → Conflit → Point culminant. Style : Dramatique."
+        },
+        {
+          "id": 16,
+          "title": "Scène de trahison",
+          "simple": "Écris une scène où un personnage se sent trahi.",
+          "premium": "Rédige une scène dramatique dans laquelle un personnage découvre qu'un proche l'a trahi. Ton intense, émotionnel.",
+          "expert": "Rôle : Auteur dramatique spécialisé dans les relations humaines. Contexte : Le personnage découvre une trahison qui bouleverse sa confiance. Objectif : Créer une scène émotionnelle, crédible et tendue. Contraintes : Révélation progressive · Réaction émotionnelle forte · Dialogues percutants. Format : Mise en place → Découverte → Confrontation → Retombée émotionnelle. Style : Dramatique et réaliste."
+        },
+        {
+          "id": 17,
+          "title": "Scène de retrouvailles",
+          "simple": "Écris une scène de retrouvailles entre deux personnes.",
+          "premium": "Rédige une scène de retrouvailles émouvante entre deux personnes qui ne se sont pas vues depuis longtemps. Ton chaleureux, nostalgique.",
+          "expert": "Rôle : Auteur dramatique spécialisé dans les émotions humaines. Contexte : Deux personnes se retrouvent après une longue séparation. Objectif : Créer une scène touchante, crédible et émotionnellement riche. Contraintes : Émotions nuancées · Dialogues sincères · 250–350 mots. Format : Contexte de la séparation → Moment des retrouvailles → Échange émotionnel → Conclusion ouverte. Style : Sensible et réaliste."
+        },
+        {
+          "id": 18,
+          "title": "Scène de révélation",
+          "simple": "Écris une scène où un personnage découvre une vérité choquante.",
+          "premium": "Rédige une scène dramatique dans laquelle un personnage apprend une vérité bouleversante. Ton intense.",
+          "expert": "Rôle : Auteur dramatique. Contexte : La révélation doit changer la perception du personnage. Objectif : Construire une scène émotionnelle et structurée. Contraintes : Suspense · Réaction crédible · Détails émotionnels. Format : Mise en place → Indices → Révélation → Réaction. Style : Dramatique."
+        },
+        {
+          "id": 19,
+          "title": "Scène introspective",
+          "simple": "Écris une scène introspective.",
+          "premium": "Rédige une scène introspective dans laquelle un personnage réfléchit à un choix difficile. Ton profond.",
+          "expert": "Rôle : Auteur psychologique. Contexte : Le personnage est face à un dilemme important. Objectif : Explorer ses pensées et émotions. Contraintes : Ton introspectif · Détails émotionnels. Format : Contexte → Pensées → Dilemme → Conclusion ouverte. Style : Introspectif."
+        },
+        {
+          "id": 20,
+          "title": "Scène de découverte",
+          "simple": "Écris une scène où un personnage découvre quelque chose d'important.",
+          "premium": "Rédige une scène immersive dans laquelle un personnage fait une découverte majeure. Ton intrigué.",
+          "expert": "Rôle : Auteur narratif. Contexte : La découverte doit changer la perception du personnage. Objectif : Construire une scène immersive et révélatrice. Contraintes : Suspense · Détails sensoriels. Format : Mise en place → Indices → Découverte → Réaction. Style : Narratif immersif."
+        },
+        {
+          "id": 21,
+          "title": "Scène d'espoir",
+          "simple": "Écris une scène pleine d'espoir.",
+          "premium": "Rédige une scène inspirante dans laquelle un personnage retrouve espoir après une période difficile. Ton positif.",
+          "expert": "Rôle : Auteur inspirant. Contexte : Le personnage traverse une renaissance émotionnelle. Objectif : Créer une scène lumineuse et motivante. Contraintes : Ton positif · Émotions sincères. Format : Situation initiale → Déclencheur → Moment d'espoir → Conclusion optimiste. Style : Inspirant."
+        },
+        {
+          "id": 22,
+          "title": "Scène de victoire",
+          "simple": "Écris une scène où un personnage remporte une victoire importante.",
+          "premium": "Rédige une scène inspirante dans laquelle un personnage remporte une victoire personnelle ou professionnelle. Ton triomphant.",
+          "expert": "Rôle : Auteur inspirant spécialisé dans les récits de réussite. Contexte : Le personnage atteint enfin un objectif difficile. Objectif : Créer une scène motivante et émotionnelle. Contraintes : Ton positif · Description du moment clé · Réaction émotionnelle. Format : Contexte → Moment de victoire → Réaction → Conclusion inspirante. Style : Héroïque et motivant."
+        },
+        {
+          "id": 23,
+          "title": "Scène de pardon",
+          "simple": "Écris une scène où un personnage pardonne un autre.",
+          "premium": "Rédige une scène touchante dans laquelle un personnage accorde son pardon après un conflit. Ton apaisé, émotionnel.",
+          "expert": "Rôle : Auteur spécialisé en émotions relationnelles. Contexte : Le pardon doit être crédible, nuancé et sincère. Objectif : Montrer la complexité émotionnelle du pardon. Contraintes : Ton doux · Dialogues sincères · Émotions nuancées. Format : Contexte → Tension résiduelle → Moment du pardon → Conclusion apaisée. Style : Sensible et réaliste."
+        },
+        {
+          "id": 24,
+          "title": "Scène de solitude",
+          "simple": "Écris une scène où un personnage se sent seul.",
+          "premium": "Rédige une scène introspective dans laquelle un personnage ressent une profonde solitude. Ton mélancolique, intime.",
+          "expert": "Rôle : Auteur psychologique. Contexte : Le personnage traverse un moment de solitude intérieure intense. Objectif : Décrire la solitude de manière émotionnelle et immersive. Contraintes : Ton mélancolique · Détails sensoriels · 200–300 mots. Format : Contexte → Ressenti → Pensées → Conclusion ouverte. Style : Introspectif et sensible."
+        },
+        {
+          "id": 25,
+          "title": "Scène de transformation personnelle",
+          "simple": "Écris une scène où un personnage change.",
+          "premium": "Rédige une scène montrant la transformation intérieure d'un personnage après un événement marquant. Ton inspirant.",
+          "expert": "Rôle : Auteur narratif. Contexte : Le personnage évolue profondément. Objectif : Montrer une transformation crédible et progressive. Contraintes : Ton inspirant · Détails émotionnels. Format : Situation initiale → Déclencheur → Transformation → Conclusion. Style : Narratif inspirant."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Poésie & Formes Littéraires",
+      "range": "26–40",
+      "icon": "✍️",
+      "color": "#a855f7",
+      "prompts": [
+        {
+          "id": 26,
+          "title": "Poème sur la solitude",
+          "simple": "Écris un poème sur la solitude.",
+          "premium": "Compose un poème libre sur la solitude, ton mélancolique, images fortes.",
+          "expert": "Rôle : Poète contemporain. Contexte : Le poème doit évoquer la solitude intérieure. Objectif : Créer un texte émotionnel et imagé. Contraintes : Vers libres · Métaphores · 12–20 lignes. Format : Strophe 1 → Strophe 2 → Strophe 3. Style : Poétique, créativité élevée."
+        },
+        {
+          "id": 27,
+          "title": "Fable avec morale",
+          "simple": "Écris une fable avec une morale.",
+          "premium": "Rédige une fable courte mettant en scène deux animaux opposés. Morale finale obligatoire. Style inspiré de La Fontaine.",
+          "expert": "Rôle : Auteur de fables. Contexte : Le texte doit être court, rythmé et moral. Objectif : Créer une fable moderne mais classique. Contraintes : Vers libres ou prose rythmée · Morale explicite. Format : Situation → Conflit → Résolution → Morale. Style : Classique."
+        },
+        {
+          "id": 28,
+          "title": "Conte pour enfants",
+          "simple": "Écris un conte pour enfants avec un animal héros.",
+          "premium": "Rédige un conte pour enfants (6–8 ans) dont le héros est un animal courageux. Ton doux, éducatif. Morale finale obligatoire.",
+          "expert": "Rôle : Auteur jeunesse. Contexte : Le conte doit être accessible, imagé et transmettre une morale simple. Objectif : Créer une histoire courte et éducative. Contraintes : 300–400 mots · Vocabulaire simple · Morale explicite. Format : Introduction → Aventure → Problème → Résolution → Morale. Style : Narratif et chaleureux."
+        },
+        {
+          "id": 29,
+          "title": "Réécriture poétique",
+          "simple": "Rends ce texte poétique.",
+          "premium": "Transforme un texte simple en version poétique, avec images, rythme et musicalité.",
+          "expert": "Rôle : Poète contemporain. Contexte : Le texte doit devenir plus lyrique et imagé. Objectif : Poétiser sans perdre le sens. Contraintes : Métaphores · Rythme · Ton poétique. Format : Version poétique + explication des choix. Style : Lyrique."
+        },
+        {
+          "id": 30,
+          "title": "Réécriture en style épique",
+          "simple": "Rends ce texte épique.",
+          "premium": "Transforme un texte simple en version épique, héroïque et grandiose.",
+          "expert": "Rôle : Auteur de fantasy épique. Contexte : Le texte doit devenir grandiose et héroïque. Objectif : Donner ampleur, intensité et souffle épique. Contraintes : Ton héroïque · Métaphores puissantes. Format : Version épique + explication des choix. Style : Épique et lyrique."
+        },
+        {
+          "id": 31,
+          "title": "Réécriture en style gothique",
+          "simple": "Rends ce texte gothique.",
+          "premium": "Réécris un texte en style gothique, sombre, poétique et mystérieux.",
+          "expert": "Rôle : Auteur gothique. Contexte : Le texte doit devenir sombre et atmosphérique. Objectif : Ajouter mystère, lyrisme et tension. Contraintes : Ton sombre · Imagerie gothique. Format : Version gothique + explication des choix. Style : Gothique romantique."
+        },
+        {
+          "id": 32,
+          "title": "Réécriture en style poétique moderne",
+          "simple": "Rends ce texte poétique et moderne.",
+          "premium": "Réécris un texte en style poétique contemporain, avec images fortes et rythme libre.",
+          "expert": "Rôle : Poète moderne. Contexte : Le texte doit devenir plus imagé et musical. Objectif : Moderniser et poétiser le style. Contraintes : Métaphores · Vers libres. Format : Version poétique + explication des choix. Style : Poétique contemporain."
+        },
+        {
+          "id": 33,
+          "title": "Réécriture en style lyrique",
+          "simple": "Rends ce texte lyrique.",
+          "premium": "Réécris un texte en version lyrique, avec musicalité, images poétiques et rythme fluide.",
+          "expert": "Rôle : Poète lyrique. Contexte : Le texte doit devenir musical et imagé. Objectif : Ajouter lyrisme, fluidité et émotion. Contraintes : Ton poétique · Métaphores. Format : Version lyrique + explication des choix. Style : Lyrique et musical."
+        },
+        {
+          "id": 34,
+          "title": "Description sensorielle — Paysage",
+          "simple": "Décris un paysage de montagne.",
+          "premium": "Rédige une description sensorielle d'un paysage de montagne au lever du soleil. Inclure couleurs, sons, atmosphère.",
+          "expert": "Rôle : Auteur spécialisé en descriptions immersives. Contexte : Le lecteur doit visualiser la scène comme une peinture vivante. Objectif : Créer une description sensorielle riche. Contraintes : 200–300 mots · 5 sens intégrés · Ton poétique. Format : Vue générale → Détails sensoriels → Atmosphère. Style : Lyrique."
+        },
+        {
+          "id": 35,
+          "title": "Description d'ambiance mystérieuse",
+          "simple": "Décris une ambiance.",
+          "premium": "Décris une ambiance mystérieuse dans un lieu ancien. Inclure sons, lumières, sensations.",
+          "expert": "Rôle : Auteur spécialisé en atmosphères immersives. Contexte : Le lecteur doit ressentir l'ambiance comme s'il y était. Objectif : Créer une ambiance sensorielle riche. Contraintes : 200–300 mots · 5 sens · Ton mystérieux. Format : Décor → Sensations → Atmosphère. Style : Immersif."
+        },
+        {
+          "id": 36,
+          "title": "Description d'un personnage mystérieux",
+          "simple": "Décris un personnage mystérieux.",
+          "premium": "Décris un personnage mystérieux en détaillant apparence, comportement et aura. Ton énigmatique.",
+          "expert": "Rôle : Auteur de romans noirs. Contexte : Le personnage doit intriguer le lecteur. Objectif : Créer une description immersive et mystérieuse. Contraintes : Ton sombre · Détails subtils. Format : Apparence → Comportement → Aura. Style : Noir et mystérieux."
+        },
+        {
+          "id": 37,
+          "title": "Description d'un lieu futuriste",
+          "simple": "Décris un lieu futuriste.",
+          "premium": "Décris un lieu futuriste en détaillant architecture, ambiance et technologies. Ton immersif.",
+          "expert": "Rôle : Auteur de science-fiction. Contexte : Le lecteur doit visualiser un lieu futuriste crédible. Objectif : Créer une description immersive et technologique. Contraintes : Cohérence technologique · Détails visuels. Format : Architecture → Technologies → Atmosphère. Style : SF immersive."
+        },
+        {
+          "id": 38,
+          "title": "Description d'un objet ancien",
+          "simple": "Décris un objet.",
+          "premium": "Décris un objet ancien en détaillant son apparence, son histoire et sa valeur symbolique.",
+          "expert": "Rôle : Conservateur de musée. Contexte : L'objet doit être décrit comme une pièce historique. Objectif : Donner une description riche et culturelle. Contraintes : Ton descriptif · Détails précis. Format : Apparence → Origine → Signification. Style : Descriptif culturel."
+        },
+        {
+          "id": 39,
+          "title": "Portrait psychologique",
+          "simple": "Décris un personnage complexe.",
+          "premium": "Rédige un portrait psychologique détaillé d'un personnage fictif. Inclure forces, faiblesses, motivations.",
+          "expert": "Rôle : Psychologue narratif. Contexte : Le personnage doit sembler réel et nuancé. Objectif : Décrire un profil psychologique complet. Contraintes : Ton neutre · Analyse structurée. Format : Traits principaux → Forces → Faiblesses → Motivations → Contradictions. Style : Analytique."
+        },
+        {
+          "id": 40,
+          "title": "Scène de cauchemar",
+          "simple": "Écris une scène de cauchemar.",
+          "premium": "Rédige une scène de cauchemar immersive, avec sensations étranges et tension psychologique. Ton oppressant.",
+          "expert": "Rôle : Auteur de fiction psychologique. Contexte : Le personnage vit un cauchemar intense et symbolique. Objectif : Créer une scène dérangeante et immersive. Contraintes : Détails sensoriels · Atmosphère oppressante · Symbolisme. Format : Mise en place → Déformation du réel → Point culminant → Réveil. Style : Sombre et onirique."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Correspondance & Lettres",
+      "range": "41–60",
+      "icon": "✉️",
+      "color": "#0ea5e9",
+      "prompts": [
+        {
+          "id": 41,
+          "title": "Lettre d'excuse",
+          "simple": "Écris une lettre d'excuse.",
+          "premium": "Rédige une lettre d'excuse sincère et professionnelle pour un retard important. Ton humble et responsable.",
+          "expert": "Rôle : Conseiller en communication professionnelle. Contexte : L'expéditeur doit restaurer la confiance. Objectif : Produire une lettre crédible et apaisante. Contraintes : Ton professionnel · Pas d'excuses vagues · Structure claire. Format : Contexte → Reconnaissance de la faute → Engagement → Conclusion. Style : Formel."
+        },
+        {
+          "id": 42,
+          "title": "Lettre de motivation",
+          "simple": "Écris une lettre de motivation pour un poste de développeur.",
+          "premium": "Rédige une lettre de motivation professionnelle pour un poste de développeur web junior. Ton motivé, clair, structuré. Longueur : 250–300 mots.",
+          "expert": "Rôle : Conseiller RH spécialisé en rédaction professionnelle. Contexte : Le candidat postule pour un poste de développeur web junior dans une PME tech. Objectif : Produire une lettre convaincante mettant en avant compétences, motivation et adéquation au poste. Contraintes : Ton professionnel · Pas de phrases vagues · Structure claire. Format : En-tête → Introduction → Compétences techniques → Motivation → Conclusion. Style : Professionnel et dynamique."
+        },
+        {
+          "id": 43,
+          "title": "Lettre d'amour",
+          "simple": "Écris une lettre d'amour.",
+          "premium": "Rédige une lettre d'amour sincère, poétique et personnelle. Ton tendre.",
+          "expert": "Rôle : Auteur romantique. Contexte : L'expéditeur exprime un amour profond et authentique. Objectif : Créer une lettre touchante et élégante. Contraintes : Ton poétique · Émotions sincères. Format : Introduction → Déclaration → Souvenirs → Promesse. Style : Lyrique."
+        },
+        {
+          "id": 44,
+          "title": "Lettre officielle / administrative",
+          "simple": "Écris une lettre administrative.",
+          "premium": "Rédige une lettre administrative formelle pour demander un document officiel. Ton neutre, professionnel.",
+          "expert": "Rôle : Rédacteur administratif. Contexte : L'utilisateur doit demander un document officiel à une institution. Objectif : Produire une lettre claire, formelle et complète. Contraintes : Ton formel · Structure administrative · Pas de familiarité. Format : Objet → Contexte → Demande → Pièces jointes → Conclusion. Style : Administratif."
+        },
+        {
+          "id": 45,
+          "title": "Lettre de recommandation",
+          "simple": "Écris une lettre de recommandation.",
+          "premium": "Rédige une lettre de recommandation professionnelle mettant en valeur les qualités d'un candidat. Ton positif, crédible.",
+          "expert": "Rôle : Responsable RH. Contexte : Le candidat postule à un poste important. Objectif : Valoriser ses compétences et qualités. Contraintes : Ton professionnel · Exemples concrets. Format : Contexte → Qualités → Compétences → Conclusion. Style : Professionnel."
+        },
+        {
+          "id": 46,
+          "title": "Lettre de démission",
+          "simple": "Écris une lettre de démission.",
+          "premium": "Rédige une lettre de démission professionnelle, polie et concise. Inclure date de départ et remerciements.",
+          "expert": "Rôle : Conseiller en communication professionnelle. Contexte : L'employé quitte son poste en bons termes. Objectif : Rédiger une lettre claire, respectueuse et professionnelle. Contraintes : Ton neutre · Pas de justification excessive · Structure formelle. Format : Objet → Annonce → Date → Remerciements → Conclusion. Style : Professionnel."
+        },
+        {
+          "id": 47,
+          "title": "Lettre de remerciement",
+          "simple": "Écris une lettre de remerciement.",
+          "premium": "Rédige une lettre de remerciement chaleureuse et sincère pour un service rendu. Ton positif.",
+          "expert": "Rôle : Rédacteur épistolaire. Contexte : L'expéditeur remercie une personne pour une aide importante. Objectif : Exprimer gratitude et reconnaissance. Contraintes : Ton chaleureux · Pas de flatterie excessive. Format : Contexte → Remerciements → Impact → Conclusion. Style : Chaleureux."
+        },
+        {
+          "id": 48,
+          "title": "Lettre de félicitations",
+          "simple": "Écris une lettre de félicitations.",
+          "premium": "Rédige une lettre de félicitations chaleureuse pour une réussite importante. Ton positif.",
+          "expert": "Rôle : Rédacteur professionnel. Contexte : L'expéditeur félicite une personne pour un accomplissement majeur. Objectif : Exprimer admiration et encouragement. Contraintes : Ton positif · Style fluide. Format : Contexte → Félicitations → Encouragement → Conclusion. Style : Chaleureux."
+        },
+        {
+          "id": 49,
+          "title": "Lettre de félicitations professionnelle",
+          "simple": "Écris une lettre de félicitations professionnelle.",
+          "premium": "Rédige une lettre de félicitations professionnelle pour une promotion. Ton positif, respectueux.",
+          "expert": "Rôle : Rédacteur professionnel. Contexte : L'expéditeur félicite un collègue pour une promotion. Objectif : Rédiger une lettre élégante et professionnelle. Contraintes : Ton positif · Style formel. Format : Contexte → Félicitations → Reconnaissance → Conclusion. Style : Professionnel."
+        },
+        {
+          "id": 50,
+          "title": "Lettre de condoléances",
+          "simple": "Écris une lettre de condoléances.",
+          "premium": "Rédige une lettre de condoléances sincère, respectueuse et empathique. Ton doux, réconfortant.",
+          "expert": "Rôle : Conseiller en communication sensible. Contexte : L'expéditeur souhaite exprimer son soutien après une perte. Objectif : Rédiger une lettre délicate, respectueuse et réconfortante. Contraintes : Ton empathique · Pas de banalités · Respect de l'intimité. Format : Message de soutien → Souvenir positif → Offre d'aide → Conclusion douce. Style : Empathique et mesuré."
+        },
+        {
+          "id": 51,
+          "title": "Lettre de soutien",
+          "simple": "Écris une lettre de soutien.",
+          "premium": "Rédige une lettre de soutien à une personne traversant une période difficile. Ton empathique.",
+          "expert": "Rôle : Conseiller en communication émotionnelle. Contexte : L'expéditeur veut réconforter une personne en difficulté. Objectif : Apporter soutien, compréhension et encouragement. Contraintes : Ton chaleureux · Pas de jugement. Format : Reconnaissance de la situation → Message de soutien → Encouragement → Conclusion positive. Style : Empathique."
+        },
+        {
+          "id": 52,
+          "title": "Lettre de plainte formelle",
+          "simple": "Écris une lettre de plainte.",
+          "premium": "Rédige une lettre de plainte polie mais ferme concernant un service insatisfaisant. Ton professionnel.",
+          "expert": "Rôle : Rédacteur administratif. Contexte : L'utilisateur souhaite signaler un problème sans agressivité. Objectif : Formuler une plainte claire et constructive. Contraintes : Ton formel · Faits précis · Demande explicite. Format : Contexte → Problème → Impact → Demande. Style : Administratif."
+        },
+        {
+          "id": 53,
+          "title": "Lettre de demande",
+          "simple": "Écris une lettre pour demander quelque chose.",
+          "premium": "Rédige une lettre polie pour demander une faveur ou un service. Ton respectueux.",
+          "expert": "Rôle : Rédacteur professionnel. Contexte : L'expéditeur demande une faveur importante. Objectif : Formuler une demande claire et respectueuse. Contraintes : Ton poli · Structure formelle. Format : Contexte → Demande → Justification → Remerciements. Style : Formel."
+        },
+        {
+          "id": 54,
+          "title": "Lettre amicale",
+          "simple": "Écris une lettre amicale.",
+          "premium": "Rédige une lettre amicale chaleureuse pour donner des nouvelles à un ami. Ton convivial.",
+          "expert": "Rôle : Auteur épistolaire. Contexte : Une personne écrit à un ami proche. Objectif : Créer une lettre naturelle et chaleureuse. Contraintes : Ton amical · Style fluide. Format : Introduction → Nouvelles → Questions → Conclusion. Style : Amical."
+        },
+        {
+          "id": 55,
+          "title": "Lettre de candidature spontanée",
+          "simple": "Écris une candidature spontanée.",
+          "premium": "Rédige une lettre de candidature spontanée professionnelle pour un poste dans une entreprise. Ton motivé.",
+          "expert": "Rôle : Conseiller RH. Contexte : Le candidat propose sa candidature sans offre précise. Objectif : Valoriser compétences et motivation. Contraintes : Ton professionnel · Structure claire. Format : Présentation → Compétences → Motivation → Proposition. Style : Professionnel."
+        },
+        {
+          "id": 56,
+          "title": "Journal intime",
+          "simple": "Écris une page de journal intime.",
+          "premium": "Rédige une page de journal intime exprimant un moment de doute ou de réflexion personnelle. Ton sincère, introspectif.",
+          "expert": "Rôle : Auteur spécialisé en écriture introspective. Contexte : Le narrateur écrit dans son journal après une journée émotionnellement chargée. Objectif : Produire une page intime, authentique et nuancée. Contraintes : Ton personnel · Émotions nuancées · 250–350 mots. Format : Contexte de la journée → Pensées principales → Doute ou révélation → Conclusion ouverte. Style : Introspectif et fluide."
+        },
+        {
+          "id": 57,
+          "title": "Discours motivant",
+          "simple": "Écris un discours motivant.",
+          "premium": "Rédige un discours inspirant pour motiver une équipe avant un projet important. Ton énergique.",
+          "expert": "Rôle : Coach en communication. Contexte : Une équipe doit être motivée avant un défi majeur. Objectif : Inspirer, encourager, mobiliser. Contraintes : Ton positif · Structure claire · Messages clés. Format : Introduction → Vision → Encouragement → Conclusion. Style : Oratoire."
+        },
+        {
+          "id": 58,
+          "title": "Article de blog",
+          "simple": "Écris un article sur les avantages du télétravail.",
+          "premium": "Rédige un article de blog structuré expliquant les avantages du télétravail pour les employés et les entreprises. Ton professionnel. Longueur : 600 mots.",
+          "expert": "Rôle : Rédacteur web spécialisé en productivité. Contexte : Le public cible est composé de professionnels et managers. Objectif : Présenter clairement les bénéfices du télétravail. Contraintes : Ton professionnel · Données concrètes · Structure SEO. Format : Introduction → Avantages employés → Avantages entreprises → Conclusion. Style : Informatif."
+        },
+        {
+          "id": 59,
+          "title": "Analyse littéraire",
+          "simple": "Analyse un poème.",
+          "premium": "Analyse un poème en identifiant thème, style, figures de style et message.",
+          "expert": "Rôle : Professeur de littérature. Contexte : Analyse académique d'un poème choisi. Objectif : Décomposer structure et sens. Contraintes : Analyse structurée · Vocabulaire littéraire. Format : Introduction → Analyse formelle → Analyse thématique → Conclusion. Style : Académique."
+        },
+        {
+          "id": 60,
+          "title": "Critique littéraire",
+          "simple": "Écris une critique d'un roman.",
+          "premium": "Rédige une critique littéraire structurée d'un roman de ton choix. Inclure résumé, analyse, points forts/faibles.",
+          "expert": "Rôle : Critique littéraire professionnel. Contexte : Le lecteur veut une analyse claire et argumentée. Objectif : Évaluer un roman de manière structurée. Contraintes : Ton analytique · Arguments précis · Pas de spoilers majeurs. Format : Résumé → Analyse → Points forts → Points faibles → Conclusion. Style : Critique."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Analyse & Rédaction",
+      "range": "61–80",
+      "icon": "🔍",
+      "color": "#ef4444",
+      "prompts": [
+        {
+          "id": 61,
+          "title": "Résumé analytique",
+          "simple": "Résume ce texte.",
+          "premium": "Résume un texte en points clés, ton neutre, concis.",
+          "expert": "Rôle : Analyste éditorial. Contexte : Le résumé doit être fidèle et structuré. Objectif : Extraire l'essentiel. Contraintes : 5 points · Ton neutre. Format : Points clés → Conclusion synthétique. Style : Analytique."
+        },
+        {
+          "id": 62,
+          "title": "Résumé analytique approfondi",
+          "simple": "Résume ce texte de façon analytique.",
+          "premium": "Résume un texte en identifiant les idées principales, les enjeux et les implications. Ton analytique.",
+          "expert": "Rôle : Analyste éditorial. Contexte : Le résumé doit être structuré et orienté vers la compréhension des enjeux. Objectif : Extraire les éléments clés et les analyser. Contraintes : Ton neutre · Structure claire. Format : Idées principales → Analyse → Implications. Style : Analytique."
+        },
+        {
+          "id": 63,
+          "title": "Analyse de personnage",
+          "simple": "Analyse un personnage.",
+          "premium": "Analyse un personnage fictif en décrivant son évolution, ses motivations et ses conflits internes.",
+          "expert": "Rôle : Analyste narratif. Contexte : Le personnage doit être étudié en profondeur. Objectif : Décomposer sa psychologie et son évolution. Contraintes : Ton analytique · Structure claire. Format : Présentation → Motivations → Conflits → Évolution. Style : Analytique."
+        },
+        {
+          "id": 64,
+          "title": "Analyse de film",
+          "simple": "Analyse un film.",
+          "premium": "Analyse un film en décrivant thème, mise en scène, personnages et message. Ton analytique.",
+          "expert": "Rôle : Critique cinéma. Contexte : Analyse structurée d'un film choisi. Objectif : Décomposer les éléments narratifs et visuels. Contraintes : Pas de spoilers majeurs · Analyse claire. Format : Résumé → Mise en scène → Personnages → Thèmes → Conclusion. Style : Critique."
+        },
+        {
+          "id": 65,
+          "title": "Réécriture — Amélioration générale",
+          "simple": "Réécris ce texte en mieux.",
+          "premium": "Améliore un texte en renforçant style, clarté et fluidité, sans changer le sens.",
+          "expert": "Rôle : Éditeur professionnel. Contexte : Le texte doit être amélioré sans être transformé. Objectif : Optimiser style et lisibilité. Contraintes : Respect du sens · Ton cohérent. Format : Version améliorée + liste des améliorations. Style : Éditorial."
+        },
+        {
+          "id": 66,
+          "title": "Réécriture — Simplification",
+          "simple": "Simplifie ce texte.",
+          "premium": "Réécris un texte complexe en version simple et accessible, sans perdre le sens.",
+          "expert": "Rôle : Pédagogue spécialisé en vulgarisation. Contexte : Le texte doit être compris par un public non expert. Objectif : Simplifier sans déformer. Contraintes : Vocabulaire simple · Phrases courtes. Format : Version simplifiée + liste des simplifications. Style : Pédagogique."
+        },
+        {
+          "id": 67,
+          "title": "Réécriture — Formalisation",
+          "simple": "Rends ce texte plus formel.",
+          "premium": "Réécris un texte en version formelle, professionnelle et structurée, sans changer le sens.",
+          "expert": "Rôle : Rédacteur professionnel. Contexte : Le texte doit être adapté à un contexte administratif ou professionnel. Objectif : Formaliser le texte sans le dénaturer. Contraintes : Ton formel · Syntaxe soignée. Format : Version formelle + liste des modifications. Style : Administratif."
+        },
+        {
+          "id": 68,
+          "title": "Réécriture — Humoristique",
+          "simple": "Réécris ce texte de façon drôle.",
+          "premium": "Transforme un texte sérieux en version humoristique tout en gardant le sens général.",
+          "expert": "Rôle : Humoriste-rédacteur. Contexte : Le texte doit devenir drôle sans perdre son message. Objectif : Ajouter humour, légèreté, absurdité. Contraintes : Respect du sens · Humour subtil. Format : Version humoristique + explication des choix. Style : Humoristique."
+        },
+        {
+          "id": 69,
+          "title": "Réécriture — Persuasive",
+          "simple": "Rends ce texte plus convaincant.",
+          "premium": "Réécris un texte en version persuasive, en renforçant arguments, structure et impact. Ton assertif.",
+          "expert": "Rôle : Copywriter professionnel. Contexte : Le texte doit convaincre un public hésitant. Objectif : Renforcer la persuasion sans déformer le message. Contraintes : Arguments clairs · Structure logique · Ton affirmé. Format : Version persuasive + liste des améliorations. Style : Marketing persuasif."
+        },
+        {
+          "id": 70,
+          "title": "Réécriture — Neutralisation",
+          "simple": "Rends ce texte neutre.",
+          "premium": "Réécris un texte en version neutre, objective et sans émotion.",
+          "expert": "Rôle : Rédacteur institutionnel. Contexte : Le texte doit être adapté à un contexte officiel. Objectif : Neutraliser ton et émotion. Contraintes : Ton objectif · Pas d'adjectifs subjectifs. Format : Version neutre + liste des neutralisations. Style : Institutionnel."
+        },
+        {
+          "id": 71,
+          "title": "Réécriture — Dynamisation",
+          "simple": "Rends ce texte plus dynamique.",
+          "premium": "Réécris un texte en version dynamique, avec rythme, énergie et phrases percutantes.",
+          "expert": "Rôle : Copywriter dynamique. Contexte : Le texte doit gagner en énergie et impact. Objectif : Dynamiser le style sans changer le sens. Contraintes : Phrases courtes · Verbes d'action · Ton énergique. Format : Version dynamique + liste des améliorations. Style : Énergique et percutant."
+        },
+        {
+          "id": 72,
+          "title": "Réécriture — Langage familier",
+          "simple": "Rends ce texte familier.",
+          "premium": "Réécris un texte en version familière, naturelle et spontanée, sans vulgarité.",
+          "expert": "Rôle : Adaptateur de style. Contexte : Le texte doit paraître plus détendu et conversationnel. Objectif : Rendre le texte accessible et naturel. Contraintes : Ton familier · Fluidité. Format : Version familière + liste des transformations. Style : Conversationnel."
+        },
+        {
+          "id": 73,
+          "title": "Réécriture — Langage soutenu",
+          "simple": "Rends ce texte soutenu.",
+          "premium": "Réécris un texte en langage soutenu, avec vocabulaire riche et syntaxe élégante.",
+          "expert": "Rôle : Rédacteur littéraire. Contexte : Le texte doit être adapté à un contexte formel ou académique. Objectif : Élever le niveau de langue sans altérer le sens. Contraintes : Vocabulaire soutenu · Syntaxe complexe mais fluide. Format : Version soutenue + liste des enrichissements. Style : Littéraire."
+        },
+        {
+          "id": 74,
+          "title": "Réécriture — Style journalistique",
+          "simple": "Rends ce texte journalistique.",
+          "premium": "Réécris un texte en style journalistique factuel, clair, structuré.",
+          "expert": "Rôle : Journaliste professionnel. Contexte : Le texte doit être adapté à un article d'information. Objectif : Informer de manière neutre et précise. Contraintes : Ton neutre · Structure en pyramide inversée. Format : Chapeau → Faits essentiels → Contexte → Détails secondaires. Style : Journalistique."
+        },
+        {
+          "id": 75,
+          "title": "Réécriture — Style argumentatif",
+          "simple": "Rends ce texte argumentatif.",
+          "premium": "Transforme un texte neutre en texte argumentatif avec thèse, arguments et exemples.",
+          "expert": "Rôle : Rédacteur argumentatif. Contexte : Le texte doit défendre une position claire. Objectif : Structurer une argumentation solide. Contraintes : Thèse explicite · Arguments logiques · Exemples concrets. Format : Thèse → Argument 1 → Argument 2 → Conclusion. Style : Argumentatif."
+        },
+        {
+          "id": 76,
+          "title": "Réécriture — Style concis",
+          "simple": "Rends ce texte plus court.",
+          "premium": "Réécris un texte en version concise, en conservant uniquement les idées essentielles.",
+          "expert": "Rôle : Éditeur professionnel. Contexte : Le texte doit être raccourci sans perdre son sens. Objectif : Condenser efficacement. Contraintes : Ton neutre · Pas de détails inutiles. Format : Version concise + liste des suppressions. Style : Éditorial."
+        },
+        {
+          "id": 77,
+          "title": "Réécriture — Style descriptif",
+          "simple": "Ajoute des descriptions à ce texte.",
+          "premium": "Enrichis un texte en ajoutant des descriptions sensorielles et visuelles.",
+          "expert": "Rôle : Auteur descriptif. Contexte : Le texte doit devenir plus immersif. Objectif : Ajouter des descriptions riches et cohérentes. Contraintes : Détails sensoriels · Cohérence stylistique. Format : Version enrichie + liste des ajouts. Style : Descriptif immersif."
+        },
+        {
+          "id": 78,
+          "title": "Réécriture — Style ironique",
+          "simple": "Rends ce texte ironique.",
+          "premium": "Transforme un texte neutre en version ironique, avec sous-entendus et humour subtil.",
+          "expert": "Rôle : Auteur satirique. Contexte : Le texte doit devenir ironique sans être agressif. Objectif : Ajouter humour, distance et sous-texte. Contraintes : Ton ironique · Sous-entendus. Format : Version ironique + explication des choix. Style : Satirique léger."
+        },
+        {
+          "id": 79,
+          "title": "Réécriture — Style philosophique",
+          "simple": "Rends ce texte philosophique.",
+          "premium": "Réécris un texte en version philosophique, avec réflexion, profondeur et concepts abstraits.",
+          "expert": "Rôle : Essayiste philosophique. Contexte : Le texte doit gagner en profondeur et en réflexion. Objectif : Philosopher sans perdre la clarté. Contraintes : Ton réfléchi · Concepts abstraits. Format : Version philosophique + explication des choix. Style : Philosophique."
+        },
+        {
+          "id": 80,
+          "title": "Réécriture — Style académique",
+          "simple": "Rends ce texte académique.",
+          "premium": "Réécris un texte en style académique, avec rigueur, précision et vocabulaire spécialisé.",
+          "expert": "Rôle : Rédacteur universitaire. Contexte : Le texte doit être adapté à un cadre académique. Objectif : Renforcer rigueur et précision. Contraintes : Ton neutre · Structure logique. Format : Version académique + explication des choix. Style : Universitaire."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Émotions & Scènes Spécifiques",
+      "range": "81–100",
+      "icon": "💫",
+      "color": "#10b981",
+      "prompts": [
+        {
+          "id": 81,
+          "title": "Scène de jalousie",
+          "simple": "Écris une scène où un personnage est jaloux.",
+          "premium": "Rédige une scène dans laquelle un personnage ressent une jalousie intense. Ton émotionnel, tendu.",
+          "expert": "Rôle : Auteur psychologique. Contexte : Le personnage vit un moment de jalousie qui révèle ses failles. Objectif : Explorer émotions et tensions internes. Contraintes : Ton intense · Détails émotionnels. Format : Contexte → Déclencheur → Réaction → Conséquence. Style : Psychologique."
+        },
+        {
+          "id": 82,
+          "title": "Scène de panique",
+          "simple": "Écris une scène où un personnage panique.",
+          "premium": "Rédige une scène immersive dans laquelle un personnage est pris de panique. Ton urgent, intense.",
+          "expert": "Rôle : Auteur dramatique. Contexte : Le personnage vit une montée d'angoisse incontrôlable. Objectif : Représenter la panique de manière réaliste. Contraintes : Détails sensoriels · Rythme rapide. Format : Déclencheur → Montée de panique → Point culminant → Retombée. Style : Nerveux et immersif."
+        },
+        {
+          "id": 83,
+          "title": "Scène de nostalgie",
+          "simple": "Écris une scène nostalgique.",
+          "premium": "Rédige une scène nostalgique dans laquelle un personnage se remémore un souvenir important. Ton doux, mélancolique.",
+          "expert": "Rôle : Auteur émotionnel. Contexte : Le personnage revisite un souvenir marquant. Objectif : Créer une scène douce et mélancolique. Contraintes : Ton nostalgique · Détails sensoriels. Format : Présent → Souvenir → Émotion → Retour au présent. Style : Mélancolique."
+        },
+        {
+          "id": 84,
+          "title": "Scène de retrouvailles familiales",
+          "simple": "Écris une scène de retrouvailles familiales.",
+          "premium": "Rédige une scène chaleureuse où une famille se retrouve après une longue séparation. Ton tendre, émotionnel.",
+          "expert": "Rôle : Auteur familial. Contexte : Une famille se réunit après un événement marquant. Objectif : Créer une scène chaleureuse et sincère. Contraintes : Ton positif · Dialogues naturels. Format : Contexte → Retrouvailles → Échange → Conclusion. Style : Chaleureux et réaliste."
+        },
+        {
+          "id": 85,
+          "title": "Scène de retrouvailles amoureuses",
+          "simple": "Écris une scène où deux amoureux se retrouvent.",
+          "premium": "Rédige une scène romantique où deux amoureux se retrouvent après une séparation. Ton tendre, émotionnel.",
+          "expert": "Rôle : Auteur romantique. Contexte : Deux amoureux se retrouvent après une période difficile. Objectif : Créer une scène touchante et sincère. Contraintes : Ton doux · Émotions nuancées. Format : Contexte → Rencontre → Échange → Conclusion romantique. Style : Romantique."
+        },
+        {
+          "id": 86,
+          "title": "Scène de retrouvailles inattendues",
+          "simple": "Écris une scène où deux personnes se retrouvent par hasard.",
+          "premium": "Rédige une scène où deux personnes se croisent par hasard après des années. Ton surprenant, émotionnel.",
+          "expert": "Rôle : Auteur narratif. Contexte : Une rencontre imprévue ravive des émotions anciennes. Objectif : Créer une scène surprenante et touchante. Contraintes : Ton émotionnel · Réactions crédibles. Format : Contexte → Rencontre → Réaction → Conclusion ouverte. Style : Narratif immersif."
+        },
+        {
+          "id": 87,
+          "title": "Scène de réconciliation",
+          "simple": "Écris une scène de réconciliation.",
+          "premium": "Rédige une scène touchante où deux personnages se réconcilient après un conflit. Ton apaisé.",
+          "expert": "Rôle : Auteur spécialisé en émotions relationnelles. Contexte : Deux personnages mettent fin à un conflit important. Objectif : Créer une scène sincère et apaisante. Contraintes : Ton doux · Émotions nuancées · Dialogues sincères. Format : Contexte du conflit → Approche → Réconciliation → Conclusion positive. Style : Sensible."
+        },
+        {
+          "id": 88,
+          "title": "Scène de départ",
+          "simple": "Écris une scène où un personnage part.",
+          "premium": "Rédige une scène émotive dans laquelle un personnage quitte un lieu ou une personne importante. Ton mélancolique.",
+          "expert": "Rôle : Auteur dramatique. Contexte : Le départ doit être chargé d'émotion. Objectif : Créer une scène touchante et mémorable. Contraintes : Ton mélancolique · Détails émotionnels. Format : Contexte → Décision → Départ → Résonance émotionnelle. Style : Dramatique."
+        },
+        {
+          "id": 89,
+          "title": "Scène de décision difficile",
+          "simple": "Écris une scène où un personnage doit prendre une décision difficile.",
+          "premium": "Rédige une scène dans laquelle un personnage hésite entre deux choix importants. Ton tendu, introspectif.",
+          "expert": "Rôle : Auteur psychologique. Contexte : Le personnage est face à un dilemme moral ou personnel. Objectif : Explorer tension et réflexion. Contraintes : Ton introspectif · Détails émotionnels. Format : Contexte → Options → Hésitation → Décision. Style : Psychologique."
+        },
+        {
+          "id": 90,
+          "title": "Scène de confrontation intérieure",
+          "simple": "Écris une scène où un personnage se parle à lui-même.",
+          "premium": "Rédige une scène introspective où un personnage débat intérieurement d'un choix difficile. Ton psychologique.",
+          "expert": "Rôle : Auteur introspectif. Contexte : Le personnage vit un conflit interne intense. Objectif : Explorer pensées, contradictions et émotions. Contraintes : Ton introspectif · Structure claire. Format : Contexte → Pensées opposées → Tension → Conclusion ouverte. Style : Psychologique."
+        },
+        {
+          "id": 91,
+          "title": "Scène de révélation identitaire",
+          "simple": "Écris une scène où un personnage découvre quelque chose sur lui-même.",
+          "premium": "Rédige une scène introspective dans laquelle un personnage fait une découverte importante sur son identité. Ton profond.",
+          "expert": "Rôle : Auteur psychologique. Contexte : Le personnage vit une prise de conscience majeure. Objectif : Explorer émotions, pensées et transformation intérieure. Contraintes : Ton introspectif · Détails émotionnels. Format : Contexte → Déclencheur → Révélation → Réaction. Style : Psychologique."
+        },
+        {
+          "id": 92,
+          "title": "Scène de révélation finale",
+          "simple": "Écris une scène de fin avec une révélation.",
+          "premium": "Rédige une scène finale où un personnage découvre la vérité ultime. Ton dramatique, intense.",
+          "expert": "Rôle : Auteur de climax narratif. Contexte : La scène doit conclure une histoire avec force. Objectif : Créer une révélation finale mémorable. Contraintes : Suspense · Intensité émotionnelle. Format : Mise en place → Révélation → Réaction → Conclusion. Style : Dramatique."
+        },
+        {
+          "id": 93,
+          "title": "Réécriture — Style dramatique",
+          "simple": "Rends ce texte dramatique.",
+          "premium": "Transforme un texte simple en version dramatique, avec tension, émotions fortes et rythme intense.",
+          "expert": "Rôle : Auteur dramatique. Contexte : Le texte doit gagner en intensité émotionnelle. Objectif : Amplifier tension et émotions. Contraintes : Ton dramatique · Phrases rythmées. Format : Version dramatique + explication des choix. Style : Dramatique et expressif."
+        },
+        {
+          "id": 94,
+          "title": "Réécriture — Style minimaliste",
+          "simple": "Rends ce texte minimaliste.",
+          "premium": "Réécris un texte en version minimaliste, avec phrases courtes et style épuré.",
+          "expert": "Rôle : Auteur minimaliste. Contexte : Le texte doit être réduit à l'essentiel. Objectif : Épurer sans perdre le sens. Contraintes : Phrases courtes · Vocabulaire simple. Format : Version minimaliste + liste des simplifications. Style : Minimaliste."
+        },
+        {
+          "id": 95,
+          "title": "Réécriture — Style humoristique subtil",
+          "simple": "Rends ce texte légèrement drôle.",
+          "premium": "Réécris un texte en version humoristique subtile, avec ironie douce et légèreté.",
+          "expert": "Rôle : Auteur d'humour fin. Contexte : Le texte doit devenir amusant sans exagération. Objectif : Ajouter humour léger et finesse. Contraintes : Ton subtil · Pas de caricature. Format : Version humoristique + explication des choix. Style : Humour fin."
+        },
+        {
+          "id": 96,
+          "title": "Réécriture — Style enfantin",
+          "simple": "Rends ce texte adapté aux enfants.",
+          "premium": "Réécris un texte en version enfantine, simple, imagée et accessible (6–8 ans).",
+          "expert": "Rôle : Auteur jeunesse. Contexte : Le texte doit être compréhensible et amusant pour des enfants. Objectif : Simplifier, illustrer, rendre ludique. Contraintes : Vocabulaire simple · Ton joyeux. Format : Version enfantine + liste des simplifications. Style : Jeunesse."
+        },
+        {
+          "id": 97,
+          "title": "Réécriture — Style structuré",
+          "simple": "Organise ce texte.",
+          "premium": "Réécris un texte en le structurant clairement avec titres et sous-titres.",
+          "expert": "Rôle : Rédacteur professionnel. Contexte : Le texte doit être clarifié et structuré. Objectif : Améliorer lisibilité et logique. Contraintes : Structure claire · Titres pertinents. Format : Version structurée + explication des choix. Style : Clair et méthodique."
+        },
+        {
+          "id": 98,
+          "title": "Réécriture — Style humoristique avancé",
+          "simple": "Rends ce texte drôle.",
+          "premium": "Transforme un texte sérieux en version humoristique, avec jeux de mots et exagérations.",
+          "expert": "Rôle : Humoriste-rédacteur. Contexte : Le texte doit devenir amusant sans perdre son sens. Objectif : Ajouter humour, rythme et absurdité. Contraintes : Respect du sens · Humour subtil. Format : Version humoristique + explication des choix. Style : Comique."
+        },
+        {
+          "id": 99,
+          "title": "Réécriture — Style ancien (XVIIe–XVIIIe)",
+          "simple": "Rends ce texte ancien.",
+          "premium": "Réécris un texte en style ancien, inspiré du français classique (XVIIe–XVIIIe siècle).",
+          "expert": "Rôle : Styliste littéraire classique. Contexte : Le texte doit évoquer une époque ancienne. Objectif : Adapter vocabulaire, syntaxe et ton. Contraintes : Vocabulaire ancien · Syntaxe longue. Format : Version ancienne + explication des choix. Style : Classique ancien."
+        },
+        {
+          "id": 100,
+          "title": "Transformation de style — Libre",
+          "simple": "Réécris ce texte dans un autre style.",
+          "premium": "Transforme un texte en changeant le style (humoristique, dramatique, poétique) tout en gardant le sens.",
+          "expert": "Rôle : Styliste littéraire. Contexte : Le texte doit être réécrit dans un style choisi. Objectif : Adapter le ton sans changer le sens. Contraintes : Respect du sens · Style marqué. Format : Version transformée + explication du style. Style : Variable selon demande."
+        }
+      ]
+    }
+  ]
+}

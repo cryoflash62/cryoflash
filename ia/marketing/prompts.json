@@ -1,0 +1,651 @@
+{
+  "title": "IA de Marketing",
+  "subtitle": "100 prompts pour copywriting, stratégie, publicité, rétention et lancements",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Fondamentaux du Marketing",
+      "range": "1–10",
+      "icon": "🎯",
+      "color": "#f5c842",
+      "prompts": [
+        {
+          "id": 1, "title": "Générer un slogan",
+          "simple": "Crée un slogan.",
+          "premium": "Crée un slogan court, mémorable et orienté bénéfices.",
+          "expert": "Rôle : Copywriter branding. Objectif : Créer un slogan percutant, mémorisable et différenciant. Contraintes : Maximum 5 mots · Ton dynamique · Bénéfice clair. Format : 5 slogans + slogan premium recommandé. Style : Branding moderne."
+        },
+        {
+          "id": 2, "title": "Créer une proposition de valeur",
+          "simple": "Crée une proposition de valeur.",
+          "premium": "Crée une proposition de valeur claire, orientée bénéfices et différenciation.",
+          "expert": "Rôle : Stratège marketing. Objectif : Résumer l'offre en une phrase impactante. Contraintes : Bénéfice principal · Preuve ou élément différenciant. Format : Proposition de valeur + 3 variantes. Style : Business clair."
+        },
+        {
+          "id": 3, "title": "Rédiger un texte publicitaire",
+          "simple": "Rédige un texte publicitaire.",
+          "premium": "Rédige un texte publicitaire court, engageant et orienté conversion.",
+          "expert": "Rôle : Copywriter conversion. Objectif : Maximiser l'attention et l'envie d'acheter. Contraintes : Accroche forte · Bénéfices mis en avant · Appel à l'action subtil. Format : Texte publicitaire + liste des leviers utilisés. Style : Copywriting direct."
+        },
+        {
+          "id": 4, "title": "Créer un persona marketing",
+          "simple": "Crée un persona.",
+          "premium": "Crée un persona marketing complet avec motivations, besoins et objections.",
+          "expert": "Rôle : Analyste marketing. Objectif : Définir un persona exploitable pour la stratégie marketing. Contraintes : Données démographiques · Objectifs · Freins · Motivations. Format : Persona détaillé + insights clés. Style : Marketing analytique."
+        },
+        {
+          "id": 5, "title": "Créer un pitch commercial",
+          "simple": "Crée un pitch commercial.",
+          "premium": "Crée un pitch commercial court, clair et impactant.",
+          "expert": "Rôle : Coach pitch vente. Objectif : Présenter l'offre en 20 secondes. Contraintes : Problème · Solution · Bénéfice · Différenciation. Format : Pitch 20 secondes + Version longue 45 secondes. Style : Pitch percutant."
+        },
+        {
+          "id": 6, "title": "Créer un message pour publicité Facebook",
+          "simple": "Crée un texte pour pub Facebook.",
+          "premium": "Crée un texte optimisé pour une publicité Facebook, court, engageant et orienté clic.",
+          "expert": "Rôle : Media buyer copywriter. Objectif : Maximiser CTR et engagement. Contraintes : Accroche forte · Bénéfice clair · CTA court. Format : 3 versions courte, moyenne, longue. Style : Social ads."
+        },
+        {
+          "id": 7, "title": "Créer un message pour Google Ads",
+          "simple": "Crée un texte pour Google Ads.",
+          "premium": "Crée un texte optimisé pour Google Ads, clair, concis et orienté conversion.",
+          "expert": "Rôle : Spécialiste SEA. Objectif : Maximiser taux de clic et pertinence. Contraintes : Titres 30 caractères · Descriptions 90 caractères. Format : 3 annonces complètes. Style : SEA optimisé."
+        },
+        {
+          "id": 8, "title": "Créer un email marketing",
+          "simple": "Rédige un email marketing.",
+          "premium": "Rédige un email marketing clair, engageant et orienté conversion.",
+          "expert": "Rôle : Email marketer. Objectif : Générer clics et réponses. Contraintes : Objet accrocheur · Structure AIDA · CTA clair. Format : Email complet + 3 objets alternatifs. Style : Email conversion."
+        },
+        {
+          "id": 9, "title": "Créer un script vidéo publicitaire",
+          "simple": "Crée un script vidéo.",
+          "premium": "Crée un script vidéo publicitaire court et impactant.",
+          "expert": "Rôle : Scénariste marketing. Objectif : Captiver en moins de 30 secondes. Contraintes : Hook 3 secondes · Bénéfices · CTA final. Format : Script 30 secondes + Version 15 secondes. Style : Vidéo dynamique."
+        },
+        {
+          "id": 10, "title": "Créer un texte pour landing page",
+          "simple": "Rédige un texte pour landing page.",
+          "premium": "Rédige un texte clair, structuré et orienté conversion pour une landing page.",
+          "expert": "Rôle : Copywriter CRO. Objectif : Maximiser conversion et clarté. Contraintes : Titre · Sous-titre · Bénéfices · Preuves · CTA. Format : Structure complète + variantes de titres. Style : Conversion optimisée."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Stratégie & Planification",
+      "range": "11–25",
+      "icon": "🗺️",
+      "color": "#0ea5e9",
+      "prompts": [
+        {
+          "id": 11, "title": "Créer un plan marketing complet",
+          "simple": "Fais un plan marketing.",
+          "premium": "Crée un plan marketing clair, structuré et orienté résultats.",
+          "expert": "Rôle : Directeur marketing senior. Objectif : Construire un plan marketing complet et actionnable. Contraintes : Analyse du marché · Positionnement · Objectifs SMART · Stratégies · KPIs. Format : Plan complet + Synthèse exécutive. Style : Stratégique opérationnel."
+        },
+        {
+          "id": 12, "title": "Créer un calendrier éditorial",
+          "simple": "Fais un calendrier éditorial.",
+          "premium": "Crée un calendrier éditorial clair, structuré et adapté à ma niche.",
+          "expert": "Rôle : Content strategist. Objectif : Planifier du contenu cohérent et performant. Contraintes : 30 jours · Formats variés · Objectifs par contenu. Format : Calendrier complet + recommandations stratégiques. Style : Éditorial structuré."
+        },
+        {
+          "id": 13, "title": "Créer une analyse SWOT",
+          "simple": "Fais une analyse SWOT.",
+          "premium": "Crée une analyse SWOT claire et exploitable.",
+          "expert": "Rôle : Analyste stratégique. Objectif : Identifier forces, faiblesses, opportunités et menaces. Contraintes : Analyse précise · Recommandations. Format : SWOT + synthèse stratégique. Style : Analytique."
+        },
+        {
+          "id": 14, "title": "Créer une campagne marketing complète",
+          "simple": "Crée une campagne marketing.",
+          "premium": "Crée une campagne marketing complète, cohérente et orientée résultats.",
+          "expert": "Rôle : Directeur marketing. Objectif : Concevoir une campagne multicanale performante. Contraintes : Objectif · Message clé · Canaux · Budget · KPIs. Format : Campagne complète + plan d'action. Style : Stratégique opérationnel."
+        },
+        {
+          "id": 15, "title": "Créer un message pour newsletter",
+          "simple": "Rédige une newsletter.",
+          "premium": "Rédige une newsletter engageante, claire et orientée clic.",
+          "expert": "Rôle : Email marketer. Objectif : Maximiser taux d'ouverture et de clic. Contraintes : Objet accrocheur · Structure claire · CTA. Format : Newsletter complète + 3 objets alternatifs. Style : Email marketing."
+        },
+        {
+          "id": 16, "title": "Créer un message pour cold email",
+          "simple": "Fais un cold email.",
+          "premium": "Rédige un cold email court, clair et orienté réponse.",
+          "expert": "Rôle : SDR Copywriter B2B. Objectif : Obtenir une réponse rapide. Contraintes : 80 mots max · Personnalisation · Proposition de valeur. Format : Email + 2 variantes. Style : Prospection B2B."
+        },
+        {
+          "id": 17, "title": "Créer un message pour TikTok Ads",
+          "simple": "Crée un texte pour TikTok Ads.",
+          "premium": "Crée un script court, dynamique et adapté à TikTok Ads.",
+          "expert": "Rôle : Spécialiste TikTok Ads. Objectif : Captiver en secondes. Contraintes : Hook immédiat · Ton fun · CTA simple. Format : Script 15 secondes + Script 30 secondes. Style : Ultra dynamique."
+        },
+        {
+          "id": 18, "title": "Créer un message pour Instagram Ads",
+          "simple": "Crée un texte pour Instagram Ads.",
+          "premium": "Crée un texte court, visuel et engageant pour Instagram Ads.",
+          "expert": "Rôle : Social ads strategist. Objectif : Maximiser engagement et clics. Contraintes : Ton visuel · Bénéfices clairs · CTA. Format : 3 versions courte, moyenne, longue. Style : Visuel lifestyle."
+        },
+        {
+          "id": 19, "title": "Créer un message pour LinkedIn Ads",
+          "simple": "Crée un texte pour LinkedIn Ads.",
+          "premium": "Crée un texte professionnel, clair et orienté B2B pour LinkedIn Ads.",
+          "expert": "Rôle : Spécialiste LinkedIn B2B. Objectif : Générer des leads qualifiés. Contraintes : Ton professionnel · Proposition de valeur · CTA. Format : 3 versions. Style : B2B premium."
+        },
+        {
+          "id": 20, "title": "Créer un message pour bannière publicitaire",
+          "simple": "Crée un texte pour une bannière.",
+          "premium": "Crée un texte court, clair et impactant pour une bannière publicitaire.",
+          "expert": "Rôle : Designer copywriter display. Objectif : Maximiser le taux de clic. Contraintes : 5 mots max pour le titre · 12 mots max pour le sous-titre. Format : 3 bannières complètes. Style : Display ads."
+        },
+        {
+          "id": 21, "title": "Créer un storytelling de marque",
+          "simple": "Crée un storytelling de marque.",
+          "premium": "Crée un storytelling de marque inspirant, cohérent et mémorable.",
+          "expert": "Rôle : Brand strategist storyteller. Objectif : Construire une histoire de marque émotionnelle et différenciante. Contraintes : Origine · Mission · Vision · Valeurs · Transformation client. Format : Storytelling complet + version courte pitch. Style : Narratif émotionnel."
+        },
+        {
+          "id": 22, "title": "Créer un message pour page À propos",
+          "simple": "Rédige une page À propos.",
+          "premium": "Rédige une page À propos claire, humaine et orientée confiance.",
+          "expert": "Rôle : Copywriter branding. Objectif : Humaniser la marque et renforcer la crédibilité. Contraintes : Histoire · Mission · Valeurs · Preuves. Format : Page complète + accroches alternatives. Style : Authentique professionnel."
+        },
+        {
+          "id": 23, "title": "Créer un message pour page produit",
+          "simple": "Rédige une page produit.",
+          "premium": "Rédige une page produit claire, persuasive et orientée conversion.",
+          "expert": "Rôle : Copywriter e-commerce. Objectif : Maximiser conversion et désir. Contraintes : Bénéfices · Preuves · CTA · Objections. Format : Page produit complète + titres alternatifs. Style : E-commerce optimisé."
+        },
+        {
+          "id": 24, "title": "Créer un argumentaire de vente",
+          "simple": "Fais un argumentaire de vente.",
+          "premium": "Crée un argumentaire de vente clair, structuré et orienté bénéfices.",
+          "expert": "Rôle : Expert en persuasion et vente. Objectif : Structurer un discours de vente efficace. Contraintes : Problème · Solution · Bénéfices · Preuves · CTA. Format : Argumentaire complet + version courte pitch. Style : Persuasion professionnelle."
+        },
+        {
+          "id": 25, "title": "Créer un plan de lancement produit",
+          "simple": "Fais un plan de lancement.",
+          "premium": "Crée un plan de lancement produit clair, structuré et orienté impact.",
+          "expert": "Rôle : Product marketing manager. Objectif : Planifier un lancement complet et efficace. Contraintes : Pré-lancement · Lancement · Post-lancement · KPIs. Format : Plan complet + checklist opérationnelle. Style : Stratégique & actionnable."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Publicité & Acquisition",
+      "range": "26–45",
+      "icon": "📣",
+      "color": "#ef4444",
+      "prompts": [
+        {
+          "id": 26, "title": "Créer un message pour retargeting",
+          "simple": "Crée un message de retargeting.",
+          "premium": "Crée un message de retargeting court, engageant et orienté conversion.",
+          "expert": "Rôle : Spécialiste retargeting CRO. Objectif : Récupérer les visiteurs hésitants. Contraintes : Rappel du bénéfice · Réassurance · CTA. Format : 3 messages — version agressive, douce, humoristique. Style : Conversion ciblée."
+        },
+        {
+          "id": 27, "title": "Créer un message pour onboarding client",
+          "simple": "Rédige un message d'onboarding.",
+          "premium": "Rédige un message d'onboarding clair, chaleureux et engageant.",
+          "expert": "Rôle : UX writer customer success. Objectif : Accueillir, rassurer et guider le nouveau client. Contraintes : Ton chaleureux · Étapes simples · CTA. Format : Message onboarding + version courte SMS. Style : UX friendly."
+        },
+        {
+          "id": 28, "title": "Créer un message pour panier abandonné",
+          "simple": "Fais un message panier abandonné.",
+          "premium": "Rédige un message de relance panier abandonné clair, rassurant et orienté conversion.",
+          "expert": "Rôle : Copywriter e-commerce. Objectif : Récupérer les ventes perdues. Contraintes : Rappel du produit · Réassurance · CTA · Option d'incitation. Format : 3 messages version courte et longue. Style : Conversion e-commerce."
+        },
+        {
+          "id": 29, "title": "Créer un message pour fidélisation client",
+          "simple": "Fais un message de fidélisation.",
+          "premium": "Rédige un message de fidélisation chaleureux, personnalisé et engageant.",
+          "expert": "Rôle : Customer retention strategist. Objectif : Renforcer la relation client. Contraintes : Ton humain · Valeur ajoutée · Invitation à revenir. Format : Message fidélisation + variantes. Style : Relationnel premium."
+        },
+        {
+          "id": 30, "title": "Créer un message pour teaser de lancement",
+          "simple": "Fais un teaser.",
+          "premium": "Rédige un teaser court, mystérieux et excitant pour un lancement.",
+          "expert": "Rôle : Copywriter teasing & hype. Objectif : Créer anticipation et curiosité. Contraintes : Mystère · Suspense · Bénéfice suggéré. Format : 3 teasers + version ultra courte 5 mots. Style : Teasing émotionnel."
+        },
+        {
+          "id": 31, "title": "Créer un plan de contenu pour réseaux sociaux",
+          "simple": "Fais un plan de contenu pour réseaux sociaux.",
+          "premium": "Crée un plan de contenu clair, varié et optimisé pour les réseaux sociaux.",
+          "expert": "Rôle : Social media strategist. Objectif : Construire un calendrier de contenu cohérent et performant. Contraintes : 30 jours · Formats variés (carrousel, vidéo, reel, post) · Objectifs par publication. Format : Plan complet + recommandations stratégiques. Style : Social media optimisé."
+        },
+        {
+          "id": 32, "title": "Créer un message pour offre limitée",
+          "simple": "Rédige un message pour une offre limitée.",
+          "premium": "Rédige un message clair, urgent et orienté conversion pour une offre limitée.",
+          "expert": "Rôle : Copywriter conversion & urgence. Objectif : Maximiser l'effet FOMO. Contraintes : Urgence · Bénéfice clair · CTA. Format : 3 messages version courte et longue. Style : FOMO maîtrisé."
+        },
+        {
+          "id": 33, "title": "Créer un message pour campagne d'influence",
+          "simple": "Fais un message pour une campagne d'influence.",
+          "premium": "Rédige un message clair, engageant et adapté à une campagne d'influence.",
+          "expert": "Rôle : Influence marketing strategist. Objectif : Créer un message naturel, authentique et engageant. Contraintes : Ton conversationnel · Mise en avant du produit · Authenticité. Format : Script influenceur + variantes (fun, pro, storytelling). Style : Influence authentique."
+        },
+        {
+          "id": 34, "title": "Créer un script UGC",
+          "simple": "Rédige un script UGC.",
+          "premium": "Rédige un script UGC naturel, authentique et orienté conversion.",
+          "expert": "Rôle : Spécialiste UGC & social proof. Objectif : Créer un contenu qui ressemble à un avis client spontané. Contraintes : Ton naturel · Problème-solution · Preuve sociale. Format : Script UGC 30 secondes + version 15 secondes. Style : UGC authentique."
+        },
+        {
+          "id": 35, "title": "Créer un email de relance",
+          "simple": "Fais un email de relance.",
+          "premium": "Rédige un email de relance clair, professionnel et orienté conversion.",
+          "expert": "Rôle : Email marketer. Objectif : Réactiver un contact inactif. Contraintes : Ton humain · Proposition de valeur · CTA. Format : Email complet + 3 objets alternatifs. Style : Relance professionnelle."
+        },
+        {
+          "id": 36, "title": "Créer un message pour campagne de notoriété",
+          "simple": "Fais un message pour augmenter la notoriété.",
+          "premium": "Rédige un message clair, mémorable et orienté notoriété.",
+          "expert": "Rôle : Brand strategist. Objectif : Renforcer la visibilité et la reconnaissance de marque. Contraintes : Message simple · Ton cohérent avec la marque. Format : 3 messages + version storytelling. Style : Branding."
+        },
+        {
+          "id": 37, "title": "Créer un message pour campagne de recrutement RH",
+          "simple": "Rédige un message de recrutement.",
+          "premium": "Rédige un message clair, attractif et professionnel pour une campagne de recrutement.",
+          "expert": "Rôle : Copywriter RH. Objectif : Attirer des candidats qualifiés. Contraintes : Ton professionnel · Avantages mis en avant · CTA clair. Format : Message recrutement + 2 variantes. Style : RH moderne."
+        },
+        {
+          "id": 38, "title": "Créer un message pour réactivation clients",
+          "simple": "Fais un message pour réactiver des clients.",
+          "premium": "Rédige un message chaleureux, personnalisé et orienté retour client.",
+          "expert": "Rôle : Customer retention strategist. Objectif : Réengager des clients inactifs. Contraintes : Ton humain · Valeur ajoutée · Invitation à revenir. Format : Message réactivation + 2 variantes. Style : Relationnel premium."
+        },
+        {
+          "id": 39, "title": "Créer un message pour partenariat commercial",
+          "simple": "Rédige un message de partenariat.",
+          "premium": "Rédige un message professionnel, clair et orienté collaboration pour un partenariat.",
+          "expert": "Rôle : Business developer. Objectif : Ouvrir une opportunité de collaboration. Contraintes : Ton professionnel · Proposition de valeur · Bénéfices mutuels. Format : Message partenariat + version courte LinkedIn. Style : Business collaboratif."
+        },
+        {
+          "id": 40, "title": "Créer un message pour campagne de précommande",
+          "simple": "Fais un message de précommande.",
+          "premium": "Rédige un message clair, excitant et orienté précommande.",
+          "expert": "Rôle : Product launch strategist. Objectif : Générer un maximum de précommandes. Contraintes : Bénéfice clé · Exclusivité · CTA. Format : 3 messages version courte et longue. Style : Lancement premium."
+        },
+        {
+          "id": 41, "title": "Créer un message pour booster l'engagement",
+          "simple": "Rédige un message pour augmenter l'engagement.",
+          "premium": "Rédige un message engageant, interactif et optimisé pour générer des réactions.",
+          "expert": "Rôle : Social media engagement strategist. Objectif : Maximiser commentaires, likes et interactions. Contraintes : Question ouverte · Ton conversationnel · CTA d'interaction. Format : 3 messages version courte et longue. Style : Engagement boost."
+        },
+        {
+          "id": 42, "title": "Créer un message pour campagne de branding",
+          "simple": "Fais un message de branding.",
+          "premium": "Rédige un message clair, mémorable et aligné avec l'identité de marque.",
+          "expert": "Rôle : Brand strategist. Objectif : Renforcer l'image et la cohérence de marque. Contraintes : Ton cohérent · Valeurs mises en avant. Format : Message branding + 2 variantes. Style : Branding premium."
+        },
+        {
+          "id": 43, "title": "Créer un message de storytelling marketing",
+          "simple": "Rédige un message storytelling.",
+          "premium": "Rédige un message storytelling émotionnel, captivant et orienté marque.",
+          "expert": "Rôle : Storyteller marketing. Objectif : Créer une connexion émotionnelle forte. Contraintes : Structure situation-tension-résolution · Ton narratif. Format : Storytelling complet + version courte hook. Style : Narratif émotionnel."
+        },
+        {
+          "id": 44, "title": "Créer un message avec témoignages clients",
+          "simple": "Fais un message avec témoignages clients.",
+          "premium": "Rédige un message mettant en avant des témoignages clients de manière persuasive.",
+          "expert": "Rôle : Social proof strategist. Objectif : Utiliser la preuve sociale pour renforcer la confiance. Contraintes : Témoignages courts · Bénéfices concrets. Format : Message principal + 2 variantes. Style : Preuve sociale."
+        },
+        {
+          "id": 45, "title": "Créer un post LinkedIn de lancement",
+          "simple": "Rédige un post LinkedIn de lancement.",
+          "premium": "Rédige un post LinkedIn professionnel, clair et orienté visibilité pour un lancement.",
+          "expert": "Rôle : LinkedIn content strategist. Objectif : Maximiser portée et engagement B2B. Contraintes : Ton professionnel · Valeur ajoutée · CTA discret. Format : Post complet + 3 hooks alternatifs. Style : B2B premium."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Engagement & Rétention",
+      "range": "46–65",
+      "icon": "🔄",
+      "color": "#10b981",
+      "prompts": [
+        {
+          "id": 46, "title": "Recruter des ambassadeurs de marque",
+          "simple": "Fais un message pour recruter des ambassadeurs.",
+          "premium": "Rédige un message clair, motivant et attractif pour recruter des ambassadeurs.",
+          "expert": "Rôle : Community ambassador manager. Objectif : Attirer des ambassadeurs motivés et alignés. Contraintes : Ton enthousiaste · Avantages mis en avant · CTA clair. Format : Message principal + version courte réseaux sociaux. Style : Communautaire."
+        },
+        {
+          "id": 47, "title": "Créer un message pour pré-inscription",
+          "simple": "Rédige un message de pré-inscription.",
+          "premium": "Rédige un message clair, excitant et orienté pré-inscription.",
+          "expert": "Rôle : Growth marketer. Objectif : Maximiser le nombre de pré-inscriptions. Contraintes : Bénéfice clé · Exclusivité · CTA. Format : 3 messages version courte et longue. Style : Growth marketing."
+        },
+        {
+          "id": 48, "title": "Créer un message de réassurance",
+          "simple": "Fais un message de réassurance.",
+          "premium": "Rédige un message rassurant, clair et orienté confiance.",
+          "expert": "Rôle : Copywriter réassurance & conversion. Objectif : Réduire les doutes et objections. Contraintes : Ton calme · Preuves · Garanties. Format : Message principal + 2 variantes. Style : Réassurance premium."
+        },
+        {
+          "id": 49, "title": "Créer un message de cross-selling",
+          "simple": "Fais un message de cross-selling.",
+          "premium": "Rédige un message clair, pertinent et orienté cross-selling.",
+          "expert": "Rôle : E-commerce strategist. Objectif : Augmenter le panier moyen. Contraintes : Produit complémentaire · Bénéfice clair · CTA. Format : 3 messages version courte et longue. Style : E-commerce optimisé."
+        },
+        {
+          "id": 50, "title": "Créer un message d'up-selling",
+          "simple": "Fais un message d'up-selling.",
+          "premium": "Rédige un message clair, convaincant et orienté up-selling.",
+          "expert": "Rôle : CRO revenue strategist. Objectif : Faire monter en gamme le client. Contraintes : Valeur ajoutée · Comparaison bénéfices · CTA. Format : 3 messages version courte et longue. Style : Premium upgrade."
+        },
+        {
+          "id": 51, "title": "Lancer une application mobile",
+          "simple": "Rédige un message pour lancer une application.",
+          "premium": "Rédige un message clair, moderne et orienté téléchargement pour le lancement d'une application.",
+          "expert": "Rôle : App marketing specialist. Objectif : Maximiser les téléchargements dès le lancement. Contraintes : Bénéfice principal · Fonctionnalité phare · CTA clair. Format : 3 messages version courte et longue. Style : Mobile first."
+        },
+        {
+          "id": 52, "title": "Créer un message de parrainage",
+          "simple": "Fais un message de parrainage.",
+          "premium": "Rédige un message clair, attractif et orienté parrainage.",
+          "expert": "Rôle : Growth marketer. Objectif : Encourager les clients à inviter leurs amis. Contraintes : Avantage parrain · Avantage filleul · CTA. Format : 3 messages + version courte réseaux sociaux. Style : Viral friendly."
+        },
+        {
+          "id": 53, "title": "Créer un message de rétention client",
+          "simple": "Fais un message de rétention.",
+          "premium": "Rédige un message clair, chaleureux et orienté rétention client.",
+          "expert": "Rôle : Customer retention strategist. Objectif : Garder les clients actifs et engagés. Contraintes : Ton humain · Valeur ajoutée · Invitation à continuer. Format : Message principal + 2 variantes. Style : Relationnel premium."
+        },
+        {
+          "id": 54, "title": "Créer un message de satisfaction client",
+          "simple": "Rédige un message de satisfaction client.",
+          "premium": "Rédige un message clair, chaleureux et orienté feedback pour mesurer la satisfaction client.",
+          "expert": "Rôle : Customer experience specialist. Objectif : Obtenir un maximum de retours qualitatifs. Contraintes : Ton humain · Question simple · CTA vers questionnaire. Format : Message principal + version courte SMS. Style : CX friendly."
+        },
+        {
+          "id": 55, "title": "Créer un message de repositionnement de marque",
+          "simple": "Fais un message de repositionnement.",
+          "premium": "Rédige un message clair, stratégique et orienté repositionnement de marque.",
+          "expert": "Rôle : Brand strategist senior. Objectif : Expliquer le nouveau positionnement de manière inspirante. Contraintes : Pourquoi le changement · Nouvelle vision · Valeur pour le client. Format : Message principal + version courte réseaux sociaux. Style : Branding stratégique."
+        },
+        {
+          "id": 56, "title": "Créer un message pour lancement d'événement",
+          "simple": "Rédige un message pour annoncer un événement.",
+          "premium": "Rédige un message clair, excitant et orienté inscription pour un événement.",
+          "expert": "Rôle : Event marketing specialist. Objectif : Maximiser les inscriptions. Contraintes : Date · Bénéfice clé · CTA. Format : 3 messages version courte et longue. Style : Événementiel dynamique."
+        },
+        {
+          "id": 57, "title": "Créer un message pour lancement de formation",
+          "simple": "Fais un message pour lancer une formation.",
+          "premium": "Rédige un message clair, motivant et orienté inscription pour une formation.",
+          "expert": "Rôle : Infoproduits marketer. Objectif : Générer un maximum d'inscriptions. Contraintes : Problème-solution · Résultat attendu · CTA. Format : Message principal + 2 variantes. Style : Infoproduit premium."
+        },
+        {
+          "id": 58, "title": "Lancer un nouveau service",
+          "simple": "Rédige un message pour lancer un service.",
+          "premium": "Rédige un message clair, professionnel et orienté conversion pour un nouveau service.",
+          "expert": "Rôle : Service marketing strategist. Objectif : Présenter le service de manière simple et attractive. Contraintes : Bénéfice clé · Différenciation · CTA. Format : 3 messages version courte et longue. Style : Service premium."
+        },
+        {
+          "id": 59, "title": "Relancer après un essai gratuit",
+          "simple": "Fais un message après un essai gratuit.",
+          "premium": "Rédige un message clair, motivant et orienté conversion après un essai gratuit.",
+          "expert": "Rôle : SaaS retention specialist. Objectif : Convertir les utilisateurs gratuits en clients payants. Contraintes : Rappel des bénéfices utilisés · Valeur ajoutée · CTA. Format : Message principal + 2 variantes. Style : SaaS conversion."
+        },
+        {
+          "id": 60, "title": "Lancer un produit physique",
+          "simple": "Rédige un message pour lancer un produit physique.",
+          "premium": "Rédige un message clair, attractif et orienté achat pour un produit physique.",
+          "expert": "Rôle : Product launch marketer. Objectif : Générer un maximum de ventes dès le lancement. Contraintes : Bénéfice clé · Différenciation · CTA. Format : 3 messages version courte et longue. Style : Retail premium."
+        },
+        {
+          "id": 61, "title": "Relancer un devis non signé",
+          "simple": "Rédige un message pour relancer un devis.",
+          "premium": "Rédige un message professionnel, clair et orienté conversion pour relancer un devis non signé.",
+          "expert": "Rôle : Sales copywriter B2B. Objectif : Encourager le prospect à finaliser sa décision. Contraintes : Ton professionnel · Rappel de valeur · CTA clair. Format : Message principal + variantes (douce, directe, urgente). Style : Prospection premium."
+        },
+        {
+          "id": 62, "title": "Réactiver des abonnés newsletter inactifs",
+          "simple": "Fais un message pour réactiver des abonnés newsletter.",
+          "premium": "Rédige un message clair, chaleureux et orienté réengagement pour réactiver des abonnés inactifs.",
+          "expert": "Rôle : Email retention strategist. Objectif : Réengager les abonnés inactifs. Contraintes : Ton humain · Valeur ajoutée · CTA. Format : Message principal + 3 objets alternatifs. Style : Email relationnel."
+        },
+        {
+          "id": 63, "title": "Collecter des avis clients",
+          "simple": "Rédige un message pour demander un avis.",
+          "premium": "Rédige un message clair, chaleureux et orienté collecte d'avis clients.",
+          "expert": "Rôle : Customer experience specialist. Objectif : Obtenir un maximum d'avis authentiques. Contraintes : Ton humain · Simplicité · CTA vers avis. Format : Message principal + version courte SMS. Style : CX friendly."
+        },
+        {
+          "id": 64, "title": "Lancer un podcast",
+          "simple": "Rédige un message pour lancer un podcast.",
+          "premium": "Rédige un message clair, attractif et orienté écoute pour un lancement de podcast.",
+          "expert": "Rôle : Podcast marketing strategist. Objectif : Maximiser les écoutes dès le lancement. Contraintes : Thème · Valeur ajoutée · CTA. Format : 3 messages version courte et longue. Style : Audio friendly."
+        },
+        {
+          "id": 65, "title": "Lancer une chaîne YouTube",
+          "simple": "Rédige un message pour lancer une chaîne YouTube.",
+          "premium": "Rédige un message clair, dynamique et orienté abonnements pour une chaîne YouTube.",
+          "expert": "Rôle : YouTube growth strategist. Objectif : Générer abonnements et premières vues. Contraintes : Ton dynamique · Valeur du contenu · CTA. Format : Message principal + 3 hooks alternatifs. Style : YouTube growth."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lancements Spécifiques",
+      "range": "66–100",
+      "icon": "🚀",
+      "color": "#a855f7",
+      "prompts": [
+        {
+          "id": 66, "title": "Lancer un blog",
+          "simple": "Rédige un message pour lancer un blog.",
+          "premium": "Rédige un message clair, attractif et orienté trafic pour un lancement de blog.",
+          "expert": "Rôle : Content marketing strategist. Objectif : Générer trafic et abonnements. Contraintes : Ton informatif · Valeur ajoutée · CTA. Format : Message principal + version courte réseaux sociaux. Style : Éditorial moderne."
+        },
+        {
+          "id": 67, "title": "Recruter des bêta-testeurs",
+          "simple": "Fais un message pour recruter des bêta-testeurs.",
+          "premium": "Rédige un message clair, motivant et orienté participation pour recruter des bêta-testeurs.",
+          "expert": "Rôle : Product testing strategist. Objectif : Attirer des testeurs motivés et pertinents. Contraintes : Ton enthousiaste · Avantages · CTA. Format : Message principal + version courte. Style : Tech friendly."
+        },
+        {
+          "id": 68, "title": "Lancer une communauté",
+          "simple": "Rédige un message pour lancer une communauté.",
+          "premium": "Rédige un message clair, chaleureux et orienté engagement pour lancer une communauté.",
+          "expert": "Rôle : Community builder. Objectif : Attirer les premiers membres actifs. Contraintes : Ton humain · Valeur de la communauté · CTA. Format : Message principal + 2 variantes. Style : Communautaire."
+        },
+        {
+          "id": 69, "title": "Lancer une newsletter",
+          "simple": "Rédige un message pour lancer une newsletter.",
+          "premium": "Rédige un message clair, attractif et orienté inscription pour une newsletter.",
+          "expert": "Rôle : Email growth strategist. Objectif : Maximiser les inscriptions. Contraintes : Valeur ajoutée · Fréquence · CTA. Format : Message principal + 3 hooks alternatifs. Style : Email premium."
+        },
+        {
+          "id": 70, "title": "Lancer une marque",
+          "simple": "Rédige un message pour lancer une marque.",
+          "premium": "Rédige un message clair, inspirant et orienté notoriété pour un lancement de marque.",
+          "expert": "Rôle : Brand launch strategist. Objectif : Introduire la marque de manière mémorable. Contraintes : Mission · Vision · Valeurs · Promesse. Format : Message principal + version courte réseaux sociaux. Style : Branding premium."
+        },
+        {
+          "id": 71, "title": "Lancer une boutique en ligne",
+          "simple": "Rédige un message pour lancer une boutique en ligne.",
+          "premium": "Rédige un message clair, attractif et orienté achat pour le lancement d'une boutique en ligne.",
+          "expert": "Rôle : E-commerce launch strategist. Objectif : Générer trafic et premières ventes. Contraintes : Bénéfice clé · Offre de lancement · CTA. Format : Message principal + version courte réseaux sociaux. Style : E-commerce premium."
+        },
+        {
+          "id": 72, "title": "Lancer une collection mode / lifestyle",
+          "simple": "Rédige un message pour lancer une collection.",
+          "premium": "Rédige un message clair, élégant et orienté désir pour une nouvelle collection.",
+          "expert": "Rôle : Fashion marketing specialist. Objectif : Créer envie et exclusivité. Contraintes : Ton premium · Mise en avant du style · CTA. Format : 3 messages version courte et longue. Style : Mode lifestyle."
+        },
+        {
+          "id": 73, "title": "Annoncer une nouvelle fonctionnalité",
+          "simple": "Rédige un message pour annoncer une nouvelle fonctionnalité.",
+          "premium": "Rédige un message clair, moderne et orienté adoption pour une nouvelle fonctionnalité.",
+          "expert": "Rôle : Product marketing manager. Objectif : Encourager l'utilisation immédiate de la fonctionnalité. Contraintes : Problème-solution · Bénéfice clé · CTA. Format : Message principal + 2 variantes. Style : SaaS moderne."
+        },
+        {
+          "id": 74, "title": "Lancer un service premium",
+          "simple": "Rédige un message pour lancer un service premium.",
+          "premium": "Rédige un message clair, élégant et orienté valeur pour un service premium.",
+          "expert": "Rôle : Premium service strategist. Objectif : Positionner le service comme haut de gamme. Contraintes : Ton premium · Valeur ajoutée · CTA. Format : Message principal + version courte réseaux sociaux. Style : Luxe & exclusivité."
+        },
+        {
+          "id": 75, "title": "Lancer un produit digital",
+          "simple": "Rédige un message pour lancer un produit digital.",
+          "premium": "Rédige un message clair, motivant et orienté conversion pour un produit digital.",
+          "expert": "Rôle : Digital product marketer. Objectif : Maximiser les ventes dès le lancement. Contraintes : Résultat attendu · Bénéfice clé · CTA. Format : 3 messages version courte et longue. Style : Digital premium."
+        },
+        {
+          "id": 76, "title": "Lancer un abonnement",
+          "simple": "Rédige un message pour lancer un abonnement.",
+          "premium": "Rédige un message clair, attractif et orienté inscription pour un abonnement.",
+          "expert": "Rôle : Subscription marketing specialist. Objectif : Maximiser les abonnements dès le lancement. Contraintes : Valeur continue · Avantages exclusifs · CTA. Format : Message principal + 2 variantes. Style : Abonnement premium."
+        },
+        {
+          "id": 77, "title": "Lancer un programme de fidélité",
+          "simple": "Rédige un message pour lancer un programme de fidélité.",
+          "premium": "Rédige un message clair, motivant et orienté inscription pour un programme de fidélité.",
+          "expert": "Rôle : Loyalty program strategist. Objectif : Encourager les clients à rejoindre le programme. Contraintes : Avantages · Exclusivité · CTA. Format : Message principal + version courte réseaux sociaux. Style : Fidélisation premium."
+        },
+        {
+          "id": 78, "title": "Lancer une marketplace",
+          "simple": "Rédige un message pour lancer une marketplace.",
+          "premium": "Rédige un message clair, attractif et orienté inscription pour une marketplace.",
+          "expert": "Rôle : Marketplace growth strategist. Objectif : Attirer vendeurs et acheteurs. Contraintes : Valeur pour les vendeurs · Valeur pour les acheteurs · CTA. Format : Message principal + 2 variantes. Style : Marketplace moderne."
+        },
+        {
+          "id": 79, "title": "Lancer un coaching",
+          "simple": "Rédige un message pour lancer un coaching.",
+          "premium": "Rédige un message clair, inspirant et orienté inscription pour un coaching.",
+          "expert": "Rôle : Coaching marketing specialist. Objectif : Attirer des clients motivés. Contraintes : Transformation promise · Bénéfice clé · CTA. Format : Message principal + 2 variantes. Style : Coaching premium."
+        },
+        {
+          "id": 80, "title": "Lancer un webinaire",
+          "simple": "Rédige un message pour lancer un webinaire.",
+          "premium": "Rédige un message clair, motivant et orienté inscription pour un webinaire.",
+          "expert": "Rôle : Webinar marketing strategist. Objectif : Maximiser les inscriptions. Contraintes : Sujet · Bénéfice clé · CTA. Format : 3 messages version courte et longue. Style : Webinaire premium."
+        },
+        {
+          "id": 81, "title": "Récupérer un client désabonné (win-back)",
+          "simple": "Rédige un message pour relancer un client désabonné.",
+          "premium": "Rédige un message clair, empathique et orienté retour pour un client désabonné.",
+          "expert": "Rôle : Customer win-back strategist. Objectif : Récupérer un client perdu. Contraintes : Ton humain · Reconnaissance du départ · Proposition de valeur · CTA. Format : Message principal + variantes (émotionnelle, rationnelle, incitative). Style : Win-back premium."
+        },
+        {
+          "id": 82, "title": "Créer un message de sensibilisation",
+          "simple": "Rédige un message de sensibilisation.",
+          "premium": "Rédige un message clair, impactant et orienté prise de conscience.",
+          "expert": "Rôle : Awareness campaign strategist. Objectif : Faire réfléchir et provoquer une prise de conscience. Contraintes : Ton sérieux · Message simple · Impact émotionnel. Format : Message principal + version courte réseaux sociaux. Style : Sensibilisation forte."
+        },
+        {
+          "id": 83, "title": "Recruter des partenaires business",
+          "simple": "Rédige un message pour recruter des partenaires.",
+          "premium": "Rédige un message professionnel, clair et orienté collaboration pour recruter des partenaires.",
+          "expert": "Rôle : Business development strategist. Objectif : Attirer des partenaires qualifiés. Contraintes : Proposition de valeur · Bénéfices mutuels · CTA. Format : Message principal + version courte LinkedIn. Style : Business premium."
+        },
+        {
+          "id": 84, "title": "Lancer un produit écologique",
+          "simple": "Rédige un message pour lancer un produit écologique.",
+          "premium": "Rédige un message clair, responsable et orienté impact pour un produit écologique.",
+          "expert": "Rôle : Green marketing specialist. Objectif : Valoriser l'impact positif et la durabilité. Contraintes : Ton responsable · Bénéfices écologiques · CTA. Format : 3 messages version courte et longue. Style : Éco-responsable."
+        },
+        {
+          "id": 85, "title": "Lancer un produit de luxe",
+          "simple": "Rédige un message pour lancer un produit de luxe.",
+          "premium": "Rédige un message élégant, raffiné et orienté désir pour un produit de luxe.",
+          "expert": "Rôle : Luxury marketing strategist. Objectif : Créer exclusivité et désir. Contraintes : Ton premium · Élégance · Exclusivité. Format : Message principal + version courte réseaux sociaux. Style : Luxe raffiné."
+        },
+        {
+          "id": 86, "title": "Lancer un service B2B",
+          "simple": "Rédige un message pour lancer un service B2B.",
+          "premium": "Rédige un message professionnel, clair et orienté ROI pour un service B2B.",
+          "expert": "Rôle : B2B marketing strategist. Objectif : Générer des leads qualifiés. Contraintes : Ton professionnel · Résultat mesurable · CTA. Format : Message principal + 2 variantes. Style : B2B premium."
+        },
+        {
+          "id": 87, "title": "Lancer un SaaS",
+          "simple": "Rédige un message pour lancer un SaaS.",
+          "premium": "Rédige un message clair, moderne et orienté conversion pour un SaaS.",
+          "expert": "Rôle : SaaS growth strategist. Objectif : Maximiser essais gratuits et démos. Contraintes : Problème-solution · Bénéfice clé · CTA. Format : Message principal + version courte et longue. Style : SaaS moderne."
+        },
+        {
+          "id": 88, "title": "Lancer un événement en ligne",
+          "simple": "Rédige un message pour lancer un événement en ligne.",
+          "premium": "Rédige un message clair, motivant et orienté inscription pour un événement en ligne.",
+          "expert": "Rôle : Digital event strategist. Objectif : Maximiser les inscriptions. Contraintes : Sujet · Bénéfice · CTA. Format : 3 messages version courte et longue. Style : Événement digital."
+        },
+        {
+          "id": 89, "title": "Lancer un challenge",
+          "simple": "Rédige un message pour lancer un challenge.",
+          "premium": "Rédige un message clair, motivant et orienté participation pour un challenge.",
+          "expert": "Rôle : Challenge community strategist. Objectif : Générer un maximum de participants. Contraintes : Ton motivant · Résultat attendu · CTA. Format : Message principal + 2 variantes. Style : Challenge dynamique."
+        },
+        {
+          "id": 90, "title": "Lancer un produit innovant",
+          "simple": "Rédige un message pour lancer un produit innovant.",
+          "premium": "Rédige un message clair, moderne et orienté curiosité pour un produit innovant.",
+          "expert": "Rôle : Innovation marketing strategist. Objectif : Créer curiosité et adoption rapide. Contraintes : Mise en avant de l'innovation · Bénéfice clé · CTA. Format : Message principal + version courte réseaux sociaux. Style : Innovation premium."
+        },
+        {
+          "id": 91, "title": "Repositionner un produit",
+          "simple": "Rédige un message pour repositionner un produit.",
+          "premium": "Rédige un message clair, stratégique et orienté valeur pour repositionner un produit.",
+          "expert": "Rôle : Product repositioning strategist. Objectif : Faire comprendre le nouveau positionnement et créer l'adhésion. Contraintes : Pourquoi le repositionnement · Nouvelle promesse · Bénéfice client. Format : Message principal + version courte réseaux sociaux. Style : Stratégique premium."
+        },
+        {
+          "id": 92, "title": "Créer un message pour lancement international",
+          "simple": "Rédige un message pour un lancement international.",
+          "premium": "Rédige un message clair, universel et orienté notoriété pour un lancement international.",
+          "expert": "Rôle : International marketing strategist. Objectif : Toucher un public global avec un message universel. Contraintes : Ton neutre · Valeur universelle · CTA. Format : Message principal + variantes selon ton (pro, émotionnel, premium). Style : Global & inclusif."
+        },
+        {
+          "id": 93, "title": "Repositionner une marque",
+          "simple": "Rédige un message pour repositionner une marque.",
+          "premium": "Rédige un message clair, inspirant et orienté vision pour repositionner une marque.",
+          "expert": "Rôle : Brand transformation strategist. Objectif : Expliquer la nouvelle direction de la marque. Contraintes : Vision · Valeurs · Mission · Promesse. Format : Message principal + version courte LinkedIn. Style : Branding transformation."
+        },
+        {
+          "id": 94, "title": "Lancer un produit saisonnier",
+          "simple": "Rédige un message pour lancer un produit saisonnier.",
+          "premium": "Rédige un message clair, attractif et orienté achat pour un produit saisonnier.",
+          "expert": "Rôle : Seasonal marketing strategist. Objectif : Maximiser les ventes sur une courte période. Contraintes : Urgence · Saisonnalité · Bénéfice clé. Format : 3 messages version courte et longue. Style : Saisonnier dynamique."
+        },
+        {
+          "id": 95, "title": "Lancer un produit alimentaire",
+          "simple": "Rédige un message pour lancer un produit alimentaire.",
+          "premium": "Rédige un message clair, appétissant et orienté achat pour un produit alimentaire.",
+          "expert": "Rôle : Food marketing specialist. Objectif : Donner envie immédiatement. Contraintes : Ton sensoriel · Bénéfice gustatif · CTA. Format : Message principal + version courte réseaux sociaux. Style : Food & émotion."
+        },
+        {
+          "id": 96, "title": "Lancer un produit beauté",
+          "simple": "Rédige un message pour lancer un produit beauté.",
+          "premium": "Rédige un message clair, élégant et orienté désir pour un produit beauté.",
+          "expert": "Rôle : Beauty marketing strategist. Objectif : Créer désir et confiance. Contraintes : Ton premium · Résultat visible · CTA. Format : Message principal + 2 variantes. Style : Beauté premium."
+        },
+        {
+          "id": 97, "title": "Lancer un produit tech grand public",
+          "simple": "Rédige un message pour lancer un produit tech.",
+          "premium": "Rédige un message clair, moderne et orienté curiosité pour un produit tech grand public.",
+          "expert": "Rôle : Consumer tech strategist. Objectif : Créer excitation et adoption rapide. Contraintes : Innovation · Simplicité · Bénéfice clé. Format : Message principal + version courte réseaux sociaux. Style : Tech moderne."
+        },
+        {
+          "id": 98, "title": "Lancer un service B2B premium",
+          "simple": "Rédige un message pour lancer un service B2B premium.",
+          "premium": "Rédige un message professionnel, clair et orienté ROI pour un service B2B premium.",
+          "expert": "Rôle : B2B premium strategist. Objectif : Positionner le service comme haut de gamme et rentable. Contraintes : Résultats mesurables · Valeur ajoutée · CTA. Format : Message principal + 2 variantes. Style : B2B premium."
+        },
+        {
+          "id": 99, "title": "Lancer un produit éducatif",
+          "simple": "Rédige un message pour lancer un produit éducatif.",
+          "premium": "Rédige un message clair, pédagogique et orienté inscription pour un produit éducatif.",
+          "expert": "Rôle : EdTech marketing strategist. Objectif : Attirer parents, élèves ou apprenants. Contraintes : Résultat attendu · Valeur pédagogique · CTA. Format : Message principal + version courte réseaux sociaux. Style : Éducatif premium."
+        },
+        {
+          "id": 100, "title": "Créer un message marketing universel",
+          "simple": "Rédige un message marketing universel.",
+          "premium": "Rédige un message universel, clair et orienté valeur, adaptable à tout type de produit.",
+          "expert": "Rôle : Universal marketing strategist. Objectif : Créer un message adaptable à n'importe quelle marque. Contraintes : Ton neutre · Bénéfice universel · CTA. Format : Message principal + 3 variantes. Style : Universel & intemporel."
+        }
+      ]
+    }
+  ]
+}

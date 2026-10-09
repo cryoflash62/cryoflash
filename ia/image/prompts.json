@@ -1,0 +1,651 @@
+{
+  "title": "Prompts Images IA",
+  "subtitle": "100 prompts visuels pour générer des images époustouflantes avec l'IA",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Paysages & Environnements",
+      "range": "1–20",
+      "icon": "🌄",
+      "color": "#0ea5e9",
+      "prompts": [
+        {
+          "id": 1, "title": "Ville futuriste",
+          "simple": "Crée une image d'une ville futuriste.",
+          "premium": "Génère une image d'une ville futuriste ultra-moderne, avec gratte-ciel lumineux, véhicules volants et ambiance nocturne. Style réaliste.",
+          "expert": "Rôle : Artiste conceptuel spécialisé en science-fiction. Contexte : Mégalopole futuriste crédible et immersive. Objectif : Visuel riche, détaillé et cohérent technologiquement. Contraintes : Palette néons bleus/violets · Vue aérienne · Ambiance nocturne dynamique. Format : Description du décor + éléments technologiques + ambiance lumineuse. Style : Photoréaliste, détail élevé."
+        },
+        {
+          "id": 2, "title": "Paysage apocalyptique",
+          "simple": "Crée un paysage apocalyptique.",
+          "premium": "Génère un paysage post-apocalyptique avec ruines, ciel sombre et atmosphère dramatique. Style réaliste.",
+          "expert": "Rôle : Artiste conceptuel post-apocalyptique. Contexte : Le décor doit évoquer la fin du monde sans gore. Objectif : Scène immersive et dramatique. Contraintes : Palette gris/ocres · Ruines détaillées · Atmosphère lourde. Format : Décor + éléments détruits + ambiance. Style : Photoréaliste sombre."
+        },
+        {
+          "id": 3, "title": "Scène sous-marine",
+          "simple": "Crée une scène sous-marine.",
+          "premium": "Génère une scène sous-marine colorée avec poissons, coraux et lumière filtrée. Style réaliste.",
+          "expert": "Rôle : Artiste spécialisé en environnements aquatiques. Contexte : Image immersive et lumineuse. Objectif : Représenter un écosystème sous-marin vivant. Contraintes : Palette bleus/verts · Lumière filtrée · Faune variée. Format : Décor + faune + lumière. Style : Photoréaliste."
+        },
+        {
+          "id": 4, "title": "Paysage enneigé",
+          "simple": "Crée un paysage enneigé.",
+          "premium": "Génère un paysage enneigé paisible avec montagnes, sapins et lumière douce. Style réaliste.",
+          "expert": "Rôle : Artiste paysagiste. Contexte : L'image doit évoquer calme et pureté. Objectif : Paysage hivernal immersif. Contraintes : Palette froide · Textures de neige détaillées · Lumière douce. Format : Décor + lumière + atmosphère. Style : Photoréaliste."
+        },
+        {
+          "id": 5, "title": "Forêt enchantée",
+          "simple": "Crée une forêt enchantée.",
+          "premium": "Génère une forêt enchantée lumineuse avec plantes magiques, brume douce et couleurs vibrantes. Style fantasy.",
+          "expert": "Rôle : Illustrateur fantasy. Contexte : La forêt doit sembler vivante et magique. Objectif : Décor féerique immersif. Contraintes : Lumières magiques · Couleurs vibrantes · Brume légère. Format : Décor + éléments magiques + atmosphère. Style : Fantasy lumineuse."
+        },
+        {
+          "id": 6, "title": "Désert mystique",
+          "simple": "Crée une image d'un désert mystique.",
+          "premium": "Génère une image d'un désert mystique avec dunes dorées, lumière surnaturelle et silhouettes lointaines. Style réaliste fantasy.",
+          "expert": "Rôle : Artiste conceptuel spécialisé en environnements mystiques. Contexte : Le désert doit évoquer solitude, magie et immensité. Objectif : Paysage mystique immersif. Contraintes : Palette or/ambre/violet · Lumière surnaturelle · Dunes détaillées. Format : Décor + lumière + éléments mystiques. Style : Réaliste fantasy, détail élevé."
+        },
+        {
+          "id": 7, "title": "Jungle préhistorique",
+          "simple": "Crée une jungle préhistorique.",
+          "premium": "Génère une jungle préhistorique dense avec fougères géantes, brume et créatures anciennes. Style réaliste.",
+          "expert": "Rôle : Artiste conceptuel préhistorique. Contexte : L'image doit évoquer un monde ancien et sauvage. Objectif : Environnement luxuriant et vivant. Contraintes : Végétation massive · Brume légère · Faune préhistorique. Format : Décor + végétation + faune. Style : Photoréaliste."
+        },
+        {
+          "id": 8, "title": "Forêt sombre",
+          "simple": "Crée une forêt sombre.",
+          "premium": "Génère une forêt sombre et inquiétante, avec brume, arbres tordus et lumière faible. Style dark fantasy.",
+          "expert": "Rôle : Artiste dark fantasy. Contexte : L'image doit évoquer mystère et danger. Objectif : Forêt immersive et inquiétante. Contraintes : Palette sombre · Brume dense · Silhouettes d'arbres tordus. Format : Décor + lumière + atmosphère. Style : Dark fantasy."
+        },
+        {
+          "id": 9, "title": "Paysage céleste",
+          "simple": "Crée un paysage céleste.",
+          "premium": "Génère un paysage céleste avec îles flottantes, cascades aériennes et lumière divine. Style fantasy lumineuse.",
+          "expert": "Rôle : Artiste conceptuel aérien. Contexte : Le décor doit sembler irréel mais harmonieux. Objectif : Paysage céleste spectaculaire. Contraintes : Lumière divine · Îles flottantes · Cascades aériennes. Format : Décor + éléments fantastiques + ambiance. Style : Fantasy lumineuse."
+        },
+        {
+          "id": 10, "title": "Forêt automnale",
+          "simple": "Crée une forêt en automne.",
+          "premium": "Génère une forêt automnale avec feuilles rouges/orangées, lumière dorée et sentier boisé. Style réaliste.",
+          "expert": "Rôle : Artiste paysagiste saisonnier. Contexte : L'image doit évoquer chaleur, calme et beauté naturelle. Objectif : Paysage automnal immersif. Contraintes : Palette chaude · Feuilles détaillées · Lumière douce. Format : Décor + lumière + atmosphère. Style : Photoréaliste chaleureux."
+        },
+        {
+          "id": 11, "title": "Forêt bioluminescente",
+          "simple": "Crée une forêt bioluminescente.",
+          "premium": "Génère une forêt bioluminescente avec plantes lumineuses, champignons fluorescents et ambiance nocturne magique. Style fantasy.",
+          "expert": "Rôle : Illustrateur de mondes nocturnes. Contexte : La forêt doit être mystérieuse, colorée et vivante. Objectif : Décor nocturne féerique. Contraintes : Plantes lumineuses · Palette néon · Atmosphère magique. Format : Décor + lumière + ambiance. Style : Fantasy bioluminescente."
+        },
+        {
+          "id": 12, "title": "Forêt cristalline",
+          "simple": "Crée une forêt de cristaux.",
+          "premium": "Génère une forêt cristalline avec arbres translucides, reflets lumineux et ambiance féerique. Style fantasy lumineuse.",
+          "expert": "Rôle : Illustrateur de mondes magiques. Contexte : La forêt doit sembler irréelle, brillante et harmonieuse. Objectif : Décor féerique unique. Contraintes : Cristaux colorés · Lumière interne · Atmosphère douce. Format : Décor + lumière + ambiance. Style : Fantasy cristalline."
+        },
+        {
+          "id": 13, "title": "Forêt gelée",
+          "simple": "Crée une forêt gelée.",
+          "premium": "Génère une forêt gelée avec arbres recouverts de givre, neige épaisse et lumière froide. Style réaliste.",
+          "expert": "Rôle : Artiste paysagiste hivernal. Contexte : La forêt doit évoquer silence, froid et beauté glacée. Objectif : Paysage hivernal immersif. Contraintes : Givre détaillé · Palette froide · Atmosphère silencieuse. Format : Décor + lumière + ambiance. Style : Photoréaliste glacé."
+        },
+        {
+          "id": 14, "title": "Forêt des esprits",
+          "simple": "Crée une forêt des esprits.",
+          "premium": "Génère une forêt des esprits avec silhouettes lumineuses, arbres anciens et brume mystique. Style fantasy spirituelle.",
+          "expert": "Rôle : Illustrateur mystique. Contexte : La forêt doit évoquer magie, mémoire et spiritualité. Objectif : Décor mystique et apaisant. Contraintes : Esprits lumineux · Brume douce · Palette bleue/verte. Format : Décor + esprits + atmosphère. Style : Fantasy spirituelle."
+        },
+        {
+          "id": 15, "title": "Forêt extraterrestre",
+          "simple": "Crée une forêt extraterrestre.",
+          "premium": "Génère une forêt extraterrestre avec plantes inconnues, couleurs inhabituelles et atmosphère étrange. Style sci-fi.",
+          "expert": "Rôle : Artiste conceptuel alien. Contexte : La forêt doit sembler totalement étrangère mais cohérente. Objectif : Environnement alien immersif. Contraintes : Plantes non terrestres · Palette atypique · Atmosphère étrange. Format : Végétation + décor + ambiance. Style : Sci-fi organique."
+        },
+        {
+          "id": 16, "title": "Forêt de champignons géants",
+          "simple": "Crée une forêt de champignons géants.",
+          "premium": "Génère une forêt de champignons géants avec spores lumineuses, couleurs vives et ambiance féerique. Style fantasy.",
+          "expert": "Rôle : Illustrateur de mondes fantastiques. Contexte : La forêt doit être étrange, colorée et immersive. Objectif : Décor féerique unique. Contraintes : Champignons massifs · Spores lumineuses · Palette vibrante. Format : Décor + lumière + ambiance. Style : Fantasy organique."
+        },
+        {
+          "id": 17, "title": "Plage paradisiaque",
+          "simple": "Crée une plage paradisiaque.",
+          "premium": "Génère une plage paradisiaque avec eau turquoise, palmiers, sable blanc et lumière tropicale. Style réaliste.",
+          "expert": "Rôle : Artiste paysagiste tropical. Contexte : L'image doit évoquer détente et beauté naturelle. Objectif : Paysage paradisiaque immersif. Contraintes : Eau turquoise · Sable blanc · Lumière vive. Format : Décor + lumière + atmosphère. Style : Photoréaliste tropical."
+        },
+        {
+          "id": 18, "title": "Océan déchaîné",
+          "simple": "Crée un océan déchaîné.",
+          "premium": "Génère une mer déchaînée avec vagues géantes, ciel orageux et lumière dramatique. Style réaliste.",
+          "expert": "Rôle : Artiste spécialisé en environnements marins. Contexte : L'image doit transmettre puissance, chaos et beauté. Objectif : Scène maritime intense et immersive. Contraintes : Vagues détaillées · Écume réaliste · Ciel sombre. Format : Mer + ciel + lumière. Style : Photoréaliste dramatique."
+        },
+        {
+          "id": 19, "title": "Jardin zen",
+          "simple": "Crée un jardin zen.",
+          "premium": "Génère un jardin zen japonais avec pierres, sable ratissé, bonsaïs et lumière douce. Style réaliste.",
+          "expert": "Rôle : Illustrateur de paysages zen. Contexte : L'image doit évoquer calme, équilibre et harmonie. Objectif : Décor apaisant et minimaliste. Contraintes : Sable ratissé · Pierres équilibrées · Palette douce. Format : Décor + éléments zen + atmosphère. Style : Réaliste minimaliste."
+        },
+        {
+          "id": 20, "title": "Chemin dans la brume",
+          "simple": "Crée un chemin dans la brume.",
+          "premium": "Génère un chemin forestier enveloppé de brume, avec arbres sombres et lumière diffuse. Style réaliste.",
+          "expert": "Rôle : Artiste atmosphérique. Contexte : L'image doit évoquer mystère, calme et incertitude. Objectif : Scène brumeuse immersive. Contraintes : Brume dense · Lumière douce · Palette froide. Format : Décor + lumière + atmosphère. Style : Photoréaliste brumeux."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Personnages & Créatures",
+      "range": "21–45",
+      "icon": "🧙",
+      "color": "#a855f7",
+      "prompts": [
+        {
+          "id": 21, "title": "Portrait fantastique",
+          "simple": "Crée un portrait fantastique.",
+          "premium": "Génère un portrait fantastique d'un personnage magique, avec aura lumineuse et détails surnaturels. Style peinture numérique.",
+          "expert": "Rôle : Illustrateur fantasy. Contexte : Le personnage doit dégager puissance et mystère. Objectif : Portrait détaillé et expressif. Contraintes : Lumière dramatique · Détails magiques visibles · Expression intense. Format : Apparence + pouvoirs visibles + ambiance. Style : Digital painting, créativité élevée."
+        },
+        {
+          "id": 22, "title": "Portrait cyberpunk",
+          "simple": "Crée un portrait cyberpunk.",
+          "premium": "Génère un portrait cyberpunk avec néons, implants technologiques et ambiance urbaine. Style réaliste.",
+          "expert": "Rôle : Artiste cyberpunk. Contexte : Le personnage doit incarner l'esthétique cyberpunk. Objectif : Portrait stylisé et futuriste. Contraintes : Néons roses/bleus · Implants visibles · Décor urbain flou. Format : Apparence + technologie + ambiance. Style : Photoréaliste néon."
+        },
+        {
+          "id": 23, "title": "Portrait steampunk",
+          "simple": "Crée un portrait steampunk.",
+          "premium": "Génère un portrait steampunk avec engrenages, lunettes mécaniques et ambiance victorienne. Style peinture numérique.",
+          "expert": "Rôle : Illustrateur steampunk. Contexte : Le personnage doit incarner l'esthétique rétro-futuriste. Objectif : Portrait riche en détails mécaniques. Contraintes : Accessoires mécaniques · Palette cuivre/bronze · Décor victorien flou. Format : Apparence + éléments mécaniques + ambiance. Style : Digital painting steampunk."
+        },
+        {
+          "id": 24, "title": "Portrait tribal",
+          "simple": "Crée un portrait tribal.",
+          "premium": "Génère un portrait tribal avec peintures rituelles, bijoux traditionnels et décor naturel. Style réaliste.",
+          "expert": "Rôle : Illustrateur ethnographique. Contexte : Le portrait doit être respectueux et culturellement riche. Objectif : Portrait authentique et détaillé. Contraintes : Peintures rituelles · Accessoires traditionnels · Décor naturel flou. Format : Apparence + symboles + ambiance. Style : Réaliste culturel."
+        },
+        {
+          "id": 25, "title": "Guerrier futuriste",
+          "simple": "Crée un guerrier futuriste.",
+          "premium": "Génère un guerrier futuriste en armure high-tech, avec lumières LED et armes énergétiques. Style sci-fi réaliste.",
+          "expert": "Rôle : Character designer futuriste. Contexte : Le guerrier doit être imposant et technologiquement avancé. Objectif : Personnage puissant et crédible. Contraintes : Armure détaillée · Lumières intégrées · Armes futuristes. Format : Silhouette + armure + équipement. Style : Sci-fi militaire."
+        },
+        {
+          "id": 26, "title": "Guerrier nordique",
+          "simple": "Crée un guerrier nordique.",
+          "premium": "Génère un guerrier nordique avec fourrures, tatouages runiques, hache et décor enneigé. Style réaliste.",
+          "expert": "Rôle : Character designer historique. Contexte : Le guerrier doit être imposant, crédible et culturellement cohérent. Objectif : Personnage puissant et détaillé. Contraintes : Fourrures · Tatouages runiques · Décor froid. Format : Apparence + équipement + environnement. Style : Réaliste nordique."
+        },
+        {
+          "id": 27, "title": "Guerrier spectral",
+          "simple": "Crée un guerrier spectral.",
+          "premium": "Génère un guerrier spectral translucide, avec armure éthérée et ambiance sombre et brumeuse. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur dark fantasy. Contexte : Le guerrier doit être inquiétant mais majestueux. Objectif : Personnage spectral immersif. Contraintes : Transparence partielle · Lumière froide · Brume. Format : Silhouette + armure + effets spectraux. Style : Dark fantasy spectral."
+        },
+        {
+          "id": 28, "title": "Guerrier céleste",
+          "simple": "Crée un guerrier céleste.",
+          "premium": "Génère un guerrier céleste avec armure lumineuse, ailes d'énergie et décor divin. Style peinture numérique.",
+          "expert": "Rôle : Character designer spirituel. Contexte : Le guerrier doit incarner puissance divine et pureté. Objectif : Personnage majestueux et lumineux. Contraintes : Ailes d'énergie · Armure brillante · Lumière divine. Format : Apparence + armure + ambiance. Style : Digital painting lumineux."
+        },
+        {
+          "id": 29, "title": "Chevalier spectral",
+          "simple": "Crée un chevalier spectral.",
+          "premium": "Génère un chevalier spectral translucide, armure éthérée, ambiance sombre et brumeuse. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur dark fantasy. Contexte : Le chevalier doit être inquiétant mais majestueux. Objectif : Personnage spectral immersif. Contraintes : Transparence partielle · Lumière froide · Brume. Format : Silhouette + armure + effets spectraux. Style : Dark fantasy spectral."
+        },
+        {
+          "id": 30, "title": "Chevalier de pierre",
+          "simple": "Crée un chevalier de pierre.",
+          "premium": "Génère un chevalier de pierre massif, sculpté dans la roche, avec fissures lumineuses et décor montagneux. Style fantasy réaliste.",
+          "expert": "Rôle : Illustrateur de créatures minérales. Contexte : Le chevalier doit être imposant, ancien et puissant. Objectif : Créature minérale crédible. Contraintes : Texture rocheuse · Fissures lumineuses · Décor montagneux. Format : Silhouette + texture + environnement. Style : High fantasy minérale."
+        },
+        {
+          "id": 31, "title": "Chevalier céleste",
+          "simple": "Crée un chevalier céleste.",
+          "premium": "Génère un chevalier céleste avec armure dorée, ailes lumineuses et décor divin. Style fantasy lumineuse.",
+          "expert": "Rôle : Character designer spirituel. Contexte : Le chevalier doit incarner pureté, puissance et lumière. Objectif : Personnage majestueux et sacré. Contraintes : Armure dorée · Ailes lumineuses · Palette blanche/or. Format : Apparence + armure + ambiance. Style : Fantasy céleste."
+        },
+        {
+          "id": 32, "title": "Reine elfique",
+          "simple": "Crée une reine elfe.",
+          "premium": "Génère une reine elfique majestueuse avec couronne végétale, vêtements élégants et décor forestier. Style fantasy.",
+          "expert": "Rôle : Character designer fantasy. Contexte : La reine doit incarner noblesse, nature et magie. Objectif : Portrait détaillé et majestueux. Contraintes : Traits elfiques · Couronne naturelle · Lumière douce. Format : Apparence + vêtements + décor. Style : High fantasy."
+        },
+        {
+          "id": 33, "title": "Sorcier dans son atelier",
+          "simple": "Crée un sorcier dans son atelier.",
+          "premium": "Génère un sorcier dans un atelier rempli de grimoires, potions, bougies et objets magiques. Style fantasy.",
+          "expert": "Rôle : Illustrateur fantasy. Contexte : L'atelier doit être riche, mystérieux et détaillé. Objectif : Scène immersive et magique. Contraintes : Lumière chaude · Objets magiques variés · Atmosphère dense. Format : Personnage + décor + éléments magiques. Style : Fantasy détaillée."
+        },
+        {
+          "id": 34, "title": "Sorcier du désert",
+          "simple": "Crée un sorcier du désert.",
+          "premium": "Génère un sorcier du désert avec vêtements amples, bâton magique et dunes en arrière-plan. Style fantasy réaliste.",
+          "expert": "Rôle : Character designer fantasy. Contexte : Le sorcier doit incarner sagesse, chaleur et mystère. Objectif : Personnage puissant et charismatique. Contraintes : Palette chaude · Textures de sable · Accessoires mystiques. Format : Apparence + équipement + décor. Style : Fantasy désertique."
+        },
+        {
+          "id": 35, "title": "Sorcier mécanique",
+          "simple": "Crée un sorcier mécanique.",
+          "premium": "Génère un sorcier mécanique avec engrenages, bras articulés et énergie bleue. Style steampunk fantasy.",
+          "expert": "Rôle : Character designer steampunk. Contexte : Le sorcier doit mélanger magie et mécanique. Objectif : Personnage hybride unique. Contraintes : Engrenages visibles · Lumière interne · Métal texturé. Format : Apparence + mécanismes + ambiance. Style : Steampunk magique."
+        },
+        {
+          "id": 36, "title": "Sorcier du temps",
+          "simple": "Crée un sorcier du temps.",
+          "premium": "Génère un sorcier du temps avec horloges flottantes, énergie temporelle et décor distordu. Style fantasy.",
+          "expert": "Rôle : Character designer temporel. Contexte : Le sorcier doit incarner maîtrise du temps et mystère. Objectif : Personnage puissant et symbolique. Contraintes : Horloges/engrenages flottants · Effets de distorsion · Palette dorée/bleue. Format : Apparence + pouvoirs + ambiance. Style : Fantasy temporelle."
+        },
+        {
+          "id": 37, "title": "Sorcier des ombres",
+          "simple": "Crée un sorcier des ombres.",
+          "premium": "Génère un sorcier des ombres entouré de fumée noire, avec yeux lumineux et ambiance sombre. Style dark fantasy.",
+          "expert": "Rôle : Character designer obscur. Contexte : Le sorcier doit incarner mystère, danger et magie noire. Objectif : Personnage sombre et puissant. Contraintes : Fumée noire · Palette sombre · Lumière minimale. Format : Apparence + pouvoirs + ambiance. Style : Dark fantasy obscure."
+        },
+        {
+          "id": 38, "title": "Sorcier céleste",
+          "simple": "Crée un sorcier céleste.",
+          "premium": "Génère un sorcier céleste avec aura lumineuse, vêtements blancs et décor nuageux. Style fantasy lumineuse.",
+          "expert": "Rôle : Character designer spirituel. Contexte : Le sorcier doit incarner sagesse, lumière et puissance divine. Objectif : Personnage céleste majestueux. Contraintes : Aura dorée · Palette blanche/or · Nuages lumineux. Format : Apparence + pouvoirs + ambiance. Style : Fantasy céleste."
+        },
+        {
+          "id": 39, "title": "Sorcier astral",
+          "simple": "Crée un sorcier astral.",
+          "premium": "Génère un sorcier astral entouré d'étoiles, constellations et énergie cosmique. Style fantasy cosmique.",
+          "expert": "Rôle : Character designer cosmique. Contexte : Le sorcier doit incarner l'univers, la magie et l'infini. Objectif : Personnage astral spectaculaire. Contraintes : Étoiles autour du corps · Palette violette/bleue · Effets cosmiques. Format : Apparence + pouvoirs + ambiance. Style : Fantasy cosmique."
+        },
+        {
+          "id": 40, "title": "Sorcière moderne",
+          "simple": "Crée une sorcière moderne.",
+          "premium": "Génère une sorcière moderne avec vêtements urbains, accessoires magiques et ambiance nocturne. Style semi-réaliste.",
+          "expert": "Rôle : Character designer urbain fantasy. Contexte : La sorcière doit combiner esthétique moderne et magie. Objectif : Personnage stylé et mystérieux. Contraintes : Accessoires magiques · Palette nocturne · Décor urbain flou. Format : Apparence + pouvoirs visibles + ambiance. Style : Urban fantasy."
+        },
+        {
+          "id": 41, "title": "Sorcière des glaces",
+          "simple": "Crée une sorcière des glaces.",
+          "premium": "Génère une sorcière des glaces avec vêtements cristallins, aura froide et décor enneigé. Style fantasy glaciale.",
+          "expert": "Rôle : Character designer élémentaire. Contexte : La sorcière doit incarner froideur, élégance et puissance. Objectif : Personnage glacé et majestueux. Contraintes : Palette bleue/blanche · Effets de givre · Décor polaire. Format : Apparence + pouvoirs + environnement. Style : Fantasy glaciale."
+        },
+        {
+          "id": 42, "title": "Ange lumineux",
+          "simple": "Crée un ange lumineux.",
+          "premium": "Génère un ange lumineux avec ailes rayonnantes, aura dorée et décor céleste. Style peinture numérique.",
+          "expert": "Rôle : Illustrateur spirituel. Contexte : L'ange doit inspirer paix, puissance et pureté. Objectif : Figure céleste majestueuse. Contraintes : Lumière intense · Ailes détaillées · Palette dorée. Format : Apparence + lumière + décor céleste. Style : Digital painting lumineux."
+        },
+        {
+          "id": 43, "title": "Marchand de potions",
+          "simple": "Crée un marchand de potions.",
+          "premium": "Génère un marchand de potions dans un marché fantasy, avec fioles colorées, fumées magiques et décor médiéval. Style digital painting.",
+          "expert": "Rôle : Character designer fantasy. Contexte : Le marchand doit être expressif, mystérieux et entouré d'objets magiques. Objectif : Personnage vivant et décor riche. Contraintes : Fioles lumineuses · Couleurs vibrantes · Ambiance chaleureuse. Format : Personnage + objets magiques + décor. Style : Fantasy détaillée."
+        },
+        {
+          "id": 44, "title": "Démon de feu",
+          "simple": "Crée un démon de feu.",
+          "premium": "Génère un démon de feu avec flammes intenses, peau incandescente et décor volcanique. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de créatures infernales. Contexte : Le démon doit être puissant, dangereux et spectaculaire. Objectif : Créature flamboyante et détaillée. Contraintes : Flammes dynamiques · Peau incandescente · Décor volcanique. Format : Silhouette + effets de feu + environnement. Style : Dark fantasy infernale."
+        },
+        {
+          "id": 45, "title": "Démon de glace",
+          "simple": "Crée un démon de glace.",
+          "premium": "Génère un démon de glace avec peau translucide, cristaux gelés et décor polaire. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de créatures élémentaires. Contexte : Le démon doit être froid, menaçant et majestueux. Objectif : Créature glaciale détaillée. Contraintes : Cristaux de glace · Peau bleutée · Décor polaire. Format : Silhouette + texture + environnement. Style : Dark fantasy glaciale."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Créatures & Animaux Fantastiques",
+      "range": "46–65",
+      "icon": "🐉",
+      "color": "#ef4444",
+      "prompts": [
+        {
+          "id": 46, "title": "Animal mythique",
+          "simple": "Crée une image d'un animal mythique.",
+          "premium": "Génère une créature mythique majestueuse (dragon, phénix, griffon), dans un décor épique. Style fantasy.",
+          "expert": "Rôle : Illustrateur de créatures fantastiques. Contexte : L'animal doit être imposant et détaillé. Objectif : Créature mythique crédible et spectaculaire. Contraintes : Anatomie cohérente · Décor épique · Lumière dramatique. Format : Apparence + texture + décor. Style : High fantasy."
+        },
+        {
+          "id": 47, "title": "Dragon mécanique",
+          "simple": "Crée un dragon mécanique.",
+          "premium": "Génère un dragon mécanique géant, avec engrenages, métal sombre et lumières rouges. Style steampunk.",
+          "expert": "Rôle : Designer steampunk. Contexte : Le dragon doit combiner mécanique et esthétique fantastique. Objectif : Créature mécanique imposante. Contraintes : Engrenages visibles · Métal texturé · Lumières internes. Format : Silhouette + mécanismes + ambiance. Style : Steampunk sombre."
+        },
+        {
+          "id": 48, "title": "Dragon d'eau",
+          "simple": "Crée un dragon d'eau.",
+          "premium": "Génère un dragon d'eau translucide, formé de vagues et de gouttes, dans un décor océanique. Style fantasy.",
+          "expert": "Rôle : Illustrateur de créatures élémentaires. Contexte : Le dragon doit être fluide, majestueux et aquatique. Objectif : Créature d'eau spectaculaire. Contraintes : Corps liquide · Effets d'éclaboussures · Décor marin. Format : Silhouette + texture + environnement. Style : Fantasy aquatique."
+        },
+        {
+          "id": 49, "title": "Dragon d'ombre",
+          "simple": "Crée un dragon d'ombre.",
+          "premium": "Génère un dragon d'ombre avec corps sombre, fumée noire et yeux lumineux. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de créatures obscures. Contexte : Le dragon doit incarner peur, mystère et puissance. Objectif : Créature sombre et imposante. Contraintes : Fumée noire · Silhouette partiellement visible · Lumière minimale. Format : Silhouette + effets d'ombre + ambiance. Style : Dark fantasy obscure."
+        },
+        {
+          "id": 50, "title": "Dragon céleste",
+          "simple": "Crée un dragon céleste.",
+          "premium": "Génère un dragon céleste lumineux, avec écailles dorées et décor nuageux. Style fantasy lumineuse.",
+          "expert": "Rôle : Illustrateur de créatures divines. Contexte : Le dragon doit incarner majesté, lumière et puissance sacrée. Objectif : Créature céleste spectaculaire. Contraintes : Lumière interne · Écailles dorées · Nuages lumineux. Format : Silhouette + texture + environnement. Style : High fantasy céleste."
+        },
+        {
+          "id": 51, "title": "Dragon mécanique céleste",
+          "simple": "Crée un dragon mécanique céleste.",
+          "premium": "Génère un dragon mécanique céleste avec engrenages dorés, ailes lumineuses et décor nuageux. Style steampunk fantasy.",
+          "expert": "Rôle : Designer steampunk divin. Contexte : Le dragon doit mélanger mécanique, lumière et majesté. Objectif : Créature hybride spectaculaire. Contraintes : Métal doré · Ailes lumineuses · Nuages brillants. Format : Silhouette + mécanismes + environnement. Style : Steampunk céleste."
+        },
+        {
+          "id": 52, "title": "Robot futuriste",
+          "simple": "Crée un robot futuriste.",
+          "premium": "Génère un robot futuriste humanoïde, design élégant, matériaux métalliques. Style science-fiction.",
+          "expert": "Rôle : Designer robotique. Contexte : Le robot doit être fonctionnel et esthétique. Objectif : Robot crédible et détaillé. Contraintes : Matériaux métalliques · Articulations visibles · Lumières intégrées. Format : Silhouette + matériaux + fonctionnalités. Style : Sci-fi high-tech."
+        },
+        {
+          "id": 53, "title": "Robot animal",
+          "simple": "Crée un animal robotique.",
+          "premium": "Génère un animal robotique inspiré d'un félin, avec métal poli et lumières intégrées. Style sci-fi.",
+          "expert": "Rôle : Designer robotique biomimétique. Contexte : L'animal doit combiner mécanique et anatomie naturelle. Objectif : Créature robotique élégante et crédible. Contraintes : Articulations visibles · Matériaux métalliques · Lumières LED. Format : Silhouette + matériaux + fonctionnalités. Style : Sci-fi réaliste."
+        },
+        {
+          "id": 54, "title": "Robot insectoïde",
+          "simple": "Crée un robot insectoïde.",
+          "premium": "Génère un robot inspiré d'un insecte, avec carapace métallique, lumières intégrées et design biomécanique. Style sci-fi.",
+          "expert": "Rôle : Designer biomécanique. Contexte : Le robot doit être à la fois mécanique et organique. Objectif : Créature robotique crédible et détaillée. Contraintes : Carapace métallique · Articulations complexes · Lumières LED. Format : Silhouette + matériaux + fonctionnalités. Style : Sci-fi biomécanique."
+        },
+        {
+          "id": 55, "title": "Ange mécanique",
+          "simple": "Crée un ange mécanique.",
+          "premium": "Génère un ange mécanique avec ailes métalliques articulées, lumière interne et décor futuriste. Style sci-fi.",
+          "expert": "Rôle : Character designer cyber-fantasy. Contexte : L'ange doit mélanger sacré et technologie. Objectif : Personnage hybride unique. Contraintes : Ailes métalliques · Lumière interne · Matériaux brillants. Format : Apparence + mécanismes + ambiance. Style : Cyber-fantasy."
+        },
+        {
+          "id": 56, "title": "Colosse de pierre",
+          "simple": "Crée un géant de pierre.",
+          "premium": "Génère un colosse de pierre gigantesque, partiellement recouvert de mousse, dans un décor montagneux. Style fantasy réaliste.",
+          "expert": "Rôle : Illustrateur de créatures titanesques. Contexte : Le colosse doit être monumental et impressionnant. Objectif : Créature minérale crédible et massive. Contraintes : Textures rocheuses · Échelle gigantesque · Décor naturel. Format : Silhouette + texture + environnement. Style : High fantasy réaliste."
+        },
+        {
+          "id": 57, "title": "Guerrier spectral (créature)",
+          "simple": "Crée une créature spectrale.",
+          "premium": "Génère une entité spectrale translucide avec armure éthérée et brume sombre. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de créatures éthérées. Contexte : L'entité doit être menaçante et mystérieuse. Objectif : Créature spectrale immersive. Contraintes : Transparence partielle · Lumière froide · Brume. Format : Silhouette + armure + effets. Style : Dark fantasy spectral."
+        },
+        {
+          "id": 58, "title": "Phénix de feu",
+          "simple": "Crée un phénix de feu.",
+          "premium": "Génère un phénix majestueux avec flammes vives, plumes incandescentes et décor céleste. Style fantasy épique.",
+          "expert": "Rôle : Illustrateur de créatures mythiques. Contexte : Le phénix doit incarner renaissance et puissance. Objectif : Oiseau de feu spectaculaire. Contraintes : Flammes dynamiques · Palette rouge/or · Décor dramatique. Format : Silhouette + texture + environnement. Style : High fantasy lumineuse."
+        },
+        {
+          "id": 59, "title": "Créature des abysses",
+          "simple": "Crée une créature des abysses.",
+          "premium": "Génère une créature des profondeurs océaniques, bioluminescente, avec tentacules et ambiance ténébreuse.",
+          "expert": "Rôle : Illustrateur de créatures marines. Contexte : La créature doit inspirer terreur et fascination. Objectif : Monstre des abysses immersif. Contraintes : Bioluminescence · Palette sombre · Eau profonde. Format : Silhouette + texture + environnement. Style : Réaliste sombre."
+        },
+        {
+          "id": 60, "title": "Titan végétal",
+          "simple": "Crée un géant fait de plantes.",
+          "premium": "Génère un titan végétal colossal fait de racines, branches et fleurs, dans une forêt ancienne. Style fantasy naturelle.",
+          "expert": "Rôle : Illustrateur de créatures organiques. Contexte : Le titan doit incarner la nature sauvage et la puissance. Objectif : Créature végétale monumentale. Contraintes : Textures naturelles · Échelle gigantesque · Lumière douce. Format : Silhouette + texture + environnement. Style : Fantasy organique."
+        },
+        {
+          "id": 61, "title": "Loup spectral",
+          "simple": "Crée un loup spectral.",
+          "premium": "Génère un loup spectral translucide courant dans une forêt brumeuse, avec aura lumineuse froide. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de créatures éthérées. Contexte : Le loup doit être fantomatique et majestueux. Objectif : Animal spectral immersif. Contraintes : Transparence partielle · Brume dense · Lumière froide. Format : Silhouette + texture + environnement. Style : Dark fantasy."
+        },
+        {
+          "id": 62, "title": "Serpent cosmique",
+          "simple": "Crée un serpent cosmique.",
+          "premium": "Génère un immense serpent cosmique dont les écailles brillent comme des étoiles, enroulé autour d'une planète. Style fantasy cosmique.",
+          "expert": "Rôle : Illustrateur cosmique. Contexte : Le serpent doit symboliser l'infini et la création. Objectif : Créature cosmique spectaculaire. Contraintes : Écailles étoilées · Fond spatial · Échelle cosmique. Format : Silhouette + texture + environnement. Style : Fantasy cosmique."
+        },
+        {
+          "id": 63, "title": "Cheval de feu",
+          "simple": "Crée un cheval de feu.",
+          "premium": "Génère un cheval de feu galopant avec crinière enflammée, sabots incandescents et décor dramatique. Style fantasy épique.",
+          "expert": "Rôle : Illustrateur de créatures élémentaires. Contexte : Le cheval doit incarner vitesse, liberté et puissance. Objectif : Animal de feu spectaculaire. Contraintes : Flammes dynamiques · Palette rouge/or · Décor dramatique. Format : Silhouette + effets de feu + environnement. Style : High fantasy."
+        },
+        {
+          "id": 64, "title": "Octopus géant",
+          "simple": "Crée un poulpe géant.",
+          "premium": "Génère un poulpe géant émergeant des profondeurs marines, avec tentacules massifs et décor oceanique dramatique.",
+          "expert": "Rôle : Artiste spécialisé en créatures marines. Contexte : La créature doit être titanesque et terrifiante. Objectif : Monstre marin immersif. Contraintes : Échelle gigantesque · Eau en mouvement · Ciel orageux. Format : Silhouette + texture + environnement. Style : Photoréaliste dramatique."
+        },
+        {
+          "id": 65, "title": "Créature de l'ombre",
+          "simple": "Crée une créature de l'ombre.",
+          "premium": "Génère une entité sombre informe, faite de ténèbres et de lumière inversée, dans un décor mystérieux. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de créatures obscures. Contexte : La créature doit incarner l'inconnu et la peur. Objectif : Entité sombre immersive. Contraintes : Palette sombre · Silhouette mouvante · Lumière inversée. Format : Silhouette + effets + ambiance. Style : Dark fantasy obscure."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Architecture & Villes",
+      "range": "66–82",
+      "icon": "🏛️",
+      "color": "#f59e0b",
+      "prompts": [
+        {
+          "id": 66, "title": "Architecture ancienne",
+          "simple": "Crée une image d'un bâtiment ancien.",
+          "premium": "Génère une image d'un temple ancien détaillé, inspiré de civilisations antiques. Style réaliste.",
+          "expert": "Rôle : Illustrateur architectural. Contexte : Le bâtiment doit être crédible historiquement. Objectif : Architecture ancienne riche et précise. Contraintes : Textures réalistes · Perspective cohérente · Décor naturel autour. Format : Structure + matériaux + environnement. Style : Réaliste historique."
+        },
+        {
+          "id": 67, "title": "Temple flottant",
+          "simple": "Crée un temple flottant.",
+          "premium": "Génère une image d'un temple flottant dans le ciel, entouré de nuages lumineux. Style fantasy.",
+          "expert": "Rôle : Illustrateur fantasy aérienne. Contexte : Le temple doit sembler sacré et impossible. Objectif : Architecture flottante crédible et magique. Contraintes : Nuages lumineux · Architecture détaillée · Lumière divine. Format : Structure + environnement + ambiance. Style : High fantasy."
+        },
+        {
+          "id": 68, "title": "Ville médiévale",
+          "simple": "Crée une ville médiévale.",
+          "premium": "Génère une ville médiévale animée avec maisons à colombages, marché et ruelles pavées. Style réaliste.",
+          "expert": "Rôle : Illustrateur historique. Contexte : La ville doit être crédible et vivante. Objectif : Scène médiévale immersive. Contraintes : Architecture cohérente · Détails du marché · Perspective de rue. Format : Décor + architecture + vie urbaine. Style : Réaliste historique."
+        },
+        {
+          "id": 69, "title": "Ville médiévale enneigée",
+          "simple": "Crée une ville médiévale enneigée.",
+          "premium": "Génère une ville médiévale enneigée avec maisons à colombages, rues glacées et ambiance hivernale. Style réaliste.",
+          "expert": "Rôle : Illustrateur historique hivernal. Contexte : La ville doit être crédible, froide et vivante. Objectif : Décor médiéval immersif. Contraintes : Neige détaillée · Lumière froide · Architecture médiévale. Format : Décor + architecture + ambiance. Style : Photoréaliste médiéval."
+        },
+        {
+          "id": 70, "title": "Château abandonné",
+          "simple": "Crée une image d'un château abandonné.",
+          "premium": "Génère un château abandonné envahi par la végétation, avec pierres usées, brume légère et ambiance mystérieuse. Style réaliste sombre.",
+          "expert": "Rôle : Illustrateur dark fantasy et ruines anciennes. Contexte : Le château doit évoquer histoire, solitude et mystère. Objectif : Décor immersif, détaillé et atmosphérique. Contraintes : Végétation envahissante · Pierres fissurées · Brume basse. Format : Architecture + éléments naturels + ambiance. Style : Photoréaliste sombre."
+        },
+        {
+          "id": 71, "title": "Temple sous-marin",
+          "simple": "Crée un temple sous-marin.",
+          "premium": "Génère un temple sous-marin ancien, recouvert d'algues, éclairé par la lumière filtrée de l'eau. Style réaliste fantasy.",
+          "expert": "Rôle : Artiste conceptuel aquatique. Contexte : Le temple doit évoquer mystère, ancienneté et profondeur. Objectif : Scène sous-marine immersive. Contraintes : Lumière filtrée · Algues et coraux · Architecture ancienne. Format : Structure + faune/flore + lumière. Style : Photoréaliste aquatique."
+        },
+        {
+          "id": 72, "title": "Cité engloutie",
+          "simple": "Crée une cité engloutie.",
+          "premium": "Génère une cité engloutie sous l'océan, avec ruines anciennes, algues, statues brisées et lumière filtrée. Style réaliste fantasy.",
+          "expert": "Rôle : Artiste conceptuel aquatique. Contexte : La cité doit évoquer mystère, histoire et profondeur. Objectif : Décor sous-marin immersif et détaillé. Contraintes : Ruines recouvertes d'algues · Faune marine subtile · Lumière filtrée bleutée. Format : Architecture + environnement marin + ambiance. Style : Photoréaliste aquatique."
+        },
+        {
+          "id": 73, "title": "Ville flottante",
+          "simple": "Crée une ville flottante.",
+          "premium": "Génère une ville flottante suspendue dans le ciel, avec ponts aériens et architecture futuriste. Style sci-fi.",
+          "expert": "Rôle : Artiste conceptuel futuriste. Contexte : La ville doit sembler technologiquement avancée et aérienne. Objectif : Cité flottante crédible et spectaculaire. Contraintes : Structures suspendues · Lumières futuristes · Nuages détaillés. Format : Architecture + environnement + ambiance. Style : Sci-fi aérienne."
+        },
+        {
+          "id": 74, "title": "Ville organique",
+          "simple": "Crée une ville organique.",
+          "premium": "Génère une ville organique où les bâtiments semblent vivants, faits de racines, de plantes et de structures naturelles. Style bio-fantasy.",
+          "expert": "Rôle : Artiste conceptuel biomorphique. Contexte : La ville doit sembler vivante, naturelle et harmonieuse. Objectif : Architecture organique immersive. Contraintes : Structures végétales · Formes courbes · Lumière douce. Format : Architecture + textures + ambiance. Style : Bio-fantasy."
+        },
+        {
+          "id": 75, "title": "Montagne sacrée",
+          "simple": "Crée une montagne sacrée.",
+          "premium": "Génère une montagne sacrée entourée de brume, avec temples perchés et lumière divine. Style réaliste fantasy.",
+          "expert": "Rôle : Artiste conceptuel spirituel. Contexte : La montagne doit évoquer mystère et sacré. Objectif : Paysage majestueux et mystique. Contraintes : Brume · Lumière divine · Architecture sacrée. Format : Décor + éléments sacrés + atmosphère. Style : Fantasy spirituelle."
+        },
+        {
+          "id": 76, "title": "Bibliothèque ancienne",
+          "simple": "Crée une image d'une bibliothèque ancienne.",
+          "premium": "Génère une bibliothèque ancienne majestueuse, avec étagères en bois sombre, échelles, lumière chaude et ambiance silencieuse. Style réaliste.",
+          "expert": "Rôle : Illustrateur architectural historique. Contexte : La bibliothèque doit évoquer savoir, mystère et ancienneté. Objectif : Décor riche, détaillé et immersif. Contraintes : Bois sombre · Lumière chaude · Livres anciens visibles. Format : Architecture + lumière + ambiance. Style : Photoréaliste chaleureux."
+        },
+        {
+          "id": 77, "title": "Bibliothèque futuriste",
+          "simple": "Crée une bibliothèque futuriste.",
+          "premium": "Génère une bibliothèque futuriste avec étagères holographiques, lumière bleutée et architecture minimaliste. Style sci-fi.",
+          "expert": "Rôle : Designer d'environnements futuristes. Contexte : La bibliothèque doit évoquer technologie, calme et innovation. Objectif : Espace futuriste immersif et élégant. Contraintes : Hologrammes · Lumière froide · Architecture épurée. Format : Structure + technologie + ambiance. Style : Sci-fi minimaliste."
+        },
+        {
+          "id": 78, "title": "Laboratoire secret",
+          "simple": "Crée un laboratoire secret.",
+          "premium": "Génère un laboratoire secret high-tech avec écrans holographiques, machines complexes et ambiance sombre. Style sci-fi réaliste.",
+          "expert": "Rôle : Designer d'environnements technologiques. Contexte : Le laboratoire doit évoquer secret, danger et innovation. Objectif : Décor high-tech immersif. Contraintes : Écrans holographiques · Machines détaillées · Lumière froide. Format : Décor + technologie + atmosphère. Style : Sci-fi réaliste."
+        },
+        {
+          "id": 79, "title": "Temple volcanique",
+          "simple": "Crée un temple volcanique.",
+          "premium": "Génère un temple volcanique entouré de lave, roches noires et fumée rougeoyante. Style dark fantasy.",
+          "expert": "Rôle : Illustrateur de décors infernaux. Contexte : Le temple doit évoquer danger, chaleur et puissance. Objectif : Décor volcanique immersif. Contraintes : Lave lumineuse · Roches sombres · Fumée rouge. Format : Architecture + environnement + ambiance. Style : Dark fantasy volcanique."
+        },
+        {
+          "id": 80, "title": "Temple de lumière",
+          "simple": "Crée un temple de lumière.",
+          "premium": "Génère un temple de lumière avec colonnes translucides, rayons divins et ambiance sacrée. Style fantasy lumineuse.",
+          "expert": "Rôle : Illustrateur spirituel. Contexte : Le temple doit évoquer pureté, paix et énergie divine. Objectif : Décor lumineux et majestueux. Contraintes : Colonnes lumineuses · Rayons divins · Palette blanche/or. Format : Architecture + lumière + atmosphère. Style : Fantasy sacrée."
+        },
+        {
+          "id": 81, "title": "Temple mécanique",
+          "simple": "Crée un temple mécanique.",
+          "premium": "Génère un temple mécanique avec engrenages géants, métal ancien et lumière interne. Style steampunk fantasy.",
+          "expert": "Rôle : Designer steampunk architectural. Contexte : Le temple doit mélanger sacré et mécanique. Objectif : Décor hybride unique. Contraintes : Engrenages massifs · Métal texturé · Lumière interne. Format : Architecture + mécanismes + ambiance. Style : Steampunk sacré."
+        },
+        {
+          "id": 82, "title": "Temple céleste",
+          "simple": "Crée un temple céleste.",
+          "premium": "Génère un temple céleste flottant dans les nuages, avec colonnes lumineuses et ambiance divine. Style fantasy lumineuse.",
+          "expert": "Rôle : Illustrateur spirituel. Contexte : Le temple doit évoquer pureté, grandeur et sacré. Objectif : Décor céleste majestueux. Contraintes : Nuages lumineux · Colonnes divines · Palette blanche/or. Format : Architecture + lumière + atmosphère. Style : Fantasy céleste."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mondes Spéciaux & Objets Magiques",
+      "range": "83–100",
+      "icon": "✨",
+      "color": "#10b981",
+      "prompts": [
+        {
+          "id": 83, "title": "Portail magique",
+          "simple": "Crée un portail magique.",
+          "premium": "Génère un portail magique lumineux entouré de runes, avec énergie tourbillonnante et décor mystique. Style fantasy.",
+          "expert": "Rôle : Illustrateur fantasy spécialisé en effets magiques. Contexte : Le portail doit évoquer puissance, mystère et énergie. Objectif : Portail spectaculaire et détaillé. Contraintes : Runes lumineuses · Énergie tourbillonnante · Décor ancien. Format : Structure du portail + effets magiques + environnement. Style : High fantasy lumineux."
+        },
+        {
+          "id": 84, "title": "Arbre géant magique",
+          "simple": "Crée un arbre géant magique.",
+          "premium": "Génère un arbre géant magique avec racines massives, lumière intérieure et décor féerique. Style fantasy lumineuse.",
+          "expert": "Rôle : Illustrateur fantasy naturel. Contexte : L'arbre doit être majestueux, ancien et magique. Objectif : Arbre monumental et féerique. Contraintes : Lumière interne · Racines massives · Décor enchanté. Format : Structure + lumière + environnement. Style : Fantasy lumineuse."
+        },
+        {
+          "id": 85, "title": "Arbre du monde",
+          "simple": "Crée un arbre du monde.",
+          "premium": "Génère un arbre du monde gigantesque, reliant ciel et terre, avec racines colossales et lumière divine. Style fantasy épique.",
+          "expert": "Rôle : Illustrateur de mythologies fantastiques. Contexte : L'arbre doit symboliser vie, puissance et connexion cosmique. Objectif : Arbre monumental et sacré. Contraintes : Racines massives · Lumière interne · Décor mythologique. Format : Structure + lumière + environnement. Style : High fantasy mythologique."
+        },
+        {
+          "id": 86, "title": "Arbre cosmique",
+          "simple": "Crée un arbre cosmique.",
+          "premium": "Génère un arbre cosmique avec branches stellaires, racines lumineuses et décor spatial. Style fantasy cosmique.",
+          "expert": "Rôle : Illustrateur cosmique. Contexte : L'arbre doit symboliser univers, énergie et création. Objectif : Arbre spectaculaire et mystique. Contraintes : Branches étoilées · Racines lumineuses · Fond spatial. Format : Structure + lumière + environnement. Style : Fantasy cosmique."
+        },
+        {
+          "id": 87, "title": "Machine volante rétro",
+          "simple": "Crée une machine volante rétro.",
+          "premium": "Génère une machine volante rétro inspirée des années 1920, avec hélices, cuivre et design vintage. Style dieselpunk.",
+          "expert": "Rôle : Designer dieselpunk. Contexte : La machine doit combiner esthétique rétro et technologie imaginaire. Objectif : Véhicule aérien unique et détaillé. Contraintes : Matériaux cuivre/acier · Hélices visibles · Décor aérien. Format : Structure + matériaux + fonctionnement. Style : Dieselpunk rétro-futuriste."
+        },
+        {
+          "id": 88, "title": "Train futuriste",
+          "simple": "Crée un train futuriste.",
+          "premium": "Génère un train futuriste à sustentation magnétique, design lisse, lumières LED et décor urbain. Style sci-fi réaliste.",
+          "expert": "Rôle : Designer de transports futuristes. Contexte : Le train doit être rapide, élégant et technologique. Objectif : Véhicule futuriste crédible. Contraintes : Formes aérodynamiques · Lumières intégrées · Décor urbain. Format : Structure + matériaux + environnement. Style : Sci-fi high-tech."
+        },
+        {
+          "id": 89, "title": "Métropole nocturne",
+          "simple": "Crée une métropole la nuit.",
+          "premium": "Génère une métropole nocturne avec gratte-ciel illuminés, circulation dense et ambiance urbaine vibrante. Style réaliste.",
+          "expert": "Rôle : Artiste urbain spécialisé en environnements nocturnes. Contexte : La ville doit être vivante, lumineuse et immersive. Objectif : Scène urbaine dynamique. Contraintes : Lumières multiples · Reflets sur les bâtiments · Traînées lumineuses. Format : Architecture + lumière + ambiance. Style : Photoréaliste urbain."
+        },
+        {
+          "id": 90, "title": "Marché oriental",
+          "simple": "Crée un marché oriental.",
+          "premium": "Génère un marché oriental coloré avec tissus, épices, lanternes et foule animée. Style réaliste.",
+          "expert": "Rôle : Illustrateur culturel. Contexte : Le marché doit être vivant, riche et authentique. Objectif : Scène immersive et colorée. Contraintes : Couleurs vibrantes · Textures détaillées · Ambiance chaleureuse. Format : Décor + objets + personnages. Style : Réaliste culturel."
+        },
+        {
+          "id": 91, "title": "Marché nocturne asiatique",
+          "simple": "Crée un marché nocturne asiatique.",
+          "premium": "Génère un marché nocturne asiatique avec lanternes rouges, stands de nourriture et foule animée. Style réaliste.",
+          "expert": "Rôle : Illustrateur culturel urbain. Contexte : Le marché doit être vivant, coloré et authentique. Objectif : Scène nocturne immersive. Contraintes : Lanternes rouges · Reflets lumineux · Foule variée. Format : Décor + lumière + ambiance. Style : Photoréaliste urbain."
+        },
+        {
+          "id": 92, "title": "Marché cyberpunk",
+          "simple": "Crée un marché cyberpunk.",
+          "premium": "Génère un marché cyberpunk avec néons, stands technologiques, foule dense et ambiance nocturne. Style sci-fi néon.",
+          "expert": "Rôle : Artiste urbain futuriste. Contexte : Le marché doit être vibrant, chaotique et lumineux. Objectif : Scène cyberpunk immersive. Contraintes : Néons roses/bleus · Hologrammes · Foule stylisée. Format : Décor + technologie + ambiance. Style : Cyberpunk vibrant."
+        },
+        {
+          "id": 93, "title": "Marché intergalactique",
+          "simple": "Crée un marché intergalactique.",
+          "premium": "Génère un marché intergalactique avec aliens variés, stands lumineux et technologies exotiques. Style sci-fi coloré.",
+          "expert": "Rôle : Artiste conceptuel galactique. Contexte : Le marché doit être vivant, diversifié et spectaculaire. Objectif : Scène cosmopolite immersive. Contraintes : Aliens variés · Lumières colorées · Objets exotiques. Format : Décor + personnages + ambiance. Style : Sci-fi vibrant."
+        },
+        {
+          "id": 94, "title": "Marché flottant",
+          "simple": "Crée un marché flottant.",
+          "premium": "Génère un marché flottant sur l'eau, avec barques colorées, lanternes et ambiance tropicale. Style réaliste.",
+          "expert": "Rôle : Illustrateur culturel et maritime. Contexte : Le marché doit être vivant, coloré et authentique. Objectif : Scène flottante immersive. Contraintes : Reflets sur l'eau · Barques variées · Lumière chaude. Format : Décor + objets + ambiance. Style : Photoréaliste tropical."
+        },
+        {
+          "id": 95, "title": "Cité de cristal",
+          "simple": "Crée une cité de cristal.",
+          "premium": "Génère une cité entièrement faite de cristal, avec tours translucides, reflets lumineux et ambiance féerique. Style fantasy lumineuse.",
+          "expert": "Rôle : Illustrateur de mondes cristallins. Contexte : La cité doit évoquer pureté, magie et fragilité. Objectif : Ville cristalline immersive et spectaculaire. Contraintes : Structures translucides · Reflets colorés · Lumière interne. Format : Architecture + lumière + atmosphère. Style : Fantasy cristalline."
+        },
+        {
+          "id": 96, "title": "Cité fractale",
+          "simple": "Crée une cité fractale.",
+          "premium": "Génère une cité fractale avec structures géométriques infinies, symétries complexes et lumière colorée. Style sci-fi abstrait.",
+          "expert": "Rôle : Designer géométrique futuriste. Contexte : La cité doit évoquer complexité, mathématiques et infinité. Objectif : Décor fractal immersif. Contraintes : Motifs répétitifs · Structures impossibles · Lumière colorée. Format : Architecture + motifs + ambiance. Style : Sci-fi fractal."
+        },
+        {
+          "id": 97, "title": "Ville dans un arbre géant",
+          "simple": "Crée une ville dans un arbre géant.",
+          "premium": "Génère une ville construite dans un arbre géant, avec passerelles, maisons en bois et lumière naturelle. Style fantasy naturelle.",
+          "expert": "Rôle : Illustrateur de mondes organiques. Contexte : La ville doit sembler harmonieuse, vivante et écologique. Objectif : Cité naturelle immersive. Contraintes : Passerelles en bois · Racines massives · Lumière douce. Format : Architecture + arbre géant + ambiance. Style : Fantasy organique."
+        },
+        {
+          "id": 98, "title": "Océan de nuages",
+          "simple": "Crée un océan de nuages.",
+          "premium": "Génère un océan de nuages avec vagues aériennes, lumière dorée et îles flottantes. Style fantasy lumineuse.",
+          "expert": "Rôle : Artiste conceptuel aérien. Contexte : L'image doit évoquer douceur, immensité et rêve. Objectif : Paysage céleste immersif. Contraintes : Nuages volumétriques · Lumière dorée · Îles flottantes. Format : Décor + lumière + ambiance. Style : Fantasy aérienne."
+        },
+        {
+          "id": 99, "title": "Océan de lumière",
+          "simple": "Crée un océan de lumière.",
+          "premium": "Génère un océan de lumière avec vagues lumineuses, reflets dorés et ambiance divine. Style fantasy lumineuse.",
+          "expert": "Rôle : Artiste conceptuel lumineux. Contexte : L'image doit évoquer pureté, énergie et sérénité. Objectif : Paysage lumineux unique. Contraintes : Vagues lumineuses · Palette blanche/or · Atmosphère sacrée. Format : Décor + lumière + ambiance. Style : Fantasy sacrée."
+        },
+        {
+          "id": 100, "title": "Océan extraterrestre",
+          "simple": "Crée un océan extraterrestre.",
+          "premium": "Génère un océan extraterrestre avec eau colorée, créatures inconnues et ciel étrange. Style sci-fi organique.",
+          "expert": "Rôle : Artiste conceptuel alien. Contexte : L'océan doit sembler étranger mais cohérent. Objectif : Environnement marin alien immersif. Contraintes : Couleurs atypiques · Faune inconnue · Ciel étrange. Format : Eau + faune + atmosphère. Style : Sci-fi organique."
+        }
+      ]
+    }
+  ]
+}

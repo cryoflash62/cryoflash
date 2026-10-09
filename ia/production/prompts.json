@@ -1,0 +1,651 @@
+{
+  "title": "IA de Productivité",
+  "subtitle": "100 prompts pour organiser, planifier et optimiser chaque dimension de votre temps",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Planning & Routines",
+      "range": "1–9",
+      "icon": "📅",
+      "color": "#f5c842",
+      "prompts": [
+        {
+          "id": 1, "title": "Créer une to-do list",
+          "simple": "Fais une to-do list.",
+          "premium": "Crée une to-do list claire, organisée et priorisée.",
+          "expert": "Rôle : Productivity coach. Objectif : Structurer une to-do list efficace et actionnable. Contraintes : Priorités · Deadlines · Catégories. Format : Version simple + Version priorisée (méthode Eisenhower). Style : Productivité premium."
+        },
+        {
+          "id": 2, "title": "Organiser une journée",
+          "simple": "Organise ma journée.",
+          "premium": "Organise ma journée de manière claire, efficace et réaliste.",
+          "expert": "Rôle : Time management expert. Objectif : Optimiser énergie, temps et focus. Contraintes : Blocs de temps · Pauses · Priorités. Format : Planning détaillé + Version minimaliste. Style : Time blocking."
+        },
+        {
+          "id": 3, "title": "Créer un planning hebdomadaire",
+          "simple": "Fais un planning pour la semaine.",
+          "premium": "Crée un planning hebdomadaire clair, équilibré et productif.",
+          "expert": "Rôle : Weekly planning strategist. Objectif : Structurer une semaine optimale. Contraintes : Objectifs · Tâches · Routines. Format : Planning 7 jours + Version \"semaine idéale\". Style : Organisation premium."
+        },
+        {
+          "id": 4, "title": "Créer un planning mensuel",
+          "simple": "Fais un planning pour le mois.",
+          "premium": "Crée un planning mensuel clair, structuré et orienté objectifs.",
+          "expert": "Rôle : Monthly planning strategist. Objectif : Planifier un mois productif et équilibré. Contraintes : Objectifs mensuels · Tâches clés · Deadlines. Format : Planning 30 jours + Version simplifiée. Style : Productivité stratégique."
+        },
+        {
+          "id": 5, "title": "Créer une routine matinale",
+          "simple": "Fais une routine matinale.",
+          "premium": "Crée une routine matinale claire, réaliste et énergisante.",
+          "expert": "Rôle : Routine optimization coach. Objectif : Maximiser énergie, focus et motivation. Contraintes : Durée · Objectifs · Habitudes. Format : Routine 15 min + Routine 30 min + Routine 60 min. Style : Bien-être & performance."
+        },
+        {
+          "id": 6, "title": "Créer une routine du soir",
+          "simple": "Fais une routine du soir.",
+          "premium": "Crée une routine du soir claire, apaisante et orientée récupération.",
+          "expert": "Rôle : Sleep & recovery strategist. Objectif : Améliorer sommeil et déconnexion. Contraintes : Durée · Habitudes · Déconnexion digitale. Format : Routine 15 min + Routine 30 min. Style : Calme & bien-être."
+        },
+        {
+          "id": 7, "title": "Créer une routine de travail",
+          "simple": "Fais une routine de travail.",
+          "premium": "Crée une routine de travail claire, efficace et orientée focus.",
+          "expert": "Rôle : Productivity workflow expert. Objectif : Structurer un rythme de travail optimal. Contraintes : Focus · Pauses · Deep work. Format : Routine 2h + Routine 4h. Style : Deep work."
+        },
+        {
+          "id": 8, "title": "Créer une routine de productivité quotidienne",
+          "simple": "Fais une routine de productivité.",
+          "premium": "Crée une routine de productivité quotidienne claire, simple et efficace.",
+          "expert": "Rôle : Daily productivity strategist. Objectif : Maximiser résultats quotidiens. Contraintes : Priorités · Focus · Rituels. Format : Routine complète + Version minimaliste. Style : Productivité premium."
+        },
+        {
+          "id": 9, "title": "Créer un système de gestion du temps",
+          "simple": "Fais un système de gestion du temps.",
+          "premium": "Crée un système de gestion du temps clair, flexible et efficace.",
+          "expert": "Rôle : Time management architect. Objectif : Structurer un système complet et durable. Contraintes : Priorités · Rituels · Outils. Format : Système complet + Version express. Style : Organisation stratégique."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Systèmes Personnels",
+      "range": "10–25",
+      "icon": "⚙️",
+      "color": "#7c3aed",
+      "prompts": [
+        {
+          "id": 10, "title": "Système d'organisation personnelle",
+          "simple": "Fais un système d'organisation.",
+          "premium": "Crée un système d'organisation personnelle clair, flexible et efficace.",
+          "expert": "Rôle : Personal organization strategist. Objectif : Structurer un système complet pour gérer tâches, projets et priorités. Contraintes : Catégories · Processus · Routines. Format : Système complet + Version minimaliste. Style : Organisation premium."
+        },
+        {
+          "id": 11, "title": "Système de gestion des priorités",
+          "simple": "Aide-moi à gérer mes priorités.",
+          "premium": "Crée un système clair et efficace pour gérer mes priorités.",
+          "expert": "Rôle : Priority management strategist. Objectif : Identifier, classer et exécuter les priorités sans stress. Contraintes : Méthode Eisenhower · Méthode Pareto · Deadlines. Format : Système complet + Version simplifiée. Style : Productivité stratégique."
+        },
+        {
+          "id": 12, "title": "Système anti-procrastination",
+          "simple": "Aide-moi à arrêter de procrastiner.",
+          "premium": "Crée un système anti-procrastination clair, simple et motivant.",
+          "expert": "Rôle : Anti-procrastination coach. Objectif : Réduire les blocages et augmenter l'action. Contraintes : Déclencheurs · Micro-actions · Rituels. Format : Système complet + Version express. Style : Motivation & discipline."
+        },
+        {
+          "id": 13, "title": "Système de deep work",
+          "simple": "Aide-moi à faire du deep work.",
+          "premium": "Crée un système de deep work clair, structuré et efficace.",
+          "expert": "Rôle : Deep work architect. Objectif : Maximiser concentration et production. Contraintes : Sessions · Rituels · Environnement. Format : Système complet + Version minimaliste. Style : Focus extrême."
+        },
+        {
+          "id": 14, "title": "Système de gestion des projets",
+          "simple": "Aide-moi à organiser mes projets.",
+          "premium": "Crée un système de gestion de projets clair, structuré et efficace.",
+          "expert": "Rôle : Project management strategist. Objectif : Structurer projets, tâches, deadlines et suivi. Contraintes : Objectifs · Étapes · KPIs. Format : Système complet + Version simplifiée. Style : Gestion de projet premium."
+        },
+        {
+          "id": 15, "title": "Système de gestion des habitudes",
+          "simple": "Aide-moi à créer des habitudes.",
+          "premium": "Crée un système de gestion des habitudes clair, motivant et durable.",
+          "expert": "Rôle : Habit building expert. Objectif : Installer des habitudes solides et durables. Contraintes : Habitudes clés · Déclencheurs · Suivi. Format : Système complet + Version minimaliste. Style : Discipline & constance."
+        },
+        {
+          "id": 16, "title": "Système de gestion des objectifs",
+          "simple": "Aide-moi à définir mes objectifs.",
+          "premium": "Crée un système de gestion des objectifs clair, motivant et orienté résultats.",
+          "expert": "Rôle : Goal setting strategist. Objectif : Définir, planifier et atteindre les objectifs. Contraintes : Méthode SMART · KPIs · Deadlines. Format : Système complet + Version simplifiée. Style : Performance & clarté."
+        },
+        {
+          "id": 17, "title": "Système de gestion des emails",
+          "simple": "Aide-moi à gérer mes emails.",
+          "premium": "Crée un système de gestion des emails clair, rapide et efficace.",
+          "expert": "Rôle : Inbox zero strategist. Objectif : Réduire la surcharge et gagner du temps. Contraintes : Tri · Catégories · Rituels. Format : Système complet + Version Inbox Zero. Style : Organisation digitale."
+        },
+        {
+          "id": 18, "title": "Système de gestion des documents",
+          "simple": "Aide-moi à organiser mes documents.",
+          "premium": "Crée un système de gestion des documents clair, structuré et facile à maintenir.",
+          "expert": "Rôle : Digital organization expert. Objectif : Organiser fichiers, dossiers et archives. Contraintes : Catégories · Nommage · Sauvegardes. Format : Système complet + Version minimaliste. Style : Organisation digitale premium."
+        },
+        {
+          "id": 19, "title": "Système de gestion des notes",
+          "simple": "Aide-moi à organiser mes notes.",
+          "premium": "Crée un système de gestion des notes clair, simple et efficace.",
+          "expert": "Rôle : Knowledge management strategist. Objectif : Structurer idées, notes et informations. Contraintes : Catégories · Tags · Processus. Format : Système complet + Version minimaliste. Style : Second cerveau."
+        },
+        {
+          "id": 20, "title": "Système de gestion du stress",
+          "simple": "Aide-moi à gérer mon stress.",
+          "premium": "Crée un système de gestion du stress clair, apaisant et efficace.",
+          "expert": "Rôle : Stress management coach. Objectif : Réduire stress, charge mentale et tensions. Contraintes : Respiration · Organisation · Rituels. Format : Système complet + Version express. Style : Calme & bien-être."
+        },
+        {
+          "id": 21, "title": "Système de gestion de l'énergie",
+          "simple": "Aide-moi à mieux gérer mon énergie.",
+          "premium": "Crée un système de gestion de l'énergie clair, équilibré et orienté performance.",
+          "expert": "Rôle : Energy management coach. Objectif : Optimiser énergie physique, mentale et émotionnelle. Contraintes : Cycles d'énergie · Rituels · Pauses. Format : Système complet + Version minimaliste. Style : Bien-être & performance."
+        },
+        {
+          "id": 22, "title": "Système de gestion du focus",
+          "simple": "Aide-moi à rester concentré.",
+          "premium": "Crée un système de gestion du focus clair, simple et efficace.",
+          "expert": "Rôle : Focus strategist. Objectif : Améliorer concentration et réduction des distractions. Contraintes : Deep work · Rituels · Environnement. Format : Système complet + Version express. Style : Concentration maximale."
+        },
+        {
+          "id": 23, "title": "Système de gestion des interruptions",
+          "simple": "Aide-moi à gérer les interruptions.",
+          "premium": "Crée un système clair pour réduire et gérer les interruptions.",
+          "expert": "Rôle : Workflow optimization expert. Objectif : Minimiser les coupures et préserver le focus. Contraintes : Règles · Signaux · Processus. Format : Système complet + Version simplifiée. Style : Productivité fluide."
+        },
+        {
+          "id": 24, "title": "Système de gestion des réunions",
+          "simple": "Aide-moi à mieux gérer mes réunions.",
+          "premium": "Crée un système de gestion des réunions clair, efficace et orienté résultats.",
+          "expert": "Rôle : Meeting efficiency strategist. Objectif : Réduire durée, augmenter efficacité. Contraintes : Agenda · Rôles · Suivi. Format : Système complet + Version \"réunions essentielles\". Style : Efficacité professionnelle."
+        },
+        {
+          "id": 25, "title": "Système de gestion des tâches récurrentes",
+          "simple": "Aide-moi à gérer mes tâches récurrentes.",
+          "premium": "Crée un système clair pour organiser et automatiser les tâches récurrentes.",
+          "expert": "Rôle : Recurring tasks architect. Objectif : Automatiser et simplifier les routines. Contraintes : Fréquences · Automatisation · Rappels. Format : Système complet + Version minimaliste. Style : Organisation intelligente."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Profils Individuels",
+      "range": "26–60",
+      "icon": "👤",
+      "color": "#0ea5e9",
+      "prompts": [
+        {
+          "id": 26, "title": "Gestion du temps — Projets personnels",
+          "simple": "Aide-moi à organiser mes projets personnels.",
+          "premium": "Crée un système clair pour gérer mes projets personnels.",
+          "expert": "Rôle : Personal project strategist. Objectif : Structurer projets, étapes et progression. Contraintes : Objectifs · Étapes · Suivi. Format : Système complet + Version simplifiée. Style : Organisation personnelle premium."
+        },
+        {
+          "id": 27, "title": "Gestion du temps — Projets professionnels",
+          "simple": "Aide-moi à gérer mes projets pro.",
+          "premium": "Crée un système de gestion des projets professionnels clair, structuré et efficace.",
+          "expert": "Rôle : Professional project management strategist. Objectif : Structurer projets, tâches, deadlines et reporting. Contraintes : Objectifs · KPIs · Deadlines. Format : Système complet + Version minimaliste. Style : Gestion pro premium."
+        },
+        {
+          "id": 28, "title": "Gestion du temps — Entrepreneurs",
+          "simple": "Aide-moi à gérer mon temps en tant qu'entrepreneur.",
+          "premium": "Crée un système de gestion du temps pour entrepreneurs, clair et orienté croissance.",
+          "expert": "Rôle : Entrepreneur productivity strategist. Objectif : Optimiser temps, énergie et priorités business. Contraintes : Vision · Priorités · Routines. Format : Système complet + Version express. Style : Business & productivité."
+        },
+        {
+          "id": 29, "title": "Gestion du temps — Étudiants",
+          "simple": "Aide-moi à gérer mon temps pour mes études.",
+          "premium": "Crée un système de gestion du temps pour étudiants, clair et efficace.",
+          "expert": "Rôle : Student productivity coach. Objectif : Optimiser révisions, cours et projets. Contraintes : Planning · Routines · Méthodes d'étude. Format : Système complet + Version simplifiée. Style : Productivité étudiante."
+        },
+        {
+          "id": 30, "title": "Gestion du temps — Salariés",
+          "simple": "Aide-moi à gérer mon temps au travail.",
+          "premium": "Crée un système de gestion du temps pour salariés, clair, réaliste et efficace.",
+          "expert": "Rôle : Workplace productivity strategist. Objectif : Optimiser journées de travail et charge mentale. Contraintes : Priorités · Rituels · Organisation. Format : Système complet + Version express. Style : Efficacité professionnelle."
+        },
+        {
+          "id": 31, "title": "Gestion des deadlines",
+          "simple": "Aide-moi à gérer mes deadlines.",
+          "premium": "Crée un système clair et efficace pour gérer mes deadlines.",
+          "expert": "Rôle : Deadline management strategist. Objectif : Anticiper, planifier et respecter toutes les échéances. Contraintes : Priorités · Rappels · Marges de sécurité. Format : Système complet + Version express. Style : Rigueur & efficacité."
+        },
+        {
+          "id": 32, "title": "Gestion des imprévus",
+          "simple": "Aide-moi à gérer les imprévus.",
+          "premium": "Crée un système clair pour gérer les imprévus sans stress.",
+          "expert": "Rôle : Adaptive productivity strategist. Objectif : Maintenir productivité malgré interruptions et urgences. Contraintes : Buffers · Protocoles · Priorisation. Format : Système complet + Version minimaliste. Style : Flexibilité maîtrisée."
+        },
+        {
+          "id": 33, "title": "Gestion des objectifs trimestriels",
+          "simple": "Aide-moi à organiser mes objectifs trimestriels.",
+          "premium": "Crée un système clair pour définir et suivre mes objectifs trimestriels.",
+          "expert": "Rôle : Quarterly planning strategist. Objectif : Structurer un trimestre productif et mesurable. Contraintes : Objectifs SMART · KPIs · Deadlines. Format : Système complet + Version simplifiée. Style : Performance trimestrielle."
+        },
+        {
+          "id": 34, "title": "Gestion des objectifs annuels",
+          "simple": "Aide-moi à organiser mes objectifs annuels.",
+          "premium": "Crée un système clair pour définir et suivre mes objectifs annuels.",
+          "expert": "Rôle : Annual planning strategist. Objectif : Construire une vision annuelle structurée et réaliste. Contraintes : Vision · Objectifs · Roadmap. Format : Système complet + Version minimaliste. Style : Stratégie long terme."
+        },
+        {
+          "id": 35, "title": "Gestion des projets complexes",
+          "simple": "Aide-moi à gérer un projet complexe.",
+          "premium": "Crée un système clair pour gérer un projet complexe étape par étape.",
+          "expert": "Rôle : Complex project strategist. Objectif : Simplifier, structurer et piloter un projet difficile. Contraintes : Découpage · Priorisation · Suivi. Format : Système complet + Version simplifiée. Style : Gestion avancée."
+        },
+        {
+          "id": 36, "title": "Gestion des routines hebdomadaires",
+          "simple": "Aide-moi à organiser mes routines hebdomadaires.",
+          "premium": "Crée un système clair pour structurer mes routines hebdomadaires.",
+          "expert": "Rôle : Routine building strategist. Objectif : Installer des routines stables et productives. Contraintes : Rituels · Fréquences · Objectifs. Format : Système complet + Version minimaliste. Style : Discipline & constance."
+        },
+        {
+          "id": 37, "title": "Gestion des routines mensuelles",
+          "simple": "Aide-moi à organiser mes routines mensuelles.",
+          "premium": "Crée un système clair pour structurer mes routines mensuelles.",
+          "expert": "Rôle : Monthly routine strategist. Objectif : Installer des cycles mensuels efficaces. Contraintes : Objectifs · Révisions · Ajustements. Format : Système complet + Version express. Style : Productivité cyclique."
+        },
+        {
+          "id": 38, "title": "Gestion du multitâche",
+          "simple": "Aide-moi à mieux gérer le multitâche.",
+          "premium": "Crée un système clair pour gérer le multitâche sans perdre en efficacité.",
+          "expert": "Rôle : Cognitive load strategist. Objectif : Réduire surcharge mentale et améliorer fluidité. Contraintes : Alternance · Priorisation · Rituels. Format : Système complet + Version simplifiée. Style : Focus & fluidité."
+        },
+        {
+          "id": 39, "title": "Système de deep focus",
+          "simple": "Aide-moi à rester concentré longtemps.",
+          "premium": "Crée un système de deep focus clair, puissant et durable.",
+          "expert": "Rôle : Deep focus architect. Objectif : Maintenir concentration intense sur de longues périodes. Contraintes : Sessions · Rituels · Environnement. Format : Système complet + Version express. Style : Concentration extrême."
+        },
+        {
+          "id": 40, "title": "Gestion du temps — Freelances",
+          "simple": "Aide-moi à gérer mon temps en freelance.",
+          "premium": "Crée un système de gestion du temps pour freelances, clair et orienté équilibre.",
+          "expert": "Rôle : Freelance productivity strategist. Objectif : Optimiser temps, clients, projets et repos. Contraintes : Priorités · Planning · Routines. Format : Système complet + Version minimaliste. Style : Productivité indépendante."
+        },
+        {
+          "id": 41, "title": "Gestion du temps — Managers",
+          "simple": "Aide-moi à gérer mon temps en tant que manager.",
+          "premium": "Crée un système de gestion du temps pour managers, clair, efficace et orienté leadership.",
+          "expert": "Rôle : Manager productivity strategist. Objectif : Optimiser temps, réunions, décisions et communication. Contraintes : Priorités · Délégation · Réunions · Suivi. Format : Système complet + Version express. Style : Leadership & efficacité."
+        },
+        {
+          "id": 42, "title": "Gestion du temps — Dirigeants",
+          "simple": "Aide-moi à gérer mon temps en tant que dirigeant.",
+          "premium": "Crée un système de gestion du temps pour dirigeants, clair, stratégique et orienté vision.",
+          "expert": "Rôle : Executive productivity strategist. Objectif : Maximiser impact, décisions et vision long terme. Contraintes : Vision · Priorités stratégiques · Délégation. Format : Système complet + Version minimaliste. Style : Direction & stratégie."
+        },
+        {
+          "id": 43, "title": "Gestion du temps — Créatifs",
+          "simple": "Aide-moi à gérer mon temps pour créer.",
+          "premium": "Crée un système de gestion du temps pour créatifs, clair, flexible et inspirant.",
+          "expert": "Rôle : Creative productivity strategist. Objectif : Maximiser créativité et structure sans brider l'inspiration. Contraintes : Deep work créatif · Rituels · Pauses inspirantes. Format : Système complet + Version express. Style : Créativité & fluidité."
+        },
+        {
+          "id": 44, "title": "Gestion du temps — Parents",
+          "simple": "Aide-moi à gérer mon temps en tant que parent.",
+          "premium": "Crée un système de gestion du temps pour parents, clair, réaliste et équilibré.",
+          "expert": "Rôle : Family productivity strategist. Objectif : Équilibrer travail, famille, repos et imprévus. Contraintes : Routines · Buffers · Organisation familiale. Format : Système complet + Version simplifiée. Style : Équilibre & douceur."
+        },
+        {
+          "id": 45, "title": "Gestion du temps — Sportifs",
+          "simple": "Aide-moi à gérer mon temps pour le sport.",
+          "premium": "Crée un système de gestion du temps pour sportifs, clair, motivant et orienté performance.",
+          "expert": "Rôle : Athlete productivity strategist. Objectif : Optimiser entraînement, récupération et vie perso. Contraintes : Entraînements · Récupération · Nutrition. Format : Système complet + Version express. Style : Performance & discipline."
+        },
+        {
+          "id": 46, "title": "Gestion du temps — Créateurs de contenu",
+          "simple": "Aide-moi à gérer mon temps pour créer du contenu.",
+          "premium": "Crée un système de gestion du temps pour créateurs de contenu, clair et orienté production.",
+          "expert": "Rôle : Content creator productivity strategist. Objectif : Optimiser création, montage, publication et repos. Contraintes : Planning contenu · Deep work créatif · Automatisation. Format : Système complet + Version minimaliste. Style : Créativité & organisation."
+        },
+        {
+          "id": 47, "title": "Gestion du temps — Commerciaux",
+          "simple": "Aide-moi à gérer mon temps en tant que commercial.",
+          "premium": "Crée un système de gestion du temps pour commerciaux, clair, orienté performance et résultats.",
+          "expert": "Rôle : Sales productivity strategist. Objectif : Optimiser prospection, suivi, rendez-vous et reporting. Contraintes : Priorités · CRM · Rituels. Format : Système complet + Version express. Style : Performance commerciale."
+        },
+        {
+          "id": 48, "title": "Gestion du temps — Développeurs",
+          "simple": "Aide-moi à gérer mon temps en tant que développeur.",
+          "premium": "Crée un système de gestion du temps pour développeurs, clair, technique et orienté deep work.",
+          "expert": "Rôle : Developer productivity strategist. Objectif : Optimiser code, tests, documentation et focus. Contraintes : Deep work · Sprints · Rituels. Format : Système complet + Version minimaliste. Style : Tech & efficacité."
+        },
+        {
+          "id": 49, "title": "Gestion du temps — Artistes",
+          "simple": "Aide-moi à gérer mon temps en tant qu'artiste.",
+          "premium": "Crée un système de gestion du temps pour artistes, clair, inspirant et flexible.",
+          "expert": "Rôle : Artistic productivity strategist. Objectif : Harmoniser inspiration, création et organisation. Contraintes : Rituels créatifs · Sessions libres · Suivi. Format : Système complet + Version express. Style : Artistique & fluide."
+        },
+        {
+          "id": 50, "title": "Gestion du temps — Personnes débordées",
+          "simple": "Aide-moi à gérer mon temps, je suis débordé.",
+          "premium": "Crée un système de gestion du temps simple, réaliste et apaisant pour personnes débordées.",
+          "expert": "Rôle : Overwhelm reduction strategist. Objectif : Réduire charge mentale et retrouver le contrôle. Contraintes : Priorités · Simplification · Rituels. Format : Système complet + Version minimaliste. Style : Calme & clarté."
+        },
+        {
+          "id": 51, "title": "Gestion du temps — Personnes anxieuses",
+          "simple": "Aide-moi à gérer mon temps, je suis anxieux.",
+          "premium": "Crée un système de gestion du temps apaisant, simple et réaliste pour personnes anxieuses.",
+          "expert": "Rôle : Anxiety-friendly productivity strategist. Objectif : Réduire anxiété, augmenter clarté et contrôle. Contraintes : Micro-tâches · Rituels apaisants · Priorités réduites. Format : Système complet + Version minimaliste. Style : Calme & bienveillance."
+        },
+        {
+          "id": 52, "title": "Gestion du temps — Personnes neuroatypiques (TDAH…)",
+          "simple": "Aide-moi à gérer mon temps avec mon TDAH.",
+          "premium": "Crée un système de gestion du temps adapté aux personnes neuroatypiques, clair et flexible.",
+          "expert": "Rôle : Neurodivergent productivity strategist. Objectif : Simplifier, structurer et réduire surcharge mentale. Contraintes : Micro-objectifs · Rappels · Routines courtes. Format : Système complet + Version express. Style : Flexibilité & douceur."
+        },
+        {
+          "id": 53, "title": "Gestion du temps — Personnes très occupées",
+          "simple": "Aide-moi à gérer mon temps, j'ai trop de choses à faire.",
+          "premium": "Crée un système de gestion du temps simple, efficace et réaliste pour personnes surchargées.",
+          "expert": "Rôle : High load productivity strategist. Objectif : Réduire charge mentale et maximiser impact. Contraintes : Priorités essentielles · Automatisation · Rituels rapides. Format : Système complet + Version minimaliste. Style : Efficacité & simplicité."
+        },
+        {
+          "id": 54, "title": "Gestion du temps — Personnes désorganisées",
+          "simple": "Aide-moi à m'organiser.",
+          "premium": "Crée un système d'organisation simple, clair et facile à suivre.",
+          "expert": "Rôle : Organization recovery strategist. Objectif : Installer structure et routine sans complexité. Contraintes : Étapes simples · Catégories · Rituels quotidiens. Format : Système complet + Version express. Style : Clarté & structure."
+        },
+        {
+          "id": 55, "title": "Gestion du temps — Perfectionnistes",
+          "simple": "Aide-moi à arrêter d'être perfectionniste.",
+          "premium": "Crée un système de gestion du temps pour perfectionnistes, clair, réaliste et libérateur.",
+          "expert": "Rôle : Anti-perfectionism strategist. Objectif : Réduire le sur-contrôle et augmenter l'action. Contraintes : Objectifs réalistes · Deadlines courtes · Rituels anti-blocage. Format : Système complet + Version minimaliste. Style : Lâcher-prise & efficacité."
+        },
+        {
+          "id": 56, "title": "Gestion du temps — Personnes lentes ou dispersées",
+          "simple": "Aide-moi à être plus rapide.",
+          "premium": "Crée un système de gestion du temps pour personnes lentes ou dispersées, clair et motivant.",
+          "expert": "Rôle : Slow productivity strategist. Objectif : Augmenter efficacité sans pression. Contraintes : Micro-tâches · Rituels · Focus progressif. Format : Système complet + Version express. Style : Douceur & progression."
+        },
+        {
+          "id": 57, "title": "Gestion du temps — Personnes rapides (risque burnout)",
+          "simple": "Aide-moi à ralentir.",
+          "premium": "Crée un système de gestion du temps pour personnes rapides, clair, équilibré et protecteur.",
+          "expert": "Rôle : Burnout prevention strategist. Objectif : Prévenir surcharge et équilibrer rythme. Contraintes : Pauses obligatoires · Rituels de récupération · Limitation des tâches. Format : Système complet + Version minimaliste. Style : Équilibre & santé mentale."
+        },
+        {
+          "id": 58, "title": "Gestion du temps — Introvertis",
+          "simple": "Aide-moi à gérer mon temps en tant qu'introverti.",
+          "premium": "Crée un système de gestion du temps pour introvertis, clair, calme et respectueux de l'énergie.",
+          "expert": "Rôle : Introvert productivity strategist. Objectif : Optimiser énergie et réduire surcharge sociale. Contraintes : Pauses · Moments calmes · Rituels. Format : Système complet + Version express. Style : Calme & introspectif."
+        },
+        {
+          "id": 59, "title": "Gestion du temps — Extravertis",
+          "simple": "Aide-moi à gérer mon temps en tant qu'extraverti.",
+          "premium": "Crée un système de gestion du temps pour extravertis, clair, dynamique et motivant.",
+          "expert": "Rôle : Extravert productivity strategist. Objectif : Maximiser énergie sociale et éviter dispersion. Contraintes : Sessions sociales · Focus · Rituels. Format : Système complet + Version express. Style : Dynamique & structuré."
+        },
+        {
+          "id": 60, "title": "Gestion du temps — Couples",
+          "simple": "Aide-nous à mieux gérer notre temps à deux.",
+          "premium": "Crée un système de gestion du temps pour couples, clair, équilibré et harmonieux.",
+          "expert": "Rôle : Couple productivity strategist. Objectif : Harmoniser organisation, projets et temps ensemble. Contraintes : Routines · Répartition · Communication. Format : Système complet + Version simplifiée. Style : Harmonie & équilibre."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Équipes & Organisations",
+      "range": "61–80",
+      "icon": "👥",
+      "color": "#10b981",
+      "prompts": [
+        {
+          "id": 61, "title": "Gestion du temps — Équipes",
+          "simple": "Aide-nous à mieux gérer notre temps en équipe.",
+          "premium": "Crée un système de gestion du temps pour équipes, clair, collaboratif et efficace.",
+          "expert": "Rôle : Team productivity strategist. Objectif : Optimiser coordination, communication et exécution. Contraintes : Rituels d'équipe · Outils · Processus. Format : Système complet + Version express. Style : Collaboration & efficacité."
+        },
+        {
+          "id": 62, "title": "Gestion du temps — Équipes à distance",
+          "simple": "Aide une équipe en télétravail à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes à distance, clair et structuré.",
+          "expert": "Rôle : Remote team productivity strategist. Objectif : Fluidifier communication et réduire frictions. Contraintes : Rituels · Outils · Fuseaux horaires. Format : Système complet + Version simplifiée. Style : Remote-friendly."
+        },
+        {
+          "id": 63, "title": "Gestion du temps — Équipes hybrides",
+          "simple": "Aide une équipe hybride à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes hybrides, clair et cohérent.",
+          "expert": "Rôle : Hybrid team productivity strategist. Objectif : Harmoniser présentiel et distanciel. Contraintes : Rituels · Communication · Suivi. Format : Système complet + Version express. Style : Hybride & fluide."
+        },
+        {
+          "id": 64, "title": "Gestion du temps — Équipes créatives",
+          "simple": "Aide une équipe créative à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes créatives, clair, flexible et inspirant.",
+          "expert": "Rôle : Creative team productivity strategist. Objectif : Maximiser créativité et structure. Contraintes : Deep work créatif · Brainstorming · Rituels. Format : Système complet + Version minimaliste. Style : Créativité & organisation."
+        },
+        {
+          "id": 65, "title": "Gestion du temps — Équipes commerciales",
+          "simple": "Aide une équipe commerciale à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes commerciales, clair et orienté performance.",
+          "expert": "Rôle : Sales team productivity strategist. Objectif : Optimiser prospection, suivi et reporting. Contraintes : CRM · Priorités · Rituels. Format : Système complet + Version express. Style : Performance & efficacité."
+        },
+        {
+          "id": 66, "title": "Gestion du temps — Équipes techniques",
+          "simple": "Aide une équipe technique à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes techniques, clair et orienté deep work.",
+          "expert": "Rôle : Tech team productivity strategist. Objectif : Optimiser code, tests, sprints et communication. Contraintes : Sprints · Deep work · Documentation. Format : Système complet + Version simplifiée. Style : Tech & rigueur."
+        },
+        {
+          "id": 67, "title": "Gestion du temps — Équipes marketing",
+          "simple": "Aide une équipe marketing à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes marketing, clair, créatif et efficace.",
+          "expert": "Rôle : Marketing productivity strategist. Objectif : Optimiser campagnes, création et reporting. Contraintes : Calendrier marketing · Rituels · Priorités. Format : Système complet + Version express. Style : Créativité & stratégie."
+        },
+        {
+          "id": 68, "title": "Gestion du temps — Équipes RH",
+          "simple": "Aide une équipe RH à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes RH, clair, humain et structuré.",
+          "expert": "Rôle : HR productivity strategist. Objectif : Optimiser recrutement, suivi et communication interne. Contraintes : Priorités · Processus · Rituels. Format : Système complet + Version simplifiée. Style : Humain & structuré."
+        },
+        {
+          "id": 69, "title": "Gestion du temps — Équipes support / service client",
+          "simple": "Aide une équipe support à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes support, clair, rapide et orienté satisfaction client.",
+          "expert": "Rôle : Support team productivity strategist. Objectif : Optimiser réponses, priorités et flux. Contraintes : Urgences · Priorisation · Rituels. Format : Système complet + Version express. Style : Rapidité & clarté."
+        },
+        {
+          "id": 70, "title": "Gestion du temps — Équipes en surcharge",
+          "simple": "Aide une équipe débordée à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes surchargées, clair, réaliste et apaisant.",
+          "expert": "Rôle : Overload reduction strategist. Objectif : Réduire charge mentale et restaurer efficacité. Contraintes : Priorités essentielles · Simplification · Rituels. Format : Système complet + Version minimaliste. Style : Calme & efficacité."
+        },
+        {
+          "id": 71, "title": "Gestion du temps — Équipes en croissance rapide",
+          "simple": "Aide une équipe en forte croissance à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes en croissance rapide, clair, scalable et efficace.",
+          "expert": "Rôle : Scaling team productivity strategist. Objectif : Maintenir efficacité malgré l'expansion rapide. Contraintes : Processus · Priorités · Communication. Format : Système complet + Version express. Style : Scalable & structuré."
+        },
+        {
+          "id": 72, "title": "Gestion du temps — Équipes en crise",
+          "simple": "Aide une équipe en crise à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes en crise, clair, stabilisant et orienté priorités.",
+          "expert": "Rôle : Crisis productivity strategist. Objectif : Réduire chaos et restaurer contrôle. Contraintes : Priorités essentielles · Communication courte · Rituels d'urgence. Format : Système complet + Version minimaliste. Style : Calme & efficacité."
+        },
+        {
+          "id": 73, "title": "Gestion du temps — Équipes produit (agile)",
+          "simple": "Aide une équipe produit à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes produit, clair, agile et orienté livraison.",
+          "expert": "Rôle : Product team productivity strategist. Objectif : Optimiser discovery, delivery et communication. Contraintes : Sprints · Backlog · Rituels agiles. Format : Système complet + Version express. Style : Agile & structuré."
+        },
+        {
+          "id": 74, "title": "Gestion du temps — Équipes en open space",
+          "simple": "Aide une équipe en open space à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour open space, clair, protecteur et orienté focus.",
+          "expert": "Rôle : Open space productivity strategist. Objectif : Réduire distractions et augmenter concentration. Contraintes : Rituels · Signaux de non-interruption · Deep work. Format : Système complet + Version simplifiée. Style : Focus & fluidité."
+        },
+        {
+          "id": 75, "title": "Gestion du temps — Équipes en coworking",
+          "simple": "Aide une équipe en coworking à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour coworking, clair, flexible et efficace.",
+          "expert": "Rôle : Coworking productivity strategist. Objectif : Optimiser collaboration et concentration. Contraintes : Rituels · Zones · Communication. Format : Système complet + Version express. Style : Collaboration & focus."
+        },
+        {
+          "id": 76, "title": "Gestion du temps — Équipes internationales",
+          "simple": "Aide une équipe internationale à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes internationales, clair et adapté aux fuseaux horaires.",
+          "expert": "Rôle : Global team productivity strategist. Objectif : Fluidifier coordination mondiale. Contraintes : Fuseaux horaires · Rituels · Communication asynchrone. Format : Système complet + Version simplifiée. Style : Global & structuré."
+        },
+        {
+          "id": 77, "title": "Gestion du temps — Équipes en rotation (shift work)",
+          "simple": "Aide une équipe en rotation à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes en shifts, clair, stable et efficace.",
+          "expert": "Rôle : Shift team productivity strategist. Objectif : Optimiser coordination et réduire fatigue. Contraintes : Rituels · Passages de relais · Communication. Format : Système complet + Version express. Style : Stabilité & efficacité."
+        },
+        {
+          "id": 78, "title": "Gestion du temps — Équipes événementielles",
+          "simple": "Aide une équipe événementielle à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes événementielles, clair, dynamique et orienté deadlines.",
+          "expert": "Rôle : Event team productivity strategist. Objectif : Gérer deadlines, imprévus et coordination. Contraintes : Planning · Checklists · Rituels. Format : Système complet + Version express. Style : Dynamique & rigoureux."
+        },
+        {
+          "id": 79, "title": "Gestion du temps — Équipes médicales",
+          "simple": "Aide une équipe médicale à mieux s'organiser.",
+          "premium": "Crée un système de gestion du temps pour équipes médicales, clair, humain et efficace.",
+          "expert": "Rôle : Medical team productivity strategist. Objectif : Optimiser coordination et réduire surcharge. Contraintes : Urgences · Priorités · Communication. Format : Système complet + Version simplifiée. Style : Humain & structuré."
+        },
+        {
+          "id": 80, "title": "Gestion du temps — Équipes éducatives",
+          "simple": "Aide une équipe éducative à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour équipes éducatives, clair, pédagogique et efficace.",
+          "expert": "Rôle : Education team productivity strategist. Objectif : Optimiser préparation, cours, suivi et communication. Contraintes : Planning · Rituels · Priorités. Format : Système complet + Version express. Style : Pédagogique & structuré."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Profils Spécifiques & Atypiques",
+      "range": "81–100",
+      "icon": "🎯",
+      "color": "#f97316",
+      "prompts": [
+        {
+          "id": 81, "title": "Gestion du temps — Enseignants",
+          "simple": "Aide un enseignant à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour enseignants, clair, pédagogique et efficace.",
+          "expert": "Rôle : Teacher productivity strategist. Objectif : Optimiser préparation, cours, corrections et suivi. Contraintes : Planning · Rituels · Priorités. Format : Système complet + Version express. Style : Pédagogique & structuré."
+        },
+        {
+          "id": 82, "title": "Gestion du temps — Chercheurs",
+          "simple": "Aide un chercheur à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour chercheurs, clair, méthodique et orienté deep work.",
+          "expert": "Rôle : Research productivity strategist. Objectif : Optimiser recherche, analyse, écriture et publications. Contraintes : Deep work · Organisation documentaire · Rituels. Format : Système complet + Version minimaliste. Style : Rigueur & concentration."
+        },
+        {
+          "id": 83, "title": "Gestion du temps — Écrivains",
+          "simple": "Aide un écrivain à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour écrivains, clair, inspirant et structuré.",
+          "expert": "Rôle : Writer productivity strategist. Objectif : Optimiser écriture, révisions et inspiration. Contraintes : Sessions d'écriture · Rituels · Objectifs. Format : Système complet + Version express. Style : Créativité & discipline."
+        },
+        {
+          "id": 84, "title": "Gestion du temps — Musiciens",
+          "simple": "Aide un musicien à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour musiciens, clair, créatif et efficace.",
+          "expert": "Rôle : Music productivity strategist. Objectif : Optimiser pratique, création et repos. Contraintes : Sessions · Rituels · Objectifs. Format : Système complet + Version simplifiée. Style : Artistique & structuré."
+        },
+        {
+          "id": 85, "title": "Gestion du temps — Sportifs amateurs",
+          "simple": "Aide un sportif amateur à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour sportifs amateurs, clair, motivant et équilibré.",
+          "expert": "Rôle : Amateur athlete productivity strategist. Objectif : Optimiser entraînement et vie perso. Contraintes : Planning · Récupération · Objectifs. Format : Système complet + Version express. Style : Performance & équilibre."
+        },
+        {
+          "id": 86, "title": "Gestion du temps — Travailleurs de nuit",
+          "simple": "Aide quelqu'un qui travaille de nuit à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour travailleurs de nuit, clair, protecteur et réaliste.",
+          "expert": "Rôle : Night shift productivity strategist. Objectif : Optimiser énergie, sommeil et organisation. Contraintes : Rituels · Sommeil · Planning. Format : Système complet + Version minimaliste. Style : Santé & efficacité."
+        },
+        {
+          "id": 87, "title": "Gestion du temps — Horaires irréguliers",
+          "simple": "Aide quelqu'un avec des horaires irréguliers à s'organiser.",
+          "premium": "Crée un système de gestion du temps pour horaires irréguliers, clair, flexible et efficace.",
+          "expert": "Rôle : Irregular schedule productivity strategist. Objectif : Stabiliser organisation malgré horaires changeants. Contraintes : Rituels · Buffers · Priorités. Format : Système complet + Version express. Style : Flexibilité & structure."
+        },
+        {
+          "id": 88, "title": "Gestion du temps — Personnes en reconversion",
+          "simple": "Aide quelqu'un en reconversion à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour reconversion, clair, motivant et structuré.",
+          "expert": "Rôle : Career transition productivity strategist. Objectif : Optimiser apprentissage, projets et organisation. Contraintes : Objectifs · Planning · Rituels. Format : Système complet + Version simplifiée. Style : Progression & clarté."
+        },
+        {
+          "id": 89, "title": "Gestion du temps — Personnes en formation",
+          "simple": "Aide quelqu'un en formation à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour personnes en formation, clair, efficace et motivant.",
+          "expert": "Rôle : Learning productivity strategist. Objectif : Optimiser apprentissage, révisions et pratique. Contraintes : Planning · Rituels · Objectifs. Format : Système complet + Version express. Style : Apprentissage & discipline."
+        },
+        {
+          "id": 90, "title": "Gestion du temps — Personnes en recherche d'emploi",
+          "simple": "Aide quelqu'un en recherche d'emploi à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour recherche d'emploi, clair, motivant et orienté résultats.",
+          "expert": "Rôle : Job search productivity strategist. Objectif : Optimiser candidatures, organisation et motivation. Contraintes : Objectifs · Rituels · Suivi. Format : Système complet + Version minimaliste. Style : Motivation & structure."
+        },
+        {
+          "id": 91, "title": "Gestion du temps — Personnes en burnout",
+          "simple": "Aide quelqu'un en burnout à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour personnes en burnout, clair, doux et protecteur.",
+          "expert": "Rôle : Burnout recovery productivity strategist. Objectif : Réduire pression, restaurer énergie et clarté. Contraintes : Micro-tâches · Rituels de récupération · Priorités réduites. Format : Système complet + Version minimaliste. Style : Douceur & sécurité."
+        },
+        {
+          "id": 92, "title": "Gestion du temps — Surcharge mentale",
+          "simple": "Aide quelqu'un qui a la tête pleine à s'organiser.",
+          "premium": "Crée un système de gestion du temps pour surcharge mentale, clair, apaisant et réaliste.",
+          "expert": "Rôle : Mental load strategist. Objectif : Alléger charge mentale et clarifier priorités. Contraintes : Déchargement mental · Simplification · Rituels. Format : Système complet + Version express. Style : Calme & clarté."
+        },
+        {
+          "id": 93, "title": "Gestion du temps — Créatifs désorganisés",
+          "simple": "Aide une personne créative à s'organiser.",
+          "premium": "Crée un système de gestion du temps pour créatifs désorganisés, clair, flexible et inspirant.",
+          "expert": "Rôle : Creative chaos strategist. Objectif : Canaliser créativité et installer une structure légère. Contraintes : Rituels · Micro-objectifs · Deep work créatif. Format : Système complet + Version minimaliste. Style : Créativité & fluidité."
+        },
+        {
+          "id": 94, "title": "Gestion du temps — Profils rationnels",
+          "simple": "Aide une personne rationnelle à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour profils rationnels, clair, logique et structuré.",
+          "expert": "Rôle : Analytical productivity strategist. Objectif : Optimiser organisation via logique et structure. Contraintes : KPIs · Processus · Priorités. Format : Système complet + Version express. Style : Logique & rigueur."
+        },
+        {
+          "id": 95, "title": "Gestion du temps — Profils émotionnels",
+          "simple": "Aide une personne émotionnelle à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour profils émotionnels, clair, doux et motivant.",
+          "expert": "Rôle : Emotional productivity strategist. Objectif : Stabiliser organisation et soutenir motivation. Contraintes : Rituels · Micro-tâches · Gestion émotionnelle. Format : Système complet + Version minimaliste. Style : Douceur & équilibre."
+        },
+        {
+          "id": 96, "title": "Gestion du temps — Profils très sociaux",
+          "simple": "Aide une personne très sociale à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour profils sociaux, clair, dynamique et équilibré.",
+          "expert": "Rôle : Social energy productivity strategist. Objectif : Maximiser énergie sociale et éviter dispersion. Contraintes : Sessions sociales · Focus · Rituels. Format : Système complet + Version express. Style : Dynamique & structuré."
+        },
+        {
+          "id": 97, "title": "Gestion du temps — Profils solitaires",
+          "simple": "Aide une personne solitaire à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour profils solitaires, clair, calme et efficace.",
+          "expert": "Rôle : Solitary productivity strategist. Objectif : Optimiser organisation et préserver énergie. Contraintes : Rituels · Deep work · Priorités. Format : Système complet + Version minimaliste. Style : Calme & introspectif."
+        },
+        {
+          "id": 98, "title": "Gestion du temps — Profils ambitieux",
+          "simple": "Aide une personne ambitieuse à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour profils ambitieux, clair, performant et durable.",
+          "expert": "Rôle : High ambition productivity strategist. Objectif : Maximiser résultats sans épuisement. Contraintes : Objectifs · KPIs · Rituels. Format : Système complet + Version express. Style : Performance & équilibre."
+        },
+        {
+          "id": 99, "title": "Gestion du temps — Profils spirituels",
+          "simple": "Aide une personne spirituelle à mieux gérer son temps.",
+          "premium": "Crée un système de gestion du temps pour profils spirituels, clair, apaisant et aligné.",
+          "expert": "Rôle : Spiritual productivity strategist. Objectif : Harmoniser productivité et alignement intérieur. Contraintes : Rituels · Moments d'introspection · Priorités. Format : Système complet + Version minimaliste. Style : Calme & alignement."
+        },
+        {
+          "id": 100, "title": "Système d'équilibre de vie global",
+          "simple": "Aide-moi à équilibrer ma vie.",
+          "premium": "Crée un système de gestion du temps équilibré, clair et durable.",
+          "expert": "Rôle : Life balance productivity strategist. Objectif : Harmoniser travail, repos, relations, santé et projets. Contraintes : Rituels · Priorités · Cycles. Format : Système complet + Version express. Style : Harmonie & long terme."
+        }
+      ]
+    }
+  ]
+}

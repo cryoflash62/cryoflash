@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Affiche IA 2026 – Les meilleures IA gratuites par thème</title>
+
+<meta name="description" content="Affiche IA 2026 : sélection des meilleures IA gratuites ou freemium par thème — chat, image, vidéo, code, productivité, open source et IA locale. Page unique claire, pédagogique et prête à imprimer.">
+
+<meta name="keywords" content="IA gratuite, intelligence artificielle 2026, outils IA, générateur image, IA open source, IA locale, prompts, ChatGPT, Claude, Gemini, Mistral, outils productivité, générateur vidéo">
+
+<meta name="robots" content="index, follow">
+
+<!-- OpenGraph (Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="Affiche IA 2026 – Les meilleures IA gratuites par thème">
+<meta property="og:description" content="Sélection 2026 des meilleures IA gratuites : chat, image, vidéo, code, productivité, open source et IA locale.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lemaire-dominique.com/ia/">
+<meta property="og:image" content="https://lemaire-dominique.com/ia/preview.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Affiche IA 2026 – Les meilleures IA gratuites par thème">
+<meta name="twitter:description" content="Affiche IA 2026 : les meilleurs outils IA gratuits classés par thème.">
+<meta name="twitter:image" content="https://lemaire-dominique.com/ia/preview.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-alt: #0b1020;
+      --accent: #ffcc33;
+      --accent-soft: #ffeaa0;
+      --text: #f5f5f5;
+      --muted: #a0a4c0;
+      --card: #11182b;
+      --border: #252b45;
+      --danger: #ff5c7a;
+      --ok: #4ade80;
+      --link: #7dd3fc;
+      --shadow: 0 18px 45px rgba(0,0,0,0.55);
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1b1f3b 0, #050816 45%, #02010a 100%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(to right, rgba(5,8,22,0.96), rgba(5,8,22,0.85));
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-logo {
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: radial-gradient(circle at 30% 20%, #ffcc33, #ff5c7a 40%, #6366f1 100%);
+      box-shadow: 0 0 18px rgba(255,204,51,0.7);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand-logo::after {
+      content: "";
+      position: absolute;
+      inset: 7px;
+      border-radius: 10px;
+      border: 2px solid rgba(5,8,22,0.7);
+    }
+
+    .brand-text-title {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+
+    .brand-text-sub {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    nav li a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: var(--radius-pill);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: radial-gradient(circle at top, rgba(255,255,255,0.06), rgba(5,8,22,0.9));
+      color: var(--accent-soft);
+      transition: all 0.18s ease-out;
+    }
+
+    nav li a span.dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 8px rgba(255,204,51,0.8);
+    }
+
+    nav li a:hover {
+      border-color: var(--accent);
+      color: #111827;
+      background: linear-gradient(135deg, #ffcc33, #ff9f43);
+      box-shadow: 0 0 18px rgba(255,204,51,0.7);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 18px;
+      padding-bottom: 60px;
+    }
+
+    .hero {
+      margin-top: 18px;
+      margin-bottom: 26px;
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.2fr);
+      gap: 22px;
+      align-items: center;
+    }
+
+    .hero-left {
+      padding: 22px 22px 20px;
+      border-radius: 26px;
+      background: radial-gradient(circle at top left, rgba(255,204,51,0.18), rgba(17,24,39,0.95));
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-left::before {
+      content: "AFFICHE 2026";
+      position: absolute;
+      top: 14px;
+      right: -40px;
+      font-size: 0.7rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.08);
+      transform: rotate(12deg);
+    }
+
+    .hero-kicker {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--accent-soft);
+      margin-bottom: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-kicker::before {
+      content: "";
+      width: 32px;
+      height: 1px;
+      background: linear-gradient(to right, var(--accent), transparent);
+    }
+
+    .hero-title {
+      font-size: clamp(1.9rem, 3vw, 2.4rem);
+      line-height: 1.1;
+      margin-bottom: 10px;
+      font-weight: 800;
+    }
+
+    .hero-title span.highlight {
+      background: linear-gradient(120deg, #ffcc33, #ff5c7a);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 0.98rem;
+      color: var(--muted);
+      max-width: 520px;
+      margin-bottom: 14px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(15,23,42,0.9);
+      color: var(--accent-soft);
+    }
+
+    .hero-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-note-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: var(--ok);
+      box-shadow: 0 0 10px rgba(74,222,128,0.9);
+    }
+
+    .hero-right {
+      border-radius: 26px;
+      background: radial-gradient(circle at 20% 0, rgba(125,211,252,0.35), rgba(15,23,42,0.98));
+      border: 1px solid rgba(148,163,184,0.35);
+      padding: 18px 18px 16px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-right-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--accent-soft);
+      margin-bottom: 10px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      font-size: 0.78rem;
+    }
+
+    .hero-pill {
+      border-radius: 16px;
+      padding: 10px 10px 9px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .hero-pill-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+    }
+
+    .hero-pill-label {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .hero-pill-badge {
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      background: rgba(34,197,94,0.12);
+      color: #bbf7d0;
+      border: 1px solid rgba(34,197,94,0.5);
+    }
+
+    .hero-pill-main {
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .hero-pill-sub {
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    .hero-ribbon {
+      position: absolute;
+      bottom: 10px;
+      right: -40px;
+      transform: rotate(-10deg);
+      background: linear-gradient(135deg, #ff5c7a, #ffcc33);
+      color: #020617;
+      padding: 4px 40px;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      border-radius: 999px;
+      box-shadow: 0 0 18px rgba(248,113,113,0.8);
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--accent-soft);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      border-radius: 999px;
+      background: linear-gradient(to right, var(--accent), transparent);
+    }
+
+    .section-subtitle {
+      font-size: 0.8rem;
+      color: var(--muted);
+      max-width: 420px;
+      text-align: right;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      border-radius: var(--radius-lg);
+      background: radial-gradient(circle at top, rgba(148,163,184,0.18), rgba(15,23,42,0.98));
+      border: 1px solid var(--border);
+      padding: 12px 12px 11px;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.45);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(255,255,255,0.06), transparent 55%);
+      pointer-events: none;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-name {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .card-badge {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.7);
+      color: var(--accent-soft);
+      background: rgba(15,23,42,0.9);
+    }
+
+    .card-desc {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+      font-size: 0.72rem;
+    }
+
+    .meta-pill {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.5);
+      color: #e5e7eb;
+      background: rgba(15,23,42,0.9);
+    }
+
+    .meta-pill.free {
+      border-color: rgba(34,197,94,0.7);
+      color: #bbf7d0;
+      background: rgba(22,101,52,0.35);
+    }
+
+    .meta-pill.limits {
+      border-color: rgba(248,113,113,0.7);
+      color: #fecaca;
+      background: rgba(127,29,29,0.35);
+    }
+
+    .card-link {
+      margin-top: 6px;
+      font-size: 0.78rem;
+    }
+
+    .card-link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(125,211,252,0.7);
+      background: rgba(15,23,42,0.9);
+    }
+
+    .card-link a span.arrow {
+      font-size: 0.8em;
+    }
+
+    .section-note {
+      margin-top: 8px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    footer {
+      border-top: 1px solid rgba(148,163,184,0.25);
+      padding: 14px 18px 22px;
+      background: radial-gradient(circle at bottom, #020617, #02010a);
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    footer .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+    }
+
+    footer .footer-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    footer .footer-tag {
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px dashed rgba(148,163,184,0.5);
+    }
+
+    @media (max-width: 840px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .hero-right {
+        order: -1;
+      }
+      .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .section-subtitle {
+        text-align: left;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .nav-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav ul {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-logo"></div>
+      <div>
+        <div class="brand-text-title">IA 2026 PAR CRYOFLASH</div>
+        <div class="brand-text-sub">Affiche des IA gratuites par thème</div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+	  
+	  <div class="ia-card">
+  <h3>Live YouTube</h3>
+  <p>Regarder le live en direct sur le site.</p>
+  <a href="/live.html" class="btn">🔴 Voir le Live</a>
+</div>
+
+        <li><a href="#chatbots"><span class="dot"></span>Chatbots & écriture</a></li>
+        <li><a href="#images"><span class="dot"></span>Images</a></li>
+        <li><a href="#video-audio"><span class="dot"></span>Vidéo & audio</a></li>
+        <li><a href="#code"><span class="dot"></span>Code & dev</a></li>
+        <li><a href="#productivite"><span class="dot"></span>Productivité & recherche</a></li>
+        <li><a href="#open-source"><span class="dot"></span>Open source & local</a></li>
+		<li><a href="#prompts"><span class="dot"></span>Prompts IA</a></li>
+        <li><a href="#assistants-ia"><span class="dot"></span>Assistants IA</a></li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-kicker">Panorama des IA gratuites – 2026</div>
+      <h1 class="hero-title">
+        Les IA <span class="highlight">gratuites</span> qui comptent vraiment<br />
+        classées par usage.
+      </h1>
+      <p class="hero-subtitle">
+        Une affiche façon « tableau de bord » pour présenter, en un coup d’œil, les principaux outils IA
+        gratuits ou freemium en 2026&nbsp;: chat, image, vidéo, code, productivité et open source.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">Mise à jour 2026</span>
+        <span class="tag">Plans gratuits / freemium</span>
+        <span class="tag">Usage non exhaustif</span>
+      </div>
+      <p class="hero-note">
+        <span class="hero-note-dot"></span>
+        Sélection basée sur comparatifs récents (DataCamp, eWeek, annuaires d’outils 100&nbsp;% gratuits, etc.).
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-right-title">6 thèmes pour s’y retrouver</div>
+      <div class="hero-grid">
+        <div class="hero-pill">
+          <div class="hero-pill-header">
+            <span class="hero-pill-label">Généralistes</span>
+            <span class="hero-pill-badge">Gratuit</span>
+          </div>
+          <div class="hero-pill-main">ChatGPT, Claude, Gemini</div>
+          <div class="hero-pill-sub">Écriture, code, analyse, multimodal.</div>
+        </div>
+        <div class="hero-pill">
+          <div class="hero-pill-header">
+            <span class="hero-pill-label">Création visuelle</span>
+            <span class="hero-pill-badge">Crédits offerts</span>
+          </div>
+          <div class="hero-pill-main">Firefly, Dreamina, Creatra</div>
+          <div class="hero-pill-sub">Images, assets, styles variés.</div>
+        </div>
+        <div class="hero-pill">
+          <div class="hero-pill-header">
+            <span class="hero-pill-label">Dev & agents</span>
+            <span class="hero-pill-badge">Open source</span>
+          </div>
+          <div class="hero-pill-main">Magentic‑One, OpenManus</div>
+          <div class="hero-pill-sub">Agents, IDE, automatisation.</div>
+        </div>
+        <div class="hero-pill">
+          <div class="hero-pill-header">
+            <span class="hero-pill-label">Productivité</span>
+            <span class="hero-pill-badge">Freemium</span>
+          </div>
+          <div class="hero-pill-main">Mode AI, Adobe Student Spaces…</div>
+          <div class="hero-pill-sub">Organisation, étude, recherche.</div>
+        </div>
+      </div>
+      <div class="hero-ribbon">Affiche prête à imprimer ou projeter</div>
+    </div>
+  </section>
+
+
+  <!-- 1. CHATBOTS & ÉCRITURE -->
+  <section id="chatbots">
+    <div class="section-header">
+      <h2 class="section-title">Chatbots & écriture</h2>
+      <p class="section-subtitle">
+        Assistants généralistes pour écrire, résumer, traduire, coder, analyser des documents et dialoguer
+        en langage naturel.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">ChatGPT (OpenAI)</div>
+          <div class="card-badge">Assistant généraliste</div>
+        </div>
+        <p class="card-desc">
+          Chatbot polyvalent (texte, image, parfois audio/vidéo) pour rédaction, brainstorming, code,
+          analyse de données et recherche. Le plan gratuit donne accès à un modèle rapide et à des
+          fonctionnalités de base, avec des limites de volume.
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Plan gratuit</span>
+          <span class="meta-pill">Texte + image</span>
+          <span class="meta-pill limits">Crédits / messages limités</span>
+        </div>
+        <p class="card-link">
+          <a href="https://chat.openai.com" target="_blank" rel="noreferrer">
+            Ouvrir ChatGPT <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Claude (Anthropic)</div>
+          <div class="card-badge">Écriture & analyse</div>
+        </div>
+        <p class="card-desc">
+          Assistant réputé pour la qualité de son écriture, son raisonnement et l’analyse de longs
+          documents (PDF, rapports, code). Le plan gratuit permet déjà un usage sérieux pour la rédaction
+          et la synthèse. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Plan gratuit</span>
+          <span class="meta-pill">Longs contextes</span>
+          <span class="meta-pill">Texte & code</span>
+        </div>
+        <p class="card-link">
+          <a href="https://claude.ai" target="_blank" rel="noreferrer">
+            Ouvrir Claude <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Gemini (Google)</div>
+          <div class="card-badge">Intégré Google</div>
+        </div>
+        <p class="card-desc">
+          Assistant IA relié à l’écosystème Google (Gmail, Docs, Drive, YouTube). Idéal pour résumer des
+          mails, documents et vidéos, et générer du contenu directement dans les outils Google. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Plan gratuit</span>
+          <span class="meta-pill">Intégration Google</span>
+          <span class="meta-pill">Texte + image</span>
+        </div>
+        <p class="card-link">
+          <a href="https://gemini.google.com" target="_blank" rel="noreferrer">
+            Ouvrir Gemini <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Le Chat (Mistral AI)</div>
+          <div class="card-badge">Assistant européen</div>
+        </div>
+        <p class="card-desc">
+          Chatbot de Mistral AI, avec modèles rapides et efficaces, particulièrement intéressant pour le
+          français et l’Europe. Propose un accès gratuit avec des limites de volume. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit / freemium</span>
+          <span class="meta-pill">Multilingue</span>
+          <span class="meta-pill">Texte & code</span>
+        </div>
+        <p class="card-link">
+          <a href="https://chat.mistral.ai" target="_blank" rel="noreferrer">
+            Ouvrir Le Chat <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+    </div>
+
+    <p class="section-note">
+      Astuce affiche&nbsp;: pour un public non technique, présenter ces 4 logos côte à côte avec un pictogramme
+      « conversation » et un code couleur commun.
+    </p>
+  </section>
+
+  <!-- 2. IMAGES -->
+  <section id="images">
+    <div class="section-header">
+      <h2 class="section-title">Images & création visuelle</h2>
+      <p class="section-subtitle">
+        Générateurs d’images, d’illustrations, de personnages et d’assets graphiques, souvent avec un
+        quota gratuit mensuel.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Adobe Firefly 3</div>
+          <div class="card-badge">Génération d’images</div>
+        </div>
+        <p class="card-desc">
+          Plateforme IA d’Adobe intégrée à Photoshop, Illustrator, Premiere, etc. Permet de générer et
+          modifier des images avec un système de crédits gratuits pour les comptes Adobe. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Crédits gratuits</span>
+          <span class="meta-pill">Intégré Adobe</span>
+          <span class="meta-pill limits">Crédits mensuels</span>
+        </div>
+        <p class="card-link">
+          <a href="https://firefly.adobe.com" target="_blank" rel="noreferrer">
+            Ouvrir Firefly <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Dreamina (CapCut)</div>
+          <div class="card-badge">Images & assets</div>
+        </div>
+        <p class="card-desc">
+          Générateur d’images gratuit intégré à l’écosystème CapCut/TikTok, pratique pour créer des
+          personnages, assets de jeu et visuels pour les réseaux sociaux. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">Oriented social</span>
+          <span class="meta-pill">Personnages & scènes</span>
+        </div>
+        <p class="card-link">
+          <a href="https://www.capcut.com/ai-image-generator" target="_blank" rel="noreferrer">
+            Ouvrir Dreamina <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Creatra Art</div>
+          <div class="card-badge">Images & vidéo</div>
+        </div>
+        <p class="card-desc">
+          Plateforme de création d’images et de vidéos IA (GPT‑4o, Flux, Veo, etc.) avec une offre
+          gratuite permettant de produire et vendre des visuels. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Plan gratuit</span>
+          <span class="meta-pill">Images + vidéo</span>
+          <span class="meta-pill">Créateurs de contenu</span>
+        </div>
+        <p class="card-link">
+          <a href="https://creatra.ai" target="_blank" rel="noreferrer">
+            Ouvrir Creatra <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Meshy AI</div>
+          <div class="card-badge">3D & texturing</div>
+        </div>
+        <p class="card-desc">
+          Générateur 3D (texte‑vers‑3D, image‑vers‑3D, texturing IA) pour créer des modèles et assets
+          3D, avec un plan gratuit limité. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Plan gratuit</span>
+          <span class="meta-pill">3D / jeux</span>
+          <span class="meta-pill limits">Crédits limités</span>
+        </div>
+        <p class="card-link">
+          <a href="https://www.meshy.ai" target="_blank" rel="noreferrer">
+            Ouvrir Meshy <span class="arrow">↗</span>
+          </a>
+        </p>
+      </article>
+    </div>
+
+    <p class="section-note">
+      Idée visuelle&nbsp;: regrouper ces outils dans un bloc « Création visuelle » avec un fond coloré différent
+      pour bien distinguer texte vs image.
+    </p>
+  </section>
+
+
+  <!-- 3. VIDÉO & AUDIO -->
+  <section id="video-audio">
+    <div class="section-header">
+      <h2 class="section-title">Vidéo & audio</h2>
+      <p class="section-subtitle">
+        Outils pour générer ou modifier de la vidéo, séparer les pistes audio, animer des portraits ou
+        améliorer la voix.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Emote Portrait Alive (EMO)</div>
+          <div class="card-badge">Portrait animé</div>
+        </div>
+        <p class="card-desc">
+          Framework de recherche permettant d’animer un portrait fixe (lèvres, expressions) à partir
+          d’un fichier audio. Utilisé dans plusieurs démos et outils en ligne. 
+        </p>
+		
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit / recherche</span>
+          <span class="meta-pill">Animation visage</span>
+          <span class="meta-pill">Vidéo courte</span>
+		  <p class="card-link">
+        <a href="https://github.com/HumanAIGC/EMO" target="_blank">Voir EMO ↗</a>
+      </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">LipSync.video</div>
+          <div class="card-badge">Synchronisation labiale</div>
+        </div>
+        <p class="card-desc">
+          Outil en ligne pour synchroniser une nouvelle piste audio avec les lèvres d’une vidéo existante,
+          pratique pour doublage et localisation. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">Web</span>
+          <span class="meta-pill">Doublage</span>
+        </div>
+		 <p class="card-link">
+        <a href="https://lipsync.ai" target="_blank">Voir LipSync ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Vocal Remover</div>
+          <div class="card-badge">Audio</div>
+        </div>
+        <p class="card-desc">
+          Outil IA dans le navigateur pour séparer voix et instrumentaux à partir d’un fichier audio
+          (karaoké, remix, montage vidéo). 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">Séparation pistes</span>
+          <span class="meta-pill">Musique / montage</span>
+        </div>
+		 <p class="card-link">
+        <a href="https://vocalremover.org" target="_blank">Voir Vocal Remover ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">MOSS‑TTS‑Nano</div>
+          <div class="card-badge">Voix & clonage</div>
+        </div>
+        <p class="card-desc">
+          Modèle open source de synthèse vocale multilingue et clonage de voix, fonctionnant sur CPU,
+          adapté aux projets locaux ou hors‑ligne. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">TTS & clonage</span>
+          <span class="meta-pill">Local / CPU</span>
+        </div>
+		 <p class="card-link">
+    <a href="https://github.com/Plachtaa/MOSS-TTS" target="_blank">MOSS‑TTS‑Nano ↗</a>
+  </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 4. CODE & DEV -->
+  <section id="code">
+    <div class="section-header">
+      <h2 class="section-title">Code & développement</h2>
+      <p class="section-subtitle">
+        Assistants de code, environnements de développement augmentés et agents autonomes pour automatiser
+        des tâches techniques.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Magentic‑One (Microsoft Research)</div>
+          <div class="card-badge">Multi‑agents</div>
+        </div>
+        <p class="card-desc">
+          Système multi‑agents open source pour orchestrer des tâches complexes (navigation web, outils,
+          code) avec une approche « généraliste ». 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">Agents IA</span>
+          <span class="meta-pill">Dev & recherche</span>
+        </div>
+		 <p class="card-link">
+        <a href="https://github.com/microsoft/magentic-one" target="_blank">Voir Magentic-One ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">OpenManus</div>
+          <div class="card-badge">Framework agents</div>
+        </div>
+        <p class="card-desc">
+          Framework Python open source pour construire des agents autonomes, très étoilé sur GitHub,
+          adapté à l’automatisation avancée. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">Python</span>
+          <span class="meta-pill">Automatisation</span>
+        </div>
+		<p class="card-link">
+        <a href="https://github.com/openmanus" target="_blank">Voir OpenManus ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Firebase Studio (Google)</div>
+          <div class="card-badge">Dev web / mobile</div>
+        </div>
+        <p class="card-desc">
+          Environnement de développement dans le navigateur, propulsé par Gemini, pour prototyper des
+          applis, générer du code et tester rapidement. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Plan gratuit</span>
+          <span class="meta-pill">Web IDE</span>
+          <span class="meta-pill">Gemini intégré</span>
+        </div>
+		<p class="card-link">
+    <a href="https://firebase.google.com" target="_blank">Firebase Studio ↗</a>
+  </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Kiro AI (Amazon)</div>
+          <div class="card-badge">IDE agentique</div>
+        </div>
+        <p class="card-desc">
+          IDE IA d’Amazon pour convertir des spécifications en code, refactorer et générer des
+          prototypes, avec une offre gratuite pour les développeurs. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Freemium</span>
+          <span class="meta-pill">IDE IA</span>
+          <span class="meta-pill">Cloud</span>
+        </div>
+		 <p class="card-link">
+    <a href="https://aws.amazon.com/fr/codewhisperer/" target="_blank">Kiro AI ↗</a>
+  </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 5. PRODUCTIVITÉ & RECHERCHE -->
+  <section id="productivite">
+    <div class="section-header">
+      <h2 class="section-title">Productivité & recherche</h2>
+      <p class="section-subtitle">
+        Outils pour organiser son travail, étudier, prendre des notes, automatiser des tâches et
+        rechercher de l’information.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Mode AI</div>
+          <div class="card-badge">Espace tout‑en‑un</div>
+        </div>
+        <p class="card-desc">
+          Application iOS combinant chat IA, génération d’images et de vidéos, et automatisation de
+          tâches avec intégrations d’apps. Plan gratuit disponible. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">iOS</span>
+          <span class="meta-pill">Chat + média</span>
+        </div>
+		<p class="card-link">
+        <a href="https://mode.ai" target="_blank">Voir Mode AI ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Adobe Student Spaces</div>
+          <div class="card-badge">Études & révision</div>
+        </div>
+        <p class="card-desc">
+          Espace d’étude dans Acrobat pour générer flashcards, quiz, cartes mentales et podcasts à
+          partir de ses propres cours et PDF. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">Étudiants</span>
+          <span class="meta-pill">PDF → supports</span>
+        </div>
+		  <p class="card-link">
+		  <a href="https://www.adobe.com" target="_blank">Voir Student Spaces ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Cushion</div>
+          <div class="card-badge">Notes & markdown</div>
+        </div>
+        <p class="card-desc">
+          Espace de travail markdown open source avec IA intégrée, alternative gratuite à Obsidian,
+          orientée prise de notes et écriture. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">Desktop</span>
+          <span class="meta-pill">Markdown + IA</span>
+        </div>
+		<p class="card-link">
+    <a href="https://cushion.so" target="_blank">Cushion ↗</a>
+  </p>
+		
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Ghost Pepper</div>
+          <div class="card-badge">Dictée & transcription</div>
+        </div>
+        <p class="card-desc">
+          Outil macOS de dictée et transcription locale (aucun envoi serveur), pratique pour réunions,
+          prises de notes et rédaction rapide. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">macOS</span>
+          <span class="meta-pill">Local / privé</span>
+        </div>
+		 <p class="card-link">
+    <a href="https://ghostpepper.ai" target="_blank">Ghost Pepper ↗</a>
+  </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 6. OPEN SOURCE & LOCAL -->
+  <section id="open-source">
+    <div class="section-header">
+      <h2 class="section-title">Open source & local</h2>
+      <p class="section-subtitle">
+        Modèles et outils 100&nbsp;% gratuits, souvent auto‑hébergeables, pour garder le contrôle sur les
+        données et les coûts.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Le Chat (Mistral) – modèles open</div>
+          <div class="card-badge">Modèles Mistral</div>
+        </div>
+        <p class="card-desc">
+          Au‑delà de l’interface web, les modèles Mistral sont disponibles en open source pour un
+          déploiement local ou sur serveur, adaptés aux projets européens. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">Texte & code</span>
+          <span class="meta-pill">Self‑hosted</span>
+        </div>
+		<p class="card-link">
+        <a href="https://mistral.ai" target="_blank">Voir Mistral ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Parlor</div>
+          <div class="card-badge">Voix & vision locales</div>
+        </div>
+        <p class="card-desc">
+          Outil open source pour faire tourner en temps réel voix et vision IA sur son propre appareil,
+          basé sur Gemma et Kokoro TTS. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">Temps réel</span>
+          <span class="meta-pill">On‑device</span>
+        </div>
+		<p class="card-link">
+        <a href="https://github.com/parlor" target="_blank">Voir Parlor ↗</a>
+      </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Nemotron OCR v2</div>
+          <div class="card-badge">OCR IA</div>
+        </div>
+        <p class="card-desc">
+          Modèle OCR multilingue gratuit de NVIDIA pour lire documents, panneaux et graphiques à grande
+          vitesse, utile pour pipelines documentaires. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Open source</span>
+          <span class="meta-pill">OCR</span>
+          <span class="meta-pill">Multi‑langues</span>
+        </div>
+		 <p class="card-link">
+    <a href="https://developer.nvidia.com/blog/nemotron-ocr/" target="_blank">Nemotron OCR v2 ↗</a>
+  </p>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-name">Goblin Tools</div>
+          <div class="card-badge">Outils ciblés</div>
+        </div>
+        <p class="card-desc">
+          Collection d’outils IA gratuits pensés pour les personnes neurodivergentes&nbsp;: découpage de
+          tâches, aide à l’organisation, etc., utilisables dans le navigateur. 
+        </p>
+        <div class="card-meta">
+          <span class="meta-pill free">Gratuit</span>
+          <span class="meta-pill">Web</span>
+          <span class="meta-pill">Organisation</span>
+        </div>
+		<p class="card-link">
+    <a href="https://goblin.tools" target="_blank">Goblin Tools ↗</a>
+  </p>
+      </article>
+    </div>
+
+    <p class="section-note">
+      Pour une affiche pédagogique, on peut distinguer clairement « Cloud / compte obligatoire » vs
+      « Open source / local » avec deux couleurs et un pictogramme cadenas ouvert/fermé.
+    </p>
+	 <article class="card">
+  <div class="card-header">
+    <div class="card-name">IA Locale</div>
+    <div class="card-badge">Modèles hors‑ligne</div>
+  </div>
+
+  <p class="card-desc">
+    Les meilleures IA à installer directement sur ton ordinateur. Fonctionnent hors‑ligne,
+    protègent totalement tes données et offrent des performances impressionnantes sans dépendre
+    du cloud. Idéal pour la confidentialité, le dépannage, le développement et les usages avancés.
+  </p>
+
+  <p class="card-link">
+    <a href="https://ollama.com" target="_blank">Ollama — Modèles locaux ↗</a>
+  </p>
+
+  <p class="card-link">
+    <a href="https://lmstudio.ai" target="_blank">LM Studio — Interface locale ↗</a>
+  </p>
+
+  <p class="card-link">
+    <a href="https://github.com/ggerganov/whisper.cpp" target="_blank">Whisper.cpp — Audio → Texte ↗</a>
+  </p>
+</article>
+  </section>
+</main>
+<!-- 7. MES PROMPTS IA -->
+<section id="prompts">
+  <div class="section-header">
+    <h2 class="section-title">Mes Prompts IA — 2026</h2>
+    <p class="section-subtitle">
+      Toutes mes collections de prompts : business, marketing, écriture, réécriture, code, image,
+      réseaux sociaux et production.
+    </p>
+  </div>
+
+  <div class="cards">
+
+    <!-- BUSINESS -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Business</div>
+        <div class="card-badge">Stratégie & Management</div>
+      </div>
+      <p class="card-desc">
+        100 prompts pour piloter, développer et optimiser une entreprise.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/business/" target="_blank">
+          Ouvrir Business <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- MARKETING -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Marketing</div>
+        <div class="card-badge">Communication & Branding</div>
+      </div>
+      <p class="card-desc">
+        Prompts pour campagnes, slogans, tunnels de vente et contenus marketing.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/marketing/" target="_blank">
+          Ouvrir Marketing <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- ÉCRITURE -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Écriture</div>
+        <div class="card-badge">Rédaction & Création</div>
+      </div>
+      <p class="card-desc">
+        100 prompts pour écrire articles, histoires, scripts, mails et contenus professionnels.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/ecriture/" target="_blank">
+          Ouvrir Écriture <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- RÉÉCRITURE -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Réécriture</div>
+        <div class="card-badge">Style & Ton</div>
+      </div>
+      <p class="card-desc">
+        100 prompts pour transformer un texte : clarté, ton, style, formats pro.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/reecriture/" target="_blank">
+          Ouvrir Réécriture <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- CODE -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Code</div>
+        <div class="card-badge">Développement & Scripts</div>
+      </div>
+      <p class="card-desc">
+        Prompts pour générer, corriger, optimiser et documenter du code.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/code/" target="_blank">
+          Ouvrir Code <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- IMAGE -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Image</div>
+        <div class="card-badge">Création Visuelle</div>
+      </div>
+      <p class="card-desc">
+        Prompts pour générer images, styles, personnages, scènes et logos.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/image/" target="_blank">
+          Ouvrir Image <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- RÉSEAUX SOCIAUX -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Réseaux Sociaux</div>
+        <div class="card-badge">Contenu & Viralité</div>
+      </div>
+      <p class="card-desc">
+        Prompts pour posts, scripts vidéo, carrousels, hashtags et storytelling.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/sociaux/" target="_blank">
+          Ouvrir Réseaux Sociaux <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+    <!-- PRODUCTION -->
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Prompts Production</div>
+        <div class="card-badge">Organisation & Productivité</div>
+      </div>
+      <p class="card-desc">
+        Prompts pour automatiser, organiser, planifier et optimiser le travail.
+      </p>
+      <p class="card-link">
+        <a href="https://lemaire-dominique.com/production/" target="_blank">
+          Ouvrir Production <span class="arrow">↗</span>
+        </a>
+      </p>
+    </article>
+
+  </div>
+
+  <p class="section-note">
+    Tous ces prompts sont optimisés pour Claude, ChatGPT, Gemini et Mistral.
+  </p>
+</section>
+<!-- ASSISTANTS IA -->
+<section id="assistants-ia">
+  <div class="section-header">
+    <h2 class="section-title">Assistants IA</h2>
+    <p class="section-subtitle">
+      Les 4 assistants IA gratuits les plus puissants de 2026 pour écrire, coder, résumer,
+      créer des images et automatiser.
+    </p>
+  </div>
+
+  <div class="cards">
+
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Microsoft Copilot</div>
+        <div class="card-badge">Assistant IA</div>
+      </div>
+      <p class="card-desc">
+        Assistant IA gratuit pour écrire, coder, résumer, créer des images et automatiser des tâches.
+      </p>
+      <p class="card-link">
+        <a href="https://copilot.microsoft.com" target="_blank">Copilot ↗</a>
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Google Gemini</div>
+        <div class="card-badge">Multimodal</div>
+      </div>
+      <p class="card-desc">
+        IA multimodale de Google : texte, image, analyse, recherche, productivité.
+      </p>
+      <p class="card-link">
+        <a href="https://gemini.google.com" target="_blank">Gemini ↗</a>
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Claude AI</div>
+        <div class="card-badge">Rédaction & Analyse</div>
+      </div>
+      <p class="card-desc">
+        IA spécialisée dans la rédaction, l’analyse, les résumés et les tâches complexes.
+      </p>
+      <p class="card-link">
+        <a href="https://claude.ai" target="_blank">Claude ↗</a>
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-header">
+        <div class="card-name">Mistral AI</div>
+        <div class="card-badge">Open Source</div>
+      </div>
+      <p class="card-desc">
+        Modèles IA européens rapides, efficaces et open source (Mixtral, Mistral).
+      </p>
+      <p class="card-link">
+        <a href="https://mistral.ai" target="_blank">Mistral ↗</a>
+      </p>
+    </article>
+
+  </div>
+
+  <p class="section-note">
+    Ces assistants IA sont gratuits et compatibles avec tous les usages : écriture, code, images,
+    recherche, productivité et automatisation.
+  </p>
+</section>
+<article class="card">
+  <div class="card-header">
+    <div class="card-name">IA Bonus 2026</div>
+    <div class="card-badge">Outils avancés</div>
+  </div>
+  <p class="card-desc">
+    Une sélection d’outils IA gratuits ou open source incontournables : vidéo, voix, images,
+    modèles locaux et outils créatifs.
+  </p>
+
+  <p class="card-link">
+    <a href="https://runwayml.com" target="_blank">Runway Gen‑2 ↗</a>
+  </p>
+  <p class="card-link">
+    <a href="https://pika.art" target="_blank">Pika Labs ↗</a>
+  </p>
+  <p class="card-link">
+    <a href="https://elevenlabs.io" target="_blank">ElevenLabs Voice Lab ↗</a>
+  </p>
+  <p class="card-link">
+    <a href="https://ollama.com" target="_blank">Ollama (local) ↗</a>
+  </p>
+  <p class="card-link">
+    <a href="https://github.com/ggerganov/whisper.cpp" target="_blank">Whisper.cpp ↗</a>
+  </p>
+  <p class="card-link">
+    <a href="https://playgroundai.com" target="_blank">Playground AI ↗</a>
+  </p>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      Affiche IA 2026 – sélection d’outils gratuits ou freemium, non exhaustive, basée sur des guides
+      comparatifs récents (DataCamp, eWeek, annuaires d’outils 100&nbsp;% gratuits). 
+    </div>
+    <div class="footer-tags">
+      <span class="footer-tag">Usage&nbsp;: présentation, atelier, cours</span>
+      <span class="footer-tag">Format&nbsp;: page unique HTML</span>
+      <span class="footer-tag">Mise en page&nbsp;: style affiche</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,651 @@
+{
+  "title": "IA de Business",
+  "subtitle": "100 prompts pour piloter, développer et optimiser votre entreprise",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Stratégie & Fondamentaux",
+      "range": "1–20",
+      "icon": "🎯",
+      "color": "#3b82f6",
+      "prompts": [
+        {
+          "id": 1, "title": "Analyse de marché",
+          "simple": "Fais une analyse de marché.",
+          "premium": "Crée une analyse de marché claire, structurée et exploitable.",
+          "expert": "Rôle : Analyste business senior. Objectif : Comprendre le marché, les tendances et les opportunités. Contraintes : Taille du marché · Tendances · Concurrence · Opportunités · Risques. Format : Analyse complète + Synthèse exécutive. Style : Analytique stratégique."
+        },
+        {
+          "id": 2, "title": "Business plan",
+          "simple": "Fais un business plan.",
+          "premium": "Crée un business plan clair, structuré et professionnel.",
+          "expert": "Rôle : Consultant en création d'entreprise. Objectif : Construire un business plan complet et crédible. Contraintes : Résumé exécutif · Étude de marché · Modèle économique · Stratégie marketing · Plan financier. Format : Business plan complet + Version courte pitch deck. Style : Entrepreneurial."
+        },
+        {
+          "id": 3, "title": "Modèle économique",
+          "simple": "Crée un modèle économique.",
+          "premium": "Crée un modèle économique clair, rentable et cohérent.",
+          "expert": "Rôle : Expert en business models. Objectif : Définir comment l'entreprise génère de la valeur et des revenus. Contraintes : Proposition de valeur · Sources de revenus · Coûts · Canaux. Format : Modèle économique + variantes. Style : Business clair."
+        },
+        {
+          "id": 4, "title": "Étude concurrentielle",
+          "simple": "Fais une étude concurrentielle.",
+          "premium": "Crée une étude concurrentielle claire, structurée et exploitable.",
+          "expert": "Rôle : Analyste stratégique. Objectif : Comprendre les forces et faiblesses des concurrents. Contraintes : Positionnement · Forces · Faiblesses · Différenciation. Format : Analyse complète + Tableau comparatif. Style : Analytique."
+        },
+        {
+          "id": 5, "title": "Stratégie de croissance",
+          "simple": "Fais une stratégie de croissance.",
+          "premium": "Crée une stratégie de croissance claire, ambitieuse et réaliste.",
+          "expert": "Rôle : Growth strategist. Objectif : Définir les leviers de croissance prioritaires. Contraintes : Acquisition · Rétention · Monétisation · Expansion. Format : Stratégie complète + Plan d'action. Style : Growth business."
+        },
+        {
+          "id": 6, "title": "Stratégie de pricing",
+          "simple": "Fais une stratégie de pricing.",
+          "premium": "Crée une stratégie de pricing claire, cohérente et orientée rentabilité.",
+          "expert": "Rôle : Pricing strategist. Objectif : Définir un prix optimal et compétitif. Contraintes : Analyse concurrence · Valeur perçue · Coûts · Segments. Format : Stratégie pricing + modèles alternatifs. Style : Business analytique."
+        },
+        {
+          "id": 7, "title": "Stratégie de fidélisation",
+          "simple": "Fais une stratégie de fidélisation.",
+          "premium": "Crée une stratégie de fidélisation claire, humaine et orientée rétention.",
+          "expert": "Rôle : Customer retention strategist. Objectif : Augmenter la valeur vie client. Contraintes : Expérience client · Programmes de fidélité · Communication. Format : Stratégie complète + Plan d'action. Style : Relationnel premium."
+        },
+        {
+          "id": 8, "title": "Stratégie de prospection",
+          "simple": "Fais une stratégie de prospection.",
+          "premium": "Crée une stratégie de prospection claire, efficace et orientée résultats.",
+          "expert": "Rôle : Expert en prospection B2B. Objectif : Générer des leads qualifiés. Contraintes : Ciblage · Messages · Canaux · KPIs. Format : Stratégie complète + Scripts de prospection. Style : B2B premium."
+        },
+        {
+          "id": 9, "title": "Stratégie de gestion de crise",
+          "simple": "Fais une stratégie de gestion de crise.",
+          "premium": "Crée une stratégie de gestion de crise claire, structurée et opérationnelle.",
+          "expert": "Rôle : Crisis management consultant. Objectif : Préparer l'entreprise à gérer une crise efficacement. Contraintes : Scénarios · Protocoles · Communication · Responsabilités. Format : Plan complet + Checklist d'urgence. Style : Opérationnel stratégique."
+        },
+        {
+          "id": 10, "title": "Stratégie de transformation digitale",
+          "simple": "Fais une stratégie de transformation digitale.",
+          "premium": "Crée une stratégie de transformation digitale claire, moderne et orientée performance.",
+          "expert": "Rôle : Consultant digital transformation. Objectif : Moderniser l'entreprise et optimiser ses processus. Contraintes : Processus · Outils · Organisation · KPIs. Format : Stratégie complète + Plan d'implémentation. Style : Digital stratégique."
+        },
+        {
+          "id": 11, "title": "Stratégie d'acquisition",
+          "simple": "Fais une stratégie d'acquisition.",
+          "premium": "Crée une stratégie d'acquisition claire, efficace et orientée croissance.",
+          "expert": "Rôle : Growth acquisition strategist. Objectif : Générer un flux constant de nouveaux clients. Contraintes : Canaux prioritaires · Messages clés · Budget · KPIs. Format : Stratégie complète + Plan d'action 30 jours. Style : Growth marketing."
+        },
+        {
+          "id": 12, "title": "Stratégie de diversification",
+          "simple": "Fais une stratégie de diversification.",
+          "premium": "Crée une stratégie de diversification claire, réaliste et orientée opportunités.",
+          "expert": "Rôle : Consultant en stratégie d'entreprise. Objectif : Identifier de nouveaux axes de croissance. Contraintes : Nouveaux marchés · Nouveaux produits · Risques · Synergies. Format : Stratégie complète + Tableau opportunités/risques. Style : Stratégique."
+        },
+        {
+          "id": 13, "title": "Stratégie de partenariat",
+          "simple": "Fais une stratégie de partenariat.",
+          "premium": "Crée une stratégie de partenariat claire, professionnelle et orientée collaboration.",
+          "expert": "Rôle : Business development strategist. Objectif : Développer un réseau de partenaires solides. Contraintes : Types de partenaires · Valeur mutuelle · Processus d'approche. Format : Stratégie complète + Scripts d'approche. Style : Business collaboratif."
+        },
+        {
+          "id": 14, "title": "Stratégie RH",
+          "simple": "Fais une stratégie RH.",
+          "premium": "Crée une stratégie RH claire, humaine et orientée performance.",
+          "expert": "Rôle : Expert en ressources humaines. Objectif : Structurer une gestion RH moderne et efficace. Contraintes : Recrutement · Formation · Culture d'entreprise · Rétention. Format : Stratégie complète + Plan d'action. Style : RH moderne."
+        },
+        {
+          "id": 15, "title": "Stratégie de financement",
+          "simple": "Fais une stratégie de financement.",
+          "premium": "Crée une stratégie de financement claire, réaliste et orientée croissance.",
+          "expert": "Rôle : Consultant en financement. Objectif : Identifier les meilleures sources de financement. Contraintes : Subventions · Prêts · Investisseurs · Crowdfunding. Format : Stratégie complète + Tableau comparatif. Style : Financier clair."
+        },
+        {
+          "id": 16, "title": "Stratégie d'innovation",
+          "simple": "Fais une stratégie d'innovation.",
+          "premium": "Crée une stratégie d'innovation claire, moderne et orientée différenciation.",
+          "expert": "Rôle : Innovation strategist. Objectif : Stimuler la créativité et la différenciation. Contraintes : Processus d'innovation · Veille · Tests · KPIs. Format : Stratégie complète + Roadmap innovation. Style : Innovation futur."
+        },
+        {
+          "id": 17, "title": "Stratégie de leadership",
+          "simple": "Fais une stratégie de leadership.",
+          "premium": "Crée une stratégie de leadership claire, inspirante et orientée performance.",
+          "expert": "Rôle : Leadership coach. Objectif : Développer un leadership fort et cohérent. Contraintes : Vision · Communication · Gestion d'équipe. Format : Stratégie complète + Plan de développement personnel. Style : Leadership inspirant."
+        },
+        {
+          "id": 18, "title": "Stratégie de gestion du changement",
+          "simple": "Fais une stratégie de gestion du changement.",
+          "premium": "Crée une stratégie de gestion du changement claire, humaine et opérationnelle.",
+          "expert": "Rôle : Change management consultant. Objectif : Faciliter la transition et l'adoption du changement. Contraintes : Communication · Formation · Accompagnement · KPIs. Format : Stratégie complète + Plan d'implémentation. Style : Transformation organisationnelle."
+        },
+        {
+          "id": 19, "title": "Stratégie de gestion du temps pour dirigeants",
+          "simple": "Fais une stratégie de gestion du temps.",
+          "premium": "Crée une stratégie de gestion du temps claire, efficace et adaptée aux dirigeants.",
+          "expert": "Rôle : Coach productivité exécutive. Objectif : Optimiser le temps et la performance. Contraintes : Priorisation · Délégation · Outils. Format : Stratégie complète + Routine quotidienne. Style : Productivité premium."
+        },
+        {
+          "id": 20, "title": "Stratégie de gestion des risques",
+          "simple": "Fais une stratégie de gestion des risques.",
+          "premium": "Crée une stratégie de gestion des risques claire, structurée et opérationnelle.",
+          "expert": "Rôle : Risk management consultant. Objectif : Identifier, évaluer et réduire les risques. Contraintes : Risques internes · Risques externes · Plans de mitigation. Format : Stratégie complète + Matrice des risques. Style : Analytique rigoureux."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Management & Organisation",
+      "range": "21–40",
+      "icon": "👥",
+      "color": "#8b5cf6",
+      "prompts": [
+        {
+          "id": 21, "title": "Stratégie de communication interne",
+          "simple": "Fais une stratégie de communication interne.",
+          "premium": "Crée une stratégie de communication interne claire, fluide et orientée cohésion.",
+          "expert": "Rôle : Consultant en communication interne. Objectif : Améliorer la circulation de l'information et l'engagement des équipes. Contraintes : Canaux internes · Fréquence · Messages clés · Rôles et responsabilités. Format : Stratégie complète + Plan d'action 30 jours. Style : Organisationnel humain."
+        },
+        {
+          "id": 22, "title": "Stratégie de gestion de projet",
+          "simple": "Fais une stratégie de gestion de projet.",
+          "premium": "Crée une stratégie de gestion de projet claire, structurée et orientée efficacité.",
+          "expert": "Rôle : Chef de projet senior. Objectif : Structurer un cadre de gestion de projet performant. Contraintes : Méthodologie (Agile, Scrum, Waterfall…) · Rôles · Outils · KPIs. Format : Stratégie complète + Roadmap projet. Style : Gestion de projet moderne."
+        },
+        {
+          "id": 23, "title": "Stratégie de recrutement",
+          "simple": "Fais une stratégie de recrutement.",
+          "premium": "Crée une stratégie de recrutement claire, moderne et orientée attractivité.",
+          "expert": "Rôle : Talent acquisition strategist. Objectif : Attirer et sélectionner les meilleurs talents. Contraintes : Ciblage · Marque employeur · Processus · Outils. Format : Stratégie complète + Plan d'amélioration continue. Style : RH premium."
+        },
+        {
+          "id": 24, "title": "Stratégie de marque employeur",
+          "simple": "Fais une stratégie de marque employeur.",
+          "premium": "Crée une stratégie de marque employeur claire, attractive et orientée talents.",
+          "expert": "Rôle : Employer branding strategist. Objectif : Renforcer l'attractivité de l'entreprise. Contraintes : Valeurs · Culture · Avantages · Communication. Format : Stratégie complète + Plan de communication interne/externe. Style : Marque employeur premium."
+        },
+        {
+          "id": 25, "title": "Stratégie de négociation",
+          "simple": "Fais une stratégie de négociation.",
+          "premium": "Crée une stratégie de négociation claire, efficace et orientée résultats.",
+          "expert": "Rôle : Expert en négociation commerciale. Objectif : Maximiser les accords gagnant-gagnant. Contraintes : Préparation · Objectifs · Concessions · Arguments. Format : Stratégie complète + Script de négociation. Style : Négociation professionnelle."
+        },
+        {
+          "id": 26, "title": "Stratégie de gestion financière",
+          "simple": "Fais une stratégie de gestion financière.",
+          "premium": "Crée une stratégie de gestion financière claire, rigoureuse et orientée rentabilité.",
+          "expert": "Rôle : Consultant financier. Objectif : Optimiser la santé financière de l'entreprise. Contraintes : Budget · Trésorerie · Marges · Prévisions. Format : Stratégie complète + Tableau de priorités financières. Style : Financier analytique."
+        },
+        {
+          "id": 27, "title": "Stratégie d'expansion internationale",
+          "simple": "Fais une stratégie d'expansion internationale.",
+          "premium": "Crée une stratégie d'expansion internationale claire, réaliste et orientée croissance.",
+          "expert": "Rôle : International business strategist. Objectif : Développer l'entreprise à l'étranger. Contraintes : Marchés cibles · Adaptation culturelle · Réglementation · Logistique. Format : Stratégie complète + Plan d'entrée sur le marché. Style : International premium."
+        },
+        {
+          "id": 28, "title": "Stratégie de gestion des fournisseurs",
+          "simple": "Fais une stratégie de gestion des fournisseurs.",
+          "premium": "Crée une stratégie de gestion des fournisseurs claire, efficace et orientée performance.",
+          "expert": "Rôle : Supply chain strategist. Objectif : Optimiser la relation et la performance fournisseurs. Contraintes : Sélection · Évaluation · Négociation · Suivi. Format : Stratégie complète + Tableau d'évaluation fournisseurs. Style : Supply chain premium."
+        },
+        {
+          "id": 29, "title": "Stratégie de gestion des stocks",
+          "simple": "Fais une stratégie de gestion des stocks.",
+          "premium": "Crée une stratégie de gestion des stocks claire, optimisée et orientée efficacité.",
+          "expert": "Rôle : Expert logistique supply chain. Objectif : Réduire les coûts et éviter les ruptures. Contraintes : Méthodes (FIFO, LIFO, JIT…) · Prévisions · Outils. Format : Stratégie complète + Plan d'optimisation. Style : Logistique moderne."
+        },
+        {
+          "id": 30, "title": "Stratégie de gestion de la qualité",
+          "simple": "Fais une stratégie de gestion de la qualité.",
+          "premium": "Crée une stratégie de gestion de la qualité claire, rigoureuse et orientée amélioration continue.",
+          "expert": "Rôle : Consultant qualité performance. Objectif : Améliorer la qualité globale des produits/services. Contraintes : Normes · Processus · Contrôles · KPIs. Format : Stratégie complète + Plan d'amélioration continue. Style : Qualité premium."
+        },
+        {
+          "id": 31, "title": "Stratégie de gestion des opérations",
+          "simple": "Fais une stratégie de gestion des opérations.",
+          "premium": "Crée une stratégie de gestion des opérations claire, optimisée et orientée performance.",
+          "expert": "Rôle : Operations management consultant. Objectif : Améliorer l'efficacité opérationnelle globale. Contraintes : Processus · Outils · KPIs · Optimisation continue. Format : Stratégie complète + Plan d'amélioration 90 jours. Style : Opérationnel structuré."
+        },
+        {
+          "id": 32, "title": "Stratégie supply chain",
+          "simple": "Fais une stratégie supply chain.",
+          "premium": "Crée une stratégie supply chain claire, optimisée et orientée fluidité.",
+          "expert": "Rôle : Supply chain strategist. Objectif : Améliorer la fluidité et réduire les coûts logistiques. Contraintes : Approvisionnement · Stockage · Transport · Prévisions. Format : Stratégie complète + Tableau des flux. Style : Logistique moderne."
+        },
+        {
+          "id": 33, "title": "Stratégie de gestion des talents",
+          "simple": "Fais une stratégie de gestion des talents.",
+          "premium": "Crée une stratégie de gestion des talents claire, humaine et orientée développement.",
+          "expert": "Rôle : Talent management strategist. Objectif : Attirer, développer et retenir les talents clés. Contraintes : Identification des talents · Plans de carrière · Formation · Rétention. Format : Stratégie complète + Plan de développement RH. Style : RH premium."
+        },
+        {
+          "id": 34, "title": "Stratégie de gestion de la performance",
+          "simple": "Fais une stratégie de gestion de la performance.",
+          "premium": "Crée une stratégie de gestion de la performance claire, mesurable et orientée résultats.",
+          "expert": "Rôle : Performance management consultant. Objectif : Améliorer la performance individuelle et collective. Contraintes : Objectifs · KPIs · Feedback · Suivi. Format : Stratégie complète + Modèle d'évaluation. Style : Performance et rigueur."
+        },
+        {
+          "id": 35, "title": "Stratégie CRM",
+          "simple": "Fais une stratégie CRM.",
+          "premium": "Crée une stratégie CRM claire, personnalisée et orientée fidélisation.",
+          "expert": "Rôle : CRM strategist. Objectif : Optimiser la relation client et augmenter la valeur vie. Contraintes : Segmentation · Automatisation · Personnalisation · KPIs. Format : Stratégie complète + Scénarios CRM. Style : Relationnel premium."
+        },
+        {
+          "id": 36, "title": "Stratégie de gestion des coûts",
+          "simple": "Fais une stratégie de réduction des coûts.",
+          "premium": "Crée une stratégie de gestion des coûts claire, rigoureuse et orientée rentabilité.",
+          "expert": "Rôle : Financial optimization consultant. Objectif : Réduire les coûts sans dégrader la qualité. Contraintes : Analyse des dépenses · Priorisation · Optimisation · Suivi. Format : Stratégie complète + Plan d'économies. Style : Financier analytique."
+        },
+        {
+          "id": 37, "title": "Stratégie de gestion des équipes à distance",
+          "simple": "Fais une stratégie pour gérer une équipe à distance.",
+          "premium": "Crée une stratégie claire, humaine et efficace pour gérer une équipe à distance.",
+          "expert": "Rôle : Remote team management expert. Objectif : Optimiser collaboration, communication et performance à distance. Contraintes : Outils · Rituels · Communication · Suivi. Format : Stratégie complète + Routine hebdomadaire. Style : Management moderne."
+        },
+        {
+          "id": 38, "title": "Stratégie de gestion des conflits",
+          "simple": "Fais une stratégie de gestion des conflits.",
+          "premium": "Crée une stratégie de gestion des conflits claire, humaine et orientée résolution.",
+          "expert": "Rôle : Médiateur consultant RH. Objectif : Résoudre les conflits rapidement et durablement. Contraintes : Analyse · Communication · Médiation · Suivi. Format : Stratégie complète + Guide de résolution. Style : Apaisant structuré."
+        },
+        {
+          "id": 39, "title": "Stratégie de gestion des parties prenantes",
+          "simple": "Fais une stratégie pour gérer les parties prenantes.",
+          "premium": "Crée une stratégie de gestion des parties prenantes claire, structurée et orientée collaboration.",
+          "expert": "Rôle : Stakeholder management strategist. Objectif : Gérer attentes, influence et communication. Contraintes : Cartographie · Priorisation · Messages clés · Suivi. Format : Stratégie complète + Matrice des parties prenantes. Style : Business collaboratif."
+        },
+        {
+          "id": 40, "title": "Stratégie de culture d'entreprise",
+          "simple": "Fais une stratégie de culture d'entreprise.",
+          "premium": "Crée une stratégie de culture d'entreprise claire, inspirante et orientée cohésion.",
+          "expert": "Rôle : Culture leadership strategist. Objectif : Construire une culture forte, cohérente et durable. Contraintes : Valeurs · Comportements attendus · Rituels · Communication. Format : Stratégie complète + Plan d'activation culturelle. Style : Leadership culture."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ventes & Relations Clients",
+      "range": "41–60",
+      "icon": "💼",
+      "color": "#f59e0b",
+      "prompts": [
+        {
+          "id": 41, "title": "Stratégie fournisseurs stratégiques",
+          "simple": "Fais une stratégie pour gérer des fournisseurs stratégiques.",
+          "premium": "Crée une stratégie claire, professionnelle et orientée performance pour gérer des fournisseurs stratégiques.",
+          "expert": "Rôle : Consultant supply chain & partenariats. Objectif : Optimiser la collaboration avec les fournisseurs clés. Contraintes : Critères de sélection · Indicateurs de performance · Processus de communication · Gestion des risques. Format : Stratégie complète + Tableau KPI fournisseurs. Style : Supply chain premium."
+        },
+        {
+          "id": 42, "title": "Stratégie de gestion des contrats",
+          "simple": "Fais une stratégie de gestion des contrats.",
+          "premium": "Crée une stratégie de gestion des contrats claire, rigoureuse et orientée conformité.",
+          "expert": "Rôle : Consultant juridique business. Objectif : Structurer un système de gestion contractuelle efficace. Contraintes : Processus de création · Suivi · Renouvellement · Risques. Format : Stratégie complète + Modèle de workflow contractuel. Style : Juridique professionnel."
+        },
+        {
+          "id": 43, "title": "Stratégie de gestion des données",
+          "simple": "Fais une stratégie de gestion des données.",
+          "premium": "Crée une stratégie de gestion des données claire, sécurisée et orientée performance.",
+          "expert": "Rôle : Data management strategist. Objectif : Structurer la collecte, l'organisation et la sécurité des données. Contraintes : Gouvernance · Sécurité · Qualité · Outils. Format : Stratégie complète + Plan de gouvernance data. Style : Data conformité."
+        },
+        {
+          "id": 44, "title": "Stratégie d'innovation interne",
+          "simple": "Fais une stratégie d'innovation interne.",
+          "premium": "Crée une stratégie d'innovation interne claire, collaborative et orientée créativité.",
+          "expert": "Rôle : Innovation culture strategist. Objectif : Stimuler l'innovation au sein de l'entreprise. Contraintes : Processus d'idéation · Implication des équipes · Tests rapides · KPIs. Format : Stratégie complète + Roadmap innovation interne. Style : Innovation collaborative."
+        },
+        {
+          "id": 45, "title": "Stratégie de knowledge management",
+          "simple": "Fais une stratégie de knowledge management.",
+          "premium": "Crée une stratégie de gestion des connaissances claire, structurée et orientée partage.",
+          "expert": "Rôle : Knowledge management consultant. Objectif : Centraliser, structurer et diffuser le savoir interne. Contraintes : Documentation · Outils · Processus · Formation. Format : Stratégie complète + Plan de mise en place. Style : Organisationnel premium."
+        },
+        {
+          "id": 46, "title": "Stratégie parties prenantes externes",
+          "simple": "Fais une stratégie pour gérer les parties prenantes externes.",
+          "premium": "Crée une stratégie claire, professionnelle et orientée collaboration pour gérer les parties prenantes externes.",
+          "expert": "Rôle : Stakeholder engagement strategist. Objectif : Gérer relations, attentes et influence. Contraintes : Cartographie · Messages clés · Canaux · Suivi. Format : Stratégie complète + Matrice influence/intérêt. Style : Business collaboratif."
+        },
+        {
+          "id": 47, "title": "Stratégie de gestion des actifs",
+          "simple": "Fais une stratégie de gestion des actifs.",
+          "premium": "Crée une stratégie de gestion des actifs claire, rigoureuse et orientée optimisation.",
+          "expert": "Rôle : Asset management consultant. Objectif : Maximiser la valeur et la durée de vie des actifs. Contraintes : Inventaire · Maintenance · Amortissement · KPIs. Format : Stratégie complète + Plan d'optimisation. Style : Financier opérationnel."
+        },
+        {
+          "id": 48, "title": "Stratégie de relations investisseurs",
+          "simple": "Fais une stratégie pour gérer les investisseurs.",
+          "premium": "Crée une stratégie de relations investisseurs claire, professionnelle et orientée transparence.",
+          "expert": "Rôle : Investor relations strategist. Objectif : Renforcer confiance et communication avec les investisseurs. Contraintes : Reporting · Transparence · Communication régulière. Format : Stratégie complète + Calendrier de communication. Style : Financier premium."
+        },
+        {
+          "id": 49, "title": "Stratégie de performance financière",
+          "simple": "Fais une stratégie de performance financière.",
+          "premium": "Crée une stratégie de performance financière claire, rigoureuse et orientée croissance.",
+          "expert": "Rôle : Financial performance strategist. Objectif : Améliorer rentabilité et efficacité financière. Contraintes : Marges · Coûts · Revenus · KPIs. Format : Stratégie complète + Tableau de pilotage. Style : Financier analytique."
+        },
+        {
+          "id": 50, "title": "Stratégie de gouvernance d'entreprise",
+          "simple": "Fais une stratégie de gouvernance.",
+          "premium": "Crée une stratégie de gouvernance d'entreprise claire, rigoureuse et orientée transparence.",
+          "expert": "Rôle : Corporate governance consultant. Objectif : Structurer une gouvernance saine et durable. Contraintes : Rôles · Processus · Contrôles · Éthique. Format : Stratégie complète + Charte de gouvernance. Style : Gouvernance premium."
+        },
+        {
+          "id": 51, "title": "Stratégie de gestion des ventes",
+          "simple": "Fais une stratégie de gestion des ventes.",
+          "premium": "Crée une stratégie de gestion des ventes claire, performante et orientée croissance.",
+          "expert": "Rôle : Sales strategist senior. Objectif : Structurer un système de vente efficace et scalable. Contraintes : Processus de vente · Scripts · KPIs · Optimisation continue. Format : Stratégie complète + Pipeline de vente détaillé. Style : Sales performance."
+        },
+        {
+          "id": 52, "title": "Stratégie de gestion des leads",
+          "simple": "Fais une stratégie de gestion des leads.",
+          "premium": "Crée une stratégie de gestion des leads claire, organisée et orientée conversion.",
+          "expert": "Rôle : Lead management strategist. Objectif : Maximiser la conversion de prospects en clients. Contraintes : Qualification · Segmentation · Nurturing · Automatisation. Format : Stratégie complète + Workflow de nurturing. Style : Marketing sales."
+        },
+        {
+          "id": 53, "title": "Stratégie de gestion des objections",
+          "simple": "Fais une stratégie pour gérer les objections.",
+          "premium": "Crée une stratégie de gestion des objections claire, persuasive et orientée conversion.",
+          "expert": "Rôle : Expert en closing. Objectif : Répondre efficacement aux objections clients. Contraintes : Objections courantes · Réponses structurées · Techniques de reformulation. Format : Stratégie complète + Script objections/réponses. Style : Persuasion professionnelle."
+        },
+        {
+          "id": 54, "title": "Stratégie de gestion des réunions",
+          "simple": "Fais une stratégie pour gérer les réunions.",
+          "premium": "Crée une stratégie de gestion des réunions claire, efficace et orientée productivité.",
+          "expert": "Rôle : Consultant en organisation. Objectif : Réduire les réunions inutiles et augmenter leur efficacité. Contraintes : Préparation · Structure · Durée · Suivi. Format : Stratégie complète + Modèle d'ordre du jour. Style : Productivité premium."
+        },
+        {
+          "id": 55, "title": "Stratégie clients VIP",
+          "simple": "Fais une stratégie pour gérer les clients VIP.",
+          "premium": "Crée une stratégie de gestion des clients VIP claire, premium et orientée fidélisation.",
+          "expert": "Rôle : Customer excellence strategist. Objectif : Offrir une expérience haut de gamme aux clients stratégiques. Contraintes : Personnalisation · Avantages exclusifs · Suivi dédié. Format : Stratégie complète + Programme VIP. Style : Luxe relationnel."
+        },
+        {
+          "id": 56, "title": "Stratégie de gestion des retours clients",
+          "simple": "Fais une stratégie pour gérer les retours clients.",
+          "premium": "Crée une stratégie de gestion des retours claire, efficace et orientée satisfaction.",
+          "expert": "Rôle : Customer service strategist. Objectif : Transformer les retours en opportunités d'amélioration. Contraintes : Processus · Communication · Analyse · Amélioration continue. Format : Stratégie complète + Workflow de gestion des retours. Style : Service client premium."
+        },
+        {
+          "id": 57, "title": "Stratégie de gestion des avis négatifs",
+          "simple": "Fais une stratégie pour gérer les avis négatifs.",
+          "premium": "Crée une stratégie de gestion des avis négatifs claire, professionnelle et orientée réassurance.",
+          "expert": "Rôle : Reputation management strategist. Objectif : Protéger et améliorer l'image de marque. Contraintes : Réponse rapide · Ton professionnel · Solutions proposées. Format : Stratégie complète + Modèles de réponses. Style : Réputation premium."
+        },
+        {
+          "id": 58, "title": "Stratégie équipe commerciale",
+          "simple": "Fais une stratégie pour gérer une équipe commerciale.",
+          "premium": "Crée une stratégie de gestion d'équipe commerciale claire, motivante et orientée performance.",
+          "expert": "Rôle : Sales team manager. Objectif : Booster motivation, performance et cohésion. Contraintes : Objectifs · Coaching · Incentives · Suivi. Format : Stratégie complète + Plan de motivation. Style : Sales leadership."
+        },
+        {
+          "id": 59, "title": "Stratégie coûts opérationnels",
+          "simple": "Fais une stratégie pour réduire les coûts opérationnels.",
+          "premium": "Crée une stratégie de réduction des coûts opérationnels claire, rigoureuse et orientée efficacité.",
+          "expert": "Rôle : Operational efficiency consultant. Objectif : Réduire les coûts sans sacrifier la qualité. Contraintes : Analyse · Optimisation · Automatisation · Suivi. Format : Stratégie complète + Plan d'économies. Style : Optimisation opérationnelle."
+        },
+        {
+          "id": 60, "title": "Stratégie de gestion des priorités",
+          "simple": "Fais une stratégie pour gérer les priorités.",
+          "premium": "Crée une stratégie de gestion des priorités claire, efficace et orientée productivité.",
+          "expert": "Rôle : Coach en organisation & performance. Objectif : Aider à prioriser efficacement tâches et projets. Contraintes : Méthodes (Eisenhower, Pareto…) · Outils · Routine. Format : Stratégie complète + Système de priorisation. Style : Productivité premium."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Optimisation des Coûts",
+      "range": "61–80",
+      "icon": "📊",
+      "color": "#ef4444",
+      "prompts": [
+        {
+          "id": 61, "title": "Performance d'équipe",
+          "simple": "Fais une stratégie pour améliorer la performance d'une équipe.",
+          "premium": "Crée une stratégie de performance d'équipe claire, motivante et orientée résultats.",
+          "expert": "Rôle : Team performance strategist. Objectif : Booster la performance collective et individuelle. Contraintes : Objectifs clairs · Feedback structuré · Suivi régulier · KPIs. Format : Stratégie complète + Plan d'amélioration continue. Style : Leadership performance."
+        },
+        {
+          "id": 62, "title": "Coûts marketing",
+          "simple": "Fais une stratégie pour réduire les coûts marketing.",
+          "premium": "Crée une stratégie de réduction des coûts marketing claire, efficace et orientée ROI.",
+          "expert": "Rôle : Marketing efficiency consultant. Objectif : Réduire les dépenses tout en maintenant la performance. Contraintes : Analyse des canaux · Optimisation · Automatisation · KPIs. Format : Stratégie complète + Plan d'optimisation. Style : Marketing analytique."
+        },
+        {
+          "id": 63, "title": "Coûts RH",
+          "simple": "Fais une stratégie pour réduire les coûts RH.",
+          "premium": "Crée une stratégie de gestion des coûts RH claire, humaine et orientée efficacité.",
+          "expert": "Rôle : Consultant RH & finances. Objectif : Optimiser les coûts sans dégrader l'expérience employé. Contraintes : Analyse des postes · Optimisation · Automatisation · Formation. Format : Stratégie complète + Plan d'économie RH. Style : RH premium."
+        },
+        {
+          "id": 64, "title": "Coûts logistiques",
+          "simple": "Fais une stratégie pour réduire les coûts logistiques.",
+          "premium": "Crée une stratégie de gestion des coûts logistiques claire, optimisée et orientée efficacité.",
+          "expert": "Rôle : Supply chain cost strategist. Objectif : Réduire les coûts de transport, stockage et approvisionnement. Contraintes : Analyse des flux · Optimisation · Automatisation · KPIs. Format : Stratégie complète + Plan d'optimisation logistique. Style : Supply chain moderne."
+        },
+        {
+          "id": 65, "title": "Coûts informatiques (IT)",
+          "simple": "Fais une stratégie pour réduire les coûts IT.",
+          "premium": "Crée une stratégie de gestion des coûts IT claire, sécurisée et orientée performance.",
+          "expert": "Rôle : IT cost optimization consultant. Objectif : Réduire les coûts technologiques sans compromettre la sécurité. Contraintes : Licences · Infrastructure · Automatisation · Sécurité. Format : Stratégie complète + Plan d'optimisation IT. Style : IT performance."
+        },
+        {
+          "id": 66, "title": "Coûts administratifs",
+          "simple": "Fais une stratégie pour réduire les coûts administratifs.",
+          "premium": "Crée une stratégie de gestion des coûts administratifs claire, rigoureuse et orientée efficacité.",
+          "expert": "Rôle : Consultant en optimisation administrative. Objectif : Réduire les coûts de fonctionnement. Contraintes : Processus · Automatisation · Outils · Suivi. Format : Stratégie complète + Plan d'optimisation. Style : Administratif moderne."
+        },
+        {
+          "id": 67, "title": "Coûts commerciaux",
+          "simple": "Fais une stratégie pour réduire les coûts commerciaux.",
+          "premium": "Crée une stratégie de gestion des coûts commerciaux claire, efficace et orientée rentabilité.",
+          "expert": "Rôle : Sales cost strategist. Objectif : Réduire les coûts liés à la force de vente. Contraintes : Processus · Outils · Optimisation · KPIs. Format : Stratégie complète + Plan d'économie commerciale. Style : Sales optimisation."
+        },
+        {
+          "id": 68, "title": "Coûts de production",
+          "simple": "Fais une stratégie pour réduire les coûts de production.",
+          "premium": "Crée une stratégie de gestion des coûts de production claire, rigoureuse et orientée efficacité.",
+          "expert": "Rôle : Production efficiency consultant. Objectif : Réduire les coûts tout en améliorant la qualité. Contraintes : Processus · Automatisation · Qualité · KPIs. Format : Stratégie complète + Plan d'optimisation industrielle. Style : Production performance."
+        },
+        {
+          "id": 69, "title": "Coûts énergétiques",
+          "simple": "Fais une stratégie pour réduire les coûts énergétiques.",
+          "premium": "Crée une stratégie de gestion des coûts énergétiques claire, durable et orientée économies.",
+          "expert": "Rôle : Energy efficiency consultant. Objectif : Réduire la consommation et les coûts énergétiques. Contraintes : Audit · Optimisation · Équipements · Suivi. Format : Stratégie complète + Plan d'économie d'énergie. Style : Durable analytique."
+        },
+        {
+          "id": 70, "title": "Coûts généraux",
+          "simple": "Fais une stratégie pour réduire les coûts généraux.",
+          "premium": "Crée une stratégie de gestion des coûts généraux claire, rigoureuse et orientée rentabilité.",
+          "expert": "Rôle : Consultant en optimisation globale. Objectif : Réduire les dépenses non essentielles. Contraintes : Analyse · Priorisation · Automatisation · Suivi. Format : Stratégie complète + Plan d'économie global. Style : Optimisation premium."
+        },
+        {
+          "id": 71, "title": "Coûts service client",
+          "simple": "Fais une stratégie pour réduire les coûts du service client.",
+          "premium": "Crée une stratégie de gestion des coûts du service client claire, efficace et orientée satisfaction.",
+          "expert": "Rôle : Customer service optimization consultant. Objectif : Réduire les coûts tout en améliorant l'expérience client. Contraintes : Automatisation · Self-service · Optimisation des processus · KPIs. Format : Stratégie complète + Plan d'optimisation. Style : Service client premium."
+        },
+        {
+          "id": 72, "title": "Coûts de maintenance",
+          "simple": "Fais une stratégie pour réduire les coûts de maintenance.",
+          "premium": "Crée une stratégie de gestion des coûts de maintenance claire, rigoureuse et orientée efficacité.",
+          "expert": "Rôle : Maintenance operations strategist. Objectif : Réduire les coûts tout en améliorant la fiabilité. Contraintes : Maintenance préventive · Automatisation · Suivi · KPIs. Format : Stratégie complète + Plan de maintenance optimisée. Style : Technique opérationnel."
+        },
+        {
+          "id": 73, "title": "Coûts de transport",
+          "simple": "Fais une stratégie pour réduire les coûts de transport.",
+          "premium": "Crée une stratégie de gestion des coûts de transport claire, optimisée et orientée efficacité.",
+          "expert": "Rôle : Transport logistics strategist. Objectif : Réduire les coûts de transport sans dégrader la qualité. Contraintes : Optimisation des trajets · Mutualisation · Négociation · KPIs. Format : Stratégie complète + Plan d'optimisation transport. Style : Logistique premium."
+        },
+        {
+          "id": 74, "title": "Coûts de production digitale",
+          "simple": "Fais une stratégie pour réduire les coûts de production digitale.",
+          "premium": "Crée une stratégie de gestion des coûts de production digitale claire, moderne et orientée efficacité.",
+          "expert": "Rôle : Digital production strategist. Objectif : Réduire les coûts de création digitale (vidéo, design, contenu). Contraintes : Automatisation · Outils IA · Optimisation des workflows. Format : Stratégie complète + Plan d'optimisation digitale. Style : Digital productif."
+        },
+        {
+          "id": 75, "title": "Coûts de formation",
+          "simple": "Fais une stratégie pour réduire les coûts de formation.",
+          "premium": "Crée une stratégie de gestion des coûts de formation claire, efficace et orientée montée en compétences.",
+          "expert": "Rôle : Learning & development strategist. Objectif : Réduire les coûts tout en améliorant la qualité des formations. Contraintes : E-learning · Mutualisation · Automatisation · Suivi. Format : Stratégie complète + Plan de formation optimisé. Style : RH formation."
+        },
+        {
+          "id": 76, "title": "Coûts de communication",
+          "simple": "Fais une stratégie pour réduire les coûts de communication.",
+          "premium": "Crée une stratégie de gestion des coûts de communication claire, optimisée et orientée impact.",
+          "expert": "Rôle : Communication efficiency consultant. Objectif : Réduire les dépenses tout en maintenant la visibilité. Contraintes : Canaux prioritaires · Automatisation · Réutilisation de contenu. Format : Stratégie complète + Plan d'optimisation communication. Style : Communication moderne."
+        },
+        {
+          "id": 77, "title": "Coûts de conformité",
+          "simple": "Fais une stratégie pour réduire les coûts de conformité.",
+          "premium": "Crée une stratégie de gestion des coûts de conformité claire, sécurisée et orientée efficacité.",
+          "expert": "Rôle : Compliance strategist. Objectif : Réduire les coûts liés à la conformité sans compromettre la sécurité. Contraintes : Automatisation · Documentation · Processus · Contrôles. Format : Stratégie complète + Plan de conformité optimisé. Style : Conformité et rigueur."
+        },
+        {
+          "id": 78, "title": "Coûts de sécurité",
+          "simple": "Fais une stratégie pour réduire les coûts de sécurité.",
+          "premium": "Crée une stratégie de gestion des coûts de sécurité claire, rigoureuse et orientée protection.",
+          "expert": "Rôle : Security risk consultant. Objectif : Réduire les coûts tout en renforçant la sécurité. Contraintes : Analyse des risques · Automatisation · Outils · Suivi. Format : Stratégie complète + Plan de sécurité optimisé. Style : Sécurité performance."
+        },
+        {
+          "id": 79, "title": "Coûts de support technique",
+          "simple": "Fais une stratégie pour réduire les coûts du support technique.",
+          "premium": "Crée une stratégie de gestion des coûts du support technique claire, moderne et orientée efficacité.",
+          "expert": "Rôle : Tech support optimization consultant. Objectif : Réduire les coûts tout en améliorant la qualité du support. Contraintes : Automatisation · Self-service · Documentation · KPIs. Format : Stratégie complète + Workflow support optimisé. Style : Tech service."
+        },
+        {
+          "id": 80, "title": "Coûts de développement produit",
+          "simple": "Fais une stratégie pour réduire les coûts de développement produit.",
+          "premium": "Crée une stratégie de gestion des coûts de développement produit claire, agile et orientée efficacité.",
+          "expert": "Rôle : Product development strategist. Objectif : Réduire les coûts tout en accélérant le développement. Contraintes : Méthodes agiles · Automatisation · Priorisation · KPIs. Format : Stratégie complète + Roadmap d'optimisation produit. Style : Product management premium."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Excellence & Échelle Globale",
+      "range": "81–100",
+      "icon": "🚀",
+      "color": "#10b981",
+      "prompts": [
+        {
+          "id": 81, "title": "Coûts de distribution",
+          "simple": "Fais une stratégie pour réduire les coûts de distribution.",
+          "premium": "Crée une stratégie de gestion des coûts de distribution claire, optimisée et orientée efficacité.",
+          "expert": "Rôle : Distribution logistics strategist. Objectif : Réduire les coûts tout en améliorant la rapidité et la fiabilité. Contraintes : Optimisation des réseaux · Mutualisation · Automatisation · KPIs. Format : Stratégie complète + Plan d'optimisation distribution. Style : Logistique premium."
+        },
+        {
+          "id": 82, "title": "Coût d'acquisition client (CAC)",
+          "simple": "Fais une stratégie pour réduire le coût d'acquisition client.",
+          "premium": "Crée une stratégie de réduction du coût d'acquisition client claire, efficace et orientée ROI.",
+          "expert": "Rôle : Growth acquisition strategist. Objectif : Réduire le CAC tout en augmentant la qualité des leads. Contraintes : Optimisation des canaux · Automatisation · Segmentation · KPIs. Format : Stratégie complète + Plan d'optimisation CAC. Style : Growth analytique."
+        },
+        {
+          "id": 83, "title": "Coûts de fidélisation",
+          "simple": "Fais une stratégie pour réduire les coûts de fidélisation.",
+          "premium": "Crée une stratégie de gestion des coûts de fidélisation claire, humaine et orientée efficacité.",
+          "expert": "Rôle : Customer retention strategist. Objectif : Réduire les coûts tout en augmentant la valeur vie client. Contraintes : Automatisation · Programmes optimisés · Segmentation · KPIs. Format : Stratégie complète + Plan de fidélisation optimisé. Style : Relationnel premium."
+        },
+        {
+          "id": 84, "title": "Coûts de transformation digitale",
+          "simple": "Fais une stratégie pour réduire les coûts de transformation digitale.",
+          "premium": "Crée une stratégie de gestion des coûts de transformation digitale claire, moderne et orientée efficacité.",
+          "expert": "Rôle : Digital transformation strategist. Objectif : Réduire les coûts tout en accélérant la transformation. Contraintes : Automatisation · Cloud · Outils IA · KPIs. Format : Stratégie complète + Roadmap digitale optimisée. Style : Digital stratégique."
+        },
+        {
+          "id": 85, "title": "Coûts de conformité réglementaire",
+          "simple": "Fais une stratégie pour réduire les coûts de conformité réglementaire.",
+          "premium": "Crée une stratégie de gestion des coûts de conformité réglementaire claire, sécurisée et orientée efficacité.",
+          "expert": "Rôle : Regulatory compliance strategist. Objectif : Réduire les coûts tout en respectant les obligations légales. Contraintes : Automatisation · Documentation · Contrôles · Suivi. Format : Stratégie complète + Plan de conformité optimisé. Style : Conformité et rigueur."
+        },
+        {
+          "id": 86, "title": "Coûts de production de contenu",
+          "simple": "Fais une stratégie pour réduire les coûts de production de contenu.",
+          "premium": "Crée une stratégie de gestion des coûts de production de contenu claire, moderne et orientée efficacité.",
+          "expert": "Rôle : Content production strategist. Objectif : Réduire les coûts tout en augmentant qualité et cadence. Contraintes : Automatisation · Réutilisation de contenu · Outils IA · Workflows. Format : Stratégie complète + Plan d'optimisation contenu. Style : Content ops premium."
+        },
+        {
+          "id": 87, "title": "Coûts de support multicanal",
+          "simple": "Fais une stratégie pour réduire les coûts du support multicanal.",
+          "premium": "Crée une stratégie de gestion des coûts du support multicanal claire, efficace et orientée satisfaction.",
+          "expert": "Rôle : Multichannel support strategist. Objectif : Réduire les coûts tout en améliorant la cohérence du support. Contraintes : Automatisation · Self-service · Documentation · KPIs. Format : Stratégie complète + Workflow multicanal optimisé. Style : Service client moderne."
+        },
+        {
+          "id": 88, "title": "Coûts de développement logiciel",
+          "simple": "Fais une stratégie pour réduire les coûts de développement logiciel.",
+          "premium": "Crée une stratégie de gestion des coûts de développement logiciel claire, agile et orientée efficacité.",
+          "expert": "Rôle : Software development strategist. Objectif : Réduire les coûts tout en accélérant le développement. Contraintes : Méthodes agiles · Automatisation · Priorisation · KPIs. Format : Stratégie complète + Roadmap d'optimisation dev. Style : Tech agile."
+        },
+        {
+          "id": 89, "title": "Coûts industriels",
+          "simple": "Fais une stratégie pour réduire les coûts industriels.",
+          "premium": "Crée une stratégie de gestion des coûts industriels claire, rigoureuse et orientée performance.",
+          "expert": "Rôle : Industrial performance consultant. Objectif : Réduire les coûts tout en améliorant qualité et productivité. Contraintes : Lean · Automatisation · Optimisation des processus · KPIs. Format : Stratégie complète + Plan d'optimisation industrielle. Style : Industrie performance."
+        },
+        {
+          "id": 90, "title": "Coûts globaux d'entreprise",
+          "simple": "Fais une stratégie pour réduire les coûts globaux.",
+          "premium": "Crée une stratégie de réduction des coûts globaux claire, rigoureuse et orientée rentabilité.",
+          "expert": "Rôle : Global cost optimization strategist. Objectif : Réduire les dépenses globales sans impacter la performance. Contraintes : Analyse complète · Priorisation · Automatisation · Suivi. Format : Stratégie complète + Plan d'économie global. Style : Optimisation premium."
+        },
+        {
+          "id": 91, "title": "Coûts supply chain globale",
+          "simple": "Fais une stratégie pour réduire les coûts de supply chain.",
+          "premium": "Crée une stratégie de réduction des coûts de supply chain claire, optimisée et orientée performance.",
+          "expert": "Rôle : Global supply chain strategist. Objectif : Réduire les coûts tout en améliorant la fluidité mondiale. Contraintes : Optimisation des flux · Automatisation · Négociation fournisseurs · KPIs. Format : Stratégie complète + Plan d'optimisation supply chain. Style : Supply chain premium."
+        },
+        {
+          "id": 92, "title": "Coûts de transformation organisationnelle",
+          "simple": "Fais une stratégie pour réduire les coûts de transformation organisationnelle.",
+          "premium": "Crée une stratégie de gestion des coûts de transformation organisationnelle claire, humaine et orientée efficacité.",
+          "expert": "Rôle : Change management strategist. Objectif : Réduire les coûts tout en accélérant la transformation. Contraintes : Automatisation · Communication · Formation · KPIs. Format : Stratégie complète + Roadmap transformation optimisée. Style : Organisationnel premium."
+        },
+        {
+          "id": 93, "title": "Coûts de développement international",
+          "simple": "Fais une stratégie pour réduire les coûts du développement international.",
+          "premium": "Crée une stratégie de gestion des coûts du développement international claire, réaliste et orientée croissance.",
+          "expert": "Rôle : International expansion strategist. Objectif : Réduire les coûts d'expansion tout en maximisant l'impact. Contraintes : Analyse des marchés · Mutualisation · Partenariats · KPIs. Format : Stratégie complète + Plan d'expansion optimisé. Style : International premium."
+        },
+        {
+          "id": 94, "title": "Coûts de conformité internationale",
+          "simple": "Fais une stratégie pour réduire les coûts de conformité internationale.",
+          "premium": "Crée une stratégie de gestion des coûts de conformité internationale claire, sécurisée et orientée efficacité.",
+          "expert": "Rôle : International compliance strategist. Objectif : Réduire les coûts tout en respectant les normes mondiales. Contraintes : Documentation · Automatisation · Contrôles · Suivi. Format : Stratégie complète + Plan de conformité optimisé. Style : Conformité premium."
+        },
+        {
+          "id": 95, "title": "Coûts de production créative",
+          "simple": "Fais une stratégie pour réduire les coûts de production créative.",
+          "premium": "Crée une stratégie de gestion des coûts créatifs claire, moderne et orientée efficacité.",
+          "expert": "Rôle : Creative operations strategist. Objectif : Réduire les coûts tout en augmentant la qualité créative. Contraintes : Automatisation · Templates · Réutilisation · Outils IA. Format : Stratégie complète + Plan d'optimisation créative. Style : Creative ops premium."
+        },
+        {
+          "id": 96, "title": "Coûts audiovisuels",
+          "simple": "Fais une stratégie pour réduire les coûts vidéo.",
+          "premium": "Crée une stratégie de gestion des coûts audiovisuels claire, moderne et orientée efficacité.",
+          "expert": "Rôle : Video production strategist. Objectif : Réduire les coûts tout en améliorant la qualité des productions. Contraintes : Automatisation · Outils IA · Mutualisation · Workflows. Format : Stratégie complète + Plan d'optimisation audiovisuelle. Style : Production moderne."
+        },
+        {
+          "id": 97, "title": "Coûts de développement produit tech",
+          "simple": "Fais une stratégie pour réduire les coûts de développement produit tech.",
+          "premium": "Crée une stratégie de gestion des coûts de développement produit tech claire, agile et orientée efficacité.",
+          "expert": "Rôle : Tech product strategist. Objectif : Réduire les coûts tout en accélérant l'innovation. Contraintes : Méthodes agiles · Priorisation · Automatisation · KPIs. Format : Stratégie complète + Roadmap d'optimisation produit. Style : Tech agile."
+        },
+        {
+          "id": 98, "title": "Coûts de support international",
+          "simple": "Fais une stratégie pour réduire les coûts du support international.",
+          "premium": "Crée une stratégie de gestion des coûts du support international claire, efficace et orientée satisfaction.",
+          "expert": "Rôle : Global support strategist. Objectif : Réduire les coûts tout en améliorant la qualité du support mondial. Contraintes : Automatisation · Self-service · Documentation · KPIs. Format : Stratégie complète + Workflow support global. Style : Service client global."
+        },
+        {
+          "id": 99, "title": "Coûts de production grande échelle",
+          "simple": "Fais une stratégie pour réduire les coûts de production grande échelle.",
+          "premium": "Crée une stratégie de gestion des coûts de production grande échelle claire, rigoureuse et orientée performance.",
+          "expert": "Rôle : Large scale production strategist. Objectif : Réduire les coûts tout en augmentant la productivité. Contraintes : Lean · Automatisation · Optimisation des processus · KPIs. Format : Stratégie complète + Plan d'optimisation industrielle. Style : Industrie premium."
+        },
+        {
+          "id": 100, "title": "Stratégie business universelle",
+          "simple": "Fais une stratégie business universelle.",
+          "premium": "Crée une stratégie business universelle, claire et adaptable à tout type d'entreprise.",
+          "expert": "Rôle : Business strategist global. Objectif : Proposer un cadre stratégique applicable à n'importe quel secteur. Contraintes : Vision · Objectifs · Processus · KPIs. Format : Stratégie complète + Version courte framework universel. Style : Business global intemporel."
+        }
+      ]
+    }
+  ]
+}

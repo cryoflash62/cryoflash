@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompts Ecriture IA — 100 Prompts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+<style>
+/* ─── Reset & Base ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #06060f;
+  --bg2: #0d0d1a;
+  --bg3: #12122000;
+  --surface: #111120;
+  --surface2: #181830;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text: #e8e8f0;
+  --text2: #9090b0;
+  --text3: #5555778;
+  --accent: #3b82f6;
+  --accent2: #10b981;
+  --sidebar-w: 260px;
+  --header-h: 64px;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: #2a2a45; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3a60; }
+
+/* ─── Noise overlay ─── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─── Layout ─── */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Sidebar ─── */
+#sidebar {
+  width: var(--sidebar-w);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--text2);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255,255,255,0.02);
+  transition: all 0.2s;
+}
+.back-link:hover {
+  color: var(--accent);
+  background: rgba(255,255,255,0.04);
+}
+.back-link svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+.back-link:hover svg {
+  transform: translateX(-2px);
+  opacity: 1;
+}
+
+.sidebar-logo {
+  padding: 24px 20px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.logo-name {
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.02em;
+}
+
+.logo-name span { color: var(--accent); }
+
+.sidebar-stats {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 16px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stat-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sidebar-nav-title {
+  padding: 16px 20px 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  color: var(--text2);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+#sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 10px 20px;
+}
+
+#sidebar-nav::-webkit-scrollbar { width: 4px; }
+#sidebar-nav::-webkit-scrollbar-thumb { background: #2a2a45; }
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text2);
+  font-size: 13px;
+  font-weight: 400;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.nav-item:hover {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+.nav-item.active {
+  background: rgba(0,255,157,0.08);
+  color: #fff;
+  border-left: 2px solid var(--accent);
+  padding-left: 8px;
+}
+
+.nav-icon { font-size: 15px; flex-shrink: 0; }
+
+.nav-label { flex: 1; font-weight: 500; }
+
+.nav-badge {
+  background: var(--surface2);
+  color: var(--text2);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.nav-item.active .nav-badge {
+  background: rgba(0,255,157,0.1);
+  color: var(--accent);
+  border-color: rgba(0,255,157,0.2);
+}
+
+/* ─── Sidebar overlay (mobile) ─── */
+#sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 99;
+  backdrop-filter: blur(4px);
+}
+
+#sidebar-overlay.active { display: block; }
+
+/* ─── Header ─── */
+#header {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-w);
+  right: 0;
+  height: var(--header-h);
+  background: rgba(6,6,15,0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  gap: 16px;
+  z-index: 50;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text2);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.search-wrap {
+  position: relative;
+  flex: 1;
+  max-width: 480px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text2);
+  pointer-events: none;
+}
+
+#search-input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  padding: 9px 14px 9px 38px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#search-input::placeholder { color: var(--text2); }
+
+#search-input:focus {
+  border-color: rgba(0,255,157,0.4);
+  box-shadow: 0 0 0 3px rgba(0,255,157,0.06);
+}
+
+#result-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text2);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ─── Main content ─── */
+#main {
+  margin-left: var(--sidebar-w);
+  padding-top: var(--header-h);
+  min-height: 100vh;
+  flex: 1;
+}
+
+/* ─── Hero ─── */
+#hero {
+  padding: 70px 56px 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,255,157,0.08) 0%, transparent 70%);
+  top: -100px;
+  right: -100px;
+  pointer-events: none;
+}
+
+.hero-glow2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(124,58,237,0.06) 0%, transparent 70%);
+  bottom: -80px;
+  left: 100px;
+  pointer-events: none;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: rgba(0,255,157,0.06);
+  border: 1px solid rgba(0,255,157,0.15);
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-eyebrow::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+#hero-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(42px, 6vw, 80px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+#hero-title .accent { color: var(--accent); }
+
+#hero-sub {
+  font-size: 16px;
+  color: var(--text2);
+  font-weight: 300;
+  max-width: 480px;
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hero-stat-num {
+  font-family: 'Syne', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+
+.hero-stat-label {
+  font-size: 12px;
+  color: var(--text2);
+  letter-spacing: 0.05em;
+}
+
+.hero-divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border2);
+  align-self: center;
+}
+
+/* ─── Sections ─── */
+#sections-container {
+  padding: 20px 56px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.section-block {
+  animation: fadeUp 0.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-header {
+  position: relative;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+}
+
+.section-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--accent, #00ff9d);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.section-emoji { font-size: 22px; }
+
+.section-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-range, .section-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text2);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.section-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  opacity: 0.25;
+}
+
+/* ─── Prompts Grid ─── */
+.prompts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+/* ─── Prompt Card ─── */
+.prompt-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.prompt-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--card-accent, #00ff9d);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.prompt-card:hover {
+  border-color: var(--border2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.prompt-card:hover::before { opacity: 1; }
+
+.card-header {
+  padding: 16px 18px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.prompt-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--card-accent, #00ff9d);
+  font-weight: 600;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+.prompt-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+}
+
+/* ─── Tabs ─── */
+.card-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 12px 18px 0;
+}
+
+.tab-btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text2);
+  cursor: pointer;
+  transition: all 0.15s;
+  text-transform: uppercase;
+}
+
+.tab-btn:hover {
+  border-color: var(--border2);
+  color: var(--text);
+}
+
+.tab-btn.active {
+  background: rgba(255,255,255,0.07);
+  border-color: var(--border2);
+  color: #fff;
+}
+
+/* ─── Level panels ─── */
+.card-body {
+  padding: 12px 18px;
+  flex: 1;
+}
+
+.level-panel { display: none; }
+.level-panel.active { display: block; }
+
+.level-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.simple-label { color: #60a5fa; }
+.premium-label { color: #f59e0b; }
+.expert-label { color: #a855f7; }
+
+.level-text {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text2);
+  font-weight: 300;
+}
+
+/* ─── Card footer ─── */
+.card-footer {
+  padding: 10px 18px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  margin-top: 10px;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text2);
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.copy-btn:hover {
+  color: #fff;
+  border-color: var(--border2);
+  background: rgba(255,255,255,0.06);
+}
+
+.copy-btn.copied {
+  color: var(--accent);
+  border-color: rgba(0,255,157,0.3);
+  background: rgba(0,255,157,0.06);
+}
+
+.prompt-id-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--text2);
+  opacity: 0.5;
+}
+
+/* ─── Empty state ─── */
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text2);
+}
+
+.empty-state h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+  :root { --sidebar-w: 220px; }
+  #hero, #sections-container { padding-left: 32px; padding-right: 32px; }
+}
+
+@media (max-width: 768px) {
+  :root { --sidebar-w: 260px; }
+
+  #sidebar {
+    transform: translateX(-100%);
+  }
+
+  #sidebar.open {
+    transform: translateX(0);
+  }
+
+  #header {
+    left: 0;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  #hero {
+    padding: 40px 20px 36px;
+  }
+
+  #hero-title { font-size: 38px; }
+
+  .hero-stats { gap: 20px; }
+  .hero-divider { display: none; }
+
+  #sections-container {
+    padding: 16px 16px 60px;
+    gap: 40px;
+  }
+
+  .prompts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #result-count { display: none; }
+}
+
+@media (max-width: 480px) {
+  #hero-title { font-size: 30px; }
+  .section-title { font-size: 20px; }
+}
+
+/* ─── Animations ─── */
+.section-block { opacity: 0; animation: fadeUp 0.5s ease forwards; }
+.section-block:nth-child(1) { animation-delay: 0.05s; }
+.section-block:nth-child(2) { animation-delay: 0.1s; }
+.section-block:nth-child(3) { animation-delay: 0.15s; }
+.section-block:nth-child(4) { animation-delay: 0.2s; }
+.section-block:nth-child(5) { animation-delay: 0.25s; }
+
+/* ─── Progress bar ─── */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), #7c3aed);
+  z-index: 200;
+  transition: width 0.1s;
+}
+</style>
+</head>
+<body>
+
+<div id="progress-bar" style="width:0%"></div>
+<div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+<div class="layout">
+
+  <!-- ── Sidebar ── -->
+  <aside id="sidebar">
+        <a href="https://lemaire-dominique.com/ia/index.html" class="back-link" title="Retour au menu IA">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      Retour au site cryoflash
+    </a>
+    <div class="sidebar-logo">
+      <div class="logo-tag">// prompts.write</div>
+      <div class="logo-name">Prompts de <span>L'Ecriture</span></div>
+    </div>
+
+    <div class="sidebar-stats">
+      <div class="stat">
+        <div class="stat-num"><span data-count="100">0</span></div>
+        <div class="stat-label">Prompts</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num"><span data-count="5">0</span></div>
+        <div class="stat-label">Sections</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num"><span data-count="3">0</span></div>
+        <div class="stat-label">Niveaux</div>
+      </div>
+    </div>
+
+    <div class="sidebar-nav-title">Plateformes</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+
+  <!-- ── Main ── -->
+  <div id="main">
+
+    <!-- Header -->
+    <header id="header">
+      <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+
+      <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input id="search-input" type="text" placeholder="Rechercher un prompt (dragon, cite, paysage…)" autocomplete="off" spellcheck="false">
+      </div>
+
+      <span id="result-count">100 prompts</span>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-glow2">MAÎTRISEZ L'ART DE L'ECRITURE AVEC L'IA</div>
+      <div class="hero-eyebrow">100 prompts pour écrire, rédiger et rééecrire avec maîtrise et style</div>
+      <h1 id="hero-title">Prompts Ecriture IA <span class="accent">Ecriture IA</span></h1>
+      <p id="hero-sub"></p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num" data-count="100">0</div>
+          <div class="hero-stat-label">Prompts prêts à l'emploi</div>
+        </div>
+        <div class="hero-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" data-count="5">0</div>
+          <div class="hero-stat-label">Catégories</div>
+        </div>
+        <div class="hero-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" data-count="3">0</div>
+          <div class="hero-stat-label">Niveaux par prompt</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections -->
+    <div id="sections-container"></div>
+
+  </div>
+</div>
+
+<script>
+// Progress bar on scroll
+window.addEventListener('scroll', () => {
+  const el = document.getElementById('main') || document.documentElement;
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  document.getElementById('progress-bar').style.width = pct + '%';
+});
+</script>
+<script src="app.js"></script>
+</body>
+</html>
