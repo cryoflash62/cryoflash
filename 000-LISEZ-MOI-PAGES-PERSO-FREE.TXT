@@ -1,0 +1,295 @@
+
+======================================================================
+                 PAGES PERSO FREE - INFORMATIONS
+======================================================================
+
+Le présent fichier contient quelques informations utiles pour gérer votre
+espace Pages Perso Free, en particulier concernant PHP et l'accès HTTPS.
+
+Il ne compte pas dans votre quota et ne peut ni être modifié ni être
+effacé. Il n'est pas non plus visible par les visiteurs de votre site,
+que ce soit en HTTP ou en HTTPS.
+
+L'espace disque dont vous disposez dans le cadre du service « Pages
+perso » n'est en aucun cas un espace de stockage et/ou de sauvegarde de
+documents personnels ou d'enregistrement d'une caméra video.
+
+L'adresse et le contenu des pages personnelles doivent être en
+conformité avec les lois et réglementations en vigueur, nationales comme
+internationales, notamment en matière de propriété intellectuelle,
+littéraire et artistique, et ne contenir aucune information qui pourrait
+être considérée comme dénigrante, diffamatoire ou injurieuse, ou
+portant atteinte à la vie privée, aux bonnes mœurs ou à l'ordre
+public.  Il est rappelé que les pages Web personnelles ne peuvent
+comporter de données nominatives sans l'accord préalable des personnes
+concernées et ce dans le respect de la loi du 6 Janvier 1978 relative
+à l'informatique, aux fichiers et aux libertés.
+
+Vous êtes invité à faire preuve de discernement et de prudence
+s'agissant des informations auxquelles vous accédez et/ou que vous
+transmettez. En particulier, il est recommandé à l'utilisateur de
+limiter toute communication d'informations personnelles vous concernant
+sur ses pages Web personnelles en vous assurant de faire figurer dans
+chaque répertoire et sous-répertoire un fichier racine de type index
+complété le cas échéant par un fichier de restriction d'accès de type
+.htaccess pour les répertoires contenant des informations sensibles. Il
+est également rappelé que les informations circulant sur Internet ne
+sont pas protégées contre des détournements éventuels, contre des
+virus éventuels, et que toute personne est susceptible de créer un lien
+donnant accès au site et/ou à des éléments de son contenu, et qu'ainsi
+la communication intentionnelle ou non intentionnelle de l'adresse des
+pages Web personnelles est effectuée à vos risques et périls.
+
+Si vous voulez utiliser des scripts PHP clés en main du type Wordpress,
+Dotclear, Wikini, Spip, PhpBB (liste non exhaustive), veillez à les 
+mettre à jour au fur et à mesure des corrections des développeurs.
+
+Toute application de statistiques, générant un nombre de requetes
+disproportionné est proscrite (le compte sera suspendu, voire détruit).
+Améliorez aussi la sécurité et évitez le spam de la base de données 
+de vos forums PHP en installant Captcha (http://www.captcha.net/), 
+en interdisant les utilisateurs « invités », en protégeant les 
+différents dossiers de votre site avec Htaccess 
+(http://www.phpdebutant.org/article51.php). Protégez vous aussi en
+ayant des mots de passe différents pour votre compte, base SQL et FTP
+dee votre espace personnel.
+
+Voir les conditions d'utilisation du service pages perso :
+http://www.free.fr/pdf/CGU_PP.pdf
+
+----------------------------------------------------------------------
+1. VERSIONS DE PHP DISPONIBLES
+----------------------------------------------------------------------
+
+Les Pages Perso Free permettent actuellement d'utiliser trois 
+générations de PHP :
+
+ PHP 4.4
+ PHP 5.6
+ PHP 8.5
+
+Le choix de la version de PHP utilisée par votre site se fait à l'aide
+du fichier :
+
+    .htaccess
+
+Ce fichier doit être placé à la racine de votre espace Web.
+
+ATTENTION : le fichier ".htaccess" commence par un point et peut donc
+être considéré comme un fichier caché par certains logiciels FTP.
+
+----------------------------------------------------------------------
+2. UTILISER PHP 4.4
+----------------------------------------------------------------------
+
+PHP 4.4 correspond à l'ancien environnement PHP historique des Pages
+Perso Free.
+
+Pour utiliser PHP 4.4, aucune directive de sélection PHP ne doit être
+présente dans le fichier .htaccess.
+
+PHP 4.4 ne doit être utilisé que pour d'anciens sites qui ne peuvent
+pas fonctionner avec une version plus récente de PHP.
+
+Pour un nouveau site, PHP 8.5 est fortement recommandé.
+
+----------------------------------------------------------------------
+3. UTILISER PHP 5.6
+----------------------------------------------------------------------
+
+Pour utiliser PHP 5.6, ajoutez ceci dans le fichier .htaccess situé à
+la racine du site :
+
+<IfDefine Free>
+php56 1
+</IfDefine>
+
+La branche PHP 5.6 utilisée sur les Pages Perso Free est PHP 5.6.40.
+
+PHP 5.6 est conservé principalement pour assurer la compatibilité avec
+d'anciens sites et d'anciens CMS.
+
+----------------------------------------------------------------------
+4. UTILISER PHP 8.5
+----------------------------------------------------------------------
+
+PHP 8.5 est la version à privilégier pour les sites récents.
+
+Pour l'activer, ajoutez ceci dans le fichier .htaccess situé à la racine
+du site :
+
+<IfDefine Free>
+php85 1
+</IfDefine>
+
+Il ne faut pas mettre simultanément :
+
+php56 1
+
+et :
+
+php85 1
+
+Choisissez la version de PHP correspondant au site.
+
+----------------------------------------------------------------------
+6. VERIFIER LA VERSION DE PHP UTILISEE
+----------------------------------------------------------------------
+
+Pour connaître précisément la version de PHP utilisée par votre site,
+vous pouvez créer temporairement un fichier nommé par exemple :
+
+    phpinfo.php
+
+contenant :
+
+<?php
+phpinfo();
+?>
+
+Puis ouvrez ce fichier depuis votre navigateur.
+
+Par exemple :
+
+    https://monlogin.pages-perso.free.fr/phpinfo.php
+
+La version exacte de PHP apparaît en haut de la page.
+
+----------------------------------------------------------------------
+7. ACCES HTTPS AUX PAGES PERSO FREE
+----------------------------------------------------------------------
+
+Les Pages Perso Free sont maintenant accessibles en HTTPS et IPv6
+
+L'ancienne adresse historique était de la forme :
+
+    http://monlogin.free.fr
+
+La nouvelle adresse à utiliser est :
+
+    https://monlogin.pages-perso.free.fr
+
+IMPORTANT : Il ne suffit donc pas de remplacer "http" par "https".
+
+Cette adresse https://monlogin.free.fr N'EST PAS l'adresse HTTPS 
+d'une Page Perso Free.
+
+Il faut utiliser :
+
+    https://monlogin.pages-perso.free.fr
+
+Exemple :
+
+Ancienne adresse : http://monsite.free.fr
+Nouvelle adresse : https://monsite.pages-perso.free.fr
+
+----------------------------------------------------------------------
+8. LOGIN CONTENANT DES POINTS
+----------------------------------------------------------------------
+
+Si le login Free contient un ou plusieurs points, ces points sont
+remplacés par des tirets dans l'adresse HTTPS.
+
+Par exemple, pour le compte :
+
+    jean.dupont@free.fr
+
+l'ancienne adresse pouvait être : http://jean.dupont.free.fr
+
+La nouvelle adresse HTTPS est : https://jean-dupont.pages-perso.free.fr
+
+Le login du compte et l'adresse email ne changent pas.
+
+Seule la représentation du nom dans l'adresse HTTPS utilise des tirets.
+
+----------------------------------------------------------------------
+9. METTRE A JOUR LES LIENS DE VOTRE SITE
+----------------------------------------------------------------------
+
+Les anciens sites peuvent contenir des liens écrits en dur comme :
+
+    http://monlogin.free.fr/images/photo.jpg
+
+Il est conseillé de les remplacer par la nouvelle adresse :
+
+    https://monlogin.pages-perso.free.fr/images/photo.jpg
+
+Encore mieux, lorsque cela est possible, utilisez des liens relatifs :
+
+    /images/photo.jpg
+
+ou :
+
+    images/photo.jpg
+
+Les liens relatifs évitent de dépendre du nom de domaine utilisé pour
+accéder au site.
+
+Il faut également vérifier les paramètres des CMS tels que WordPress,
+Dotclear, Joomla, phpBB, etc., qui peuvent avoir enregistré l'ancienne
+adresse HTTP dans leur configuration ou dans leur base de données.
+
+----------------------------------------------------------------------
+10. EXEMPLE DE .htaccess POUR PHP 8.5
+----------------------------------------------------------------------
+
+Pour un site récent utilisant PHP 8.5, le fichier .htaccess minimal peut
+simplement contenir :
+
+<IfDefine Free>
+php85 1
+</IfDefine>
+
+----------------------------------------------------------------------
+11. EXEMPLE DE .htaccess POUR PHP 5.6
+----------------------------------------------------------------------
+
+Pour un ancien site nécessitant PHP 5.6 :
+
+<IfDefine Free>
+php56 1
+</IfDefine>
+
+----------------------------------------------------------------------
+12. EN CAS D'ERREUR 500
+----------------------------------------------------------------------
+
+Une erreur dans le fichier .htaccess peut provoquer une erreur :
+
+    500 - Internal Server Error
+
+Si cette erreur apparaît juste après une modification du fichier
+.htaccess, vérifiez en priorité son contenu.
+
+Pour tester, vous pouvez temporairement renommer :
+
+    .htaccess
+
+en :
+
+    .htaccess.old
+
+puis essayer à nouveau d'accéder au site.
+
+
+----------------------------------------------------------------------
+13. SAUVEGARDE DE VOTRE SITE ET BASE DE DONNÉES
+----------------------------------------------------------------------
+
+/!\ /!\ /!\ /!\ /!\ /!\ /!\  ATTENTION   /!\ /!\ /!\ /!\ /!\ /!\ /!\ 
+
+FREE N’ASSURE AUCUNE SAUVEGARDE DE VOTRE SITE NI DE VOTRE BASE DE DONNÉES
+
+Free n’assure AUCUNE sauvegarde des fichiers hébergés sur les
+Pages Perso, ni des bases de données associées. Il vous appartient donc
+d’effectuer régulièrement vos propres sauvegardes des fichiers de votre
+site ainsi que de sa base de données. 
+
+En cas de suppression, corruption, erreur de manipulation, piratage ou
+compromission du site, ou d’incident technique, Free ne pourra pas 
+restaurer les données perdues.
+
+Pour effectuer une sauvegarde de la base de données,
+utiliser le service prévu à cet effet : https://sql.free.fr/backup/
+
+
