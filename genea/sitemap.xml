@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Accueil -->
+  <url><loc>https://lemaire-dominique.com/</loc></url>
+
+  <!-- Individus -->
+  <url><loc>https://lemaire-dominique.com/individus/</loc></url>
+  <url><loc>https://lemaire-dominique.com/individus/liste/</loc></url>
+
+  <!-- Patronymes -->
+  <url><loc>https://lemaire-dominique.com/names/names.html</loc></url>
+
+  <!-- Familles / Sosa -->
+  <url><loc>https://lemaire-dominique.com/repsosa/</loc></url>
+
+  <!-- Villes -->
+  <url><loc>https://lemaire-dominique.com/cities/cities.html</loc></url>
+
+  <!-- Carte -->
+  <url><loc>https://lemaire-dominique.com/map/map.html</loc></url>
+
+  <!-- Calendrier familial -->
+  <url><loc>https://lemaire-dominique.com/days/days.html</loc></url>
+
+  <!-- Recherche -->
+  <url><loc>https://lemaire-dominique.com/search/search_0000.html</loc></url>
+
+  <!-- Galerie armée -->
+  <url><loc>https://lemaire-dominique.com/galeriearmee/galeriephotosarmee.html</loc></url>
+
+  <!-- Guerres / Aïeux -->
+  <url><loc>https://lemaire-dominique.com/guerresaieux/guerresfinex.html</loc></url>
+
+  <!-- Pages historiques Obert -->
+  <url><loc>https://lemaire-dominique.com/obert/obert01.html</loc></url>
+  <url><loc>https://lemaire-dominique.com/obert/obert01bon.html</loc></url>
+  <url><loc>https://lemaire-dominique.com/obert/obert01bon2.html</loc></url>
+
+  <!-- Statistiques -->
+  <url><loc>https://lemaire-dominique.com/stats/stats_0001.html</loc></url>
+  <url><loc>https://lemaire-dominique.com/stats/stats_0002.html</loc></url>
+
+</urlset>
