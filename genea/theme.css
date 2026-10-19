@@ -1,0 +1,765 @@
+/* ============================================================
+   GÉNÉALOGIE LEMAIRE ET + — Thème partagé
+   À inclure dans chaque page annexe avec :
+   <link rel="stylesheet" href="../theme.css" />
+   (ajustez le chemin relatif selon la profondeur du dossier)
+   ============================================================ */
+
+/* ── VARIABLES DE COULEURS ── */
+:root {
+  --ink:          #1c1209;   /* noir encre — texte principal    */
+  --sepia-dark:   #3b2510;   /* sépia foncé — header, footer     */
+  --sepia-mid:    #6b4423;   /* sépia moyen — titres secondaires */
+  --gold:         #b8892a;   /* or principal — accents, bordures */
+  --gold-light:   #d4a94e;   /* or clair — liens, highlights     */
+  --parchment:    #f7edd8;   /* parchemin — fonds doux           */
+  --cream:        #fdf6e8;   /* crème — fond de page             */
+  --warm-grey:    #c8b89a;   /* gris chaud — séparateurs, méta  */
+  --white:        #fffdf7;   /* blanc cassé — cartes, contenus   */
+  --accent:       #7a3b1e;   /* accent brique — hover liens      */
+}
+
+/* ── RESET MINIMAL ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+/* ── BASE ── */
+body {
+  font-family: 'Crimson Pro', Georgia, serif;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ── GOOGLE FONTS (à charger dans chaque <head>) ──
+   Copiez ces deux lignes dans le <head> de chaque fichier :
+
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+── */
+
+/* ── TEXTURE BRUIT ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.5;
+}
+
+/* ════════════════════════════════════
+   HEADER
+   ════════════════════════════════════ */
+header, .page-header {
+  background: var(--sepia-dark);
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header::before, .page-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(184,137,42,0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.6rem, 4vw, 2.8rem);
+  font-weight: 900;
+  color: var(--parchment);
+  position: relative;
+}
+
+.page-subtitle {
+  font-family: 'Crimson Pro', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--warm-grey);
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+/* Fil d'Ariane / breadcrumb */
+.breadcrumb {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.8rem;
+  position: relative;
+}
+.breadcrumb a { color: var(--gold-light); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { opacity: 0.5; margin: 0 0.4em; }
+
+/* Séparateur doré */
+.gold-rule {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  max-width: 300px;
+  margin: 1rem auto;
+}
+.gold-rule::before, .gold-rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.5;
+}
+.gold-rule span { font-size: 1rem; color: var(--gold); }
+/* Bloc principal */
+.dropdown {
+  position: relative;
+}
+
+/* Titre du sous-menu */
+.dropdown-title {
+  font-weight: bold;
+  color: var(--sepia-mid);
+  cursor: pointer;
+  display: block;
+  padding: 4px 0;
+}
+
+/* Sous-menu caché par défaut */
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 1rem;
+  background: var(--white);
+}
+
+/* Apparition au survol */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style des liens */
+.dropdown-menu li a {
+  display: block;
+  padding: 3px 0;
+}
+/* Uniformisation des images */
+img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 6px;
+}
+
+/* Neutralisation des alignements WordPress */
+.alignleft,
+.alignright,
+.aligncenter,
+.alignnone {
+  float: none !important;
+  display: block !important;
+  margin: 1.5rem auto !important;
+}
+
+/* Légendes WordPress */
+.wp-caption {
+  max-width: 420px !important;
+  margin: 1.5rem auto;
+  text-align: center;
+  background: rgba(200,184,154,0.25);
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgba(59,37,16,0.15);
+}
+
+.wp-caption img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.wp-caption-dd {
+  font-size: 0.9rem;
+  color: #5a4a3a;
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+.genea-page p,
+.genea-page h3,
+.genea-page h4,
+.genea-page h5,
+.genea-page h6,
+.genea-page div,
+.genea-page ul,
+.genea-page li {
+  text-align: center;
+}
+
+/* ════════════════════════════════════
+   NAVIGATION RETOUR
+   ════════════════════════════════════ */
+.back-nav {
+  background: var(--parchment);
+  border-bottom: 1px solid var(--warm-grey);
+  padding: 0.6rem 2rem;
+}
+.back-nav a {
+  font-size: 0.85rem;
+  color: var(--sepia-mid);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color 0.2s;
+}
+.back-nav a::before { content: '‹'; font-size: 1.1rem; color: var(--gold); }
+.back-nav a:hover { color: var(--accent); }
+
+/* ════════════════════════════════════
+   CONTENEUR PRINCIPAL
+   ════════════════════════════════════ */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+/* ════════════════════════════════════
+   CARTES / BLOCS
+   ════════════════════════════════════ */
+.card {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.5);
+  border-top: 3px solid var(--gold);
+  padding: 1.8rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 20px rgba(59,37,16,0.06);
+}
+
+.card-flat {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.5);
+  padding: 1.4rem 1.8rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 10px rgba(59,37,16,0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card-flat:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(59,37,16,0.09);
+}
+
+/* ════════════════════════════════════
+   TYPOGRAPHIE
+   ════════════════════════════════════ */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.2;
+}
+
+h1 { font-size: clamp(1.8rem, 4vw, 3rem); color: var(--sepia-dark); }
+h2 { font-size: clamp(1.3rem, 3vw, 1.9rem); color: var(--sepia-dark); margin-bottom: 0.8rem; }
+h3 { font-size: 1.2rem; color: var(--sepia-mid); margin-bottom: 0.6rem; }
+h4 { font-size: 1rem; color: var(--sepia-dark); margin-bottom: 0.4rem; }
+
+p { margin-bottom: 0.9rem; font-size: 1.05rem; }
+
+/* Section label (petit titre en capitales) */
+.section-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--sepia-mid);
+  border-bottom: 1px solid var(--warm-grey);
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Badge / étiquette */
+.badge {
+  display: inline-block;
+  background: var(--parchment);
+  border: 1px solid var(--warm-grey);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sepia-mid);
+  padding: 0.2rem 0.65rem;
+}
+
+/* ════════════════════════════════════
+   LIENS
+   ════════════════════════════════════ */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(122,59,30,0.25);
+  transition: color 0.2s, border-color 0.2s;
+}
+a:hover {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+/* Lien sans soulignement */
+a.plain { border-bottom: none; }
+a.plain:hover { border-bottom: none; }
+
+/* ════════════════════════════════════
+   TABLEAUX
+   ════════════════════════════════════ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+thead th {
+  background: var(--sepia-dark);
+  color: var(--parchment);
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+  text-align: left;
+}
+
+tbody tr { border-bottom: 1px solid rgba(200,184,154,0.35); }
+tbody tr:hover { background: var(--parchment); }
+tbody td { padding: 0.6rem 1rem; }
+
+/* Icônes homme/femme */
+.icon-m { color: var(--gold); font-size: 1rem; }
+.icon-f { color: var(--accent); font-size: 1rem; }
+
+/* ════════════════════════════════════
+   PAGINATION
+   ════════════════════════════════════ */
+.pagination {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  min-width: 2.2rem;
+  padding: 0.4rem 0.6rem;
+  text-align: center;
+  border: 1px solid var(--warm-grey);
+  font-size: 0.88rem;
+  color: var(--sepia-mid);
+  border-bottom: none;
+  transition: background 0.2s, color 0.2s;
+}
+.pagination a:hover {
+  background: var(--parchment);
+  color: var(--accent);
+}
+.pagination .current {
+  background: var(--sepia-dark);
+  color: var(--parchment);
+  border-color: var(--sepia-dark);
+}
+
+/* ════════════════════════════════════
+   BARRE DE RECHERCHE
+   ════════════════════════════════════ */
+.search-bar {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+.search-bar input {
+  flex: 1;
+  border: 1px solid var(--warm-grey);
+  border-right: none;
+  background: var(--white);
+  padding: 0.6rem 1rem;
+  font-family: 'Crimson Pro', serif;
+  font-size: 1rem;
+  color: var(--ink);
+  outline: none;
+}
+.search-bar input:focus { border-color: var(--gold); }
+.search-bar button {
+  background: var(--sepia-dark);
+  color: var(--parchment);
+  border: 1px solid var(--sepia-dark);
+  padding: 0.6rem 1.2rem;
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.search-bar button:hover { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+
+/* ════════════════════════════════════
+   FOOTER
+   ════════════════════════════════════ */
+footer, .page-footer {
+  background: var(--ink);
+  text-align: center;
+  padding: 1.8rem 2rem;
+  color: var(--warm-grey);
+  font-size: 0.82rem;
+  line-height: 1.8;
+}
+footer a, .page-footer a { color: var(--gold-light); border-bottom: none; }
+footer a:hover, .page-footer a:hover { text-decoration: underline; }
+
+/* ════════════════════════════════════
+   UTILITAIRES
+   ════════════════════════════════════ */
+.text-gold   { color: var(--gold); }
+.text-muted  { color: var(--warm-grey); font-style: italic; }
+.text-small  { font-size: 0.85rem; }
+.text-center { text-align: center; }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.divider {
+  border: none;
+  border-top: 1px solid var(--warm-grey);
+  margin: 1.5rem 0;
+  opacity: 0.5;
+}
+
+/* ════════════════════════════════════
+   RESPONSIVE
+   ════════════════════════════════════ */
+@media (max-width: 700px) {
+  .container { padding: 1.5rem 1.2rem 3rem; }
+  table { font-size: 0.85rem; }
+  thead th, tbody td { padding: 0.5rem 0.6rem; }
+  .card, .card-flat { padding: 1.2rem 1rem; }
+}
+/* ============================================================
+   COMPATIBILITÉ ANCIENS STYLES (styleold.css)
+   Harmonisation avec le thème moderne sépia/or/parchemin
+   ============================================================ */
+
+/* Titres anciens */
+h1, h2.hom, h2.fem, h2.unk {
+  font-family: 'Playfair Display', serif;
+  color: var(--sepia-dark);
+  margin: 1.2rem 0 0.6rem;
+}
+h2.hom { color: var(--gold); }
+h2.fem { color: var(--accent); }
+h2.unk { color: var(--sepia-mid); }
+
+/* Paragraphes anciens */
+p { margin-left: 0; }
+
+/* Mise en forme simple */
+.cent { text-align: center; }
+.gras { font-weight: bold; }
+.undl { text-decoration: underline; }
+.grasplus { font-weight: bold; background: var(--parchment); }
+.marge { margin-left: 2rem; }
+
+/* Blocs de noms / lettres */
+.letters, .letter, .char {
+  font-family: 'Playfair Display', serif;
+  color: var(--sepia-dark);
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+.name { font-style: italic; }
+.occu { color: var(--sepia-mid); }
+
+/* Conteneurs anciens → convertis en cartes modernes */
+.nameblock,
+.parentm, .parentgp, .parentp,
+.parents, .parentf, .parentfc,
+.rela1, .rela2,
+.note, .conteneur {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.4);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 10px rgba(59,37,16,0.05);
+}
+
+/* Images */
+.image {
+  text-align: right;
+  margin: 0 3rem 1rem 0;
+}
+
+/* Tooltips modernisés */
+a.tooltip span,
+a.tooltipL span {
+  background: var(--parchment);
+  border: 1px solid var(--warm-grey);
+  color: var(--ink);
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Sources / médias */
+.srclist, .medlist {
+  color: var(--gold);
+  font-weight: bold;
+}
+.srcitems, .srcitems0, .srcitems1, .srcitems2, .srcitems3,
+.srcimage, .srcimage0, .srcimage1, .srcimage2 {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.4);
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Villes */
+.cityloc, .cityevt {
+  color: var(--gold);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Calendrier */
+.daychar {
+  color: var(--gold);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.dayo { color: var(--sepia-mid); }
+
+/* Tableaux anciens → harmonisés */
+.maintable, .thumbnail-table, .daytbl {
+  width: 100%;
+  border-collapse: collapse;
+}
+.maintable td, .thumbnail-table td, .daytbl td {
+  padding: 0.4rem;
+  border-bottom: 1px solid rgba(200,184,154,0.3);
+}
+
+/* Rapports */
+.contreport, .contreport2, .sosareport {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.4);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.contreport th, .contreport2 th {
+  background: var(--sepia-dark);
+  color: var(--parchment);
+  padding: 0.5rem;
+}
+.contreport td, .contreport2 td {
+  padding: 0.4rem;
+  border: 1px solid rgba(200,184,154,0.3);
+}
+#layout {
+  display: flex;
+  gap: 1rem;
+}
+
+#menu-left {
+  width: 250px;
+}
+
+#content-panel {
+  flex: 1;
+  padding: 1.5rem;
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.45);
+  box-shadow: 0 2px 20px rgba(59,37,16,0.06);
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  #layout {
+    flex-direction: column;
+  }
+
+  #menu-left {
+    width: 100%;
+  }
+
+  #content-panel {
+    margin-top: 1rem;
+  }
+}
+/* Bloc principal */
+.dropdown {
+  position: relative;
+}
+
+/* Titre du sous-menu */
+.dropdown-title {
+  font-weight: bold;
+  color: var(--sepia-mid);
+  cursor: pointer;
+  display: block;
+  padding: 4px 0;
+}
+
+/* Sous-menu caché par défaut */
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 1rem;
+  background: var(--white);
+}
+
+/* Apparition au survol */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style des liens */
+.dropdown-menu li a {
+  display: block;
+  padding: 3px 0;
+}
+
+/* ============================================================
+   TABLEAUX GÉNÉALOGIE — VERSION MODERNE
+   Pour listes : individus, patronymes, villes, dates, stats…
+   ============================================================ */
+
+.table-modern {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.45);
+  box-shadow: 0 2px 12px rgba(59,37,16,0.06);
+}
+
+.table-modern thead th {
+  background: var(--sepia-dark);
+  color: var(--parchment);
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+  border-bottom: 2px solid var(--gold);
+}
+
+.table-modern tbody tr {
+  border-bottom: 1px solid rgba(200,184,154,0.35);
+  transition: background 0.2s;
+}
+
+.table-modern tbody tr:hover {
+  background: var(--parchment);
+}
+
+.table-modern td {
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.table-modern .col-small {
+  width: 120px;
+  white-space: nowrap;
+}
+
+.table-modern .col-medium {
+  width: 220px;
+}
+
+.table-modern .col-large {
+  width: auto;
+}
+/* ============================================================
+   ARBRE GÉNÉALOGIQUE — STYLE COMPATIBLE AVEC LE THÈME PRINCIPAL
+   ============================================================ */
+
+.genea-container {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.45);
+  border-top: 3px solid var(--gold);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1100px;
+  box-shadow: 0 2px 20px rgba(59,37,16,0.06);
+  border-radius: 8px;
+}
+
+.genea-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--sepia-dark);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--gold);
+}
+
+.genea-separator {
+  height: 2px;
+  background: var(--gold);
+  opacity: 0.6;
+  margin: 1.5rem 0;
+  border-radius: 2px;
+}
+
+.genea-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.genea-column {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.genea-box {
+  background: var(--white);
+  border: 1px solid rgba(200,184,154,0.45);
+  padding: 0.9rem 1.2rem;
+  border-radius: 6px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.05rem;
+  color: var(--ink);
+  box-shadow: 0 1px 10px rgba(59,37,16,0.05);
+}
+
+.genea-box.final {
+  background: var(--sepia-dark);
+  color: var(--parchment);
+  border-color: var(--sepia-dark);
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .genea-column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Généalogie Lemaire, cousins et autres Familles</title>
+  <meta name="description" content="Généalogie Lemaire et + — 150891 individus, 69 générations, depuis 30-69 avec Anthenor Dr Lorraine Des Sicambres Des Francs." />
+  <meta name="author" content="Dominique Lemaire" />
+  <meta name="keywords" content="Généalogie, Genealogy, ancestors, ancêtres, Lemaire, Calais, pas de calais; nord" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:       #1c1209;
+      --sepia-dark:#3b2510;
+      --sepia-mid: #6b4423;
+      --gold:      #b8892a;
+      --gold-light:#d4a94e;
+      --parchment: #f7edd8;
+      --cream:     #fdf6e8;
+      --warm-grey: #c8b89a;
+      --white:     #fffdf7;
+      --accent:    #7a3b1e;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--cream);
+      color: var(--ink);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.5;
+    }
+
+    /* ── HEADER / HERO ── */
+    header {
+      position: relative;
+      background: var(--sepia-dark);
+      overflow: hidden;
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(184,137,42,0.18) 0%, transparent 70%),
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 28px,
+          rgba(255,255,255,0.015) 28px,
+          rgba(255,255,255,0.015) 29px
+        );
+    }
+
+    /* decorative corner ornaments */
+    header::after {
+      content: '❧';
+      position: absolute;
+      font-size: 6rem;
+      color: rgba(184,137,42,0.08);
+      top: -1rem;
+      right: 2rem;
+      line-height: 1;
+    }
+
+    .header-inner { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; }
+
+    .header-eyebrow {
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 1.2rem;
+      opacity: 0;
+      animation: fadeUp 0.7s ease 0.1s forwards;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 6vw, 4.8rem);
+      font-weight: 900;
+      color: var(--parchment);
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.2s forwards;
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .header-rule {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 1.6rem auto;
+      max-width: 340px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.35s forwards;
+    }
+    .header-rule::before, .header-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.5;
+    }
+    .header-rule span {
+      font-size: 1.2rem;
+      color: var(--gold);
+    }
+
+    .header-sub {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--warm-grey);
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.45s forwards;
+    }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      background: var(--gold);
+      padding: 0;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .stat-item {
+      padding: 1.4rem 1.2rem;
+      text-align: center;
+      border-right: 1px solid rgba(28,18,9,0.2);
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .stat-item:nth-child(1) { animation-delay: 0.5s; }
+    .stat-item:nth-child(2) { animation-delay: 0.6s; }
+    .stat-item:nth-child(3) { animation-delay: 0.7s; }
+    .stat-item:nth-child(4) { animation-delay: 0.8s; border-right: none; }
+
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--sepia-dark);
+      margin-top: 0.3rem;
+      font-weight: 600;
+    }
+
+    /* ── MAIN LAYOUT ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 4rem;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    /* ── SIDEBAR NAV ── */
+    nav {
+      position: sticky;
+      top: 2rem;
+      opacity: 0;
+      animation: fadeLeft 0.8s ease 0.6s forwards;
+    }
+
+    .nav-section {
+      margin-bottom: 2rem;
+    }
+
+    .nav-section h3 {
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--sepia-mid);
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--warm-grey);
+    }
+
+    .nav-section ul {
+      list-style: none;
+    }
+
+    .nav-section li {
+      border-bottom: 1px solid rgba(200,184,154,0.3);
+    }
+
+    .nav-section a {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.5rem 0.4rem;
+      font-size: 0.95rem;
+      color: var(--sepia-dark);
+      text-decoration: none;
+      transition: color 0.2s, padding-left 0.2s;
+    }
+    .nav-section a::before {
+      content: '›';
+      color: var(--gold);
+      font-size: 1.1rem;
+      line-height: 1;
+      transition: transform 0.2s;
+    }
+    .nav-section a:hover {
+      color: var(--accent);
+      padding-left: 0.7rem;
+    }
+    .nav-section a:hover::before {
+      transform: translateX(3px);
+    }
+
+    /* ── CONTENT AREA ── */
+    .content {
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.7s forwards;
+    }
+
+    /* Welcome card */
+    .welcome-card {
+      background: var(--white);
+      border: 1px solid rgba(200,184,154,0.5);
+      border-top: 3px solid var(--gold);
+      padding: 2.2rem 2.4rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 24px rgba(59,37,16,0.06);
+    }
+
+    .welcome-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: var(--sepia-dark);
+      margin-bottom: 1rem;
+    }
+
+    .welcome-card p {
+      font-size: 1.08rem;
+      line-height: 1.75;
+      color: #3a2a1a;
+      margin-bottom: 0.9rem;
+    }
+
+    .welcome-card .update-badge {
+      display: inline-block;
+      background: var(--parchment);
+      border: 1px solid var(--warm-grey);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--sepia-mid);
+      padding: 0.25rem 0.75rem;
+      margin-bottom: 1.3rem;
+    }
+
+    /* Person highlight cards */
+    .persons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .person-card {
+      background: var(--white);
+      border: 1px solid rgba(200,184,154,0.5);
+      padding: 1.4rem 1.6rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 1px 12px rgba(59,37,16,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .person-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(59,37,16,0.1);
+    }
+
+    .person-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    }
+
+    .person-card .card-eyebrow {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .person-card .card-icon {
+      font-size: 1.8rem;
+      float: right;
+      opacity: 0.12;
+      margin-top: -0.2rem;
+    }
+
+    .person-card h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--sepia-dark);
+      margin-bottom: 0.3rem;
+    }
+    .person-card h4 a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold);
+      transition: color 0.2s;
+    }
+    .person-card h4 a:hover { color: var(--accent); }
+
+    .person-card .card-meta {
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--sepia-mid);
+      margin-bottom: 0.5rem;
+    }
+
+    .person-card .card-desc {
+      font-size: 0.9rem;
+      color: #5a4030;
+      line-height: 1.5;
+    }
+
+    /* Info strip */
+    .info-strip {
+      background: var(--sepia-dark);
+      color: var(--parchment);
+      padding: 1.5rem 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .info-strip p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .info-strip strong {
+      color: var(--gold-light);
+    }
+
+    /* Contact */
+    .contact-card {
+      background: var(--white);
+      border: 1px solid rgba(200,184,154,0.5);
+      padding: 1.6rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      box-shadow: 0 1px 12px rgba(59,37,16,0.05);
+    }
+
+    .contact-info h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--sepia-dark);
+      margin-bottom: 0.25rem;
+    }
+    .contact-info p {
+      font-size: 0.9rem;
+      color: var(--sepia-mid);
+      font-style: italic;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: var(--sepia-dark);
+      color: var(--parchment);
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.65rem 1.6rem;
+      text-decoration: none;
+      border: 1px solid var(--gold);
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+    .contact-btn:hover {
+      background: var(--gold);
+      color: var(--ink);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
+      text-align: center;
+      padding: 2rem 2rem;
+      color: var(--warm-grey);
+    }
+    footer p { font-size: 0.82rem; line-height: 1.7; }
+    footer a { color: var(--gold-light); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .ornament {
+      font-size: 1.4rem;
+      color: var(--gold);
+      opacity: 0.4;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeLeft {
+      from { opacity: 0; transform: translateX(-18px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      nav { position: static; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .stat-item:nth-child(2) { border-right: none; }
+      .persons-grid { grid-template-columns: 1fr; }
+      .info-strip { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 540px) {
+      header { padding: 2.5rem 1.2rem 2rem; }
+      main { padding: 2rem 1.2rem 3rem; }
+      .welcome-card { padding: 1.5rem 1.3rem; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .stat-num { font-size: 1.6rem; }
+      .contact-card { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<script>
+function loadPage(url) {
+    fetch(url)
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('content-panel').innerHTML = html;
+        })
+        .catch(err => {
+            document.getElementById('content-panel').innerHTML = "<p>Erreur de chargement.</p>";
+        });
+}
+</script>
+
+<body>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<header>
+  <div class="header-inner">
+    <p class="header-eyebrow">Recherche généalogique · Depuis 30 après JC</p>
+    <h1>Généalogie <em>Lemaire</em> et autres familles </h1>
+    <div class="header-rule"><span>❦</span></div>
+    <p class="header-sub">Soixante neuf générations d'histoire familiale — Hauts de France &amp; et Autres Régions</p>
+  </div>
+</header>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+
+<div id="layout">
+    <aside id="menu-left">
+        <!-- Ton menu de gauche ici -->
+    </aside>
+
+    <main id="content-panel">
+        <!-- Le contenu dynamique s'affichera ici -->
+    </main>
+</div>
+
+<style>
+}.carousel {
+  position:relative;
+  width:900px;
+  max-width:95%;
+  margin:30px auto;
+  overflow:hidden;
+  border-radius:10px;
+  box-shadow:0 0 15px rgba(0,0,0,0.2);
+  background:transparent;   /* <-- fond transparent */
+}
+.carousel-track {
+  display:flex;
+  transition:transform 0.6s ease;
+}
+.carousel-slide {
+  min-width:100%;
+}
+.carousel-slide img {
+  width:180px;       /* taille du blason */
+  height:auto;       /* garde les proportions */
+  display:block;
+  margin:auto;       /* centre l’image */
+  padding:20px 0;    /* espace autour */
+}
+.carousel-button {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background:rgba(0,0,0,0.5);
+  border:none;
+  color:#fff;
+  font-size:2rem;
+  padding:0.2em 0.4em;
+  cursor:pointer;
+  z-index:10;
+}
+.carousel-button.prev { left:10px; }
+.carousel-button.next { right:10px; }
+
+.carousel-dots {
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:8px;
+}
+
+.carousel-dot {
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.4);
+  cursor:pointer;
+}
+
+.carousel-dot.active {
+  background:#fff;
+}
+</style>
+
+<!-- === CARROUSEL ARMORIAL COMPLET (48 blasons) === -->
+<div class="carousel" id="carousel">
+  <button class="carousel-button prev" aria-label="Précédent">&#10094;</button>
+  <button class="carousel-button next" aria-label="Suivant">&#10095;</button>
+
+  <div class="carousel-track">
+
+    <!-- WESSEX (I → IX) -->
+    <div class="carousel-slide">
+      <img src="images/blasons/wessex_01.png">
+      <div class="carousel-caption">I. Cwychelm de Wessex — Royaume anglo‑saxon (VIIᵉ siècle)</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/wessex_02.png">
+      <div class="carousel-caption">II. Cynegils de Wessex — Dynastie de Wessex (VIIᵉ siècle)</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/sussex_03.png">
+      <div class="carousel-caption">III. Sussex — Royaume du Sussex (VIIIᵉ siècle)</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/kent_04.png">
+      <div class="carousel-caption">IV. Kent — Royaume de Kent (VIIIᵉ siècle)</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/wessex_05.png">
+      <div class="carousel-caption">V. Wessex — Maison royale anglo‑saxonne</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/kent_06.png">
+      <div class="carousel-caption">VI. Kent — Héritage du royaume de Kent</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/wessex_07.png">
+      <div class="carousel-caption">VII. Wessex — Lignée royale de Wessex</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/wessex_08.png">
+      <div class="carousel-caption">VIII. Wessex — Dynastie anglo‑saxonne</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/wessex_09.png">
+      <div class="carousel-caption">IX. Wessex — Héritiers du royaume de Wessex</div>
+    </div>
+
+    <!-- FLANDRE (X → XI) -->
+    <div class="carousel-slide">
+      <img src="images/blasons/flandre_10.png">
+      <div class="carousel-caption">X. Baudouin Ier — Comté de Flandre (IXᵉ siècle)</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/flandre_10.png">
+      <div class="carousel-caption">XI. Baudouin II — Maison de Flandre (IXᵉ siècle)</div>
+    </div>
+
+    <!-- GUÎNES (XII → XV) -->
+    <div class="carousel-slide">
+      <img src="images/blasons/guines_12.png">
+      <div class="carousel-caption">XII. Arnoul Ier — Comté de Guînes (Xᵉ siècle)</div>
+    </div>
+
+    <div class="carousel-slide">
+   	<img src="images/blasons/guines_12.png">
+      <div class="carousel-caption">XIII. Baudouin de Guînes — Maison de Guînes</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/guines_12.png">
+      <div class="carousel-caption">XIV. Arnoul II — Lignée des comtes de Guînes</div>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/blasons/guines_12.png">
+      <div class="carousel-caption">XV. Manassès de Guînes — Héritage de Guînes</div>
+    </div>
+
+    <!-- BOURNONVILLE (XVI → XXVI) -->
+    <!-- 11 blasons identiques (fasce d’argent sur azur) -->
+    <!-- Je les liste tous -->
+
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XVI. Guillaume II — Maison de Bournonville (XIᵉ siècle)</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XVII. Gérard Ier — Famille de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XVIII. Louis Ier — Lignée de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XIX. Raoul Eustache — Seigneurie de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XX. Pierre Ier — Maison de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XXI. Roger Ier — Famille de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XXII. Roger II — Héritiers de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XXIII. Jean Ier — Maison de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XXIV. Hugues Henri — Lignée de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XXV. Jehan II — Famille de Bournonville</div></div>
+    <div class="carousel-slide"><img src="images/blasons/bournonville_16.png"><div class="carousel-caption">XXVI. Jean Ier “à la Barbe” — Maison de Bournonville</div></div>
+
+    <!-- BLAISEL (XXVII → XXVIII) -->
+    <div class="carousel-slide"><img src="images/blasons/blaisel_27.png"><div class="carousel-caption">XXVII. Jehan du Blaisel — Seigneurie du Blaisel</div></div>
+    <div class="carousel-slide"><img src="images/blasons/blaisel_27.png"><div class="carousel-caption">XXVIII. Jacques “le Canu” — Maison du Blaisel</div></div>
+
+    <!-- PARENTY (XXIX → XXX) -->
+    <div class="carousel-slide"><img src="images/blasons/parenty_28.png"><div class="carousel-caption">XXIX. Marie du Blaisel — Famille Parenty</div></div>
+    <div class="carousel-slide"><img src="images/blasons/parenty_29.png"><div class="carousel-caption">XXX. Jehanne de Parenty — Maison Parenty</div></div>
+
+    <!-- MARCOTTE (XXXI → XXXIII) -->
+    <div class="carousel-slide"><img src="images/blasons/marcotte_31.png"><div class="carousel-caption">XXXI. Jean Marcotte — Famille Marcotte</div></div>
+    <div class="carousel-slide"><img src="images/blasons/marcotte_31.png"><div class="carousel-caption">XXXII. Martin Marcotte — Lignée Marcotte</div></div>
+    <div class="carousel-slide"><img src="images/blasons/marcotte_31.png"><div class="carousel-caption">XXXIII. Alexandre Marcotte — Maison Marcotte</div></div>
+
+    <!-- OBERT (XXXIV → XLIII) -->
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XXXIV. Mariette Sainte Alexandre — Famille Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XXXV. Jacques Obert — Maison Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XXXVI. Christophe Obert — Lignée Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XXXVII. Noel Obert — Famille Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XXXVIII. Noel Bernard — Maison Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XXXIX. Noel Joseph — Héritage Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XL. Pierre Marc — Famille Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XLI. Paul Obert — Maison Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XLII. Pierre Alexandre — Lignée Obert</div></div>
+    <div class="carousel-slide"><img src="images/blasons/obert_34.png"><div class="carousel-caption">XLIII. Eugène Joseph — Famille Obert</div></div>
+
+    <!-- ROBE (XLIV → XLV) -->
+    <div class="carousel-slide"><img src="images/blasons/robe_44.png"><div class="carousel-caption">XLIV. Léontine Obert — Famille Robe</div></div>
+    <div class="carousel-slide"><img src="images/blasons/robe_44.png"><div class="carousel-caption">XLV. Jeannine Robe — Maison Robe</div></div>
+
+    <!-- CODEVELLE (XLVI) -->
+    <div class="carousel-slide"><img src="images/blasons/codevelle_46.png"><div class="carousel-caption">XLVI. Sylvie Codevelle — Famille Codevelle</div></div>
+
+    <!-- LEMAIRE (XLVI → XLVIII) -->
+	<div class="carousel-slide"><img src="images/blasons/lemaire_46.png"><div class="carousel-caption">XLVI. Dominique Lemaire — Famille Lemaire</div></div>
+    <div class="carousel-slide"><img src="images/blasons/lemaire_47.png"><div class="carousel-caption">XLVII. Anabelle Lemaire — Famille Lemaire</div></div>
+    <div class="carousel-slide"><img src="images/blasons/lemaire_47.png"><div class="carousel-caption">XLVII. Victorine Lemaire — Maison Lemaire</div></div>
+
+  </div>
+
+  <div class="carousel-dots"></div>
+</div>
+<!-- === FIN CARROUSEL ARMORIAL === -->
+
+
+<script>
+const carousel = document.getElementById('carousel');
+const track = carousel.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const prevButton = carousel.querySelector('.prev');
+const nextButton = carousel.querySelector('.next');
+const dotsNav = carousel.querySelector('.carousel-dots');
+
+slides.forEach((_, index) => {
+  const dot = document.createElement('div');
+  dot.classList.add('carousel-dot');
+  if (index === 0) dot.classList.add('active');
+  dot.dataset.index = index;
+  dotsNav.appendChild(dot);
+});
+
+const dots = Array.from(dotsNav.children);
+let currentIndex = 0;
+
+function updateCarousel(index) {
+  const slideWidth = slides[0].getBoundingClientRect().width;
+  track.style.transform = `translateX(-${index * slideWidth}px)`;
+  dots.forEach(dot => dot.classList.remove('active'));
+  dots[index].classList.add('active');
+  currentIndex = index;
+}
+
+nextButton.addEventListener('click', () => {
+  const newIndex = (currentIndex + 1) % slides.length;
+  updateCarousel(newIndex);
+});
+
+prevButton.addEventListener('click', () => {
+  const newIndex = (currentIndex - 1 + slides.length) % slides.length;
+  updateCarousel(newIndex);
+});
+
+dots.forEach(dot => {
+  dot.addEventListener('click', () => {
+    const index = Number(dot.dataset.index);
+    updateCarousel(index);
+  });
+});
+
+window.addEventListener('resize', () => updateCarousel(currentIndex));
+</script>
+<!-- === FIN CARROUSEL === -->
+
+ 
+</style>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+<!-- ═══════════ STATS BAR ═══════════ -->
+<div class="stats-bar">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <div class="stat-num">150 891</div>
+      <div class="stat-label">Individus</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">56 532</div>
+      <div class="stat-label">Familles</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">12 712</div>
+      <div class="stat-label">Patronymes</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">4 220</div>
+      <div class="stat-label">Lieux</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ MAIN ═══════════ -->
+<main>
+
+  <!-- ── NAVIGATION ── -->
+  <nav aria-label="Navigation principale">
+
+    <div class="nav-section">
+      <h3>Individus</h3>
+      <ul>
+        <li><a href="names/names.html">Patronymes</a></li>
+        <li><a href="persons/persons_0001.html">Liste des individus</a></li>
+        <li><a href="details/personsdetails_0001.html">Détails des individus</a></li>
+      </ul>
+    </div>
+   
+    <div class="nav-section">
+      <h3>Lieux</h3>
+      <ul>
+        <li><a href="map/map.html">Carte géographique</a></li>
+        <li><a href="cities/cities.html">Liste des villes</a></li>
+        <li><a href="citiesdetails/citiesdetails_0001.html">Détails des villes</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Calendrier familial</h3>
+      <ul>
+        <li><a href="days/days.html">Calendrier familial</a></li>
+        <li><a href="daysdetails/daysdetails_0001.html">Détails du calendrier</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Statistiques</h3>
+      <ul>
+        <li><a href="stats/stats_0001.html">Éléments les plus fréquents</a></li>
+        <li><a href="stats/stats_0002.html">Implexe et consanguinité</a></li>
+      </ul>
+    </div>
+<div class="nav-section">
+      
+	  <li class="section-label">Célébrités</li>
+<li class="dropdown">
+  <span class="dropdown-title">Artistes</span>
+  <ul class="dropdown-menu">
+    <li><a href="celebrites/piaf-lemaire.html">Édith Piaf</a></li>
+    
+    <!-- Ajoute ici tes 30 artistes -->
+  </ul>
+</li>
+      
+      </ul>
+    </div>
+    <div class="nav-section">
+      <h3>Listes structurées</h3>
+      <ul>
+	  
+	  <li><a href="obert/obert01.html">Obert et au delà</a></li>
+	          <li><a href="repsosa/repsosa_0001.html">Liste des ancêtres</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <h3>Outils</h3>
+      <ul>
+        <li><a href="search/search_0000.html">Recherche d'individus</a></li>
+      </ul>
+    </div>
+<div class="nav-section">
+      <h3>Frise temporelle</h3>
+      <ul>
+        <li><a href="frise/frisewessex.html">Frise Wessex - Lemaire</a></li>
+      </ul>
+    </div>
+     <div class="nav-section">
+      <h3>Quelques liens recherches</h3>
+      <ul>
+        <li><a href="https://personnes-decedees.matchid.io/" target="_blank" rel="noopener noreferrer">Base décés Insee 1970-2026</a></li>
+		<li><a href="https://donnees.culture.gouv.fr/" target="_blank" rel="noopener noreferrer">Base Poilus recherche</a></li>
+	 <li><a href="https://www.memoiredeshommes.defense.gouv.fr/?lang=fr_fr/ target="_blank" rel="noopener noreferrer">Mémoire des Hommes</a></li>
+				</ul>
+    </div>
+	        
+		</ul>
+    </div>
+  </nav>
+
+
+  <!-- ── CONTENT ── -->
+  <div class="content">
+
+    <!-- Welcome -->
+    <div class="welcome-card">
+      <span class="update-badge">Mise à jour · 13 avril 2026</span>
+      <h2>Bienvenue sur mon site de généalogie</h2>
+      <p>
+        Cette généalogie retrace l'histoire de la famille <strong>Lemaire</strong> et des familles alliées,
+        principalement implantées dans la région de Calais et du Pas-de-Calais.
+        Elle couvre <strong>69 générations</strong> et remonte jusqu'en <strong>30 après JC</strong>.
+      </p>
+      <p>
+        Les <strong>56532 unions</strong>, dont 33211 mariages, ont donné naissance en moyenne
+        à <strong>3,15 enfants par couple</strong>.
+      </p>
+    </div>
+
+    <!-- Person cards -->
+    <div class="persons-grid">
+
+      <div class="person-card">
+        <span class="card-icon">♂</span>
+        <p class="card-eyebrow">Individu de référence</p>
+        <h4>
+          <a href="details/personsdetails_576.html#I32660">Anabelle Lemaire</a>
+        </h4>
+        <p class="card-meta">né en 20xx · Calais</p>
+        <p class="card-desc">
+          Point de départ de la généalogie. <strong>746 ancêtres directs</strong> retrouvés
+          sur 69 générations — la lignée la plus longue et la plus étendue de cet arbre.
+        </p>
+      </div>
+
+      <div class="person-card">
+        <span class="card-icon">♂</span>
+        <p class="card-eyebrow">Ancêtre le plus ancien</p>
+        <h4>
+          <a href="details/personsdetails_681.html#I33848"> Anthenor De Lorraine Des Sicambres Des Francs</a>
+        </h4>
+        <p class="card-meta">vers 30-69 · ~69 générations</p>
+        <p class="card-desc">
+          L'ancêtre le plus lointain identifié dans cette généalogie, au tournant de la
+          VIE DES GAULOIS non c'est pas Asterix et Obelix — à l'époque du règne des <em>Francs Sicambres</em>.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Info strip -->
+    <div class="info-strip">
+      <p>
+        Parmi les <strong>150891 individus</strong> recensés : <strong>746 ancêtres directs</strong>,
+        <strong>264 cousins</strong> et <strong>149880 individus</strong> hors lignée sanguine directe.
+      </p>
+      <p>
+        <strong>746 ancêtres</strong> retrouvés sur <strong>69 générations</strong>, avec
+        des implexes et consanguinités documentés dans les statistiques dédiées.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-card">
+      <div class="contact-info">
+        <h4>Dominique Lemaire</h4>
+        <p>Calais, France &mdash; Généalogiste amateur depuis plusieurs décennies</p>
+      </div>
+      <a class="contact-btn"
+         href="mailto:cryoflash@gmail.com?subject=Message au sujet de votre généalogie&body=Cher%20Dominique%20Lemaire%2C%0A%0AJe%20vous%20contacte%20car%20">
+        Me contacter
+      </a>
+    </div>
+
+  </div><!-- /content -->
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <span class="ornament">❧</span>
+  <p>
+    Pages générées par <a href="https://lemaire-dominique.com" target="_blank" rel="noopener">Dominique Lemaire</a>
+    · Version du 12.04.2026 · Tout Droits Réservés 2020-2027
+  </p>
+  <p style="margin-top:0.4rem;">
+    © Dominique Lemaire · <a href="mailto:cryoflash@gmail.com">cryoflash@gmail.com</a>
+  </p>
+</footer>
+
+</body>
+</html>
