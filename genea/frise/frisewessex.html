@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Frise Chronologique – Wessex → Lemaire</title>
+
+<style>
+  body {
+    font-family: "Georgia", serif;
+    background: #f5f0e6;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: linear-gradient(135deg, #2f5d63, #7b2c2f);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.2rem;
+  }
+
+  header p {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
+
+  .timeline {
+    position: relative;
+    margin: 3rem auto;
+    padding: 2rem 0;
+    width: 90%;
+    max-width: 900px;
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    background: #7b2c2f;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+
+  .entry {
+    position: relative;
+    width: 50%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+  }
+
+  .entry:nth-child(odd) {
+    left: 0;
+    text-align: right;
+  }
+
+  .entry:nth-child(even) {
+    left: 50%;
+  }
+
+  .entry .dot {
+    position: absolute;
+    top: 1.2rem;
+    width: 18px;
+    height: 18px;
+    background: #c28b2c;
+    border: 3px solid #7b2c2f;
+    border-radius: 50%;
+  }
+
+  .entry:nth-child(odd) .dot {
+    right: -9px;
+  }
+
+  .entry:nth-child(even) .dot {
+    left: -9px;
+  }
+
+  .entry .panel {
+    background: #f0e4d2;
+    border: 1px solid #d2c2aa;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .entry .panel:hover {
+    background: #e8d8c4;
+  }
+
+  .entry strong {
+    color: #7b2c2f;
+  }
+
+  .details {
+    display: none;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #6b5b4b;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 700px) {
+    .timeline::before {
+      left: 8px;
+    }
+    .entry,
+    .entry:nth-child(even),
+    .entry:nth-child(odd) {
+      width: 100%;
+      left: 0;
+      text-align: left;
+      padding-left: 2.5rem;
+    }
+    .entry .dot {
+      left: 0;
+      right: auto;
+    }
+  }
+</style>
+
+<script>
+  function toggleDetails(id) {
+    const el = document.getElementById(id);
+    el.style.display = (el.style.display === "block") ? "none" : "block";
+  }
+</script>
+</head>
+<div style="text-align:center;margin:20px 0;">
+  <a href="https://lemaire-dominique.com/livreweb#"
+     style="padding:10px 20px;background:#2f5d63;color:white;
+            text-decoration:none;border-radius:6px;font-family:Georgia;
+            transition:0.3s;"
+     onmouseover="this.style.background='#7b2c2f'"
+     onmouseout="this.style.background='#2f5d63'">
+    ⬅ Retour au Livre Web
+  </a>
+</div>
+
+<body>
+
+<header>
+  <h1>Frise Chronologique – Wessex → Lemaire</h1>
+  <p>De Cwychelm de Wessex (VIIᵉ siècle) à Anabelle & Victorine Lemaire (XXIᵉ siècle)</p>
+</header>
+
+<div class="timeline">
+
+  <!-- 1 à 13 : Wessex → Flandre → Guînes -->
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d1')">
+      <strong>I. Cwychelm Ceolwald de Wessex</strong>
+      <div class="details" id="d1">
+        Allié avec Fafertach de Munster.  
+        Le couple a un fils : Cuthred (II).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d2')">
+      <strong>II. Cuthred Cenned Cuthbert Coenred de Wessex</strong> (644–714)
+      <div class="details" id="d2">
+        Roi anglo-saxon du Wessex, Prince de Wessex.  
+        Né le 14 août 0644 à Kenwealth, décédé le 13 septembre 0714 à Dorchester (70 ans).  
+        Marié à Ethelburth Kentish de Wessex. Père d’Ingild (III).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d3')">
+      <strong>III. Ingild de Wessex d’Angleterre</strong> (660–718)
+      <div class="details" id="d3">
+        Né le 11 août 0660 à Oxfordshire-Dorchester, décédé le 9 août 0718 (57 ans).  
+        Marié vers 689 avec Nothgyth de Sussex. Père d’Eoppa-Eowa (IV).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d4')">
+      <strong>IV. Eoppa-Eowa de Wessex</strong> (690–720)
+      <div class="details" id="d4">
+        Roi de Wessex. Né le 14 mars 0690 à Dorchester, décédé le 4 juillet 0720 (30 ans).  
+        Marié à Edwina de Kent. Père d’Eoffa (V).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d5')">
+      <strong>V. Eoffa Eaba Eafa Esa Eopping de Wessex</strong> (720–796)
+      <div class="details" id="d5">
+        Roi d’Angleterre et de Mercie. Né le 11 mars 0720 à Wessex, décédé le 30 juin 0796 (76 ans).  
+        Marié à Etherburge de Kent. Père d’Ealhmund (VI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d6')">
+      <strong>VI. Ealhmund dit Eardwulf, Ealmund, Ella de Kent et Wessex</strong> (750–802)
+      <div class="details" id="d6">
+        Roi de Kent. Né le 7 mars 0750 à Kent, décédé le 5 août 0802 (52 ans), inhumé à Malmesbury.  
+        Marié à Alburga / Alburge Edgiva de Kent. Père d’Egbert (VII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d7')">
+      <strong>VII. Egbert de Wessex d’Angleterre</strong> (775–839)
+      <div class="details" id="d7">
+        King of Sussex (825–839), King of Mercia (829–839), Roi d’Angleterre (802–839).  
+        Né le 7 août 0775 à Cornwall, décédé le 31 janvier 0839 (63 ans), inhumé à Winchester.  
+        Marié à Readburth / Redburga de France (Franconia). Père d’Ethelwulf (VIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d8')">
+      <strong>VIII. Ethelwulf d’Angleterre de Wessex de Kent</strong> (vers 806–858)
+      <div class="details" id="d8">
+        Roi des Anglo-Saxons (839–856), Roi de Kent (825–839), Roi de Wessex (839–858).  
+        Né vers le 19 août 0806 à Wessex, décédé vers le 13 janvier 0858 à Winchester.  
+        Plusieurs mariages, dont Osburge de Wight. Père d’Alfred Ier (IX).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d9')">
+      <strong>IX. Alfred Ier « Le Grand » de Wessex</strong> (848–899)
+      <div class="details" id="d9">
+        Roi de Wessex (871–899), roi de tous les Anglo-Saxons à partir de 878.  
+        Né le 28 décembre 0848 à Wantage, décédé le 22 octobre 0899 à Winchester (50 ans).  
+        Marié le 28 décembre 0868 avec Ethelbrite Ealhswith de Mercie.  
+        Père d’Elfride / Eltrude / Aelfryth (X).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d10')">
+      <strong>X. Elfride / Eltrude / Aelfryth de Wessex</strong> (vers 870–929)
+      <div class="details" id="d10">
+        Née vers 870 à Wessex, décédée le 2 juin 0929 à Gand.  
+        Mariée en 884 à Winchester avec Baudoin II de Flandre.  
+        Mère d’Arnould Ier (XI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d11')">
+      <strong>XI. Arnould Ier de Flandre</strong> (889–964)
+      <div class="details" id="d11">
+        Né le 12 mars 0889 à Gand, décédé le 27 mars 0964 à Gand (75 ans).  
+        Marié en 934 avec Adèle de Vermandois.  
+        Père d’Elstrude de Flandre (XII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d12')">
+      <strong>XII. Elstrude dite de Gand de Flandre</strong> (934–972)
+      <div class="details" id="d12">
+        Comtesse de Flandre. Née le 22 janvier 0934, décédée le 29 septembre 0972 à Guînes (38 ans).  
+        Mariée le 27 décembre 0963 à Guînes avec Sigfried Ier « Le Danois » de Guînes, 1er comte héréditaire.  
+        Mère d’Ardolf Ier (XIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d13')">
+      <strong>XIII. Ardolf Ier dit « Le Posthume » de Guînes</strong> (966–1002)
+      <div class="details" id="d13">
+        Comte de Guînes. Né le 1er janvier 0966 à Guînes, décédé le 1er janvier 1002 (36 ans).  
+        Marié le 27 décembre 0983 à Boulogne-sur-Mer avec Mathilde Malraut de Boulogne.  
+        Père de Rodolph Ier (XIV).
+      </div>
+    </div>
+  </div>
+
+  <!-- 14 à 23 : Guînes → Bournonville -->
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d14')">
+      <strong>XIV. Rodolph Ier de Guînes</strong> (992–1036)
+      <div class="details" id="d14">
+        Né en 992 à Guînes, décédé le 23 juillet 1036 à Paris (44 ans).  
+        Marié le 9 février 1008 à Guînes avec Rosella de Saint-Pol.  
+        Père d’Eustache Ier (XV).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d15')">
+      <strong>XV. Eustache Ier de Guînes</strong> (1015–1048)
+      <div class="details" id="d15">
+        Seigneur de Guînes, connétable de France, chevalier.  
+        Né le 26 décembre 1015 à Guînes, décédé le 26 décembre 1048 (33 ans).  
+        Marié en 1040 à Bournonville avec Suzanne de Ghermines.  
+        Père de Guillaume II le Brun (XVI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d16')">
+      <strong>XVI. Guillaume II « le Brun » de Guînes de Bournonville</strong> (1040–1071)
+      <div class="details" id="d16">
+        Escuyer, seigneur de Bournonville.  
+        Né le 1er janvier 1040 à Bournonville (Pas-de-Calais), décédé le 1er janvier 1071 (31 ans).  
+        Marié en 1059 avec Adélaïde dite Adèle de Hesdin.  
+        Père de Gérard Ier (XVII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d17')">
+      <strong>XVII. Gérard Ier de Bournonville de Guînes</strong> (1060–1101)
+      <div class="details" id="d17">
+        Escuyer, seigneur de Bournonville, grand maître des forêts du Boulonnais, croisé.  
+        Né en 1060 à Bournonville, décédé le 23 août 1101 à Ramlah (41 ans).  
+        Marié en 1079 avec Eleburge d’Esclis.  
+        Père de Louis Ier (XVIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d18')">
+      <strong>XVIII. Louis Ier de Bournonville</strong> (†1126)
+      <div class="details" id="d18">
+        Écuyer, seigneur de Bournonville.  
+        Décédé le 29 août 1126 à Boulogne-sur-Mer.  
+        Marié avec Sylvie (dite de Coquelles) de Boulogne.  
+        Père de Raoul Eustache (XIX).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d19')">
+      <strong>XIX. Raoul Eustache de Bournonville</strong> (1110–1151)
+      <div class="details" id="d19">
+        Escuyer, seigneur de Bournonville, Colembert, forêt de Desvres.  
+        Né le 12 août 1110 en Nord–Pas-de-Calais, décédé le 12 septembre 1151 à Renty (41 ans).  
+        Marié le 19 avril 1125 à Renty avec Aldegonde (Hildegonde) de Renty.  
+        Père de Pierre Ier « le Valeureux » (XX).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d20')">
+      <strong>XX. Pierre Ier « le Valeureux » de Bournonville</strong> (1128–1199)
+      <div class="details" id="d20">
+        Seigneur de Bournonville, Colembert et Desvres.  
+        Né le 14 juillet 1128 à Bournonville, décédé le 17 septembre 1199 à Alembon (71 ans).  
+        Marié le 2 mai 1162 à Saint-Omer avec Mathilde de Saint-Omer de Fauquembergues.  
+        Père de Roger Ier (XXI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d21')">
+      <strong>XXI. Roger Ier de Bournonville</strong> (1171–1250)
+      <div class="details" id="d21">
+        Seigneur de Bournonville, croisé.  
+        Né le 17 juin 1171 (Bournonville / Alembon), décédé en 1250 (79 ans).  
+        Marié en 1213 à Abbeville avec Guyotte d’Abbeville.  
+        Père de Roger de Bournonville (XXII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d22')">
+      <strong>XXII. Roger de Bournonville</strong> (1213–1268)
+      <div class="details" id="d22">
+        Chevalier croisé, chambellan du Boulonnais.  
+        Né le 25 décembre 1213 à Bournonville, décédé le 25 décembre 1268 à Gaza (55 ans).  
+        Marié en 1234 avec Adélaïde de Longvilliers de Cayeux.  
+        Père de Jean Ier dit de Cayeux (XXIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d23')">
+      <strong>XXIII. Jean Ier dit « de Cayeux » de Bournonville</strong> (vers 1249–1333)
+      <div class="details" id="d23">
+        Seigneur de Bournonville.  
+        Né vers 1249 à Bournonville, décédé le 17 octobre 1333 à Ruisseauville.  
+        Marié le 21 février 1277 à Frévent avec Jeanne Ide de Bernieulles.  
+        Père d’Hugues Henri (XXIV).
+      </div>
+    </div>
+  </div>
+
+  <!-- 24 à 31 : Bournonville → Blaisel → Parenty → Marcotte -->
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d24')">
+      <strong>XXIV. Hugues Henri de Bournonville</strong> (1280–1360)
+      <div class="details" id="d24">
+        Né en 1280 à Alembon, décédé le 19 novembre 1360 à Bournonville (80 ans).  
+        Marié en 1300 avec Yolande de Liannes de Beaurain de Leaumes.  
+        Père de Jehan II le Grand (XXV).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d25')">
+      <strong>XXV. Jehan II « le Grand » de Bournonville</strong> (vers 1304–1360)
+      <div class="details" id="d25">
+        Chevalier, seigneur de Bournonville, Conteville, Fouquesolles, baron & vicomte de Liannes,  
+        chambellan de Philippe VI de Valois, gouverneur de Boulogne, sénéchal du Boulonnais.  
+        Né vers 1304 à Bournonville, décédé le 19 septembre 1360.  
+        Marié le 23 novembre 1329 à Fiennes avec Mathilde Mahaut de Fiennes.  
+        Père de Jean Ier « à la Barbe » (XXVI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d26')">
+      <strong>XXVI. Jean Ier « à la Barbe » de Bournonville</strong> (1338–1411)
+      <div class="details" id="d26">
+        Né le 1er avril 1338 à Bournonville, décédé le 23 octobre 1411 (73 ans), inhumé à Ardres.  
+        Marié une première fois le 9 janvier 1370 à Selles avec Thomasse de Semelles.  
+        Père de Jehan du Blaisel (XXVII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d27')">
+      <strong>XXVII. Jehan du Blaisel</strong> (†1415)
+      <div class="details" id="d27">
+        Seigneur de Cresly, Bricon, Fremetule et Mourier, chevalier mort à Azincourt (1415).  
+        Marié à Murat avec Jeanne Murat de l’Estang (1405–1466).  
+        Père de Jacques dit « le Canu aux cheveux blancs » (XXVIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d28')">
+      <strong>XXVIII. Jacques dit « le Canu aux cheveux blancs » du Blaisel</strong> (vers 1440–1482)
+      <div class="details" id="d28">
+        Écuyer, seigneur du Haut et Bas Blaisel, comte de La Roche, receveur de Bournonville et Doudeauville.  
+        Né vers le 26 février 1440 à Surques, décédé le 24 mars 1482.  
+        Marié le 25 février 1457 à Surques avec Marie (Mahaut) de Bournonville.  
+        Père de Marie du Blaisel (XXIX).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d29')">
+      <strong>XXIX. Marie du Blaisel</strong> (vers 1467–vers 1485)
+      <div class="details" id="d29">
+        Née vers 1467, décédée vers 1485.  
+        Mariée avec Jehan (Jean) Parenty, fils de Toussaint et Jeanne Le Glavieur.  
+        Mère de Jehanne de Parenty (XXX).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d30')">
+      <strong>XXX. Jehanne de Parenty</strong>
+      <div class="details" id="d30">
+        Mariée le 16 mars 1495 à Parenty avec Baudouin Marcotte de Samette, écuyer, seigneur de Berthelot.  
+        Mère de Jean Marcotte de Samette (XXXI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d31')">
+      <strong>XXXI. Jean Marcotte de Samette</strong>
+      <div class="details" id="d31">
+        Marié le 7 mars 1495 à Saint-Omer avec Marguerite de Lannoy (née en 1472).  
+        Père de Martin Marcotte de Samette (XXXII).
+      </div>
+    </div>
+  </div>
+
+  <!-- 32 à 39 : Marcotte → Obert (Helfaut / Wizernes / Saint-Omer / Calais) -->
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d32')">
+      <strong>XXXII. Martin Marcotte de Samette</strong> (vers 1500–vers 1545)
+      <div class="details" id="d32">
+        Écuyer. Né vers 1500, décédé vers 1545.  
+        Marié avec Marie de Bernastre du Vaudubois.  
+        Père d’Alexandre Marcotte de Samette (XXXIII, branche aînée).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d33')">
+      <strong>XXXIII. Alexandre Marcotte de Samette</strong> (1544–1613)
+      <div class="details" id="d33">
+        Né le 28 décembre 1544 à Bayenghem-lès-Seninghem, décédé en avril 1613 (68 ans).  
+        Marié avec Marie Levert / Leverd (1547–1610).  
+        Père de Mariette Sainte Alexandre Marcotte de Samette (XXXIV).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d34')">
+      <strong>XXXIV. Mariette Sainte Alexandre Marcotte de Samette</strong> (1580–1648)
+      <div class="details" id="d34">
+        Née en 1580, décédée en 1648 (68 ans).  
+        Mariée vers 1605 avec Jehan (Jean) Obert, laboureur à Ecques / Waterdale, maréchal à Remilly-Wirquin.  
+        Mère de Jacques Obert (XXXV).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d35')">
+      <strong>XXXV. Jacques Obert</strong> (vers 1610–1690)
+      <div class="details" id="d35">
+        Né vers 1610 à Helfaut, décédé le 22 décembre 1690 à Helfaut.  
+        Marié en 1640 à Lederzeele avec Marie Jeanne Thuillier.  
+        Père de Christophe Obert (XXXVI) et de Marie Madeleine Obert (branche parallèle).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d36')">
+      <strong>XXXVI. Christophe Obert</strong> (1657–1725)
+      <div class="details" id="d36">
+        Né en 1657, décédé en 1725 (68 ans).  
+        Marié avec Jeanne Lewicq (1661–1710).  
+        Père de Noel Obert (XXXVII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d37')">
+      <strong>XXXVII. Noel Obert</strong> (1681–1775)
+      <div class="details" id="d37">
+        Né en 1681, décédé en 1775 (94 ans).  
+        Marié en 1722 avec Marie Jeanne Merlen (1677–1739) à Helfaut.  
+        Père de Noel Bernard Obert (XXXVIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d38')">
+      <strong>XXXVIII. Noel Bernard Obert</strong> (1722–1788)
+      <div class="details" id="d38">
+        Né en 1722 à Helfaut, décédé le 2 mars 1788 à Wizernes (65 ans).  
+        Marié en 1745 avec Marie Anne Bocheret (1726–1796).  
+        Père de Noel Joseph Obert (XXXIX).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d39')">
+      <strong>XXXIX. Noel Joseph Obert</strong> (1751–1813)
+      <div class="details" id="d39">
+        Cultivateur. Né le 7 juillet 1751 à Helfaut, décédé le 26 septembre 1813 à Helfaut (62 ans).  
+        Marié le 14 juillet 1773 à Inghem avec Marie Haldegonde Thibaut (†1831).  
+        Père de Pierre Marc Obert (XL).
+      </div>
+    </div>
+  </div>
+
+  <!-- 40 à 44 : Obert → Robe → Codevelle → Lemaire -->
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d40')">
+      <strong>XL. Pierre Marc Obert</strong> (1775–1831)
+      <div class="details" id="d40">
+        Marchand. Né le 21 janvier 1775 à Helfaut, décédé le 22 novembre 1831 à Saint-Omer (56 ans).  
+        Marié le 25 octobre 1820 à Saint-Omer avec Marie Françoise Ledoux (1786–1871), née à Sangatte.  
+        Père de Paul Obert (XLI).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d41')">
+      <strong>XLI. Paul Obert</strong> (1820–1866)
+      <div class="details" id="d41">
+        Journalier serrurier. Né le 30 octobre 1820 à Saint-Omer, décédé le 29 janvier 1866 à Calais (45 ans).  
+        Marié le 29 juin 1841 à Saint-Pierre-lès-Calais avec Antoinette Augustine Rymbaut (1819–1897).  
+        Père de Pierre Alexandre Obert (XLII) et de Pauline Antoinette Virginie Obert (branche Danse).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d42')">
+      <strong>XLII. Pierre Alexandre Obert</strong> (1842–1877)
+      <div class="details" id="d42">
+        Né le 15 avril 1842 à Saint-Pierre-lès-Calais, décédé le 1er juin 1877 à Calais (35 ans).  
+        Marié le 11 mars 1862 à Calais avec Marie Thérèse Livin (1837–1895), lessiveuse.  
+        Père d’Eugene Joseph Obert (XLIII).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d43')">
+      <strong>XLIII. Eugene Joseph Obert</strong> (1872–1955)
+      <div class="details" id="d43">
+        Docker. Né le 2 juillet 1872 à Calais, décédé le 6 mars 1955 à Calais (82 ans).  
+        Marié le 27 novembre 1897 à Calais avec Eugénie Marie Bourel (1871–1961), ouvrière en tulle.  
+        Père, entre autres, de Léontine Obert (XLIV).
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d44')">
+      <strong>XLIV. Léontine Obert</strong> (1914–1973)
+      <div class="details" id="d44">
+        Née le 25 juillet 1914, décédée le 11 mars 1973 à Calais (58 ans).  
+        Mariée le 12 août 1933 à Calais avec Arthur Robe (1913–1967), résistant.  
+        Mère de Jeannine Robe (branche Codevelle) et de Michel Léon Arthur Robe.
+      </div>
+    </div>
+  </div>
+
+  <!-- Descendance moderne : Codevelle → Lemaire -->
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d45')">
+      <strong>Jeannine Robe</strong> (1936– )
+      <div class="details" id="d45">
+        Agent administratif. Née le 5 juin 1936 à Calais.  
+        Mariée avec Cyrille Codevelle (1935–1993).  
+        Mère de Sylvie Codevelle.
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d46')">
+      <strong>Sylvie Codevelle</strong> (1965– )
+      <div class="details" id="d46">
+        Directrice d’école, née en 1965 à Sedan.  
+        Mariée avec Dominique Lemaire, informaticien, né en 1963 à Versailles.  
+        Mère d’Anabelle et Victorine Lemaire.
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d47')">
+      <strong>Anabelle Lemaire</strong> (2003– )
+      <div class="details" id="d47">
+        Née le 3 mars 2003 à Calais (62100).  
+        Descendante directe de Cwychelm de Wessex par la lignée Wessex → Flandre → Bournonville → Obert → Robe → Codevelle → Lemaire.
+      </div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dot"></div>
+    <div class="panel" onclick="toggleDetails('d48')">
+      <strong>Victorine Lemaire</strong> (2005– )
+      <div class="details" id="d48">
+        Née le 3 mars 2005 à Calais.  
+        Même lignée que sa sœur Anabelle, clôturant cette frise du VIIᵉ au XXIᵉ siècle.
+		<img src="images/blasons/lemaire_48.png" class="blason">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+
+<style>
+.v-entry {
+  background:#f0e4d2;
+  border:1px solid #d2c2aa;
+  border-radius:8px;
+  padding:1rem;
+  margin:1rem auto;
+  max-width:600px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.06);
+  cursor:pointer;
+  transition:0.3s;
+}
+.v-entry:hover { background:#e8d8c4; }
+
+.v-title {
+  font-size:1.2rem;
+  font-weight:bold;
+  color:#7b2c2f;
+}
+
+.v-year {
+  font-size:0.9rem;
+  color:#6b5b4b;
+  margin-bottom:0.5rem;
+}
+
+.v-details {
+  display:none;
+  font-size:0.95rem;
+  color:#4a3f36;
+  line-height:1.5;
+}
+</style>
+
+
+
+
+
+<div style="text-align:center;margin:20px 0;">
+  <a href="https://lemaire-dominique.com/livreweb#"
+     style="padding:10px 20px;background:#2f5d63;color:white;
+            text-decoration:none;border-radius:6px;font-family:Georgia;
+            transition:0.3s;"
+     onmouseover="this.style.background='#7b2c2f'"
+     onmouseout="this.style.background='#2f5d63'">
+    ⬅ Retour au Livre Web
+  </a>
+</div>
+
+  </div>
+</div>
+
+
+</div>
+
