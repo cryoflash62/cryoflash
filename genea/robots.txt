@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Empêcher l’indexation des anciennes versions
+Disallow: /obert/*old.html
+Disallow: /repsosa/*old.html
+
+# Empêcher l’indexation des pages auto-générées (trop nombreuses)
+Disallow: /persons/persons_*.html
+Disallow: /details/personsdetails_*.html
+Disallow: /repsosa/repsosa_*.html
+Disallow: /citiesdetails/citiesdetails_*.html
+Disallow: /daysdetails/daysdetails_*.html
+
+# Empêcher l’indexation des fichiers techniques
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /includes/
+
+# Autoriser les pages importantes
+Allow: /individus/
+Allow: /individus/liste/
+Allow: /names/
+Allow: /map/
+Allow: /days/
+Allow: /search/
+Allow: /galeriearmee/
+Allow: /guerresaieux/
+Allow: /obert/
+Allow: /stats/
+
+# Sitemap officiel
+Sitemap: https://lemaire-dominique.com/sitemap.xml
