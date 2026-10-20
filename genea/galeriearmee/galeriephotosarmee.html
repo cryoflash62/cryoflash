@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie Photos – Famille Lemaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+            background: #f5f3eb;
+            color: #222;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #2f5c3b;
+            text-align: center;
+        }
+
+        /* SLIDER AUTO */
+        .slider {
+            width: 100%;
+            max-width: 900px;
+            margin: 30px auto;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        }
+
+        .slides {
+            display: flex;
+            width: 500%;
+            animation: slide 20s infinite;
+        }
+
+        .slides img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            20% { transform: translateX(0); }
+
+            25% { transform: translateX(-100%); }
+            45% { transform: translateX(-100%); }
+
+            50% { transform: translateX(-200%); }
+            70% { transform: translateX(-200%); }
+
+            75% { transform: translateX(-300%); }
+            95% { transform: translateX(-300%); }
+
+            100% { transform: translateX(-400%); }
+        }
+
+        /* PINTEREST MASONRY */
+        .masonry {
+            column-count: 4;
+            column-gap: 15px;
+            padding: 20px;
+        }
+
+        .masonry img {
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+            break-inside: avoid;
+        }
+
+        @media (max-width: 1200px) {
+            .masonry { column-count: 3; }
+        }
+
+        @media (max-width: 800px) {
+            .masonry { column-count: 2; }
+        }
+
+        @media (max-width: 500px) {
+            .masonry { column-count: 1; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Galeries Photos – Armées Dominique Lemaire 1982-1999</h1>
+
+       <h2>Saarburg FFA -BA 279 CHATEAUDUN </h2>
+
+    <div class="masonry">
+        <img src="images/16chasseurs-saarburg-1983.jpg" alt="16 Chasseurs Saarburg 11 compagnie 1983">
+            <img src="images/nimes-1984.jpg" alt="Ecole Sous Officier Air Nimes Courbessac">
+            <img src="images/nimes-1984-1.jpg" alt="Entraiment militaire">
+            <img src="images/nimes-ecole-promo1984.jpg" alt="Entrainement Militaire">
+            <img src="images/ert17-601-1985.jpg" alt="Entrepôt militaire 17-601 BA 279 cHATEAUDUN">
+			<img src="images/ert17-601-ba279-1986.jpg" alt="Entrepôt militaire 17-601 BA 279 cHATEAUDUN">
+			<img src="images/cgmtaa-1996-eee.jpg" alt="Centre de gestion matériel technique Arméé de L'Air CGMTAA 00-614 Section EEE">
+		
+    </div>
+
+</body>
+</html>
